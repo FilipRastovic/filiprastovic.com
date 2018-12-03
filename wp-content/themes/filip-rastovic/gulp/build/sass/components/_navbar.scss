@@ -1,0 +1,94 @@
+// Styling for the navbar
+#mainNav {
+  border-color: fade-out($gray-darker, .95);
+  background-color: $bg-light;
+  @include transition-all;
+  @include heading-font;
+  .navbar-brand {
+      color: $theme-primary;
+      @include body-font;
+      &:hover,
+      &:focus {
+          color: $theme-tertiary;
+      }
+
+      .brand-text {
+        font-size: 12px;
+      }
+  }
+  .navbar-toggler {
+      font-size: 12px;
+      padding: 8px 10px;
+      color: $gray-darker;
+  }
+  .navbar-nav {
+      > li {
+          > a {
+              font-size: 14px;
+              @include alt-font;
+              &.active {
+                  color: $theme-primary !important;
+                  background-color: $theme-secondary;
+                  &:hover {
+                      background-color: $theme-tertiary;
+                  }
+              }
+          }
+          > a,
+          > a:focus {
+              color: $gray-darker;
+              &:hover {
+                  color: $theme-tertiary;
+              }
+          }
+      }
+  }
+  @media (min-width: 992px) {
+      border-color: $theme-secondary;
+      background-color: $bg-light;
+      .navbar-brand {
+          color: fade(white, 70%);
+          &:hover,
+          &:focus {
+              color: $theme-tertiary;
+          }
+          .brand-text {
+            font-size: 15px;
+          }
+      }
+      .navbar-nav > li > a,
+      .navbar-nav > li > a:focus {
+          color: $theme-primary;
+          &:hover {
+              color: $theme-tertiary;
+          }
+      }
+      &.navbar-shrink {
+          border-color: $theme-primary;
+          //border-bottom: 1px solid $theme-primary;
+          background-color: $bg-light;
+          .navbar-brand {
+              color: $gray-darker;
+              &:hover,
+              &:focus {
+                  color: $theme-tertiary;
+              }
+          }
+          .navbar-nav > li > a,
+          .navbar-nav > li > a:focus {
+              color: $gray-darker;
+              &:hover {
+                  color: $theme-tertiary;
+              }
+          }
+      }
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}

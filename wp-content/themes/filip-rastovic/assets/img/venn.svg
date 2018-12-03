@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 452">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 2px;
+        opacity: 0.45;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #0c0c0c;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 13px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-562 -57)">
+    <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1" transform="translate(562 57)">
+      <circle class="cls-4" cx="150.5" cy="150.5" r="150.5"/>
+      <circle class="cls-5" cx="150.5" cy="150.5" r="149.5"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1" transform="translate(763 57)">
+      <circle class="cls-4" cx="150.5" cy="150.5" r="150.5"/>
+      <circle class="cls-5" cx="150.5" cy="150.5" r="149.5"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-1" transform="translate(662 208)">
+      <circle class="cls-4" cx="150.5" cy="150.5" r="150.5"/>
+      <circle class="cls-5" cx="150.5" cy="150.5" r="149.5"/>
+    </g>
+    <text id="SOFTWARE_DEVELOPMENT" data-name="SOFTWAREDEVELOPMENT" class="cls-2" transform="translate(735 160)"><tspan x="-106.299" y="0">SOFTWARE</tspan><tspan x="-143.955" y="27">DEVELOPMENT</tspan></text>
+    <text id="ANALYSIS_ENGINEERING" data-name="ANALYSIS +
+ENGINEERING" class="cls-3" transform="translate(600 206)"><tspan x="0" y="0">ANALYSIS +</tspan><tspan x="0" y="17">ENGINEERING</tspan></text>
+    <text id="DESIGN_STUDIO" data-name="DESIGN STUDIO" class="cls-2" transform="translate(1018 160)"><tspan x="-152.119" y="0">DESIGN STUDIO</tspan></text>
+    <text id="UI_UX_DIGITAL_DESIGN" data-name="UI + UX  + DIGITAL
+DESIGN" class="cls-3" transform="translate(1018 179)"><tspan x="-109.96" y="0" xml:space="preserve">UI + UX  + DIGITAL</tspan><tspan x="-44.7" y="17">DESIGN</tspan></text>
+    <text id="YOUR_IDEAS_DELIVERED" data-name="YOUR
+IDEAS
+DELIVERED" class="cls-3" transform="translate(814 159)"><tspan x="-16.593" y="0">YOUR</tspan><tspan x="-17.221" y="17">IDEAS</tspan><tspan x="-31.694" y="34">DELIVERED</tspan></text>
+    <text id="USER_FEEDBACK" data-name="USER
+FEEDBACK" class="cls-3" transform="translate(897 300)"><tspan x="-15.095" y="0">USER</tspan><tspan x="-29.894" y="17">FEEDBACK</tspan></text>
+    <text id="AGILE_RELEASE_ON_DEMAND" data-name="AGILE 
+RELEASE ON 
+DEMAND" class="cls-3" transform="translate(738 289)"><tspan x="-18.383" y="0">AGILE </tspan><tspan x="-37.781" y="17">RELEASE ON </tspan><tspan x="-27.295" y="34">DEMAND</tspan></text>
+    <text id="A_B_TESTING" data-name="A/B
+TESTING" class="cls-2" transform="translate(813 391)"><tspan x="-17.876" y="0">A/B</tspan><tspan x="-40.825" y="27">TESTING</tspan></text>
+    <text id="DATA_OPTIMIZATION" data-name="DATA,
+OPTIMIZATION" class="cls-3" transform="translate(813 437)"><tspan x="-16.688" y="0">DATA,</tspan><tspan x="-43.573" y="17">OPTIMIZATION</tspan></text>
+  </g>
+</svg>
