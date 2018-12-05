@@ -19,14 +19,14 @@
   color: white;
   border: 1px solid;
   border-color: white;
-  background: $cta-color;
+  background: rgb(78, 78, 78);
   &:hover,
   &:focus,
   &:active,
   &.active {
       color: white;
-      border-color: $cta-color;
-      background-color: $cta-color;
+      border-color: rgb(78, 78, 78);
+      background-color: rgb(78, 78, 78);
   }
 }
 
@@ -39,8 +39,8 @@
   font-size: 26px;
   letter-spacing: 1px;
   border-radius: 8px;
-  box-shadow: $material-shadow-2;
-  border-color: $cta-color;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+  border-color: rgb(78, 78, 78);
   text-decoration: none;
 }
 

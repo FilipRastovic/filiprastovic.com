@@ -9,6 +9,18 @@
 get_header();
 ?>
 
+<header class="masthead">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="section-heading">Blog</h1>
+        <hr class="my-4">
+        <p class="">Read my latest posts.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
 <section class="blog">
   <div class="container">
     <div class="row">
@@ -16,15 +28,6 @@ get_header();
 
       <?php
       if ( have_posts() ) :
-
-        if ( is_home() && ! is_front_page() ) :
-          ?>
-          <header>
-            <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-            <hr class="mb-5">
-          </header>
-          <?php
-        endif;
 
         /* Start the Loop */
         while ( have_posts() ) :

@@ -39,7 +39,7 @@ get_header();
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 offset-md-2 portfolio-item">
+      <div class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -67,7 +67,7 @@ get_header();
           <p class="text-muted">Graphic Design</p>
         </div>
       </div>
-      <div class="col-md-4 offset-md-2 portfolio-item">
+      <div class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -95,7 +95,7 @@ get_header();
           <p class="text-muted">Branding</p>
         </div>
       </div>
-      <div class="col-md-4 offset-md-2 portfolio-item">
+      <div class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -128,7 +128,7 @@ get_header();
 </section>
 
 <!-- Clients -->
-<section class="clients py-5">
+<section class="clients">
   <div class="container">
     <div class="row">
       <div class="col-md-12 mb-1">
@@ -178,7 +178,7 @@ get_header();
       </div>
     </div>
     <div class="row text-center">
-      <div class="mb-5 col-md-4 offset-md-2">
+      <div class="col-md-4">
         <h4 class="service-heading">Wireframes</h4>
         <hr>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -186,7 +186,7 @@ get_header();
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
       </div>
-      <div class="mb-5 col-md-4">
+      <div class="col-md-4">
         <h4 class="service-heading">Mockups</h4>
         <hr>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -194,7 +194,7 @@ get_header();
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
       </div>
-      <div class="mb-5 col-md-4 offset-md-2">
+      <div class="col-md-4">
         <h4 class="service-heading">Responsive Design</h4>
         <hr>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -202,7 +202,7 @@ get_header();
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
       </div>
-      <div class="mb-5 col-md-4">
+      <div class="col-md-4">
         <h4 class="service-heading">Wordpress Integration</h4>
         <hr>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -210,7 +210,7 @@ get_header();
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
       </div>
-      <div class="mb-5 col-md-4 offset-md-2">
+      <div class="col-md-4">
         <h4 class="service-heading">Web Consulting</h4>
         <hr>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -218,13 +218,53 @@ get_header();
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
       </div>
-      <div class="mb-5 col-md-4">
+      <div class="col-md-4">
         <h4 class="service-heading">Coding Lessons</h4>
         <hr>
         <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         <div class="text-center mb-4">
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="read-case-study">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center mb-5">
+        <h2 class="">Read the case study</h2>
+        <p class=" text-muted">Learn more about one of my latest projects</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="latest-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center mb-5">
+        <h2 class="">Latest posts</h2>
+        <p class=" text-muted">Read my blog</p>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+      <?php
+        $args = array( 'numberposts' => '5' );
+        $recent_posts = wp_get_recent_posts( $args );
+
+        foreach( $recent_posts as $recent ){
+        echo 
+        '<li> ' . get_the_post_thumbnail($recent["ID"],'thumbnail') . '
+          <a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> 
+        </li> ';
+        }
+        ?>
+        </ul>
+      
       </div>
     </div>
   </div>
@@ -253,49 +293,6 @@ get_header();
     </div>
   </div>
 </section>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <span class="copyright">Copyright &copy; Your Website 2018</span>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fa fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="#">Privacy Policy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms of Use</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-
 <!-- Portfolio Modals -->
 
 <!-- Modal 1 -->
@@ -501,3 +498,7 @@ get_header();
     </div>
   </div>
 </div>
+
+<?php
+
+get_footer();
