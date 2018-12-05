@@ -1,0 +1,82 @@
+.blog {
+  padding-top: 150px;
+}
+
+.post-title {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.post-meta,
+.post-footer {
+  a {
+    font-weight: 400;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.moretag {
+  text-decoration: none;
+  font-weight: 900;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.comment-reply-title,
+.comments-title {
+  font-size: 16px;
+
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
+}
+
+.comment-form-comment {
+  label,
+  textarea {
+    display: block;
+    border-radius: 8px;
+  }
+}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  label,
+  input {
+    display: block;
+    outline: none;
+    border-radius: 8px;
+    
+  }
+}
+
+.form-submit {
+  input {
+    background: $theme-primary;
+    color: $theme-secondary;
+    outline: none;
+    border: none;
+  }
+}
+
+.comment-author,
+.comment-metadata {
+  margin-bottom: 10px;
+}
+
+.comment-body {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px 0px 10px 10px;
+}

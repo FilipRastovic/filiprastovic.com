@@ -2346,12 +2346,18 @@
 
 @import "../../build/sass/components/_bootstrap-overrides.scss";
 
-@import "../../build/sass/components/_globe.scss";
-
 @import "../../build/sass/components/_navbar.scss";
+
+@import "../../build/sass/components/_post.scss";
+
+@import "../../build/sass/sections/_blog.scss";
 
 @import "../../build/sass/sections/_masthead.scss";
 
 @import "../../build/sass/sections/_portfolio.scss";
 
 @import "../../build/sass/sections/_services.scss";
+
+@import "../../build/sass/sections/clients.scss";
+
+@import "../../build/sass/sections/footer.scss";

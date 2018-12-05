@@ -1,15 +1,20 @@
 // Styling for the navbar
 #mainNav {
   border-color: fade-out($gray-darker, .95);
-  background-color: $bg-light;
+  background-color: white;
+  background: white;
+  
   @include transition-all;
-  @include heading-font;
+  //@include heading-font;
   .navbar-brand {
       color: $theme-primary;
-      @include body-font;
+      @include lato-font;
+      font-family: 'Roboto Slab';
+      text-decoration: none;
       &:hover,
       &:focus {
           color: $theme-tertiary;
+          text-decoration: none;
       }
 
       .brand-text {
@@ -24,13 +29,14 @@
   .navbar-nav {
       > li {
           > a {
-              font-size: 14px;
-              @include alt-font;
+              text-decoration: none;
+              font-size: 15px;
+              @include lato-font;
               &.active {
                   color: $theme-primary !important;
                   background-color: $theme-secondary;
                   &:hover {
-                      background-color: $theme-tertiary;
+                      text-decoration: underline;
                   }
               }
           }
@@ -38,19 +44,20 @@
           > a:focus {
               color: $gray-darker;
               &:hover {
-                  color: $theme-tertiary;
+                  text-decoration: underline;
               }
           }
       }
   }
   @media (min-width: 992px) {
+      padding-top: 50px;
       border-color: $theme-secondary;
-      background-color: $bg-light;
+      background-color: white;
       .navbar-brand {
           color: fade(white, 70%);
           &:hover,
           &:focus {
-              color: $theme-tertiary;
+              text-decoration: underline;
           }
           .brand-text {
             font-size: 15px;
@@ -59,26 +66,28 @@
       .navbar-nav > li > a,
       .navbar-nav > li > a:focus {
           color: $theme-primary;
+          font-size: 20px;
           &:hover {
-              color: $theme-tertiary;
+              text-decoration: underline;
           }
       }
       &.navbar-shrink {
+          padding-top: 10px;
           border-color: $theme-primary;
-          //border-bottom: 1px solid $theme-primary;
-          background-color: $bg-light;
+          background: $bg-light;
+          border-bottom: 1px solid $subtle-border;
           .navbar-brand {
-              color: $gray-darker;
+              color: $theme-primary;
               &:hover,
               &:focus {
-                  color: $theme-tertiary;
+                  text-transform: underline;
               }
           }
           .navbar-nav > li > a,
           .navbar-nav > li > a:focus {
-              color: $gray-darker;
+              color: $theme-primary;
               &:hover {
-                  color: $theme-tertiary;
+                  text-transform: underline;
               }
           }
       }
@@ -91,4 +100,13 @@
 
 .dropdown:hover>.dropdown-menu {
   display: block;
+  a {
+    text-decoration: none;
+  }
 }
+
+// change bootstrap 4 breakpoint
+// #contact {
+//   border: 2px solid $theme-primary;
+//   border-radius: 2px;
+// }

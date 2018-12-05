@@ -17,12 +17,11 @@ get_header();
 <header class="masthead">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 my-auto">
-        <div class="header-content mx-auto">
-          <h1 class="mb-4">Wordpress Design &amp; Development Solutions</h1>
-          <hr>
-          <p class="mb-4">I'm Filip, a freelance developer with an affection for web, user experience and product design. I build websites for companies and individuals. My clients are webpreneurs, agencies and small to mid sizes businesses from all around the globe. Read what my clients have to say about me on my <a href="#">Upwork</a> freelance profile. My hobby is writting, coding and making video games. See my portfolio or check out my resume.</p>
-          <hr>
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="section-heading">Wordpress Design &amp; Development Solutions</h1>
+        <hr class="my-4">
+        <p class="mb-5">I'm Filip, a <strong>freelance developer</strong> with an affection for web, user experience and product design. I build websites for companies and individuals. My clients are webpreneurs, agencies and small to mid sizes businesses from all around the globe. Read what my clients have to say about me on my <a href="#">Upwork</a> freelance profile. My hobby is writting, coding and making video games. See my portfolio or check out my resume.</p>
+        <div class="text-center">
           <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
         </div>
       </div>
@@ -30,41 +29,17 @@ get_header();
   </div>
 </header>
 
-<section class="masthead masthead--reset">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 my-auto">
-        <div class="image-container">
-            <img src="<?php bloginfo('template_url'); ?>/assets/img/venn.svg" class="img-fluid" alt="">
-        </div>
-      </div>
-      <div class="col-lg-7 my-auto">
-        <div class="header-content mx-auto">
-          <h2 class="mb-4">Fellow Freelancer? Read my blog!</h2>
-          <hr>
-          <p class="mb-4">I write about my experiences working as a freelancer full time. Having started freelancing straight out of collage I've 
-            never have to work in a company. That gave me the opportunity to lead a remote lifestyle. If you wish to get notified when I write a new 
-            post please sign up to my newsletter.
-          </p>
-          <hr>
-          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Portfolio Grid -->
-<section class="bg-light" id="portfolio">
+<section class="" id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
-        <h2 class="section-heading">Portfolio</h2>
-        <p class="section-subheading text-muted">Projects I have worked on</p>
+        <h2 class="">Portfolio &amp; Testimonials</h2>
+        <p class="text-muted">Projects I have worked on, click for more info</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-sm-6 portfolio-item">
+      <div class="col-md-4 offset-md-2 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -78,7 +53,7 @@ get_header();
           <p class="text-muted">Illustration</p>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 portfolio-item">
+      <div class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -92,7 +67,7 @@ get_header();
           <p class="text-muted">Graphic Design</p>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 portfolio-item">
+      <div class="col-md-4 offset-md-2 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -106,7 +81,7 @@ get_header();
           <p class="text-muted">Identity</p>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 portfolio-item">
+      <div class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -120,7 +95,7 @@ get_header();
           <p class="text-muted">Branding</p>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 portfolio-item">
+      <div class="col-md-4 offset-md-2 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -134,7 +109,7 @@ get_header();
           <p class="text-muted">Website Design</p>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 portfolio-item">
+      <div class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -152,73 +127,176 @@ get_header();
   </div>
 </section>
 
+<!-- Clients -->
+<section class="clients py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mb-1">
+          <h2 class="text-center">Trusted By</h2> 
+      </div>
+      <div class="col-6 col-sm-2">
+        <a href="#">
+          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/0.png" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-sm-2">
+        <a href="#">
+          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/think3.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-sm-2">
+        <a href="#">
+          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/crewdox-1.png" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-sm-2">
+        <a href="#">
+          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/GearLogoVertical.png" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-sm-2">
+        <a href="#">
+          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/header-728x180.png" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-sm-2">
+        <a href="#">
+          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/download.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</section> 
+
 <!-- Services -->
 <section id="services">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
-        <h2 class="section-heading">Services</h2>
-        <h3 class="section-subheading text-muted">Companies hire me when.</h3>
+        <h2 class="">I can help you with</h2>
+        <p class=" text-muted">Learn more about my services here</p>
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-md-4">
+      <div class="mb-5 col-md-4 offset-md-2">
         <h4 class="service-heading">Wireframes</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <hr>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="text-center mb-4">
+          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="mb-5 col-md-4">
         <h4 class="service-heading">Mockups</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <hr>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="text-center mb-4">
+          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="mb-5 col-md-4 offset-md-2">
         <h4 class="service-heading">Responsive Design</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <hr>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="text-center mb-4">
+          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="mb-5 col-md-4">
         <h4 class="service-heading">Wordpress Integration</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <hr>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="text-center mb-4">
+          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="mb-5 col-md-4 offset-md-2">
         <h4 class="service-heading">Web Consulting</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <hr>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="text-center mb-4">
+          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="mb-5 col-md-4">
         <h4 class="service-heading">Coding Lessons</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <hr>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <div class="text-center mb-4">
+          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Clients -->
-<section class="clients py-5">
+<section class="contact">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <a href="#">
-          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/client-1.png" alt="">
-        </a>
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">Let's Get In Touch!</h2>
+        <hr class="my-4">
+        <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <a href="#">
-          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/client-2.png" alt="">
-        </a>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 ml-auto text-center">
+        <i class="fa fa-phone fa-3x mb-3 sr-contact-1"></i>
+        <p>123-456-6789</p>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <a href="#">
-          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/client-3.png" alt="">
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <a href="#">
-          <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/client-4.png" alt="">
-        </a>
+      <div class="col-lg-4 mr-auto text-center">
+        <i class="fa fa-envelope fa-3x mb-3 sr-contact-2"></i>
+        <p>
+          <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-  <!-- Portfolio Modals -->
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; Your Website 2018</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Portfolio Modals -->
 
 <!-- Modal 1 -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">

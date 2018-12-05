@@ -44,7 +44,8 @@ if ( ! function_exists( 'filip_rastovic_posted_by' ) ) :
 			/* translators: %s: post author. */
 			esc_html_x( 'by %s', 'post author', 'filip-rastovic' ),
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-		);
+    );
+    //add icons here
 
 		echo '<span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
 

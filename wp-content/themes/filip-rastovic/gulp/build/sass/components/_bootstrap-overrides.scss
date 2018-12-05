@@ -14,25 +14,34 @@
   padding-left: 0;
 }
 
-.btn-full {
+.btn-full,
+.btn-primary {
   color: white;
   border: 1px solid;
   border-color: white;
-  background: $theme-primary;
+  background: $cta-color;
   &:hover,
   &:focus,
   &:active,
   &.active {
       color: white;
-      border-color: $theme-primary;
-      background-color: $theme-primary;
+      border-color: $cta-color;
+      background-color: $cta-color;
   }
 }
 
-.btn {
+.btn,
+.btn-primary {
   border-radius: 2px;
-  @include alt-font;
+  font-family: 'Lato';
   font-weight: 900;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  box-shadow: $material-shadow-2;
+  border-color: $cta-color;
+  text-decoration: none;
 }
 
 .btn-xl {
@@ -40,6 +49,13 @@
   padding: 15px 45px;
 }
 
-
-
-//aasaaaaaaaaglovbe
+a {
+  color: $theme-primary;
+  text-decoration: underline;
+  $color: $theme-primary;
+  @include transition-all;
+    &:hover,
+    &:focus {
+        color: darken($theme-primary, 10%);
+    }
+}

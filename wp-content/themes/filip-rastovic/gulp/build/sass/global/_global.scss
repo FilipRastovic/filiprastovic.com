@@ -8,16 +8,6 @@ body {
   @include body-font;
 }
 
-a {
-  $color: $theme-primary;
-  font-weight: 900;
-  @include transition-all;
-    &:hover,
-    &:focus {
-        color: darken($theme-primary, 10%);
-    }
-}
-
 hr {
   border-width: 1px;
   border-color: fade-out($gray-darker, .9);
@@ -36,20 +26,23 @@ h6 {
     @include heading-font;
 }
 
+h4 {
+  @media (min-width: 990px) {
+    font-size: 30px;
+  }
+}
+
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: 400;
 
   @media (min-width: 992px) {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 
 section {
   padding: 100px 0;
-  h2 {
-      font-size: 50px;
-  }
 }
