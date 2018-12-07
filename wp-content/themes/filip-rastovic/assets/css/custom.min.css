@@ -9096,6 +9096,9 @@ section#contact {
 #thank-you {
   height: 100vh; }
 
+.case-studies img {
+  margin-top: 60px; }
+
 .clients {
   padding-top: 70px;
   padding-bottom: 70px; }
