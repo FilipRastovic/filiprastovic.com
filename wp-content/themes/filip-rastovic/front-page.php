@@ -30,7 +30,7 @@ get_header();
 </header>
 
 <!-- Portfolio Grid -->
-<section class="" id="portfolio">
+<section class="grey-bordered" id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
@@ -210,7 +210,7 @@ get_header();
   </div>
 </section> 
 
-<section id="testimonials">
+<section id="testimonials" class="grey-bordered">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
@@ -225,13 +225,13 @@ get_header();
         <hr>
       </div>
       <div class="col-md-6 mb-5">
-        <p>"I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way. For my next projects for landing pages I would would with him again. Thank you Filip!</p>
-        <p><strong>Maria - Justo.ca</strong></p>
+        <p>Simply awesome experience working with Filip. It's especially difficult to manage a project that requires programming since you have to anticipate the time it takes to debug and make modifications to the project but it was easy working with someone who has the patience and understanding to handle projects like this. Looking forward to working with him again in the future. Thank you!</p>
+        <p><strong>Jason Coleman</strong></p>
         <hr>
       </div>
       <div class="col-md-6 mb-5">
-        <p>Simply awesome experience working with Filip. It's especially difficult to manage a project that requires programming since you have to anticipate the time it takes to debug and make modifications to the project but it was easy working with someone who has the patience and understanding to handle projects like this. Looking forward to working with him again in the future. Thank you!</p>
-        <p><strong>Jason Coleman</strong></p>
+        <p>"I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way. For my next projects for landing pages I would would with him again. Thank you Filip!</p>
+        <p><strong>Maria - Justo.ca</strong></p>
         <hr>
       </div>
       <div class="col-md-6 mb-5">
@@ -252,7 +252,7 @@ get_header();
         <p class=" text-muted">Learn more about my services here</p>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="row">
       <div class="col-md-6 mb-5">
         <h4 class="service-heading">Wireframes</h4>
         <hr>
@@ -290,12 +290,20 @@ get_header();
   </div>
 </section>
 
-<section class="read-case-study">
+<section class="read-case-study grey-bordered">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
         <h2 class="">Read the case study</h2>
         <p class=" text-muted">Learn more about one of my latest projects</p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/portfolio/customr-small.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h4>Customr.app</h4>
+        <p>Customr.app is a Budapest based AI analytics startup that's developing an app that helps decision makers make better decisions. I was responsible for wireframing the website, coming up with a modern design and implementing it into a fully functional and customizable Wordpress theme.</p>
+        <a href="#" class="btn btn-full btn-xl js-scroll-trigger">View More</a>
       </div>
     </div>
   </div>
@@ -307,7 +315,6 @@ get_header();
       <div class="col-lg-12 text-center mb-5">
         <h2 class="">Latest posts</h2>
         <p class=" text-muted">Read my blog</p>
-        
       </div>
     </div>
     <div class="row">
@@ -324,13 +331,12 @@ get_header();
         }
         ?>
         </ul>
-      
       </div>
     </div>
   </div>
 </section>
 
-<section class="contact">
+<section class="contact grey-bordered">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">

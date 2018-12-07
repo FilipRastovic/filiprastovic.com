@@ -3,94 +3,110 @@
   border-color: fade-out($gray-darker, .95);
   background-color: white;
   background: white;
-  
+
   @include transition-all;
+
   //@include heading-font;
   .navbar-brand {
-      color: $theme-primary;
-      @include lato-font;
-      font-family: 'Roboto Slab';
+    color: $theme-primary;
+    @include lato-font;
+    font-family: 'Roboto Slab';
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
       text-decoration: none;
+    }
+
+    .brand-text {
+      font-size: 12px;
+    }
+  }
+
+  .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: $gray-darker;
+  }
+
+  .navbar-nav {
+    >li {
+      >a {
+        text-decoration: none;
+        font-size: 15px;
+        @include lato-font;
+
+        &.active {
+          color: $theme-primary !important;
+          background-color: $theme-secondary;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      >a,
+      >a:focus {
+        color: $gray-darker;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    border-color: $theme-secondary;
+    background-color: white;
+
+    .navbar-brand {
       &:hover,
       &:focus {
-          color: $theme-tertiary;
-          text-decoration: none;
+        text-decoration: none;
       }
 
       .brand-text {
-        font-size: 12px;
+        font-size: 15px;
       }
-  }
-  .navbar-toggler {
-      font-size: 12px;
-      padding: 8px 10px;
-      color: $gray-darker;
-  }
-  .navbar-nav {
-      > li {
-          > a {
-              text-decoration: none;
-              font-size: 15px;
-              @include lato-font;
-              &.active {
-                  color: $theme-primary !important;
-                  background-color: $theme-secondary;
-                  &:hover {
-                      text-decoration: underline;
-                  }
-              }
-          }
-          > a,
-          > a:focus {
-              color: $gray-darker;
-              &:hover {
-                  text-decoration: underline;
-              }
-          }
+    }
+
+    .navbar-nav>li>a,
+    .navbar-nav>li>a:focus {
+      color: $theme-primary;
+      font-size: 20px;
+
+      &:hover {
+        text-decoration: underline;
       }
-  }
-  @media (min-width: 992px) {
-      padding-top: 50px;
-      border-color: $theme-secondary;
-      background-color: white;
+    }
+
+    &.navbar-shrink {
+      padding-top: 10px;
+      border-color: $theme-primary;
+      background: $bg-light;
+      border-bottom: 1px solid $subtle-border;
+
       .navbar-brand {
-          color: fade(white, 70%);
-          &:hover,
-          &:focus {
-              text-decoration: underline;
-          }
-          .brand-text {
-            font-size: 15px;
-          }
+        color: $theme-primary;
+
+        &:hover,
+        &:focus {
+          text-transform: underline;
+        }
       }
-      .navbar-nav > li > a,
-      .navbar-nav > li > a:focus {
-          color: $theme-primary;
-          font-size: 20px;
-          &:hover {
-              text-decoration: underline;
-          }
+
+      .navbar-nav>li>a,
+      .navbar-nav>li>a:focus {
+        color: $theme-primary;
+
+        &:hover {
+          text-transform: underline;
+        }
       }
-      &.navbar-shrink {
-          padding-top: 10px;
-          border-color: $theme-primary;
-          background: $bg-light;
-          border-bottom: 1px solid $subtle-border;
-          .navbar-brand {
-              color: $theme-primary;
-              &:hover,
-              &:focus {
-                  text-transform: underline;
-              }
-          }
-          .navbar-nav > li > a,
-          .navbar-nav > li > a:focus {
-              color: $theme-primary;
-              &:hover {
-                  text-transform: underline;
-              }
-          }
-      }
+    }
   }
 }
 
@@ -100,6 +116,7 @@
 
 .dropdown:hover>.dropdown-menu {
   display: block;
+
   a {
     text-decoration: none;
   }

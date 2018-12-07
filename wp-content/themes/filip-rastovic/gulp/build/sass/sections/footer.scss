@@ -1,9 +1,16 @@
 // Styling for the footer
 .footer {
+  ul.social-buttons li a {
+    background-color: #0062cc;
+  }
+  .footer span.copyright {
+    color: white;
+  }
+  
   border-top: 1px solid $subtle-border;
   padding: 25px 0;
   text-align: center;
-  background: $bg-light;
+  background: $theme-primary;
   span.copyright {
     font-size: 12px;
     line-height: 40px;
