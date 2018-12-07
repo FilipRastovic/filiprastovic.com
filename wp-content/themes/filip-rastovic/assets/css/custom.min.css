@@ -8848,6 +8848,9 @@ a {
     .post-preview > a > .post-title > {
       font-size: 36px; } }
 
+#testimonials {
+  background: #FAFAFA; }
+
 .blog {
   padding-top: 150px; }
 

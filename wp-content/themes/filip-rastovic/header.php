@@ -39,27 +39,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Services
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Process overview</a>
-              <a class="dropdown-item" href="#">Wireframes</a>
-              <a class="dropdown-item" href="#">Design Mockups</a>
-              <a class="dropdown-item" href="#">Wordpress Theme Development</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Working With Me
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">How I Help You</a>
-              <a class="dropdown-item" href="#">My Proposal Process</a>
-              <a class="dropdown-item" href="#">Pricing</a>
-              <a class="dropdown-item" href="#">About Me</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Process</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#">Case Studies</a>
