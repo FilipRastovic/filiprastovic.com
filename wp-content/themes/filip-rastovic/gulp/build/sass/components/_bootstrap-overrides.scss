@@ -19,14 +19,16 @@
   color: white;
   border: 1px solid;
   border-color: white;
-  background: rgb(78, 78, 78);
+  background: $btn;
+  box-shadow: $material-shadow-1;
   &:hover,
   &:focus,
   &:active,
   &.active {
       color: white;
-      border-color: rgb(78, 78, 78);
-      background-color: rgb(78, 78, 78);
+      border-color: darken($btn, 10%);
+      background-color: darken($btn, 10%);
+      box-shadow: $material-shadow-1-hovered;
   }
 }
 
@@ -39,8 +41,8 @@
   font-size: 26px;
   letter-spacing: 1px;
   border-radius: 8px;
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
-  border-color: rgb(78, 78, 78);
+  box-shadow: $material-shadow-1;
+  border-color: $btn;
   text-decoration: none;
 }
 

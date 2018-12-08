@@ -1,0 +1,8 @@
+.tech {
+  padding-top: 0px;
+  img {
+    @media (max-width: 576px) {
+      margin-bottom: 40px;
+    }
+  }
+}

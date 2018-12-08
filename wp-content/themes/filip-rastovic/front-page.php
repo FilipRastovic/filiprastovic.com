@@ -177,34 +177,22 @@ get_header();
           <h2 class="text-center">Trusted By</h2> 
       </div>
       <div class="col-6 col-sm-2">
-        <a href="#">
           <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/0.png" alt="">
-        </a>
       </div>
       <div class="col-6 col-sm-2">
-        <a href="#">
           <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/think3.jpg" alt="">
-        </a>
       </div>
       <div class="col-6 col-sm-2">
-        <a href="#">
           <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/crewdox-1.png" alt="">
-        </a>
       </div>
       <div class="col-6 col-sm-2">
-        <a href="#">
           <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/GearLogoVertical.png" alt="">
-        </a>
       </div>
       <div class="col-6 col-sm-2">
-        <a href="#">
           <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/header-728x180.png" alt="">
-        </a>
       </div>
       <div class="col-6 col-sm-2">
-        <a href="#">
           <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/download.png" alt="">
-        </a>
       </div>
     </div>
   </div>
@@ -249,7 +237,7 @@ get_header();
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
         <h2 class="">I can help you with</h2>
-        <p class=" text-muted">Learn more about my services here</p>
+        <p class="text-muted">Learn more about my services here</p>
       </div>
     </div>
     <div class="row">
@@ -290,6 +278,53 @@ get_header();
   </div>
 </section>
 
+<section class="tech">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+          <h2 class="text-center mb-2">Tools I Use</h2> 
+          <p class="text-muted mb-5">I like utilizing the cutting edge technologies</p>
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/ai.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/css3.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/html5.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/jquery.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/js.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/mysql.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/node.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/php.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/ps.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/upwork.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/wordpress.png" alt="">
+      </div>
+      <div class="col-4 col-sm-1">
+        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/xd.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="read-case-study grey-bordered">
   <div class="container">
     <div class="row">
@@ -303,7 +338,7 @@ get_header();
       <div class="col-md-6">
         <h4>Customr.app</h4>
         <p>Customr.app is a Budapest based AI analytics startup that's developing an app that helps decision makers make better decisions. I was responsible for wireframing the website, coming up with a modern design and implementing it into a fully functional and customizable Wordpress theme.</p>
-        <a href="#" class="btn btn-full btn-xl js-scroll-trigger">View More</a>
+        <a href="/case-studies" class="btn btn-full btn-xl js-scroll-trigger">View More</a>
       </div>
     </div>
   </div>

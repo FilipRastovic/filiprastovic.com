@@ -27,7 +27,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <a class="navbar-brand js-scroll-trigger" href="/">
         Filip Rastovic
         <!-- <div>Filip Rastovic</div>
         <div class="brand-text">Web Development &amp; Design</div> -->
@@ -38,23 +38,13 @@
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Process</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Case Studies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a id="contact" class="nav-link js-scroll-trigger" href="#">Request Consultation</a>
-          </li>
-        </ul>
+        <?php
+            wp_nav_menu( array(
+              'theme_location' => 'primary',
+              'container'      => false,
+              'menu_class'     => 'navbar-nav ml-auto'
+            ));
+          ?>
       </div>
     </div>
   </nav>
