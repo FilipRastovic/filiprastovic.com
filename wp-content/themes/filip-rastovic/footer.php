@@ -21,17 +21,17 @@
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           <li class="list-inline-item">
-            <a href="#">
+            <a href="">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a href="#">
+            <a href="https://www.facebook.com/rorschach.bleji" target="_blank">
               <i class="fa fa-facebook-f"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/filip-rastovic/" target="_blank">
               <i class="fa fa-linkedin"></i>
             </a>
           </li>
@@ -50,6 +50,7 @@
     </div>
   </div>
 </footer>
+<button id="scroll-top" title="Go to top">Top</button>
 
 <?php wp_footer(); ?>
 

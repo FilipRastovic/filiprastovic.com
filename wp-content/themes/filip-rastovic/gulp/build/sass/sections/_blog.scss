@@ -48,6 +48,9 @@
   textarea {
     display: block;
     border-radius: 8px;
+    @media (max-width: 560px) {
+      width: 100%;
+    }
   }
 }
 

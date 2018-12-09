@@ -17,13 +17,14 @@ get_header();
 <header class="masthead">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+      <div class="col-lg-8">
         <h1 class="section-heading">Wordpress Design &amp; Development Solutions</h1>
         <hr class="my-4">
         <p class="mb-5">I'm Filip, a <strong>freelance developer</strong> with an affection for web, user experience and product design. I work with companies around the globe helping them build beautiful and functional websites with a focus on responsive design, performance &amp; accessibility. My hobby is writting, coding and making video games. See my portfolio or check out my resume.</p>
-        <div class="text-center">
-          <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
-        </div>
+          <a id="cta-portfolio" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid mt-5" src="<?php bloginfo('template_url'); ?>/assets/img/venn.png" alt="">
       </div>
     </div>
   </div>
@@ -272,7 +273,7 @@ get_header();
         <p class="">You can contact me for individual web development lessons. I love sharing my love of technology and seeing progress in my students. Skype / Google Hangout screenshare is how I teach</p>
       </div>
       <div class="col-md-12 text-center">
-        <a href="#" class="btn btn-full btn-xl js-scroll-trigger">Request a quote</a>
+        <a href="/request-consultation" class="btn btn-full btn-xl js-scroll-trigger">Request a quote</a>
       </div>
     </div>
   </div>
@@ -377,19 +378,12 @@ get_header();
       <div class="col-lg-8 mx-auto text-center">
         <h2 class="section-heading">Let's Get In Touch!</h2>
         <hr class="my-4">
-        <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        <p class="mb-5">If you would like to get in touch with me click the button bellow and fill out my contact form, I'll get in touch with you as soon as possible!</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 ml-auto text-center">
-        <i class="fa fa-phone fa-3x mb-3 sr-contact-1"></i>
-        <p>123-456-6789</p>
-      </div>
-      <div class="col-lg-4 mr-auto text-center">
-        <i class="fa fa-envelope fa-3x mb-3 sr-contact-2"></i>
-        <p>
-          <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-        </p>
+      <div class="col-12 text-center">
+        <a href="/request-consultation" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
       </div>
     </div>
   </div>

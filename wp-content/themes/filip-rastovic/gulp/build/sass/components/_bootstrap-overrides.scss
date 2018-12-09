@@ -44,6 +44,10 @@
   box-shadow: $material-shadow-1;
   border-color: $btn;
   text-decoration: none;
+
+  &:visited {
+    color: white;
+  }
 }
 
 .btn-xl {
@@ -60,4 +64,12 @@ a {
     &:focus {
         color: darken($theme-primary, 10%);
     }
+}
+
+a:not([href]):not([tabindex]) {
+  color: white;
+
+  &:hover {
+    color: white;
+  }
 }

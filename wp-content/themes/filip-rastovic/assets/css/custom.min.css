@@ -8730,6 +8730,9 @@ section {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-color: #4e4e4e;
   text-decoration: none; }
+  .btn:visited,
+  .btn-primary:visited {
+    color: white; }
 
 .btn-xl {
   font-size: 11px;
@@ -8743,6 +8746,11 @@ a {
   transition: all .35s; }
   a:hover, a:focus {
     color: #181818; }
+
+a:not([href]):not([tabindex]) {
+  color: white; }
+  a:not([href]):not([tabindex]):hover {
+    color: white; }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -8852,6 +8860,38 @@ a {
     .post-preview > a > .post-title > {
       font-size: 36px; } }
 
+#scroll-top {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 20px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #383838;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */ }
+
+#scroll-top:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */ }
+
 .blog {
   padding-top: 150px; }
   .blog--process {
@@ -8888,6 +8928,10 @@ a {
 .comment-form-comment textarea {
   display: block;
   border-radius: 8px; }
+  @media (max-width: 560px) {
+    .comment-form-comment label,
+    .comment-form-comment textarea {
+      width: 100%; } }
 
 .comment-form-author label,
 .comment-form-author input,
@@ -8931,7 +8975,7 @@ section#contact {
     section#contact .form-group input.form-control {
       height: auto; }
     section#contact .form-group textarea.form-control {
-      height: 248px; }
+      height: 277px; }
   section#contact .form-control:focus {
     border-color: #007bff;
     box-shadow: none; }
