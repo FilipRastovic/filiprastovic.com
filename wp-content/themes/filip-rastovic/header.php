@@ -14,9 +14,28 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123056545-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-123056545-1');
+  </script>
+
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
+  <meta name="description" content="Filip Rastovic - Web Development &amp; Design">
+  <meta name="keywords" content="web,design,development,stargazer,studio">
+  <meta name="author" content="Filip Rastovic">
+  <meta property="og:title" content="Filip Rastovic - Web Development &amp; Design" />
+  <meta property="og:url" content="https://filiprastovic.net" />
+  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
+
+
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">

@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<header class="masthead" id="thank-you">
+<header class="masthead">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">

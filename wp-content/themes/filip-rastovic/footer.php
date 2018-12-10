@@ -21,7 +21,7 @@
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           <li class="list-inline-item">
-            <a href="">
+            <a href="https://twitter.com/StudioStargazer" target="_blank">
               <i class="fa fa-twitter"></i>
             </a>
           </li>

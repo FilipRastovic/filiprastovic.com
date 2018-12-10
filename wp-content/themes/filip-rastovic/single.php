@@ -15,7 +15,7 @@ get_header();
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-		<?php
+        <?php
 		while ( have_posts() ) :
 			the_post();
 
@@ -31,7 +31,10 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 
+      </div>
     </div>
-  </div>
 </section>
 
+<?php
+get_template_part('template-parts/newsletter');
+get_footer();

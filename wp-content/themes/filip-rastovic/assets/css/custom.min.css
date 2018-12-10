@@ -8942,6 +8942,14 @@ a:not([href]):not([tabindex]) {
   display: block;
   outline: none;
   border-radius: 8px; }
+  @media (max-width: 560px) {
+    .comment-form-author label,
+    .comment-form-author input,
+    .comment-form-email label,
+    .comment-form-email input,
+    .comment-form-url label,
+    .comment-form-url input {
+      width: 100%; } }
 
 .form-submit input {
   background: #313131;
@@ -9017,6 +9025,20 @@ section#contact {
   @media (min-width: 1400px) {
     .masthead {
       padding-top: 260px; } }
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3; }
 
 #portfolio {
   padding-bottom: 0px;
