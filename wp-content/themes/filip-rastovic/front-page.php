@@ -22,8 +22,8 @@ get_header();
         <hr class="my-4">
         <p class="mb-5">I'm Filip, a <strong>freelance developer</strong> with an affection for web, user experience
           and product design. I work with companies around the globe helping them build beautiful and functional
-          websites with a focus on responsive design, performance &amp; accessibility. My hobby is writting, coding and
-          making video games. See my portfolio or check out my resume.</p>
+          websites with a focus on responsive design, performance &amp; accessibility. My hobbies are <a href="/blog" target="_blank">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and
+          making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my portfolio or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip_Rastovic_Resume.pdf" target="_blank">resume</a>.</p>
         <a id="cta-portfolio" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
       </div>
       <div class="col-md-4">
@@ -236,7 +236,7 @@ get_header();
       <div class="col-md-6 mb-5">
         <p>"I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great
           work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it
-          in very quick and efficient way. For my next projects for landing pages I would would with him again. Thank
+          in very quick and efficient way. For my next projects for landing pages I would work with him again. Thank
           you Filip!</p>
         <p><strong>Maria - Justo.ca</strong></p>
         <hr>
@@ -277,7 +277,7 @@ get_header();
       <div class="col-md-6 mb-5">
         <h4 class="service-heading">Responsive Design</h4>
         <hr>
-        <p class="">Mobile first is the new aproach when designing and developing a website. People seach the web using
+        <p class="">Mobile first is the new aproach when designing and developing a website. People search the web using
           small, touch screen devices now more than ever. That's why making sure the website works across all screen
           sizes is crucial.</p>
       </div>
