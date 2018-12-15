@@ -12,6 +12,9 @@
     @include lato-font;
     font-family: 'Roboto Slab';
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
 
     &:hover,
     &:focus {
@@ -35,7 +38,9 @@
         text-decoration: none;
         font-size: 15px;
         @include lato-font;
-
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
         &.active {
           color: $theme-primary !important;
           background-color: $theme-secondary;
@@ -58,7 +63,7 @@
   }
 
   @media (min-width: 992px) {
-    padding-top: 50px;
+    padding-top: 30px;
     border-color: $theme-secondary;
     background-color: white;
 

@@ -18,7 +18,7 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <h1 class="section-heading">Wordpress Design &amp; Development Solutions</h1>
+        <h1 class="section-heading"><small>Crafting</small><br>DELIGHTFUL EXPERIENCES</h1>
         <hr class="my-4">
         <p class="mb-5">I'm Filip, a <strong>freelance developer</strong> with an affection for web, user experience
           and product design. I work with companies around the globe helping them build beautiful and functional
@@ -27,7 +27,7 @@ get_header();
         <a id="cta-portfolio" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
       </div>
       <div class="col-md-4">
-        <img class="img-fluid mt-5" src="<?php bloginfo('template_url'); ?>/assets/img/venn.png" alt="">
+        <img data-aos="fade-left" class="img-fluid mt-5" src="<?php bloginfo('template_url'); ?>/assets/img/venn.png" alt="">
       </div>
     </div>
   </div>
@@ -42,8 +42,8 @@ get_header();
         <p class="text-muted">Projects I have worked on, click for more info</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 portfolio-item">
+    <div  class="row">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -57,7 +57,7 @@ get_header();
           <p class="text-muted">Development &amp; Maintenance</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -71,7 +71,7 @@ get_header();
           <p class="text-muted">Design &amp; Development</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -85,7 +85,7 @@ get_header();
           <p class="text-muted">Design &amp; Development</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -99,7 +99,7 @@ get_header();
           <p class="text-muted">Development</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -114,7 +114,7 @@ get_header();
           <p class="text-muted">UX Design</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -128,7 +128,7 @@ get_header();
           <p class="text-muted">Design &amp; Development</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -142,7 +142,7 @@ get_header();
           <p class="text-muted">Development</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -156,7 +156,7 @@ get_header();
           <p class="text-muted">Development</p>
         </div>
       </div>
-      <div class="col-md-4 portfolio-item">
+      <div data-aos="fade-up"  class="col-md-4 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -182,26 +182,26 @@ get_header();
         <h2 class="text-center">Trusted By</h2>
       </div>
       <div class="col-6 col-sm-2">
-        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/0.png" alt="">
+        <img data-aos="zoom-in" class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/0.png" alt="">
       </div>
       <div class="col-6 col-sm-2">
-        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/think3.jpg"
+        <img data-aos="zoom-in" class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/think3.jpg"
           alt="">
       </div>
       <div class="col-6 col-sm-2">
-        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/crewdox-1.png"
+        <img data-aos="zoom-in" class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/crewdox-1.png"
           alt="">
       </div>
       <div class="col-6 col-sm-2">
-        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/GearLogoVertical.png"
+        <img data-aos="zoom-in" class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/GearLogoVertical.png"
           alt="">
       </div>
       <div class="col-6 col-sm-2">
-        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/header-728x180.png"
+        <img data-aos="zoom-in" class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/header-728x180.png"
           alt="">
       </div>
       <div class="col-6 col-sm-2">
-        <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/download.png"
+        <img data-aos="zoom-in" class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/clients/download.png"
           alt="">
       </div>
     </div>
@@ -217,7 +217,7 @@ get_header();
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-right" class="col-md-6 mb-5">
         <p>Filip has a unique combo of skills: design & development. He proactively suggested some great ideas on how
           to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based
           on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work
@@ -225,7 +225,7 @@ get_header();
         <p><strong>Robert Molnar - Customr.app</strong></p>
         <hr>
       </div>
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-left" class="col-md-6 mb-5">
         <p>Simply awesome experience working with Filip. It's especially difficult to manage a project that requires
           programming since you have to anticipate the time it takes to debug and make modifications to the project but
           it was easy working with someone who has the patience and understanding to handle projects like this. Looking
@@ -233,7 +233,7 @@ get_header();
         <p><strong>Jason Coleman</strong></p>
         <hr>
       </div>
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-right" class="col-md-6 mb-5">
         <p>"I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great
           work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it
           in very quick and efficient way. For my next projects for landing pages I would work with him again. Thank
@@ -241,7 +241,7 @@ get_header();
         <p><strong>Maria - Justo.ca</strong></p>
         <hr>
       </div>
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-left" class="col-md-6 mb-5">
         <p>Filip was AMAZING! The only reason we are ending the contract is because he got too busy with bigger
           projects. I am sad to loose him as he is awesome. I would definitely hire again and again. If you have the
           opportunity to work with Filip, you should absolutely do it, he will make you proud!</p>
@@ -262,39 +262,39 @@ get_header();
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 mb-5">
+      <div  data-aos="fade-right" class="col-md-6 mb-5">
         <h4 class="service-heading">Wireframes</h4>
         <hr>
         <p class="">Wireframes are skeletons of a website. They're an essential component of a well thought out
           information architecture of your website. Website creation process ussually starts here.</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-left" class="col-md-6 mb-5">
         <h4 class="service-heading">Design Mockups</h4>
         <hr>
         <p class="">I like my style clean and elegant, but when I'm designing for my cleints I try to create something
           that best describes who they are while staying consistent with their brand design guidelines.</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div  data-aos="fade-right" class="col-md-6 mb-5">
         <h4 class="service-heading">Responsive Design</h4>
         <hr>
         <p class="">Mobile first is the new aproach when designing and developing a website. People search the web using
           small, touch screen devices now more than ever. That's why making sure the website works across all screen
           sizes is crucial.</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-left" class="col-md-6 mb-5">
         <h4 class="service-heading">Wordpress Integration</h4>
         <hr>
         <p class="">Wordpress allows non developers to easily change the content and look and feel of their website. It
           powers more than 25% of the websites on the planet and has a huge community behind it.</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div  data-aos="fade-right" class="col-md-6 mb-5">
         <h4 class="service-heading">Web Consulting</h4>
         <hr>
         <p class="">I offer consultation to individuals and companies about best practices when it comes to web design
           and development. Sources I learn from are big tech magazines, blogs, courses and lectures from best
           universities. </p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div data-aos="fade-left" class="col-md-6 mb-5">
         <h4 class="service-heading">Development Lessons</h4>
         <hr>
         <p class="">You can contact me for individual web development lessons. I love sharing my love of technology and
@@ -314,51 +314,51 @@ get_header();
         <h2 class="text-center mb-2">Tools I Use</h2>
         <p class="text-muted mb-5">I like utilizing the cutting edge technologies</p>
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/ai.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/css3.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/html5.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/jquery.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/js.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/mysql.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/node.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/php.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/ps.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/upwork.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/wordpress.png"
           alt="">
       </div>
-      <div class="col-4 col-sm-1">
+      <div data-aos="zoom-in" class="col-4 col-sm-1">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/tech-slider/xd.png"
           alt="">
       </div>
@@ -373,11 +373,11 @@ get_header();
         <h2 class="">Read the case study</h2>
         <p class=" text-muted">Learn more about one of my latest projects</p>
       </div>
-      <div class="col-md-6">
+      <div data-aos="fade-up" class="col-md-6">
         <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/portfolio/customr-small.png"
           alt="">
       </div>
-      <div class="col-md-6">
+      <div data-aos="fade-up" class="col-md-6">
         <h4>Customr.app</h4>
         <p>Customr.app is a Budapest based AI analytics startup that's developing an app that helps decision makers
           make better decisions. I was responsible for wireframing the website, coming up with a modern design and
@@ -418,14 +418,14 @@ get_header();
 <section class="contact grey-bordered">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+      <div data-aos="fade-up" class="col-lg-8 mx-auto text-center">
         <h2 class="section-heading">Let's Get In Touch!</h2>
         <hr class="my-4">
         <p class="mb-5">If you would like to get in touch with me click the button bellow and fill out my contact form,
           I'll get in touch with you as soon as possible!</p>
       </div>
     </div>
-    <div class="row">
+    <div data-aos="fade-up" class="row">
       <div class="col-12 text-center">
         <a href="/request-consultation" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
       </div>
