@@ -427,7 +427,7 @@ get_header();
     </div>
     <div data-aos="fade-up" class="row">
       <div class="col-12 text-center">
-        <a href="/request-consultation" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
+        <a href="/request-consultation" class="btn btn-full btn-xl js-scroll-trigger">Contact Me!</a>
       </div>
     </div>
   </div>
