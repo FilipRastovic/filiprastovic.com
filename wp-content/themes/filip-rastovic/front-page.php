@@ -263,18 +263,27 @@ get_header();
     </div>
     <div class="row">
       <div  data-aos="fade-right" class="col-md-6 mb-5">
+        <div class="col-4 col-md-3">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/icons/web-design.png" alt="Wireframes Icons">
+        </div>
         <h4 class="service-heading">Wireframes</h4>
         <hr>
         <p class="">Wireframes are skeletons of a website. They're an essential component of a well thought out
           information architecture of your website. Website creation process ussually starts here.</p>
       </div>
       <div data-aos="fade-left" class="col-md-6 mb-5">
+        <div class="col-4 col-md-3">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/icons/web-design-mockup.png" alt="Mockup Icons">
+        </div>
         <h4 class="service-heading">Design Mockups</h4>
         <hr>
         <p class="">I like my style clean and elegant, but when I'm designing for my cleints I try to create something
           that best describes who they are while staying consistent with their brand design guidelines.</p>
       </div>
       <div  data-aos="fade-right" class="col-md-6 mb-5">
+        <div class="col-4 col-md-3">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/icons/responsive.png" alt="Responsive Icons">
+        </div>
         <h4 class="service-heading">Responsive Design</h4>
         <hr>
         <p class="">Mobile first is the new aproach when designing and developing a website. People search the web using
@@ -282,12 +291,18 @@ get_header();
           sizes is crucial.</p>
       </div>
       <div data-aos="fade-left" class="col-md-6 mb-5">
+        <div class="col-4 col-md-3">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/icons/wordpress-logo.png" alt="Wordpress Icons">
+        </div>
         <h4 class="service-heading">Wordpress Integration</h4>
         <hr>
         <p class="">Wordpress allows non developers to easily change the content and look and feel of their website. It
           powers more than 25% of the websites on the planet and has a huge community behind it.</p>
       </div>
       <div  data-aos="fade-right" class="col-md-6 mb-5">
+        <div class="col-4 col-md-3">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/icons/consult.png" alt="Consulting Icons">
+        </div>        
         <h4 class="service-heading">Web Consulting</h4>
         <hr>
         <p class="">I offer consultation to individuals and companies about best practices when it comes to web design
@@ -295,6 +310,9 @@ get_header();
           universities. </p>
       </div>
       <div data-aos="fade-left" class="col-md-6 mb-5">
+        <div class="col-4 col-md-3">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/icons/consulting.png" alt="Lessons Icons">
+        </div> 
         <h4 class="service-heading">Development Lessons</h4>
         <hr>
         <p class="">You can contact me for individual web development lessons. I love sharing my love of technology and
