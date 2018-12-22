@@ -59,7 +59,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="/">
-        Filip Rastovic
+        Filip Rastovic <br> <small>Web Development &amp; Design</small>
         <!-- <div>Filip Rastovic</div>
         <div class="brand-text">Web Development &amp; Design</div> -->
       </a>

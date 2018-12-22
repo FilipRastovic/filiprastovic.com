@@ -9494,7 +9494,6 @@ a:not([href]):not([tabindex]) {
     color: #313131;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 400;
-    font-family: 'Roboto Slab';
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
@@ -9526,19 +9525,23 @@ a:not([href]):not([tabindex]) {
     #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
       text-decoration: underline; }
+  #mainNav .navbar-nav #menu-item-48 a {
+    text-decoration: underline; }
   @media (min-width: 992px) {
     #mainNav {
       padding-top: 30px;
       border-color: #fff;
       background-color: white; }
-      #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-        text-decoration: none; }
-      #mainNav .navbar-brand .brand-text {
-        font-size: 15px; }
+      #mainNav .navbar-brand {
+        font-size: 20px; }
+        #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+          text-decoration: none; }
+        #mainNav .navbar-brand small {
+          font-size: 14px; }
       #mainNav .navbar-nav > li > a,
       #mainNav .navbar-nav > li > a:focus {
         color: #313131;
-        font-size: 20px; }
+        font-size: 14px; }
         #mainNav .navbar-nav > li > a:hover,
         #mainNav .navbar-nav > li > a:focus:hover {
           text-decoration: underline; }
@@ -9612,7 +9615,7 @@ a:not([href]):not([tabindex]) {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: #383838;
+  background-color: #7b7b7b;
   /* Set a background color */
   color: white;
   /* Text color */
@@ -9626,7 +9629,7 @@ a:not([href]):not([tabindex]) {
   /* Increase font size */ }
 
 #scroll-top:hover {
-  background-color: #555;
+  background-color: ligthen(#7b7b7b, 10%);
   /* Add a dark-grey background on hover */ }
 
 .blog {
@@ -9925,7 +9928,7 @@ section#contact {
   text-align: center;
   background: #313131; }
   .footer ul.social-buttons li a {
-    background-color: #0062cc; }
+    background-color: #7b7b7b; }
   .footer .footer span.copyright {
     color: white; }
   .footer span.copyright {
