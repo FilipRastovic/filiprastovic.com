@@ -45,7 +45,7 @@ get_header();
           target="_BLANK">Live Preview</a>
         <a class="btn-outline theme-action-btn" href="https://github.com/FilipRastovic/stargazerworkshop-freelancer-landing-page"
           target="_blank">View On Github</a>
-        <a class="btn-outline theme-action-btn" href="assets/themes/freelancer-landing-page.zip" download>Download
+        <a class="btn-outline theme-action-btn" href="<?php bloginfo('template_url'); ?>/assets/themes/freelancer-landing-page.zip" download>Download
           Source</a>
       </div>
     </div>
