@@ -9403,6 +9403,12 @@ h1, h2, h3, h4, h5, h6 {
   h4 {
     font-size: 30px; } }
 
+h6 {
+  font-size: 18px; }
+  @media (min-width: 990px) {
+    h6 {
+      font-size: 23px; } }
+
 p {
   font-size: 16px;
   line-height: 1.7;
@@ -9482,6 +9488,38 @@ a:not([href]):not([tabindex]) {
   color: white; }
   a:not([href]):not([tabindex]):hover {
     color: white; }
+
+.masthead--nfs .card {
+  border: 1px solid #545454;
+  background-color: #fff;
+  margin-bottom: 45px; }
+  .masthead--nfs .card .card-img-top {
+    transition: .4s; }
+    .masthead--nfs .card .card-img-top:hover {
+      filter: brightness(50%); }
+  .masthead--nfs .card .card-header {
+    background: #fff;
+    padding: .4rem 0rem;
+    font-size: 0.8rem;
+    text-transform: uppercase; }
+  .masthead--nfs .card .card-body {
+    background: #fff;
+    line-height: 150%; }
+    .masthead--nfs .card .card-body a {
+      color: #000;
+      font-weight: 800; }
+      .masthead--nfs .card .card-body a:hover {
+        color: #333333; }
+  .masthead--nfs .card .card-footer {
+    border-top: 1px solid #545454;
+    padding: .4rem 1rem 1rem 1.4rem; }
+  .masthead--nfs .card a {
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 900; }
+    .masthead--nfs .card a:hover {
+      color: #000; }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -9708,6 +9746,69 @@ a:not([href]):not([tabindex]) {
   border-radius: 8px;
   padding: 10px 0px 10px 10px; }
 
+.comment-form textarea,
+.comment-form input {
+  width: 100%; }
+  @media (min-width: 990px) {
+    .comment-form textarea,
+    .comment-form input {
+      width: 70%; } }
+
+.call-to-action-resources .btn,
+.mobile-version .btn {
+  color: #000;
+  background: #313131;
+  border-radius: 5px;
+  padding: 12px 28px;
+  font-weight: 400;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.call-to-action-resources .btn-outline,
+.mobile-version .btn-outline {
+  background: transparent;
+  color: #000;
+  border: 1px solid black !important; }
+  .call-to-action-resources .btn-outline:hover, .call-to-action-resources .btn-outline:focus, .call-to-action-resources .btn-outline:active, .call-to-action-resources .btn-outline.active,
+  .mobile-version .btn-outline:hover,
+  .mobile-version .btn-outline:focus,
+  .mobile-version .btn-outline:active,
+  .mobile-version .btn-outline.active {
+    color: #000;
+    border-color: #000;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.call-to-action-resources .header-content,
+.mobile-version .header-content {
+  max-width: 500px;
+  margin-bottom: 100px; }
+  .call-to-action-resources .header-content p,
+  .mobile-version .header-content p {
+    font-weight: 900;
+    color: #313131;
+    letter-spacing: 1px;
+    font-size: 18px; }
+  @media (max-width: 990) {
+    .call-to-action-resources .header-content,
+    .mobile-version .header-content {
+      text-align: center; } }
+
+.call-to-action {
+  padding-top: 2rem;
+  padding-bottom: 12rem; }
+  @media (max-width: 990px) {
+    .call-to-action .row {
+      /* Setup Flexbox */
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      /* Reverse Column Order */
+      -webkit-flex-flow: column-reverse;
+      flex-flow: column-reverse; }
+      .call-to-action .row .header-content {
+        text-align: center; } }
+
 section#contact {
   padding-top: 0px;
   background-repeat: no-repeat;
@@ -9755,7 +9856,6 @@ section#contact {
       text-decoration: underline; }
 
 .masthead {
-  position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 50px;
@@ -9767,6 +9867,21 @@ section#contact {
   @media (min-width: 1400px) {
     .masthead {
       padding-top: 260px; } }
+  @media (min-width: 992px) {
+    .masthead--nfs {
+      padding-top: 100px;
+      padding-bottom: 200px; } }
+  .masthead .theme-action-btn {
+    padding: 0.75rem 1.25rem;
+    display: block;
+    margin-bottom: 20px; }
+    .masthead .theme-action-btn:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .masthead .btn-outline {
+    background: transparent;
+    color: #141414;
+    border: 1px solid;
+    border-color: #141414; }
 
 .call-to-action {
   position: relative;
@@ -9966,6 +10081,11 @@ section.pricing {
 
 #thank-you {
   height: 100vh; }
+
+.theme-action-btn {
+  padding: 0.75rem 1.25rem;
+  display: block;
+  margin-bottom: 20px; }
 
 .case-studies img {
   margin-top: 60px; }

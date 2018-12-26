@@ -89,3 +89,13 @@
   border-radius: 8px;
   padding: 10px 0px 10px 10px;
 }
+
+.comment-form {
+  textarea,
+  input {
+    width: 100%;
+    @media (min-width: 990px) {
+      width: 70%;
+    }
+  }
+}
