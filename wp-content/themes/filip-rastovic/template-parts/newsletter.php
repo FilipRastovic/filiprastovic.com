@@ -17,7 +17,7 @@
                 placeholder="Enter your email...">
             </div>
             <div class="col-12 col-md-3">
-              <a class="btn btn-full btn-xl js-scroll-trigger">Subscribe!</a>
+              <button class="btn btn-full btn-xl js-scroll-trigger" type="submit">Subscribe!</button>
             </div>
           </div>
         </form>
