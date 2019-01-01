@@ -43,7 +43,7 @@ get_header();
       </div>
     </div>
     <div  class="row">
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -57,7 +57,7 @@ get_header();
           <p class="text-muted">Design &amp; Development</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -71,7 +71,7 @@ get_header();
           <p class="text-muted">Design &amp; Development</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -85,7 +85,7 @@ get_header();
           <p class="text-muted">Development</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -99,7 +99,7 @@ get_header();
           <p class="text-muted">Development &amp; Maintenance</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -114,7 +114,7 @@ get_header();
           <p class="text-muted">UX Design</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -128,7 +128,7 @@ get_header();
           <p class="text-muted">Design &amp; Development</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -142,7 +142,7 @@ get_header();
           <p class="text-muted">Development</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -156,7 +156,7 @@ get_header();
           <p class="text-muted">Development</p>
         </div>
       </div>
-      <div data-aos="fade-up"  class="col-md-12 portfolio-item text-center">
+      <div data-aos="fade-up"  class="col-md-6 portfolio-item text-center">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
