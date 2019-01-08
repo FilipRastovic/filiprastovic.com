@@ -20,7 +20,7 @@ function scrollFunction() {
     }
 }
 
-// AOS.init({
-//   // Global settings:
-//   disable: 'mobile' // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-// });
+AOS.init({
+  // Global settings:
+  disable: 'mobile' // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+});

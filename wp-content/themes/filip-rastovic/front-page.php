@@ -236,7 +236,7 @@ get_header();
       </div>
     </div>
     <div class="row">
-      <div data-aos="fade-right" class="col-md-12 mb-5">
+      <div data-aos="fade-up" class="col-md-12 mb-5">
         <p>Filip has a unique combo of skills: design & development. He proactively suggested some great ideas on how
           to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based
           on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work
@@ -244,7 +244,7 @@ get_header();
         <p><strong>Robert Molnar - Customr.app</strong></p>
         <hr>
       </div>
-      <div data-aos="fade-left" class="col-md-12 mb-5">
+      <div data-aos="fade-up" class="col-md-12 mb-5">
         <p>Simply awesome experience working with Filip. It's especially difficult to manage a project that requires
           programming since you have to anticipate the time it takes to debug and make modifications to the project but
           it was easy working with someone who has the patience and understanding to handle projects like this. Looking
@@ -252,7 +252,7 @@ get_header();
         <p><strong>Jason Coleman</strong></p>
         <hr>
       </div>
-      <div data-aos="fade-right" class="col-md-12 mb-5">
+      <div data-aos="fade-up" class="col-md-12 mb-5">
         <p>"I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great
           work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it
           in very quick and efficient way. For my next projects for landing pages I would work with him again. Thank
@@ -260,7 +260,7 @@ get_header();
         <p><strong>Maria - Justo.ca</strong></p>
         <hr>
       </div>
-      <div data-aos="fade-left" class="col-md-12 mb-5">
+      <div data-aos="fade-up" class="col-md-12 mb-5">
         <p>Filip was AMAZING! The only reason we are ending the contract is because he got too busy with bigger
           projects. I am sad to loose him as he is awesome. I would definitely hire again and again. If you have the
           opportunity to work with Filip, you should absolutely do it, he will make you proud!</p>
@@ -284,7 +284,7 @@ get_header();
       </div>
     </div>
     <div class="row">
-      <div  data-aos="fade-right" class="col-md-6 text-center mb-50">
+      <div  data-aos="fade-up" class="col-md-6 text-center mb-50">
         <div class="col-4 col-md-3 mx-auto">
           <img class="img-fluid"mx-auto  src="<?php bloginfo('template_url'); ?>/assets/img/icons/web-design.png" alt="Wireframes Icons">
         </div>
@@ -293,7 +293,7 @@ get_header();
         <p class="">Wireframes are skeletons of a website. They're an essential component of a well thought out
           information architecture of your website. Website creation process ussually starts here.</p>
       </div>
-      <div data-aos="fade-left" class="col-md-6 text-center mb-50">
+      <div data-aos="fade-up" class="col-md-6 text-center mb-50">
         <div class="col-4 col-md-3 mx-auto">
           <img class="img-fluid"mx-auto  src="<?php bloginfo('template_url'); ?>/assets/img/icons/web-design-mockup.png" alt="Mockup Icons">
         </div>
@@ -302,7 +302,7 @@ get_header();
         <p class="">I like my style clean and elegant, but when I'm designing for my cleints I try to create something
           that best describes who they are while staying consistent with their brand design guidelines.</p>
       </div>
-      <div  data-aos="fade-right" class="col-md-6 text-center mb-50">
+      <div  data-aos="fade-up" class="col-md-6 text-center mb-50">
         <div class="col-4 col-md-3 mx-auto">
           <img class="img-fluid"mx-auto  src="<?php bloginfo('template_url'); ?>/assets/img/icons/responsive.png" alt="Responsive Icons">
         </div>
@@ -312,7 +312,7 @@ get_header();
           small, touch screen devices now more than ever. That's why making sure the website works across all screen
           sizes is crucial.</p>
       </div>
-      <div data-aos="fade-left" class="col-md-6 text-center mb-50">
+      <div data-aos="fade-up" class="col-md-6 text-center mb-50">
         <div class="col-4 col-md-3 mx-auto">
           <img class="img-fluid"mx-auto  src="<?php bloginfo('template_url'); ?>/assets/img/icons/wordpress-logo.png" alt="Wordpress Icons">
         </div>
@@ -321,7 +321,7 @@ get_header();
         <p class="">Wordpress allows non developers to easily change the content and look and feel of their website. It
           powers more than 25% of the websites on the planet and has a huge community behind it.</p>
       </div>
-      <div  data-aos="fade-right" class="col-md-6 text-center mb-50">
+      <div  data-aos="fade-up" class="col-md-6 text-center mb-50">
         <div class="col-4 col-md-3 mx-auto">
           <img class="img-fluid"mx-auto  src="<?php bloginfo('template_url'); ?>/assets/img/icons/consult.png" alt="Consulting Icons">
         </div>        
@@ -331,7 +331,7 @@ get_header();
           and development. Sources I learn from are big tech magazines, blogs, courses and lectures from best
           universities. </p>
       </div>
-      <div data-aos="fade-left" class="col-md-6 text-center mb-50">
+      <div data-aos="fade-up" class="col-md-6 text-center mb-50">
         <div class="col-4 col-md-3 mx-auto">
           <img class="img-fluid mx-auto" src="<?php bloginfo('template_url'); ?>/assets/img/icons/consulting.png" alt="Lessons Icons">
         </div> 
