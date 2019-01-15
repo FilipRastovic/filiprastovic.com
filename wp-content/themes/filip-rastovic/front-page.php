@@ -438,17 +438,18 @@ get_header();
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
-        <?php
-        $args = array( 'numberposts' => '5' );
-        $recent_posts = wp_get_recent_posts( $args );
+        <ul>
+          <?php
+            $args = array( 'numberposts' => '3' );
+            $recent_posts = wp_get_recent_posts( $args );
 
-        foreach( $recent_posts as $recent ){
-        echo 
-        '<li> ' . get_the_post_thumbnail($recent["ID"],'thumbnail') . '
-          <a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> 
-        </li> ';
-        }
-        ?>
+            foreach( $recent_posts as $recent ){
+            echo 
+            '<li> ' . get_the_post_thumbnail($recent["ID"],'thumbnail') . '
+              <a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> 
+            </li> ';
+            }
+          ?>
         </ul>
       </div>
     </div>
