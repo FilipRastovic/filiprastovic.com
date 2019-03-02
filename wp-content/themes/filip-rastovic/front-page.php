@@ -20,9 +20,9 @@ get_header();
       <div class="col-md-8">
         <h1 class="section-heading"><small>Crafting</small><br>DELIGHTFUL EXPERIENCES</h1>
         <hr class="my-4">
-        <p class="mb-5">I'm Filip, a <strong>freelance developer</strong> with an affection for web, user experience
+        <p class="mb-5">I'm Filip, a <strong>freelance front-end developer</strong> with an affection for web, user experience
           and product design. I work with companies around the globe helping them build beautiful and functional
-          websites with a focus on responsive design, performance &amp; accessibility. My hobbies are <a href="/blog" target="_blank">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and
+          software with a focus on UX, responsive design, performance &amp; accessibility. I implement design systems, animations &amp; interactions. My hobbies are <a href="/blog" target="_blank">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and
           making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my portfolio or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip_Rastovic_Resume.pdf" target="_blank">resume</a>.</p>
         <a id="cta-portfolio" class="btn btn-full btn-xl js-scroll-trigger">Learn More!</a>
       </div>

@@ -4,6 +4,34 @@
   &--process {
     padding-top: 0px;
   }
+
+  .comment-form {
+
+  }
+  
+  .form-submit input { 
+    background: $theme-tertiary;
+    border-radius: 6px;
+    box-shadow: $material-shadow-1;
+    transition: .2s;
+    &:hover {
+      cursor: pointer;
+      box-shadow: $material-shadow-1-hovered;
+    }
+  
+  }
+
+  blockquote {
+    background-color:#313131;
+    padding: 8px;
+    border-radius: 3px;
+
+    p {
+      font-size: 14px !important;
+      font-family: monospace;
+      color: white;
+    }
+  }
 }
 
 .post-title {
@@ -57,11 +85,12 @@
 .comment-form-author,
 .comment-form-email,
 .comment-form-url {
-  label,
+  
   input {
     display: block;
     outline: none;
     border-radius: 8px;
+    border: 1px solid rgb(169, 169, 169);
     @media (max-width: 560px) {
       width: 100%;
     }
