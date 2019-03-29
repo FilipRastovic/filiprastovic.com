@@ -58,11 +58,10 @@
 a {
   color: $theme-primary;
   text-decoration: underline;
-  $color: $theme-primary;
   @include transition-all;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: $theme-tertiary;
     }
 }
 
