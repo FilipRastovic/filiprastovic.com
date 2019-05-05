@@ -55,7 +55,7 @@ get_header();
         </div>
       </div>
       <div class="col-md-6  mb-5">
-        <img class="img-fluid  mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.png"
+        <img class="img-fluid  mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg"
           alt="">
       </div>
     </div>
@@ -83,7 +83,7 @@ get_header();
       </div>
         </div>
       <div class="col-md-6 mb-5">
-        <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.png"
+        <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg"
           alt="Justo landing page">
       </div>
       <div class="row">
@@ -103,7 +103,7 @@ get_header();
         </div>
           </div>
         <div class="col-md-6 mb-5">
-          <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/seniorly-case-study.png"
+          <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/seniorly-case-study.jpg"
             alt="Seniorly landing page">
 
         </div>
