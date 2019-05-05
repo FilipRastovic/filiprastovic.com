@@ -43,40 +43,44 @@ $gray-100: #14171A;
 /* Headings */
 $primary-font-family: 'Roboto Slab', serif;
 
-$h1-size: 48px;
-$h1-lheight: 56px;
+$h1-size: 3rem;
+$h1-lheight: 3.5rem;
 
-$h2-size: 32px;
-$h2-lheight: 40px;
+$h1-size-sm: 2.4375rem;
+$h1-lheight-sm: 2.875rem;
 
-$h3-size: 24px;
-$h3-lheight: 32px;
+$h2-size: 2rem;
+$h2-lheight: 2.5rem;
 
-$h4-size: 20px;
-$h4-lheight: 24px;
+$h3-size: 1.5rem;
+$h3-lheight: 2rem;
 
-$h5-size: 16px;
-$h5-lheight: 24px;
+$h4-size: 1.25rem;
+$h4-lheight: 1.5rem;
+
+$h5-size: 1rem;
+$h5-lheight: 1.5rem;
 
 /* Body text */
 $secondary-font-family: 'Lato', sans-serif;
 
-$paragraph-size-lg: 20px;
-$paragraph-size-lg-lheight: 35px;
+$paragraph-size-lg: 1.25rem;
+$paragraph-size-lg-lheight: 2.1875rem;
 
-$paragraph-size-md: 14px;
-$paragraph-size-md-lheight: 24px;
+$paragraph-size-md: 1rem;
+$paragraph-size-md-lheight: 1.8125rem;
 
-$caption-size: 12px;
-$caption-lheight: 20px;
+$caption-size: 0.75rem;
+$caption-lheight: 1.25rem;
 
-$btn-text-size: 16px;
-$link-text-lheight: 24px;
-$link-text-size: 14px;
+$btn-text-size: 1rem;
+$link-text-lheight: 1.8125rem;
+
+$link-text-size: 0.875rem;
 
 /* Labels */
-$label-lg: 16px;
-$label-lg-lheight: 24px;
-$label-md: 14px;
-$label-sm: 12px;
-$label-sm-lheight: 16px;
+$label-lg: 1rem;
+$label-lg-lheight: 1.5rem;
+$label-md: 0.875rem;
+$label-sm: 0.75rem;
+$label-sm-lheight: 1rem;

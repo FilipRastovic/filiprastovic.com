@@ -55,6 +55,11 @@ h1 {
   @include header-text();
   font-size: $h1-size;
   line-height: $h1-lheight;
+
+  @media ( max-width: 990px ) {
+    font-size: $h1-size-sm;
+    line-height: $h1-lheight-sm;
+  }
 }
 
 h2 {
@@ -87,6 +92,11 @@ p {
   @include body-text;
   font-size: $paragraph-size-lg;
   line-height: $paragraph-size-lg-lheight;
+
+  @media ( max-width: 990px ) {
+    font-size: $paragraph-size-md;
+    line-height: $paragraph-size-md-lheight;
+  }
 }
 
 strong {

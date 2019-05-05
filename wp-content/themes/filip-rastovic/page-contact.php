@@ -22,7 +22,7 @@ get_header();
 </header>
 
 <!-- Contact -->
-<section id="contact">
+<section id="contact mb-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
