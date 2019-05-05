@@ -1,0 +1,113 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body,
+.newsletter {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+
+body.blog .blog-section,
+body.single-post .single-post-section {
+  background: #fff;
+  background-color: #fff;
+
+  p a {
+    color: $blue !important;
+    font-weight: 900;
+  }
+
+  h1, h2, h3, h4, h5, p {
+    color: $gray-90;
+  }
+
+  .col-md-8 h2 {
+    @media ( min-width: 990px ) {
+   
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+  }
+
+  hr {
+    border-color: $gray-12;
+  }
+  
+}
+
+h1 {
+  @include header-text();
+  font-size: $h1-size;
+  line-height: $h1-lheight;
+}
+
+h2 {
+  @include header-text();
+  font-size: $h2-size;
+  line-height: $h2-lheight;
+}
+
+h3 {
+  @include header-text();
+  font-size: $h3-size;
+  line-height: $h3-lheight;
+}
+
+h4 {
+  @include header-text();
+  font-size: $h4-size;
+  line-height: $h4-lheight;
+}
+
+h5 {
+  @include header-text();
+  font-size: $h5-size;
+  line-height: $h5-lheight;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+p {
+  @include body-text;
+  font-size: $paragraph-size-lg;
+  line-height: $paragraph-size-lg-lheight;
+}
+
+strong {
+  @include glow;
+}
+
+hr {
+  border-top-color: $green;
+  margin: 10px 0;
+}
+
+a {
+  @include glow;
+  @include transition-all;
+  @include blue;
+}
+
+section {
+  padding: 60px 0px 0px;
+}
+
+strong {
+  @include blue;
+}

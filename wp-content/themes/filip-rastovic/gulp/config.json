@@ -3,21 +3,19 @@
     "concat" : [
       "node_modules/bootstrap/scss/bootstrap.scss",
       "node_modules/font-awesome/css/font-awesome.css",
-      "node_modules/aos/dist/aos.css",
-      "build/sass/_variables.scss",
-      "build/sass/global/*.scss",
-      "build/sass/components/*.scss",
-      "build/sass/sections/*.scss"
+      "build/sass/variables.scss",
+      "build/sass/base/mixins.scss",
+      "build/sass/base/base.scss",
+      "build/sass/layout/*.scss",
+      "build/sass/module/**/*.scss",
+      "build/sass/utilities/**/*.scss"
     ]
   },
   "javascript" : {
     "concat" : {
       "vendor" : [
-        "node_modules/bootstrap/dist/js/bootstrap.js",
-        "node_modules/jquery-validation/dist/jquery.validate.js",
-        "node_modules/jquery-validation/dist/additional-methods.js",
-        "node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
-        "node_modules/aos/dist/aos.js"
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/bootstrap/dist/js/bootstrap.js"
       ],
       "third_party": [
         "build/third_party/js/**/*.js"

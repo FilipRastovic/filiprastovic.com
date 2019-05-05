@@ -1,0 +1,50 @@
+.card {
+	background: linear-gradient( -135deg, transparent 35px, #374247 0);
+	border: none;
+	padding: 20px;
+	border-radius: 1.25rem;
+	@include glow;
+
+	h2 {
+		color: $green !important;
+	}
+
+	hr {
+		border-color: $green !important;
+	}
+
+	&--projects {
+		@media ( min-width: 990px ) {
+			height: 530px;
+		}
+	}
+
+	@media ( max-width: 990px ) {
+		margin: 15px !important;
+	}
+}
+
+.card--article {
+	background: #fff;
+	filter: none;
+
+	a,
+	p,
+	h1,
+	h5 {
+		color: $gray-100;
+		filter: none;
+	}
+
+	p {
+		font-weight: 300;
+	}
+
+	p a {
+		color: $red;
+	}
+}
+
+.moretag {
+	color: $red !important;
+}

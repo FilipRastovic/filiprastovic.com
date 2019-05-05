@@ -1,0 +1,40 @@
+form {
+	text-align: center;
+}
+
+.form-group {
+	text-align: left;
+}
+
+.form-control {
+	font-size: $label-lg;
+	line-height: $label-lg-lheight;
+	background-color: transparent;
+	border-radius: 0px;
+	border: 1px solid $green;
+	color: $blue;
+	margin-bottom: 25px;
+
+	&::placeholder {
+		color: $blue-disabled;
+	}
+
+	&:hover {
+		border: 1px solid $green;
+	}
+
+	&:focus {
+		background-color: transparent;
+		color: $blue;
+	}
+}
+
+.form-text {
+	font-size: $label-sm;
+	color: $green;
+}
+
+label {
+	color: $green;
+	font-weight: 600;
+}

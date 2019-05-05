@@ -153,3 +153,21 @@ function new_excerpt_more( $more ) {
 }
 
 add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+add_filter( 'body_class', 'sk_body_class_for_pages' );
+/**
+ * Adds a css class to the body element
+ *
+ * @param  array $classes the current body classes
+ * @return array $classes modified classes
+ */
+function sk_body_class_for_pages( $classes ) {
+
+	if ( is_singular( 'page' ) ) {
+		global $post;
+		$classes[] = 'page-' . $post->post_name;
+	}
+
+	return $classes;
+
+}

@@ -54,19 +54,13 @@
   <?php wp_head(); ?>
 </head>
 
-<body id="page-top">
+<body <?php body_class(); ?>>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="/">
-        Filip Rastovic <br> <small>Web Development &amp; Design</small>
-        <!-- <div>Filip Rastovic</div>
-        <div class="brand-text">Web Development &amp; Design</div> -->
-      </a>
+      <a class="navbar-brand" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?><span class="badge badge-secondary">Design</span></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <?php

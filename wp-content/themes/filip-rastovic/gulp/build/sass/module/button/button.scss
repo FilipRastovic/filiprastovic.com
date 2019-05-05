@@ -1,0 +1,69 @@
+.btn,
+input#submit {
+	text-align: center;
+	border: 1px solid transparent;
+	font-size: $btn-text-size;
+	line-height: $link-text-lheight;
+	border-radius: 4px;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	box-shadow: 2px 2px 12px $green;
+	@include transition-all;
+}
+
+.btn-primary,
+input#submit {
+	color: $gray-12;
+	background-color: $red;
+	padding: 3px 32px;
+	
+	&:hover {
+		background-color: $red-hover;
+		border: 1px solid transparent;
+	}
+
+	&:not(:disabled):not(.disabled):active, 
+	&:not(:disabled):not(.disabled).active, 
+	.show > &.dropdown-toggle {
+		background-color: $red-pressed;
+		border: 1px solid transparent;
+		outline: none;
+	}
+
+	&:disabled {
+		background-color: $red-disabled;
+	}
+}
+
+.btn-secondary {
+	background-color: $blue;
+
+	&:hover {
+		background-color: $blue-hover;
+		border: 1px solid transparent;
+	}
+
+	&:not(:disabled):not(.disabled):active, 
+	&:not(:disabled):not(.disabled).active, 
+	.show > &.dropdown-toggle {
+		background-color: $blue-pressed;
+		border: 1px solid transparent;
+		outline: none;
+	}
+
+	&:disabled {
+		background-color: $blue-disabled;
+	}
+}
+
+.btn-square {
+	padding: 57px 42px;
+	color: #fff !important;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.btn-small {
+	width: 150px;
+}

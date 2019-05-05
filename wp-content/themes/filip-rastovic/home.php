@@ -9,22 +9,22 @@
 get_header();
 ?>
 
-<header class="masthead">
+<header class="header">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+      <div class="col-md-8 mx-auto text-center">
         <h1 class="section-heading">Blog</h1>
         <hr class="my-4">
-        <p class="">Read my latest posts.</p>
+        <p class="mb-5">I write about freelance web development &amp; design.</p>
       </div>
     </div>
   </div>
 </header>
 
-<section class="blog">
+<section class="blog-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-md-8 mx-auto">
 
         <?php
       if ( have_posts() ) :
@@ -50,11 +50,18 @@ get_header();
 
       endif;
       ?>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Pager -->
-        <!-- <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div> -->
+<section class="newsletter pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <div class="card text-center">
+          <?php get_template_part( 'template-parts/newsletter-social' ); ?>
+        </div>
       </div>
     </div>
   </div>
@@ -63,5 +70,5 @@ get_header();
 
 
 <?php
-get_template_part('template-parts/newsletter');
+
 get_footer();

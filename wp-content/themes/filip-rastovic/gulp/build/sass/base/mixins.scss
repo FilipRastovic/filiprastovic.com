@@ -1,0 +1,39 @@
+@mixin transition-all() {
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
+@mixin background-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@mixin header-text() {
+  font-family: $secondary-font-family;
+  color: $green;
+  font-weight: 900;
+}
+
+@mixin body-text() {
+  font-family: $primary-font-family;
+  color: $green;
+}
+
+@mixin glow() {
+  filter: drop-shadow( 2px 2px 10px $green );
+}
+
+@mixin blue() {
+  color: $blue;
+  
+	&:hover {
+		color: $blue-hover;
+  }
+  
+  &:active {
+    color: $blue-pressed;
+  }
+}

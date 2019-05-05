@@ -9,4 +9,3 @@
 
 get_header();
 ?>
-asd

@@ -9,11 +9,11 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" class="post-preview mb-5">
+<article id="post-<?php the_ID(); ?>" class="post-preview card--article mb-170">
 	<header class="post-header">
 		<?php
 		if ( is_singular() ) :
-			the_title( '<h1 class="post-title mb-3">', '</h1>' );
+			the_title( '<h2 class="post-title mb-3">', '</h2>' );
 		else :
 			the_title( '<h2 class="post-title mb-3"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif; ?>
@@ -55,7 +55,8 @@
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'filip-rastovic' ),
 			'after'  => '</div>',
 		) );
-		?>
+    ?>
+    <hr>
   </div><!-- .entry-content -->
   <?php
   if ( 'post' === get_post_type() ) :
@@ -67,7 +68,6 @@
 				?>
 			</div><!-- .entry-meta -->
     <?php endif; ?>
-  <hr>
 
 	<!-- <footer class="post-footer">
 		<?php filip_rastovic_entry_footer(); ?>

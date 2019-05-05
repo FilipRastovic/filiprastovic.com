@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<header class="masthead">
+<header class="header">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
@@ -24,7 +24,8 @@ get_header();
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-6 mb-5">
-        <h4>Customr.app</h4>
+        <div class="card">
+        <h2>Customr.app</h2>
         <p>Customr.app is a Budapest based AI analytics survey app developer.
           The company CEO wanted a modern looking landing page to help him explain what the application is about and
           start collecting leads with a form where visitors can sign up for the demo of the app.
@@ -44,13 +45,14 @@ get_header();
           personal analytics services company.
         </p>
         <p>
-          Client review:
+          <i>Client review:
           Filip has a unique combo of skills, design and development. He proactively suggested some great ideas on how
           to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based
           on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work
           with. All in all, great designer-developer with an outstanding sense for client
-          service.-Customr.app
+          service.-Customr.app</i>
         </p>
+        </div>
       </div>
       <div class="col-md-6  mb-5">
         <img class="img-fluid  mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.png"
@@ -58,8 +60,9 @@ get_header();
       </div>
     </div>
     <div class="row mb-5">
-      <div class="col-md-6  mb-5">
-        <h4>Justo.ca</h4>
+      <div class="col-md-6 mb-5">
+        <div class="card">
+        <h2>Justo.ca</h2>
         <p>
           Justo is a Toronto based real estate agent company that helps its customers buy and sell property easily and
           with a discount. They needed a landing page for their marketing campaign.
@@ -78,13 +81,15 @@ get_header();
           For my next projects for landing pages I would work with him again.
           Thank you Filip! -Justo</p>
       </div>
+        </div>
       <div class="col-md-6 mb-5">
         <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.png"
-          alt="">
+          alt="Justo landing page">
       </div>
       <div class="row">
         <div class="col-md-6">
-          <h4>Seniorly</h4>
+          <div class="card">
+          <h2>Seniorly</h2>
           <p>Seniorly is a San Francisco based company that helps families and individuals find the right senior living
             options.
 
@@ -93,12 +98,13 @@ get_header();
             I followed the element positioning and layout with a special focus on making the page properly architecture
             on mobile (wireframes were desktop only) because most of Seniorly prefer mobile. After few iterations where
             I tried to match their existing design system we came up with something we both liked.</p>
-          <p>Working with Filip has been a very smooth process. He is quick and clear with communication and works
-            through revisions easily and without any hiccups.</p>
+          <p><i>Client review: <br>Working with Filip has been a very smooth process. He is quick and clear with communication and works
+            through revisions easily and without any hiccups.</i></p>
         </div>
+          </div>
         <div class="col-md-6 mb-5">
           <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/seniorly-case-study.png"
-            alt="">
+            alt="Seniorly landing page">
 
         </div>
       </div>

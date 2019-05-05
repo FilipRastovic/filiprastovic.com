@@ -10,10 +10,22 @@
 get_header();
 ?>
 
-<section class="blog blog--post">
+<header class="header">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-md-8 mx-auto text-center">
+        <h1 class="section-heading">Blog</h1>
+        <hr class="my-4">
+        <p class="mb-5">I write about freelance web development &amp; design.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="single-post-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
 
         <?php
 		while ( have_posts() ) :
@@ -31,10 +43,22 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 
-      </div>
+			</div>
     </div>
 </section>
 
+<section class="newsletter pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <div class="card text-center">
+          <?php get_template_part( 'template-parts/newsletter-social' ); ?>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php
-get_template_part('template-parts/newsletter');
+
 get_footer();

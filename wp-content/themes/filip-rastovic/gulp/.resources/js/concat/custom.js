@@ -1,30 +1,10 @@
 jQuery(document).ready(function($){(function($) {
   "use strict"; // Start of use strict
 
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 48)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
-
   // Closes responsive menu when a scroll trigger link 
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
-
-  // Activate scrollspy to add active class to navbar items on scrolla
-  // $('body').scrollspy({
-  //   target: '#mainNav',
-  //   offset: 54
-  // });
 
   // Collapse Navbar
   var navbarCollapse = function() {
@@ -40,30 +20,4 @@ jQuery(document).ready(function($){(function($) {
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
-
-$("#cta-portfolio").click(function() {
-  $([document.documentElement, document.body]).animate({
-      scrollTop: $("#portfolio").offset().top
-  }, 400);
 });
-
-$("#scroll-top").click(function() {
-  $([document.documentElement, document.body]).animate({
-      scrollTop: $("#page-top").offset().top
-  }, 700);
-});
-
-window.onscroll = function() {scrollFunction();};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        document.getElementById("scroll-top").style.display = "block";
-    } else {
-        document.getElementById("scroll-top").style.display = "none";
-    }
-}
-
-AOS.init({
-  // Global settings:
-  disable: 'mobile' // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-});});
