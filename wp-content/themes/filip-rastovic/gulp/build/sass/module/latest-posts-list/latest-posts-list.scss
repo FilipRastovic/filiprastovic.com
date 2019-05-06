@@ -17,6 +17,11 @@
 	a {
 		font-size: $paragraph-size-lg;
 		line-height: $paragraph-size-lg-lheight;
+
+		@media ( max-width: 990px ) {
+			font-size: $paragraph-size-md;
+			line-height: $paragraph-size-md-lheight;
+		}
 	}
 }
 
