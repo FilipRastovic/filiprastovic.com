@@ -2,9 +2,9 @@ module.exports = {
     // Settings
     liveReload: true,
     // BrowserSync Configuration
-    siteUrl: 'localhost:3000',
-    port: 3000,
+    siteUrl: 'localhost',
+    port: 80,
     // BrowserSync File Path Configuration
-    templatePath: '../index.html',
+    templatePath: '../*.php',
     assetsPath: '../assets/**/**'
 };

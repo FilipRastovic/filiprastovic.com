@@ -32,9 +32,7 @@ module.exports = function() {
   if (ENV.liveReload === true) {
     /* Browsersync Configuration */
     browserSync.init({
-      server: {
-        baseDir: "../"
-      }
+      proxy: "localhost"
     });
 
     /* Browsersync Watch */

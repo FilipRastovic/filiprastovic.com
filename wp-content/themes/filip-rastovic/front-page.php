@@ -17,13 +17,47 @@ get_header();
 <header class="header">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 card mb-5--mobile">
+      <div class="col-md-7 mb-5--mobile">
         <h1 class="section-heading"><small><?php _e( 'Crafting' , 'filip-rastovic' ); ?></small><br><?php _e( 'DELIGHTFUL EXPERIENCES', 'filip-rastovic' ); ?></h1>
         <hr class="">
-        <p class="large">I'm Filip, a <strong>freelance front-end developer</strong> with an affection for web, user experience and product design. I work <strong>remotely</strong> with companies around the globe helping them build beautiful and functional software with a focus on UX, responsive design, performance &amp; accessibility. I implement design systems, animations &amp; interactions. My hobbies are <a href="/blog" target="_blank">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my portfolio or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip_Rastovic_Resume.pdf" target="_blank">resume</a>.</p>
+        <p>I'm Filip, a <strong>freelance designer / front-end developer</strong> with an affection for web, user experience and product design. I work <strong>remotely</strong> with companies around the globe helping them build beautiful and functional software with a focus on UX, responsive design, performance &amp; accessibility. I implement design systems, animations &amp; interactions. My hobbies are <a href="/blog" target="_blank">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my portfolio or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip_Rastovic_Resume.pdf" target="_blank">resume</a>.</p>
       </div>
-      <div class="col-md-4 offset-md-1 card mb-5--mobile text-center">
-        <?php get_template_part( 'template-parts/newsletter-social' ); ?>
+      <div class="col-md-4 offset-md-1 mb-5--mobile text-center">
+        <figure>
+          <img class="img-fluid radi-4" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
+        </figure>
+        <ul class="">
+          <li class="list-inline-item">
+            <a href="https://twitter.com/FRastovic" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/rorschach.bleji" target="_blank">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/filip-rastovic/" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://dribbble.com/filipo" target="_blank">
+              <i class="fa fa-dribbble"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/rastovicfilip/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/FilipRastovic" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -67,8 +101,8 @@ get_header();
 <section class="companies">
   <div class="container">
     <div class="row row-eq-height">
-      <div class="col-md-6 mb-3">
-        <div class="card card--projects text-center">
+      <div class="col-md-5 mb-3">
+        <div class="ext-center">
           <h5>Side project - Video Game</h5>
           <h2>Trial &amp; Terror</h2>
           <hr>
@@ -80,8 +114,8 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="col-md-6 mb-3">
-        <div class="card text-center">
+      <div class="col-md-5 offset-md-1 mb-3">
+        <div class="text-center">
           <h5>Side Project - Website Design Goodies <strong>Coming Soon</strong></h5>
           <h2>Clarity Enhanced</h2>
           <hr>
