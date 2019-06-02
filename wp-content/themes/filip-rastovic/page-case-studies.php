@@ -24,7 +24,7 @@ get_header();
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-6 mb-5">
-        <div class="card">
+       
         <h2>Customr.app</h2>
         <p>Customr.app is a Budapest based AI analytics survey app developer.
           The company CEO wanted a modern looking landing page to help him explain what the application is about and
@@ -52,16 +52,16 @@ get_header();
           with. All in all, great designer-developer with an outstanding sense for client
           service.-Customr.app</i>
         </p>
-        </div>
+        
       </div>
       <div class="col-md-6  mb-5">
-        <img class="img-fluid  mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg"
+        <img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg"
           alt="">
       </div>
     </div>
     <div class="row mb-5">
       <div class="col-md-6 mb-5">
-        <div class="card">
+        
         <h2>Justo.ca</h2>
         <p>
           Justo is a Toronto based real estate agent company that helps its customers buy and sell property easily and
@@ -80,15 +80,15 @@ get_header();
           in very quick and efficient way.
           For my next projects for landing pages I would work with him again.
           Thank you Filip! -Justo</p>
-      </div>
+      
         </div>
       <div class="col-md-6 mb-5">
-        <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg"
+        <img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg"
           alt="Justo landing page">
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="card">
+         
           <h2>Seniorly</h2>
           <p>Seniorly is a San Francisco based company that helps families and individuals find the right senior living
             options.
@@ -100,12 +100,11 @@ get_header();
             I tried to match their existing design system we came up with something we both liked.</p>
           <p><i>Client review: <br>Working with Filip has been a very smooth process. He is quick and clear with communication and works
             through revisions easily and without any hiccups.</i></p>
-        </div>
+        
           </div>
         <div class="col-md-6 mb-5">
-          <img class="img-fluid mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/seniorly-case-study.jpg"
+          <img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/seniorly-case-study.jpg"
             alt="Seniorly landing page">
-
         </div>
       </div>
     </div>

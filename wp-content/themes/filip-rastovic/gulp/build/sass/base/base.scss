@@ -12,45 +12,7 @@ body {
 
 body,
 .newsletter {
-  background:
-  radial-gradient(black 3px, transparent 4px),
-  radial-gradient(black 3px, transparent 4px),
-  linear-gradient(rgb(0, 0, 0) 4px, transparent 0),
-  linear-gradient(45deg, transparent 74px, transparent 75px, #242424 75px, #242424 76px, transparent 77px, transparent 109px),
-  linear-gradient(-45deg, transparent 75px, transparent 76px, #242424 76px, #242424 77px, transparent 78px, transparent 109px),
-  rgb(0, 0, 0);
-  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-}
-
-body.blog .blog-section,
-body.single-post .single-post-section {
-  background: #fff;
-  background-color: #fff;
-
-  p a {
-    color: $blue !important;
-    font-weight: 900;
-  }
-
-  h1, h2, h3, h4, h5, p {
-    color: $gray-90;
-  }
-
-  .col-md-8 h2 {
-    @media ( min-width: 990px ) {
-   
-
-      &:first-of-type {
-        margin-top: 0;
-      }
-    }
-  }
-
-  hr {
-    border-color: $gray-12;
-  }
-  
+  background: white;
 }
 
 h1 {
@@ -101,25 +63,16 @@ p {
   }
 }
 
-strong {
-  @include glow;
-}
-
 hr {
-  border-top-color: $green;
+  border-top-color: $brand;
   margin: 10px 0;
 }
 
 a {
-  @include glow;
   @include transition-all;
   @include blue;
 }
 
 section {
   padding: 60px 0px 0px;
-}
-
-strong {
-  @include blue;
 }

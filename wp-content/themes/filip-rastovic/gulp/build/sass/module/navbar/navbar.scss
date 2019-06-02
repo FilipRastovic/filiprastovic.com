@@ -1,9 +1,8 @@
 .navbar {
-	background: #000;
-	@include glow;
+	background: #fff;
 	
 	.navbar-brand {
-		color: $green;
+		color: $brand;
 		font-weight: 900;
 		font-size: $h4-size;
 		text-transform: uppercase;

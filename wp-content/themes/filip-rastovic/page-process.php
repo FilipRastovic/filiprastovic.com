@@ -25,7 +25,7 @@ get_header();
 <section class="mb-5" id="tabs">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 card mb-5">
+			<div class="col-xs-12 mb-5">
 				<nav>
 					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
 						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><?php _e( 'Research', 'filip-rastovic' ); ?></a></a>

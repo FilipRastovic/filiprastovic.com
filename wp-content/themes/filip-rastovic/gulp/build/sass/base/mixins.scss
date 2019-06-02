@@ -13,17 +13,17 @@
 
 @mixin header-text() {
   font-family: $secondary-font-family;
-  color: $green;
+  color: $brand;
   font-weight: 900;
 }
 
 @mixin body-text() {
   font-family: $primary-font-family;
-  color: $green;
+  color: $brand;
 }
 
 @mixin glow() {
-  filter: drop-shadow( 2px 2px 10px $green );
+  filter: drop-shadow( 2px 2px 10px $blue );
 }
 
 @mixin blue() {

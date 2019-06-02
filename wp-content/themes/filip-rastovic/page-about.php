@@ -29,7 +29,7 @@ get_header();
 <section class="about-me-section mb-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 card">
+      <div class="col-md-6">
         <h2>Welcome to my website</h2>
         <p>I'm Filip, a freelance developer/designer based in Novi Sad, Serbia.
         As a kid I would

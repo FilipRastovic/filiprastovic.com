@@ -31,7 +31,7 @@ get_header();
     <div class="row">
       <div class="col-md-4 mx-auto text-center">
         <figure>
-          <img class="img-fluid radi-4" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
+          <img class="img-fluid shadow radi-4" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
         </figure>
         <ul class="">
           <li class="list-inline-item">

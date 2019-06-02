@@ -11,7 +11,7 @@ form {
 	line-height: $label-lg-lheight;
 	background-color: transparent;
 	border-radius: 0px;
-	border: 1px solid $green;
+	border: 1px solid $brand;
 	color: $blue;
 	margin-bottom: 25px;
 
@@ -20,7 +20,7 @@ form {
 	}
 
 	&:hover {
-		border: 1px solid $green;
+		border: 1px solid $brand;
 	}
 
 	&:focus {
@@ -31,10 +31,10 @@ form {
 
 .form-text {
 	font-size: $label-sm;
-	color: $green;
+	color: $brand;
 }
 
 label {
-	color: $green;
+	color: $brand;
 	font-weight: 600;
 }
