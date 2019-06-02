@@ -58,7 +58,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?><span class="badge badge-secondary">Design</span></a>
+      <a class="navbar-brand" href="/"><?php _e( 'F', 'filiprastovic' ); ?><span class="badge badge-secondary">Design</span></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
       </button>
