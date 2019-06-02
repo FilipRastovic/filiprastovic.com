@@ -51,7 +51,7 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-md-4 mx-auto">
-        <div class="text-center">
+        <div class="form-wrapper text-center">
           <?php get_template_part( 'template-parts/newsletter-social' ); ?>
         </div>
       </div>

@@ -64,7 +64,7 @@ p {
 }
 
 hr {
-  border-top-color: $brand;
+  border-top-color: $gray-40;
   margin: 10px 0;
 }
 
@@ -75,4 +75,8 @@ a {
 
 section {
   padding: 60px 0px 0px;
+}
+
+.newsletter {
+  background: $gray-04;
 }
