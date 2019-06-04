@@ -47,18 +47,6 @@ get_header();
     </div>
 </section>
 
-<section class="newsletter pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mx-auto">
-        <div class="form-wrapper text-center">
-          <?php get_template_part( 'template-parts/newsletter-social' ); ?>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <?php
 
 get_footer();

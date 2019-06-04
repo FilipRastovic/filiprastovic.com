@@ -1,5 +1,8 @@
 /* Theme collors */
-$brand:	#2B2E30;
+$brand:	#2ecc71;
+$brand-hover:	#2fe47a;
+$brand-pressed:	#209651;
+$brand-disabled:	#6ff2a6;
 
 $red:	#E15554;
 $red-hover: #e46362;
@@ -28,6 +31,7 @@ $heading-gradient: linear-gradient( to right, #2b2a2d, #2e2d30 );
 
 /* Grayscale */
 $white: #fff;
+$gray-02: #fbfbfb;
 $gray-04: #F6F6F6;
 $gray-08: #EDEDED;
 $gray-12: #E2E3E3;

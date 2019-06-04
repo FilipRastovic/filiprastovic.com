@@ -13,13 +13,13 @@
 
 @mixin header-text() {
   font-family: $secondary-font-family;
-  color: $brand;
+  color: $gray-90;
   font-weight: 900;
 }
 
 @mixin body-text() {
   font-family: $primary-font-family;
-  color: $brand;
+  color: $gray-90;
 }
 
 @mixin glow() {
@@ -35,5 +35,17 @@
   
   &:active {
     color: $blue-pressed;
+  }
+}
+
+@mixin brand-interaction() {
+  color: $brand;
+
+	&:hover {
+		color: $brand-hover;
+  }
+  
+  &:active {
+    color: $brand-pressed;
   }
 }
