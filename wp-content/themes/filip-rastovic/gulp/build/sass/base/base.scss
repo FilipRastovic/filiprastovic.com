@@ -40,6 +40,7 @@ h3 {
 
 h4 {
   @include header-text();
+  font-weight: 300;
   font-size: $h4-size;
   line-height: $h4-lheight;
 }
@@ -52,7 +53,7 @@ h5 {
   font-weight: 400;
 }
 
-p {
+p,ul li {
   @include body-text;
   font-size: $paragraph-size-lg;
   line-height: $paragraph-size-lg-lheight;
@@ -61,6 +62,12 @@ p {
   @media ( max-width: 990px ) {
     font-size: $paragraph-size-md;
     line-height: $paragraph-size-md-lheight;
+  }
+}
+
+.page-portfolio {
+  ul {
+    margin-left: 30px;
   }
 }
 

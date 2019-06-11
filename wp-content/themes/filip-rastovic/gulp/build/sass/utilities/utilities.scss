@@ -15,3 +15,15 @@
 .radi-4 {
 	border-radius: 4px;
 }
+
+.text-thin {
+	font-weight: 300 !important;
+}
+
+.gutter-bot {
+	margin-bottom: 100px;
+
+	@media (min-width: 990px) {
+		margin-bottom: 150px;
+	}
+}

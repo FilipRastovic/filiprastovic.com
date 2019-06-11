@@ -17,10 +17,13 @@ get_header();
 <header class="header">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 mx-auto">
+      <div class="col-md-7">
         <h1 class="section-heading"><small><?php _e( 'Crafting' , 'filip-rastovic' ); ?></small><br><?php _e( 'DELIGHTFUL EXPERIENCES', 'filip-rastovic' ); ?></h1>
         <hr class="">
-        <p>I'm Filip, a <strong>freelance front-end developer / designer</strong> with an affection for web, user experience and product design.  I work with companies around the globe helping them build beautiful and functional software with a focus on, UX, responsive design, performance & accessibility. I build, manage & implement design systems, animations & interactions. My hobbies are <a href="/blog">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my portfolio or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-Resume.pdf" target="_blank">resume</a>.</p>
+        <p>I'm Filip, a <strong>freelance front-end developer / product designer</strong>. My hobbies are <a href="/blog">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my <a href="/portfolio">portfolio</a> or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-Resume.pdf" target="_blank">resume</a>.</p>
+      </div>
+      <div class="col-md-5 mt-5">
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/clarity-enhanced.png" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -29,7 +32,8 @@ get_header();
 <section class="side-project">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 mx-auto text-center">
+      <div class="col-md-4">
+        <h4 class="text-thin">Connect with me</h4>
         <ul class="">
           <li class="list-inline-item">
             <a href="https://twitter.com/FRastovic" target="_blank">

@@ -60,8 +60,6 @@ get_header();
             <h2><?php _e( 'Wordpress Integration' , 'filip-rastovic' ); ?></h2>
             <p><?php _e( 'After the static website is complete, I turn it into customizable Wordpress theme utilizing the advanced 
             custom fields plugin.', 'filip-rastovic' ); ?></p>
-				
-	
 			</div>
 		</div>
 	</div>

@@ -6,6 +6,8 @@
 		font-size: $h4-size;
 		font-family: $primary-font-family;
 		color: $gray-90;
+		font-weight: 300;
+		text-decoration: none;
 
 		@media ( min-width: 990px ) {
 			font-size: $h3-size;
@@ -14,13 +16,13 @@
 
 	.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
 		color: $gray-90;
-		@include glow;
 	}
 
 	.navbar-nav li a {
 		font-size: 16px;
-		font-weight: 600;
-		color: $gray-90;
+		font-weight: 300;
+		color: $gray-70;
+		text-decoration: none;
 
 		&:hover {
 			color: $brand;
