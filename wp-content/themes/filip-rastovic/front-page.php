@@ -30,9 +30,6 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-md-4 mx-auto text-center">
-        <figure>
-          <img class="img-fluid shadow radi-4" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
-        </figure>
         <ul class="">
           <li class="list-inline-item">
             <a href="https://twitter.com/FRastovic" target="_blank">
