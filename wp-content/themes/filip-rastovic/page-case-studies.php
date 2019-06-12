@@ -56,7 +56,24 @@ get_header();
       </div>
       <div class="col-md-6  mb-5">
         <img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg"
-          alt="">
+          alt="Portfolio image">
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-md-6 mb-5">
+       
+        <h2>IB</h2>
+        <p>IB is a custom browser solution I've worked on. As a part of the global team my responsibilities were closely working with the UI deisnger 
+          to come up with a usable and modern UI using Sketch app and InVision, then the implementation with the reusable SCSS/HTML componenets.
+
+        </p>
+        <p>
+        </p>
+        
+      </div>
+      <div class="col-md-6  mb-5">
+        <img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/portfolio/ib.jpg"
+          alt="Portfolio image">
       </div>
     </div>
     <div class="row mb-5">
