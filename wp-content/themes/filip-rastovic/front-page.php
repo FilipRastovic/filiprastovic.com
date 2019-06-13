@@ -23,7 +23,8 @@ get_header();
         <p>I'm Filip, a <strong>freelance front-end developer / product designer</strong>. My hobbies are <a href="/blog">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a> and making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my <a href="/portfolio">portfolio</a> or check out my <a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-Resume.pdf" target="_blank">resume</a>.</p>
       </div>
       <div class="col-md-5 mt-5">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/clarity-enhanced.png" alt="" class="img-fluid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZNp3-q9m4uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       </div>
     </div>
   </div>

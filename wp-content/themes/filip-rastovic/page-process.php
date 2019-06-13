@@ -26,6 +26,8 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-8 mx-auto mb-5">
+
+            <div class="text-center"><img src="<?php echo get_template_directory_uri() ?>/assets/img/clarity-enhanced.png" alt="" class="img-fluid"></div>
 					
             <h2><?php _e( 'Research', 'filip-rastovic' ); ?></h2>
             <p><?php _e( 'The first step is where I learn about your business. I want to find out everything about your 
