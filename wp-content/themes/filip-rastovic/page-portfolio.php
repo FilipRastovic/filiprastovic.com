@@ -29,7 +29,7 @@ get_header();
 <section class="header">
 	<div class="container">
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Customr.app</h4>
 					<hr>
 					<p>
@@ -42,7 +42,7 @@ get_header();
 						<a href="/case-studies">Read the case study.</a>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png" alt="">
@@ -50,7 +50,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Bonsall Pool</h4>
 					<hr>
 					<p>
@@ -61,7 +61,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/bonsal-small.png" alt="">
@@ -69,7 +69,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Landing Page</h4>
 					<hr>
 					<p>
@@ -81,7 +81,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/filiprastovic-small.png"
@@ -90,7 +90,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Justo</h4>
 					<hr>
 					<p>
@@ -102,7 +102,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/justo-small.png" alt="">
@@ -110,7 +110,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Natours</h4>
 					<hr>
 					<p>
@@ -120,7 +120,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/natours-small.png"
@@ -129,7 +129,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Home Manufacturer</h4>
 					<hr>
 					<p>
@@ -140,7 +140,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/ipad.png"
@@ -149,7 +149,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Web Agency</h4>
 					<hr>
 					<p>
@@ -159,7 +159,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/synico-small.png"
@@ -168,7 +168,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Landing Page</h4>
 					<hr>
 					<p>
@@ -179,7 +179,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/wadeLP-small.png"
@@ -188,7 +188,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Interactive Guides Software</h4>
 					<hr>
 					<p>
@@ -198,7 +198,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/solutionbay-small.png"
@@ -207,7 +207,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">eCommerce UI</h4>
 					<hr>
 					<p>
@@ -218,7 +218,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/ecom-1.jpg"
 						alt="Portfolio Pics">
