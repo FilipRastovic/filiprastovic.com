@@ -21,7 +21,7 @@ get_header();
 				<h1 class="section-heading text-thin"><?php _e( 'Welcome!' , 'filip-rastovic' ); ?></h1>
 				<hr class="">
 				<p>I'm Filip, a <strong>freelance front-end developer / product designer</strong>. My hobbies are <a
-						href="/blog">writing</a> , <a href="http://codepen.io/FilipRastovic" target="_blank">coding</a>
+						href="/blog">writing</a> , <a href="https://github.com/FilipRastovic" target="_blank">coding</a>
 					and making <a href="http://stargazerstudio.net" target="_blank">video games</a>. See my <a
 						href="/portfolio">portfolio</a> or check out my <a
 						href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-Resume.pdf"
