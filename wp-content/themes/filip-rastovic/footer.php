@@ -41,6 +41,12 @@
 
         <ul class="list-unstyled">
           <li>
+            <a href="http://codepen.io/FilipRastovic">CodePen</a>
+          </li>
+          <li>
+            <a href="https://github.com/FilipRastovic">GitHub</a>
+          </li>
+          <li>
             <a href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
           </li>
           <li>
