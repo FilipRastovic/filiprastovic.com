@@ -62,8 +62,50 @@ get_header();
             <h2><?php _e( 'Wordpress Integration' , 'filip-rastovic' ); ?></h2>
             <p><?php _e( 'After the static website is complete, I turn it into customizable Wordpress theme utilizing the advanced 
             custom fields plugin.', 'filip-rastovic' ); ?></p>
+            <hr>
 			</div>
 		</div>
+    <div class="row">
+      <div class="col-12 text-center">
+          <h2 class="mb-5"><?php _e( 'Technologies I Use', 'filip-rastovic' ); ?></h2>
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/html5.png" alt="html5">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/css3.png" alt="css3">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/js.png" alt="js">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/jquery.png" alt="jquery">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/wordpress.png" alt="wp">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/upwork.png" alt="upwork">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/ai.png" alt="ai">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/xd.png" alt="xd">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/php.png" alt="php">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/ps.png" alt="ps">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/mysql.png" alt="mysql">
+      </div>
+      <div class="col-2 col-md-1">
+        <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/node.png" alt="node">
+      </div>
+    </div>
 	</div>
 </section>
 <?php
