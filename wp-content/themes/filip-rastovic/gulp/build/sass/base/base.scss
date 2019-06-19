@@ -20,7 +20,7 @@ h1 {
   @include header-text();
   font-size: $h1-size;
   line-height: $h1-lheight;
-  color: $gray-70;
+  
   text-rendering: optimizeLegibility;
 
   @media ( max-width: 990px ) {

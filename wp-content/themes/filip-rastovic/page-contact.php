@@ -24,7 +24,15 @@ get_header();
 <!-- Contact -->
 <section id="contact mb-5">
   <div class="container">
-    <div class="row">
+    <div class="row gutter-bot">
+      <div class="col-md-6">
+        <h2>Welcome to my website</h2>
+        <p>Hello there! If you're looking for a front-end developer/designer feel free to get in touch with me filling out the form below. Please, the more you can tell me about your project, the better.
+          
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
       <div class="col-lg-12">
         <form action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671" method="post" 
               id="contactForm" name="sentMessage" >  
@@ -60,3 +68,7 @@ get_header();
     </div>
   </div>
 </section>
+
+<?php
+
+get_footer();

@@ -52,7 +52,7 @@ get_header();
       </div>
       <div class="col-md-5 offset-md-1">
         <figure>
-          <img class="img-fluid radi-4" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
+          <img class="img-fluid radi-4 shadow" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
         </figure>
       </div>
     </div>

@@ -29,7 +29,7 @@ get_header();
 <section class="header">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 mx-auto mb-5">
+			<div class="col-12 col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Documentation Interface</h4>
 					<hr>
 					<p>
@@ -43,7 +43,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 mx-auto mb-5">
+			<div class="col-12 col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Pricing Interface</h4>
 				<hr>
 				<p>
