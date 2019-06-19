@@ -59,7 +59,7 @@ get_header();
           alt="Portfolio image">
       </div>
     </div>
-    <div class="row mb-5">
+    <!-- <div class="row mb-5">
       <div class="col-md-6 mb-5">
        
         <h2>IB</h2>
@@ -75,7 +75,7 @@ get_header();
         <img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/portfolio/ib.jpg"
           alt="Portfolio image">
       </div>
-    </div>
+    </div> -->
     <div class="row mb-5">
       <div class="col-md-6 mb-5">
         

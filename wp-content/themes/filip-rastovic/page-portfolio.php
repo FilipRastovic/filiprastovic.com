@@ -17,7 +17,7 @@ get_header();
 <header class="header">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 mx-auto text-center">
+			<div class="col-md-12 mx-auto text-center">
 				<h1 class="section-heading">Portfolio</h1>
 				<hr class="my-4">
 				<p class="mb-5">Check out some of my work!</p>
@@ -28,6 +28,11 @@ get_header();
 
 <section class="header">
 	<div class="container">
+	<!-- <div class="row gutre-bot">
+		<div class="col-md-10 mx-auto">
+			<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.png" alt="Ib docs">
+		</div>
+	</div> -->
 		<div class="row gutter-bot">
 			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Customr.app</h4>
@@ -45,7 +50,7 @@ get_header();
 			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
-						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png" alt="">
+						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png" alt="Customrr">
 				</div>
 			</div>
 		</div>
