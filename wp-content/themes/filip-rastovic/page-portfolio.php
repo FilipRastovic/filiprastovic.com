@@ -28,32 +28,33 @@ get_header();
 
 <section class="header">
 	<div class="container">
-		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+		<div class="row">
+			<div class="col-md-6 mx-auto mb-5">
 				<h2 class="text-thin">Documentation Interface</h4>
 					<hr>
 					<p>
 						My job here was taking Sketch/InVision files and turning them into a reponsive userinterface, utilizing semantic markup, modern CSS and smooth JavaScript animations.
-						<ul>
-							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
-						</ul>
 					</p>
-			</div>
-			<div class="col-md-6">
-				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.jpg" alt="Ib docs">
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
-				<h2 class="text-thin">Pricing Interface</h4>
-					<hr>
-					<p>
-						<ul>
-							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
-						</ul>
-					</p>
+			<div class="col-md-10 mx-auto">
+				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.jpg" alt="Ib docs">
 			</div>
-			<div class="col-md-6">
+		</div>
+		<div class="row">
+			<div class="col-md-6 mx-auto mb-5">
+				<h2 class="text-thin">Pricing Interface</h4>
+				<hr>
+				<p>
+					<ul>
+						<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		<div class="row gutter-bot">
+			<div class="col-md-10 mx-auto">
 				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
 			</div>
 		</div>
