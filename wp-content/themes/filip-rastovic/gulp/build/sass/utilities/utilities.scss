@@ -27,3 +27,11 @@
 		margin-bottom: 150px;
 	}
 }
+
+.grey {
+	background: $gray-02;
+}
+
+.grey-out {
+	background-image: linear-gradient( to bottom, $grey-02, #fff );
+}
