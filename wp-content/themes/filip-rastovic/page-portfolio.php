@@ -28,11 +28,35 @@ get_header();
 
 <section class="header">
 	<div class="container">
-	<!-- <div class="row gutre-bot">
-		<div class="col-md-10 mx-auto">
-			<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.png" alt="Ib docs">
+		<div class="row gutter-bot">
+			<div class="col-md-6 mb-5">
+				<h2 class="text-thin">Documentation Interface</h4>
+					<hr>
+					<p>
+						My job here was taking Sketch/InVision files and turning them into a reponsive userinterface, utilizing semantic markup, modern CSS and smooth JavaScript animations.
+						<ul>
+							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
+						</ul>
+					</p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.jpg" alt="Ib docs">
+			</div>
 		</div>
-	</div> -->
+		<div class="row gutter-bot">
+			<div class="col-md-6 mb-5">
+				<h2 class="text-thin">Pricing Interface</h4>
+					<hr>
+					<p>
+						<ul>
+							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
+						</ul>
+					</p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
+			</div>
+		</div>
 		<div class="row gutter-bot">
 			<div class="col-md-6 mb-5">
 				<h2 class="text-thin">Customr.app</h4>
@@ -49,8 +73,7 @@ get_header();
 			</div>
 			<div class="col-md-6 mb-5">
 				<div class="portfolio-box">
-					<img class="img-fluid"
-						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png" alt="Customrr">
+					<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png" alt="Customrr">
 				</div>
 			</div>
 		</div>
