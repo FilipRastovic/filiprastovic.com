@@ -27,7 +27,7 @@ get_header();
     <div class="row gutter-bot">
       <div class="col-md-6">
         <h2>Welcome to my website</h2>
-        <p>Hello there! If you're looking for a front-end developer/designer feel free to get in touch with me filling out the form below. Please, the more you can tell me about your project, the better.
+        <p>Hello there! If you're looking for a front-end developer feel free to get in touch with me filling out the form below. Please, the more you can tell me about your project, the better.
           
         </p>
       </div>

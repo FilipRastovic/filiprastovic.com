@@ -25,7 +25,7 @@ get_header();
 </header>
 
 <!-- Tabs -->
-<section class="grey">
+<!-- <section class="grey">
 	<div class="container">
 		<div class="row">
       <div class="col-md-4 text-center mb-5">
@@ -61,60 +61,24 @@ get_header();
       <hr>
 		</div>
 	</div>
-</section>
-
-<section class="trusted-by">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2><?php _e( 'Trusted by', 'filip-rastovic' ); ?></h2>
-      </div>
-      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/0.png" alt=""></div>
-      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/Crewdox-1.png" alt=""></div>
-      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/download.png" alt=""></div>
-      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/GearLogoVertical.png" alt=""></div>
-      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/header-728x180.png" alt=""></div>
-      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/think3.jpg" alt=""></div>
-    </div>
-  </div>
-</section>
+</section> -->
 
 <section class="grey">
   <div class="container">
     <div class="row">
     <div class="col-12 col-md-8 mx-auto mb-5">
-				<h2><?php _e( 'Research', 'filip-rastovic' ); ?></h2>
-				<p><?php _e( 'The first step is where I learn about your business. I want to find out everything about your 
-                business goals, your customers interests, age, behavior and how can your website solve their problems 
-                in the optimal way. Then I take a look at the websites of your competitors to establish context and 
-                benchmark of what already exists and how can we create something even better on top of it. This step 
-                gives us the foundation for moving forward with just the right recommendations for the design and 
-                development of your new responsive website. ' , 'filip-rastovic' ); ?>
-				</p>
-				<h2><?php _e( 'Design', 'filip-rastovic' ); ?></h2>
-				<p><?php _e( 'Design starts with creating wireframes of your websites; these are simple skeletons of the pages 
-            that explain how content should be laid out on the screen. I also create user flows, this is an abstract 
-            of at least three personas of your websites visitors. Someone who just seeks information, someone who is 
-            context aware but not sure if what you’re offering is the right thing for him and someone who is a ready 
-            to talk buyer. We design wireframes so all possible visitor personas can solve their problems easily and 
-            not get frustrated or overwhelmed by your website. Once the wireframes are done, we have to style them. 
-            This is where we implement colors, photos, shapes and animations to make the website alive. If your brand 
-            has a logo we make sure the colors we use harmonize with it and create a beautiful experience for the visitor. 
-            We show you designs and adjust them to your liking.', 'filip-rastovic') ?></p>
-
-
-				<h2><?php _e( 'Development', 'filip-rastovic' ); ?></h2>
-				<p><?php _e( 'Once the designs are finished I get my hands dirty with code. Utilizing the latest HTML3, CSS3, SCSS and SVG 
-            techniques I write semantic and maintainable code utilizing the best practices and design patterns. I often use 
-            gulp.js as my task runner. We set up a testing url where only you can preview your website and test it for bugs 
-            on all different screen sizes and modern web browsers (Firefox, Chrome, Safari, Internet Explorer 9+). I’m also 
-            familiar with page builder tools such as Elementor, Divi, Unbounce and Squarespace. ', 'filip-rastovic' ); ?>
-				</p>
-				<h2><?php _e( 'Wordpress Integration' , 'filip-rastovic' ); ?></h2>
-				<p><?php _e( 'After the static website is complete, I turn it into customizable Wordpress theme utilizing the advanced 
-            custom fields plugin.', 'filip-rastovic' ); ?></p>
-				<hr>
-			</div>
+		<h2><?php _e( 'Front-end development', 'filip-rastovic' ); ?></h2>
+		<p><?php _e( 'I love working with agencies and their designers and developers. Once a designer finishes his work and uploads it to a tool such as InVision, I take those designs
+						and start thinking about best way to code them in HTML,SCSS and JavaScript. I love using Bootstrap (lots of code already written? yay!) or just a tiny piece of it if my clients 
+						want something without bootstrap. I try to keep my html as semantic as possible while using as little nodes as possible as well. When it comes to CSS, I love ussing a preprocessor
+						and creating my SCSS architecture so it follows common conventions such as BEM or SMACSS, whatever my client preffers. That way SCSS stays modular and easily scaleable.
+						There\'s a lot of talk about <strong>mobile first</strong> approach, so I always try to write my SCSS following that path. Once the coding is finished I begin the testing.', 'filip-rastovic' ); ?></p>
+		<h2><?php _e( 'Wordpress Integration' , 'filip-rastovic' ); ?></h2>
+		<p><?php _e( 'After the static website is complete, my clients often wish the designs to be integrated into their CMS. Wordpress is one of them. Utilizing advanced custom fields plugin I\'m able 
+		to create awesome backend user experiences, creating the UI so it matches the front-end side of the website. That way, non developers can edit the website content very easily.'
+		, 'filip-rastovic' ); ?></p>
+		<hr>
+	</div>
     </div>
   </div>
 </section>
@@ -179,6 +143,22 @@ get_header();
 			<img class="img-fluid rounded" src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/aaa.jpg" alt="GulpWorkshop">
 		</div>
 	</div>
+  </div>
+</section>
+
+<section class="trusted-by">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2><?php _e( 'Trusted by', 'filip-rastovic' ); ?></h2>
+      </div>
+      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/0.png" alt=""></div>
+      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/Crewdox-1.png" alt=""></div>
+      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/download.png" alt=""></div>
+      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/GearLogoVertical.png" alt=""></div>
+      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/header-728x180.png" alt=""></div>
+      <div class="col-4 col-md-2 mb-3"><img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/think3.jpg" alt=""></div>
+    </div>
   </div>
 </section>
 

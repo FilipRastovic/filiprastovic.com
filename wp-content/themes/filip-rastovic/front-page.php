@@ -20,8 +20,8 @@ get_header();
 			<div class="col-md-7">
 				<h1 class="section-heading text-thin"><?php _e( 'Welcome!' , 'filip-rastovic' ); ?></h1>
 				<hr class="">
-				<p>I'm Filip, a <strong>freelance front-end developer / product designer</strong>. I work on large scale design architectures in Sketch and then on their implementation in scaleable/modern CSS/SCSS. See my <a href="/portfolio">portfolio</a>, 
-				learn about my <a href="/process">services</a>, check out some of my <a href="https://github.com/FilipRastovic" target="_blank">code samples</a>, or get my <a
+				<p>I'm Filip, a <strong>freelance front-end developer</strong>. I implement designs into semantic, validated markup and modular/scaleable/modern CSS/SCSS. See my <a href="/portfolio">portfolio</a>, 
+				learn about my <a href="/process">process</a>, check out some of my <a href="https://github.com/FilipRastovic" target="_blank">code samples</a>, or get my <a
 						href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-Resume.pdf"
 						target="_blank">resume</a>. As a hobby I code sci-fi <a target="_blank" href="http://codepen.io/FilipRastovic">interfaces</a> from movies &amp; cartoons.</p>
 			</div>
