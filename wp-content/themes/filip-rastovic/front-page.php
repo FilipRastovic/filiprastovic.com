@@ -27,9 +27,7 @@ get_header();
 			</div>
 			<div class="col-md-5 mt-5">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/ZNp3-q9m4uc" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7ogCVJYuvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
