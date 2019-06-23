@@ -59,7 +59,7 @@ get_header();
 	</div>
 </section> -->
 
-<section class="grey">
+<section class="gray-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-8 mx-auto mb-5">
@@ -75,6 +75,12 @@ get_header();
 		to create awesome backend user experiences, creating the UI so it matches the front-end side of the website. That way, non developers can edit the website content very easily.'
 		, 'filip-rastovic' ); ?></p>
 				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 mx-auto">
+				<img class="img-fluid rounded"
+					src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/aaa.jpg" alt="GulpWorkshop">
 			</div>
 		</div>
 	</div>
@@ -134,35 +140,6 @@ get_header();
 				<img class="img-fluid mb-3"
 					src="<?php echo get_template_directory_uri() ?>/assets/img/tech-slider/node.png" alt="node">
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-10 mx-auto">
-				<img class="img-fluid rounded"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/aaa.jpg" alt="GulpWorkshop">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="trusted-by">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h2><?php _e( 'Trusted by', 'filip-rastovic' ); ?></h2>
-			</div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/0.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/Crewdox-1.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/download.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/GearLogoVertical.png" alt="">
-			</div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/header-728x180.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/think3.jpg" alt=""></div>
 		</div>
 	</div>
 </section>

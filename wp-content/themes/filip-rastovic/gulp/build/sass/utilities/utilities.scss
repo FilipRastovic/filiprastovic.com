@@ -1,12 +1,17 @@
 .gray-background {
-	background: $gray-02;
+	background: #fbfbfb;
 }
 
 section {
-	padding: 50px 0;
+	padding: 150px 0;
 }
 
 hr {
 	border-color: $green;
 	border-width: 3px;
+
+	&.light {
+		border-color: $gray-08;
+		border-width: 1px;
+	}
 }

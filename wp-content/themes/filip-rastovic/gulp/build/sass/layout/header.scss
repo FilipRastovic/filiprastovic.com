@@ -5,3 +5,13 @@
 		padding: 150px 0 50px;
 	 }
 }
+
+.home {
+	header {
+		padding: 100px 0 50px;
+
+		@include media-breakpoint-up(md) { 
+			padding: 150px 0 150px;
+		 }
+	}
+}
