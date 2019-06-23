@@ -71,7 +71,7 @@ get_header();
 					<li><i class="fa fa-wordpress"></i> Wordpress Integration</li>
 				</ul>
 				<a href="/case-studies">Read the case study.</a>
-				<a href="customr.app" target="_blank">Visit Website</a>
+				<a href="https://customr.app/" target="_blank">Visit Website</a>
 			</div>
 			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
