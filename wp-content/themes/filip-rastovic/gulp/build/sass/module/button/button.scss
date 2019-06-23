@@ -35,23 +35,23 @@ input#submit {
 }
 
 .btn-secondary {
-	background-color: $blue;
+	background-color: $green;
 
 	&:hover {
-		background-color: $blue-hover;
+		background-color: $green-hover;
 		border: 1px solid transparent;
 	}
 
 	&:not(:disabled):not(.disabled):active, 
 	&:not(:disabled):not(.disabled).active, 
 	.show > &.dropdown-toggle {
-		background-color: $blue-pressed;
+		background-color: $green-pressed;
 		border: 1px solid transparent;
 		outline: none;
 	}
 
 	&:disabled {
-		background-color: $blue-disabled;
+		background-color: $green-disabled;
 	}
 }
 

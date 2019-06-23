@@ -14,103 +14,100 @@
 get_header();
 ?>
 
-<header class="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 mx-auto text-center">
-				<h1 class="section-heading">Portfolio</h1>
-				<hr class="my-4">
-				<p class="mb-5">Check out some of my work!</p>
-			</div>
-		</div>
-	</div>
-</header>
-
 <section class="header">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-8 mx-auto mb-5">
-				<h2 class="text-thin">Documentation Interface</h4>
-					<hr>
-					<p>
-						My job here was taking Sketch/InVision files and turning them into a reponsive userinterface, utilizing semantic markup, modern CSS and smooth JavaScript animations.
-					</p>
+				<h2 class="text-thin">Documentation Interface</h2>
+				<hr>
+				<p class="mb-5">This is an interface where users of a custom web browser solution come to inform
+					themselves about the current status, find out about bugs,report new bugs
+					or request new features. I've worked alongside a designer and a backend PHP developer. When the
+					Sketch design files were ready they were uploaded to InVision and my job was to
+					implement the designs into a fully responsive, semantic HTML, modular SCSS following the BEM
+					notation and presentational JavaScript that takes care of animations, interactions
+					and few simple ajax calls.
+				</p>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-code"></i> Responsive Design</li>
+					<li><i class="fa fa-wordpress"></i> Wordpress Integration</li>
+				</ul>
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-10 mx-auto">
-				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.jpg" alt="Ib docs">
+			<div class="col-md-8 mx-auto">
+				<img class="img-fluid shadow mb-5"
+					src="<?php echo get_template_directory_uri() ?>/assets/img/ib-docs.jpg" alt="Ib docs">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 col-md-8 mx-auto mb-5">
-				<h2 class="text-thin">Pricing Interface</h4>
+				<h2 class="text-thin">Pricing Interface</h2>
 				<hr>
-				<p>
-					<ul>
-						<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
-					</ul>
+				<p class="mb-5">Pricing page redesign. I've worked alongside a designer and a backend PHP developer. When the
+					Sketch design files were ready they were uploaded to InVision and my job was to
+					implement the designs into a fully responsive, semantic HTML, modular SCSS following the BEM
+					notation and presentational JavaScript that takes care of animations, interactions
+					and few simple ajax calls.
 				</p>
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-10 mx-auto">
-				<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
+			<div class="col-md-8 mx-auto">
+				<img class="img-fluid shadow mb-5"
+					src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
-				<h2 class="text-thin">Customr.app</h4>
-					<hr>
-					<p>
-						<ul>
-							<li>Information architecture</li>
-							<li>Wireframing</li>
-							<li>UI/UX</li>
-							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
-						</ul>
-						<a href="/case-studies">Read the case study.</a>
-					</p>
+			<div class="col-12 col-md-8 mx-auto mb-5">
+				<h2 class="text-thin">Wordpress Landing Page</h2>
+				<hr>
+				<p class="mb-5">Fully customizable Wordpress theme. My job was desining as well, then coding this page using gulp.js for efficient implementation alongside SCSS and Bootstrap
+					components. The page has multiple customized carrousels that can be easily edited on the backend with advanced custom fields. I also make sure my custom themes have a nice UX on the 
+					backend allowing non developers to easily change them.
+				</p>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-code"></i> Responsive Design</li>
+					<li><i class="fa fa-wordpress"></i> Wordpress Integration</li>
+				</ul>
+				<a href="/case-studies">Read the case study.</a>
+				<a href="customr.app" target="_blank">Visit Website</a>
 			</div>
-			<div class="col-md-6 mb-5">
-				<div class="portfolio-box">
-					<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png" alt="Customrr">
-				</div>
-			</div>
-		</div>
-		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
-				<h2 class="text-thin">Bonsall Pool</h4>
-					<hr>
-					<p>
-						<ul>
-							<li>Maintainance</li>
-							<li>HTML/SCSS</li>
-							<li>BEM convention</li>
-						</ul>
-					</p>
-			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
-						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/bonsal-small.png" alt="">
+						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/customr-small.png"
+						alt="Customrr">
+				</div>
+			</div>
+		</div>
+		<div class="row gutter-bot mt-5">
+			<div class="col-md-8 mx-auto mb-5">
+				<h2 class="text-thin">Bonsall Pool</h4>
+					<hr>
+					<p>While working for an advertising agency I maintained and contributed to this large scale website powered by Expression Engine CMS. The website used gulp.js to organise SCSS and JavaScript
+						partials and easily compile them into single files, with minification and other automated task included in the task runner.
+					</p>
+					<a href="https://bonsallpool.com/" target="_blank">Visit Website</a>
+			</div>
+			<div class="col-md-8 mx-auto mb-5">
+				<div class="portfolio-box">
+					<img class="img-fluid"
+						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/bonsal-small.png" alt="Bonsall Img">
 				</div>
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Landing Page</h4>
-					<hr>
-					<p>
-						<ul>
-							<li>Information architecture</li>
-							<li>Wireframing</li>
-							<li>UI/UX</li>
-							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
-						</ul>
-					</p>
+				<hr>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-code"></i> Responsive Design</li>
+					<li><i class="fa fa-wordpress"></i> Wordpress Integration Design</li>
+				</ul>
+				<a href="https://filiprastovic.github.io/stargazerworkshop-freelancer-landing-page/" target="_blank">Visit Website</a>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/filiprastovic-small.png"
@@ -119,19 +116,15 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Justo</h4>
-					<hr>
-					<p>
-						<ul>
-							<li>Information architecture</li>
-							<li>Wireframing</li>
-							<li>UI/UX</li>
-							<li>HTML/SCSS/JAVASCRIPT/PHP/Wordpress</li>
-						</ul>
-					</p>
+				<hr>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-code"></i> Responsive Design</li>
+					<li><i class="fa fa-wordpress"></i> Wordpress Integration Design</li>
+				</ul>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/justo-small.png" alt="">
@@ -139,7 +132,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Natours</h4>
 					<hr>
 					<p>
@@ -149,7 +142,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/natours-small.png"
@@ -158,7 +151,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Home Manufacturer</h4>
 					<hr>
 					<p>
@@ -169,7 +162,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/ipad.png"
@@ -178,7 +171,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Web Agency</h4>
 					<hr>
 					<p>
@@ -188,7 +181,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/synico-small.png"
@@ -197,7 +190,7 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Landing Page</h4>
 					<hr>
 					<p>
@@ -208,7 +201,7 @@ get_header();
 						</ul>
 					</p>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/wadeLP-small.png"
@@ -217,17 +210,12 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">Interactive Guides Software</h4>
 					<hr>
-					<p>
-						<ul>
-							<li>UX/UI</li>
-							<li>Design</li>
-						</ul>
-					</p>
+					<a href="https://solutionbay.com/" target="_blank">Visit Website</a>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid"
 						src="<?php echo get_template_directory_uri() ?>/assets/img/portfolio/solutionbay-small.png"
@@ -236,18 +224,11 @@ get_header();
 			</div>
 		</div>
 		<div class="row gutter-bot">
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<h2 class="text-thin">eCommerce UI</h4>
-					<hr>
-					<p>
-						<ul>
-							<li>UX/UI</li>
-							<li>Design</li>
-							<li>Implementation</li>
-						</ul>
-					</p>
+				<hr>
 			</div>
-			<div class="col-md-6 mb-5">
+			<div class="col-md-8 mx-auto mb-5">
 				<div class="portfolio-box">
 					<img class="img-fluid mb-3" src="<?php echo get_template_directory_uri() ?>/assets/img/ecom-1.jpg"
 						alt="Portfolio Pics">
@@ -325,8 +306,7 @@ get_header();
 			<div class="col-md-6 mx-auto">
 				<div class="embed-responsive embed-responsive-16by9">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/IBT5_B90JJg" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen>
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 					</iframe>
 				</div>
 			</div>

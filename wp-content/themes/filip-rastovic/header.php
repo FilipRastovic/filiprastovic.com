@@ -48,17 +48,16 @@
   <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
 
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg fixed-top gray-background" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?></a>
+      <a class="navbar-brand font-weight-bold" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
       </button>

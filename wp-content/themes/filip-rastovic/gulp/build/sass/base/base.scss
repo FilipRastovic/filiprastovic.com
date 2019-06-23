@@ -3,96 +3,10 @@ body {
   width: 100%;
   height: 100%;
   text-rendering: optimizeLegibility;
+  font-family: $primary-font-family;
 }
 
 * {
   margin: 0;
   padding: 0;
-}
-
-
-body,
-.newsletter {
-  background: white;
-}
-
-h1 {
-  @include header-text();
-  font-size: $h1-size;
-  line-height: $h1-lheight;
-  
-  text-rendering: optimizeLegibility;
-
-  @media ( max-width: 990px ) {
-    font-size: $h1-size-sm;
-    line-height: $h1-lheight-sm;
-  }
-}
-
-h2 {
-  @include header-text();
-  font-size: $h2-size;
-  line-height: $h2-lheight;
-}
-
-h3 {
-  @include header-text();
-  font-size: $h3-size;
-  line-height: $h3-lheight;
-}
-
-h4 {
-  @include header-text();
-  font-weight: 300;
-  font-size: $h4-size;
-  line-height: $h4-lheight;
-}
-
-h5 {
-  @include header-text();
-  font-size: $h5-size;
-  line-height: $h5-lheight;
-  margin-bottom: 0;
-  font-weight: 400;
-}
-
-p,ul li {
-  @include body-text;
-  font-size: $paragraph-size-lg;
-  line-height: $paragraph-size-lg-lheight;
-  font-weight: 300;
-
-  @media ( max-width: 990px ) {
-    font-size: $paragraph-size-md;
-    line-height: $paragraph-size-md-lheight;
-  }
-}
-
-.page-portfolio {
-  ul {
-    margin-left: 60px;
-  }
-
-  footer ul {
-    margin-left: 0;
-  }
-}
-
-hr {
-  border-top-color: $gray-40;
-  margin: 10px 0;
-}
-
-a {
-  @include transition-all;
-  @include brand-interaction;
-  text-decoration: underline;
-}
-
-section {
-  padding: 60px 0px 0px;
-}
-
-.newsletter {
-  background: $gray-04;
 }

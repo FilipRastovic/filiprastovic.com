@@ -1,37 +1,12 @@
-.mb-5--mobile {
-	@media ( max-width: 990px ) {
-		margin-bottom: 50px; 
-	}
-}
-
-.fa {
-	font-size: 24px !important;
-}
-
-.mb-170 {
-	margin-bottom: 170px;
-}
-
-.radi-4 {
-	border-radius: 4px;
-}
-
-.text-thin {
-	font-weight: 300 !important;
-}
-
-.gutter-bot {
-	margin-bottom: 100px;
-
-	@media (min-width: 990px) {
-		margin-bottom: 150px;
-	}
-}
-
-.grey {
+.gray-background {
 	background: $gray-02;
 }
 
-.grey-out {
-	background-image: linear-gradient( to bottom, $gray-02, #fff );
+section {
+	padding: 50px 0;
+}
+
+hr {
+	border-color: $green;
+	border-width: 3px;
 }

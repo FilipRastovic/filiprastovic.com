@@ -17,30 +17,30 @@ get_header();
 <header class="header">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7">
-				<h1 class="section-heading text-thin"><?php _e( 'Welcome!' , 'filip-rastovic' ); ?></h1>
-				<hr class="">
-				<p>I'm Filip, a <strong>freelance front-end developer</strong>. I implement designs into semantic, validated markup and modular/scaleable/modern CSS/SCSS. See my <a href="/portfolio">portfolio</a>, 
-				learn about my <a href="/process">process</a>, check out some of my <a href="https://github.com/FilipRastovic" target="_blank">code samples</a>, or get my <a
-						href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-FrontEnd-Developer-Resume.pdf"
-						target="_blank">resume</a>. As a hobby I code sci-fi <a target="_blank" href="http://codepen.io/FilipRastovic">interfaces</a> from movies &amp; cartoons.</p>
-			</div>
-			<div class="col-md-5 mt-5">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7ogCVJYuvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
+			<div class="col-md-12">
+				<h1>Front-End Development</h1>
+				<hr>
+				<p class="lead mb-4">I'm Filip, a <strong>freelance front-end developer</strong> based in Serbia. I work with
+					companies all around the world helping them
+					build better web experiences with a focus on responsive design, performance and accessibility. Check
+					out my
+					<a href="/portfolio">portfolio</a>, learn about my <a href="/process">process</a>, or get my
+					<a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-FrontEnd-Developer-Resume.pdf"
+						target="_blank">resume</a>.
+				</p>
 			</div>
 		</div>
 	</div>
 </header>
 
-<section class="side-project">
+<section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<h4 class="text-thin">Connect with me</h4>
-				<ul class="">
-				<li class="list-inline-item">
+			<div class="col-md-6">
+				<h2>Connect with me</h2>
+				<hr>
+				<ul class="mb-5">
+					<li class="list-inline-item">
 						<a href="http://codepen.io/FilipRastovic" target="_blank">
 							<i class="fa fa-codepen"></i>
 						</a>
@@ -76,6 +76,14 @@ get_header();
 						</a>
 					</li>
 				</ul>
+			</div>
+
+			<div class="col-md-6">
+				<div class="embed-responsive embed-responsive-16by9 img-thumbnail">
+					<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/Y7ogCVJYuvE?controls=0"
+						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 	</div>

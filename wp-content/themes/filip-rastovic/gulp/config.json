@@ -1,11 +1,12 @@
 {
   "sass" : {
     "concat" : [
+      "build/sass/variables.scss",
       "node_modules/bootstrap/scss/bootstrap.scss",
       "node_modules/font-awesome/css/font-awesome.css",
-      "build/sass/variables.scss",
       "build/sass/base/mixins.scss",
       "build/sass/base/base.scss",
+      "build/sass/base/typography.scss",
       "build/sass/layout/*.scss",
       "build/sass/module/**/*.scss",
       "build/sass/utilities/**/*.scss"

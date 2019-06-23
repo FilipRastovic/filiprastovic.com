@@ -1,33 +1,13 @@
 /* Theme collors */
-$brand:	#2ecc71;
-$brand-hover:	#41ed88;
-$brand-pressed:	#115b30;
-$brand-disabled:	#6ff2a6;
+$green:	#2ecc71;
+$green-hover:	#41ed88;
+$green-pressed:	#115b30;
+$green-disabled:	#6ff2a6;
 
 $red:	#E15554;
 $red-hover: #e46362;
 $red-pressed: #dc3837;
 $red-disabled: #f5c8c8;
-
-$blue: #53D1FF;
-$blue-hover: rgb(112, 215, 252);
-$blue-pressed: #00ADEC;
-$blue-disabled: #97E3FF;
-
-/* Messaging Colors */
-$green-success:  #3BB273;
-$green-success-bg: #EBF7F1;
-$yellow-warning: #E1BC29;
-$yellow-warning-bg: #FCF8E9;
-$red-error: #E15554;
-$red-error-bg: #FCEEED;
-$blue-neutral: #3D70B2;
-$blue-neutral-bg: #EBF0F7;
-
-/* Gradient */
-$background-gradient: linear-gradient( 60deg, #322a32, #272128 );
-$card-gradient: linear-gradient( 30deg, #384348, #2b2a2d );
-$heading-gradient: linear-gradient( to right, #2b2a2d, #2e2d30 );
 
 /* Grayscale */
 $white: #fff;
@@ -38,41 +18,20 @@ $gray-12: #E2E3E3;
 $gray-20: #D0D1D1;
 $gray-40: #A1A2A3;
 $gray-70: #5A5C5E;
+$gray-75: #5d5d5d;
 $gray-80: #434548;
 $gray-90: #2B2E30;
 $gray-100: #14171A;
 
-/* Typography */
+$primary-font-family: 'Open Sans', sans-serif;
 
-/* Headings */
-$primary-font-family: 'Roboto Slab', serif;
-
-$h1-size: 3rem;
-$h1-lheight: 3.5rem;
-
-$h1-size-sm: 2.4375rem;
-$h1-lheight-sm: 2.875rem;
-
-$h2-size: 2rem;
-$h2-lheight: 2.5rem;
-
-$h3-size: 1.5rem;
-$h3-lheight: 2rem;
-
-$h4-size: 1.25rem;
-$h4-lheight: 1.5rem;
-
-$h5-size: 1rem;
-$h5-lheight: 1.5rem;
-
-/* Body text */
-$secondary-font-family: 'Lato', sans-serif;
+$primary: #212529;
 
 $paragraph-size-lg: 1.25rem;
 $paragraph-size-lg-lheight: 2.1875rem;
 
-$paragraph-size-md: 1rem;
-$paragraph-size-md-lheight: 1.8125rem;
+$paragraph-size-md: 20px;
+$paragraph-size-md-lheight: 1.6;
 
 $caption-size: 0.75rem;
 $caption-lheight: 1.25rem;
@@ -81,10 +40,3 @@ $btn-text-size: 1rem;
 $link-text-lheight: 1.8125rem;
 
 $link-text-size: 0.875rem;
-
-/* Labels */
-$label-lg: 1rem;
-$label-lg-lheight: 1.5rem;
-$label-md: 0.875rem;
-$label-sm: 0.75rem;
-$label-sm-lheight: 1rem;

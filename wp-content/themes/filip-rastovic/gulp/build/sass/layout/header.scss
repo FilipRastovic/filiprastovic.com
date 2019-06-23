@@ -1,17 +1,7 @@
 .header {
-	padding: 120px 0;
+	padding: 100px 0 50px;
 
-
-	@media ( min-width: 990px ) {
-
-		padding: 150px 0 0px;
-
-	}
-
-
-	@media ( min-width: 1400px ) {
-
-		padding: 200px 0 0px;
-
-	}
+	@include media-breakpoint-up(md) { 
+		padding: 150px 0 50px;
+	 }
 }

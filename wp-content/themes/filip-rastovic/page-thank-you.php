@@ -23,7 +23,7 @@ get_header();
         <hr class="my-4">
         <p class="mb-5">I'll get to you as soon as possible!</p>
         <p>You can read my blog in the meantime</p>
-        <a href="/blog" class="btn btn-secondary btn-square">Read Blog</a href="/blog">
+        <a href="/blog" class="btn btn-primary btn-square">Read Blog</a href="/blog">
       </div>
     </div>
   </div>
