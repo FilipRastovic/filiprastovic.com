@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+
 var flag;
 
 console.log( flag );
@@ -23,4 +23,4 @@ $( '#haircut' ).on( 'click', function() {
 
 	$( '.filipo' ).attr( 'src', string );
 
-});});
+});

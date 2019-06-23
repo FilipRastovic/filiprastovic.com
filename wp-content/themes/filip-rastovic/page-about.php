@@ -31,7 +31,8 @@ get_header();
     <div class="row">
       <div class="col-md-6">
         <h2>Welcome to my website</h2>
-        <p>I'm Filip, a freelance developer/designer based in Novi Sad, Serbia.
+        <hr>
+        <p>I'm Filip, a freelance front-end developer based in Novi Sad, Serbia.
         As a kid I would
         spend my time making toys, reading
         comics, epic fantasy novels and playing
@@ -52,7 +53,7 @@ get_header();
       </div>
       <div class="col-md-5 offset-md-1">
         <figure>
-          <img class="img-fluid radi-4 shadow" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
+          <img class="img-fluid rounded-circle shadow" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
         </figure>
       </div>
     </div>

@@ -311,7 +311,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<div class="row gutter-bot">
+		<div class="row gutter-bot mt-5">
 			<div class="col-md-12 text-center">
 				<h4 class="mb-4">How I Create Websites Free eBook</h4>
 				<hr>

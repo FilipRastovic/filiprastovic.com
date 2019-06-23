@@ -18,7 +18,11 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-4 offset-7 col-md-2 offset-md-10 mb-3">
-				<img class="img-fluid rounded-circle shadow" src="<?php bloginfo('template_url') ?>/assets/img/long-hair.jpg" alt="Filip Rastovic">
+				<figure class="text-center">
+					<img class="filipo img-fluid rounded-circle shadow mb-3" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
+					<figcaption><a id="haircut" >Click to cut my hair!</a></figcaption>
+
+				</figure>
 			</div>
 			<div class="col-md-12">
 				<h1>Freelance Front-End Developer</h1>
@@ -207,11 +211,12 @@ get_header();
 				<h4>Some facts:</h4>
 				<hr>
 				<ul class="ml-3">
+					<li>Talks a lot</li>
 					<li>Loves summer, hates winter.</li>
 					<li>Drinks fruit smoothies each morning.</li>
 					<li>Uses polished photos for marketing purposes.</li>
 					<li>Sometimes thinks reality is a computer generated simulation.</li>
-					<li>Spent more than 120 days playing a video game during high school.</li>
+					<li>Spent more than 200 days playing a video games during high school.</li>
 				</ul>
 			</div>
 			<div class="col-md-7 col-lg-7 text-right p-0">

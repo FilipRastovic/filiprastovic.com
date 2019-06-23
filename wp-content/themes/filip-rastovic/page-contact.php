@@ -27,10 +27,13 @@ get_header();
 		<div class="row gutter-bot">
 			<div class="col-md-6">
 				<h2>Welcome to my website</h2>
+				<hr>
 				<p>Hello there! If you're looking for a front-end developer feel free to get in touch with me filling
 					out the form below. Please, the more you can tell me about your project, the better.</p>
       </div>
       <div class="col-md-6">
+		  	<div class="col-md-4">
+			  </div>
 				<form
 					action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 					method="post" id="contactForm" name="sentMessage">
