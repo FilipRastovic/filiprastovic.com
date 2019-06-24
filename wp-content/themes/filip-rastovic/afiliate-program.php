@@ -18,6 +18,8 @@ $username = "u111992089_isot";
 $password = "jXuETTKh5jHw";
 $dbname = "u111992089_isot";
 
+header("Access-Control-Allow-Origin: *");
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -27,9 +29,11 @@ if ($conn->connect_error) {
 
 $data = $_POST['afiliateName'] or $_REQUEST['afiliateName'];
 
-var_dump ( $data );
+if ( $data !== null && $data ==! '' ) {
 
-$sql = "INSERT INTO afiliates ( Name ) VALUES ('$data')";
+	$sql = "INSERT INTO afiliates ( Name ) VALUES ('$data')";
+
+}
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
