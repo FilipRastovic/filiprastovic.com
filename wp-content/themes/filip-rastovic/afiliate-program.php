@@ -34,7 +34,7 @@ if ( $data !== null ) {
 
 }
 
-header('Content-type: application/xml');
+header("Content-Type: text/html");
 
 
 if ($conn->query($sql) === TRUE) {
