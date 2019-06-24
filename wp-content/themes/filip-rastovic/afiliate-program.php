@@ -27,19 +27,11 @@ if ($conn->connect_error) {
 
 $data = $_POST['afiliateName'] or $_REQUEST['afiliateName'];
 
-if ( $data !== null && $data ==! '' ) {
-
-	$sql = "INSERT INTO afiliates ( Name ) VALUES ('$data')";
-
-}
+$sql = "INSERT INTO afiliates ( Name ) VALUES ('$data')";
 
 if ($conn->query($sql) === TRUE) {
-	header('Access-Control-Allow-Origin: *');
-	header('Content-Type: application/json');
     echo "New record created successfully";
 } else {
-	header('Access-Control-Allow-Origin: *');
-	header('Content-Type: application/json');
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
