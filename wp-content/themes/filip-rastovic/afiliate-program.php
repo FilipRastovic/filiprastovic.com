@@ -18,8 +18,6 @@ $username = "u111992089_isot";
 $password = "jXuETTKh5jHw";
 $dbname = "u111992089_isot";
 
-header("Access-Control-Allow-Origin: *");
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -36,8 +34,12 @@ if ( $data !== null && $data ==! '' ) {
 }
 
 if ($conn->query($sql) === TRUE) {
+	header('Access-Control-Allow-Origin: *');
+	header('Content-Type: application/json');
     echo "New record created successfully";
 } else {
+	header('Access-Control-Allow-Origin: *');
+	header('Content-Type: application/json');
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
