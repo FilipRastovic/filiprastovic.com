@@ -34,11 +34,8 @@ if ( $data !== null ) {
 
 }
 
-header('Access-Control-Allow-Origin: *');
+header('Content-type: application/xml');
 
-header('Access-Control-Allow-Methods: GET, POST');
-
-header("Access-Control-Allow-Headers: X-Requested-With");
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
