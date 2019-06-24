@@ -83,6 +83,11 @@ get_header();
 						</a>
 					</li>
 				</ul>
+
+				<i class="fa fa-code"></i>
+				<a href="https://codepen.io/FilipRastovic/pen/pXgqKK" target="_blank">See my latest code sample / UI prototype on CodePen</a>
+
+				
 			</div>
 
 			<div class="col-md-6">
@@ -92,7 +97,6 @@ get_header();
 						allowfullscreen></iframe>
 				</div>
 			</div>
-	
 		</div>
 	</div>
 </section>
