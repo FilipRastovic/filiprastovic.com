@@ -27,7 +27,12 @@ if ($conn->connect_error) {
 
 $data = $_POST['afiliateName'] or $_REQUEST['afiliateName'];
 
-$sql = "INSERT INTO afiliates ( Name ) VALUES ('$data')";
+
+if ( $data !== null ) {
+
+	$sql = "INSERT INTO afiliates ( Name ) VALUES ('$data')";
+
+}
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
