@@ -21,13 +21,23 @@ h6 {
 
 .lead {
 
+	a {
+		text-decoration-color: $green;
+	}
+
 	@include media-breakpoint-up(md) { 
 		font-size: 2rem !important;
 	 }
 }
 
 p {
+	font-weight: 300;
 	font-size: 1.25rem;
+	
+	@include media-breakpoint-up(md) {
+		font-weight: 400;
+	}
+	
 }
 
 .page-template-page-portfolio section {

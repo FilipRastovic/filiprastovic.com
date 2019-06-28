@@ -90,7 +90,7 @@ get_header();
 				
 			</div>
 
-			<div class="col-md-6">
+			<div class="col-md-6 mt-4">
 				<div class="embed-responsive embed-responsive-16by9 img-thumbnail">
 					<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/Y7ogCVJYuvE?controls=0"
 						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -111,12 +111,12 @@ get_header();
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col-md-6">
+			<div class="col-md-6 mt-5">
 				<p>Filip has a unique combo of skills: design & development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</p>
 				<hr class="light">
 				<span class="text-muted">Robert Molnar, Customr.app</span>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mt-5">
 				<p>I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way. 
 						For my next projects for landing pages I would would with him again. 
 						Thank you Filip!</p>
@@ -125,12 +125,12 @@ get_header();
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col-md-6">
+			<div class="col-md-6 mt-5">
 				<p>Simply awesome experience working with Filip. It's especially difficult to manage a project that requires programming since you have to anticipate the time it takes to debug and make modifications to the project but it was easy working with someone who has the patience and understanding to handle projects like this. Looking forward to working with him again in the future. Thank you!</p>
 				<hr class="light">
 				<span class="text-muted">Jason Coleman</span>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 mt-5">
 				<p>Filip was AMAZING! The only reason we are ending the contract is because he got too busy with bigger projects. I am sad to loose him as he is awesome. I would definitely hire again and again. If you have the opportunity to work with Filip, you should absolutely do it, he will make you proud!</p>
 				<hr class="light">
 				<span class="text-muted">Liam Shy</span>
