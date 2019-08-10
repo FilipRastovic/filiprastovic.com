@@ -28,7 +28,7 @@ get_header();
 			<div class="col-md-6">
 				<h2>Welcome to my website</h2>
 				<hr>
-				<p>Hello there! If you're looking for a front-end developer feel free to get in touch with me filling
+				<p>Hello there! If you're looking for a <b>landing page expert</b> feel free to get in touch with me filling
 					out the form below. Please, the more you can tell me about your project, the better.</p>
       </div>
       <div class="col-md-6">

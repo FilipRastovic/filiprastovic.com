@@ -31,7 +31,7 @@ get_header();
 					companies all around the world helping them
 					build better web experiences with focus on <b>conversions</b>, performance and accessibility. Check
 					out my
-					<a href="/portfolio">portfolio</a>, learn about my <a href="/process">process</a>, get my
+					<a href="/landing-page-design-service/">portfolio</a>, learn about my <a href="/process">process</a>, get my
 					<a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-FrontEnd-Developer-Resume.pdf"
 						target="_blank">resume</a> or send me an <a href="mailto:filiporastovic@gmail.com" target="_top">email</a>.
 				</p>
