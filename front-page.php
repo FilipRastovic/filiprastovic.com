@@ -24,12 +24,12 @@ get_header();
 
 				</figure>
 			</div>
-			<div class="col-md-12">
-				<h1>Freelance Front-End Developer</h1>
+			<div class="col-md-8">
+				<h1>Expert Landing Page Designer</h1>
 				<hr>
-				<p class="lead mb-4">I'm Filip, a <strong>freelance front-end developer</strong> based in Serbia. I work with
+				<p class="lead mb-4">I'm Filip, a <strong>Expert Landing Page Designer</strong> based in Serbia. I work with
 					companies all around the world helping them
-					build better web experiences with a focus on responsive design, performance and accessibility. Check
+					build better web experiences with focus on <b>conversions</b>, performance and accessibility. Check
 					out my
 					<a href="/portfolio">portfolio</a>, learn about my <a href="/process">process</a>, get my
 					<a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-FrontEnd-Developer-Resume.pdf"
@@ -91,11 +91,8 @@ get_header();
 			</div>
 
 			<div class="col-md-6 mt-4">
-				<div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-					<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/Y7ogCVJYuvE?controls=0"
-						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/clarity-enhanced.png" alt=""
+					class="img-fluid">
 			</div>
 		</div>
 	</div>
@@ -167,6 +164,25 @@ get_header();
 			</div>
 		</div>
 		<div class="row">
+		<div class="col-md-4 text-center mb-5">
+				<i class="mb-4 fa fa-paint-brush"></i>
+				<h5>Web Design</h5>
+				<hr class="light">
+				<p class="ml-1 mr-1">Principles of visual arts applied to web pages. I'm constatly learning about new styles and web trends. The way the web looks fascinated me since I was very young.</p>
+			</div>
+			<div class="col-md-4 text-center mb-5">
+				<i class="fa mb-4 fa-bullseye"></i>
+				<h5>Conversions</h5>
+				<hr class="light">
+				<p class="ml-1 mr-1">What makes people say yes? I've been obsessed with this question so much, it has lead me to research and learn more and more about design.</p>
+			</div>
+
+			<div class="col-md-4 text-center mb-5">
+				<i class="mb-4 fa fa-comments"></i>
+				<h5>Consulting</h5>
+				<hr class="light">
+				<p class="ml-1 mr-1">I offer consulting services to creative bussinesses and individuals that are in need of a stronger online presence.</p>
+			</div>
 			<div class="col-md-4 text-center mb-5">
 				<i class="mb-4 fa fa-html5"></i>
 				<h4>HTML</h4>
@@ -184,25 +200,6 @@ get_header();
 				<h5>JavaScript</h5>
 				<hr class="light">
 				<p class="ml-1 mr-1">JavaScript, the language of the web, it's responsible for everything going on in your web browser. I love using JS to create drawings!</p>
-			</div>
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-mobile"></i>
-				<h5>Responsive Design</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">We surf the web using devices with different screen sizes. Responsive design is a set of techniques that allow websites to change their layout based on your device's screen.</p>
-			</div>
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-wordpress"></i>
-				<h5>Wordpress</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">Most popular CMS on the planet, Wordpress allows non developers to edit the website content very easily. When I create themes I make sure UX for the admin is amazing as well.</p>
-			</div>
-
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-comments"></i>
-				<h5>Consulting</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">I offer consulting services to creative bussinesses and individuals that are in need of a stronger online presence.</p>
 			</div>
 		</div>
 	</div>

@@ -20,45 +20,6 @@ get_header();
 	</div>
 </header>
 
-<!-- Tabs -->
-<!-- <section class="grey">
-	<div class="container">
-		<div class="row">
-      <div class="col-md-4 text-center mb-5">
-        <img class="service-icon" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/web-design.png" alt="Wireframes Image">
-        <h3>Wireframes</h3>
-        <p>Wireframes are skeletons of every website. We use them to concetualize the layout, how your content will be placed and where. They're essential part for creating a proper information architecture.</p>
-      </div>
-      <div class="col-md-4 text-center mb-5">
-        <img class="service-icon" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/web-design-mockup.png" alt="Mockups Image">
-        <h3>Mockups</h3>
-        <p>We take the wireframes and apply styling to them, that means adding colors, images, copywriting &amp; all other neccecary media we wish our website to have. I do this in Sketch, Photoshop or Adobe XD.</p>
-      </div>
-      <div class="col-md-4 text-center mb-5">
-        <img class="service-icon" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/responsive.png" alt="Responsive Image">
-        <h3>Responsive Design</h3>
-        <p>People are surfing the web today more than ever, on their desktops, laptops, tablets &amp; mobile phones. Developing for all these devices is called responsive design.</p>
-      </div>
-      <div class="col-md-4 text-center mb-5">
-        <img class="service-icon" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/wordpress-logo.png" alt="Responsive Image">
-        <h3>Wordpress Integration</h3>
-        <p>Wordpress is an extremely popular content management system. It allows non developers to edit the website content very easily. The process of turning a static website into an easily editable website is called WP integraiton.</p>
-      </div>
-      <div class="col-md-4 text-center mb-5">
-        <img class="service-icon" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/consulting.png" alt="Consulting Image">
-        <h3>Web Consulting</h3>
-        <p>I offer web consulting about best practices when it comes to front-end development and design.</p>
-      </div>
-      <div class="col-md-4 text-center mb-5">
-        <img class="service-icon" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/consult.png" alt="Lessons Image">
-        <h3>Web Lessons</h3>
-        <p>I started giving programming lessons during collage, once my students started programming without my help it made me feel great. That's when I realized I love sharing my knowledge with others.</p>
-      </div>
-      <hr>
-		</div>
-	</div>
-</section> -->
-
 <section class="gray-background">
 	<div class="container">
 		<div class="row">

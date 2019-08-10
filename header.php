@@ -57,7 +57,9 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top gray-background" id="mainNav">
     <div class="container">
-      <a class="navbar-brand font-weight-bold" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?></a>
+      <a class="navbar-brand font-weight-bold" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?>
+      <br> <small>Expert Landing Page Design</small>
+    </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
       </button>
