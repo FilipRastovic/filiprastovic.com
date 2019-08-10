@@ -27,7 +27,7 @@ get_header();
 			<div class="col-md-8">
 				<h1>Expert Landing Page Designer</h1>
 				<hr>
-				<p class="lead mb-4">I'm Filip, a <strong>Expert Landing Page Designer</strong> based in Serbia. I work with
+				<p class="lead mb-5">I'm Filip, a <strong>Expert Landing Page Designer</strong> based in Serbia. I work with
 					companies all around the world helping them
 					build better web experiences with focus on <b>conversions</b>, performance and accessibility. Check
 					out my
@@ -35,6 +35,7 @@ get_header();
 					<a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-FrontEnd-Developer-Resume.pdf"
 						target="_blank">resume</a> or send me an <a href="mailto:filiporastovic@gmail.com" target="_top">email</a>.
 				</p>
+				<a href="/contact" class="btn-primary p-3 text-decoration-none text-white">I NEED A LANDING PAGE</a>
 			</div>
 		</div>
 	</div>
