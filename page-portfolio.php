@@ -167,7 +167,7 @@ get_header();
 			</div>
 			<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
 				<h2 class="font-weight-bold">Brolen Homes</h2>
-				<p class="font-weight-light text-muted">Brolen Homes is a home manufacturer, our job was desining this landing page for their summer marketing campaign.</p>
+				<p class="font-weight-light text-muted">Brolen Homes is a home manufacturer, my job was designing this landing page for their summer marketing campaign.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-info-circle mr-2"></i>Wireframes</li>
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
@@ -182,20 +182,22 @@ get_header();
 <section class="page-section--portfolio bg-grey">
 	<div class="container">
 		<div class="row">
-			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-				<div class="screenshot">
-					
-					<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
-
-				</div>
-			</div>
-			<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
+		<div class="col-lg-4">
 				<h2 class="font-weight-bold">Pricing Page</h2>
 				<p class="font-weight-light text-muted">This is a pricing landing page for a software product, our job was working closely with another designer in coming up with this awesome implementation.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
 				</ul>
 			</div>
+
+			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+				<div class="screenshot">
+					
+					<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
+
+				</div>
+			</div>
+
 		</div>
 	</div>
 </section>

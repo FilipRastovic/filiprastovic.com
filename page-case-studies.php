@@ -43,7 +43,7 @@ get_header();
 				<h2 class="font-weight-bold">The Process</h2>
 			</div>
 			<div class="col-lg-6 pl-5">
-				<p class="font-weight-light">Customr.app is a Budapest based AI analytics survey app developer. The company CEO wanted a modern looking landing page to help him explain what the application is about and start collecting leads with a form where visitors can sign up for the demo of the app. Robert, the company CEO got in touch with me after searching for a single person to both develop and design him a landing page. We got in touch on skype and after a nice chat he sent me over the pdf abstract document he has put together. It was a complex document that I had to simplify and turn into a website presentation that is user friendly. I than began desining the page following my standard workflow process and sent him over the image files of the initial design. We iterated a few times and eventually created a design that we both liked. I then started coding by forking a bootstrap template with pre built gulpjs configuration and scss partials for efficient development. I coded the static page and then turned it into a WordPress theme, utilizing the Custom Field plugin to allow Robert to change all the content on the page: images that were in the sliders, text in every section and social urls. Robert and I moved into another project after this one, design and development of his personal analytics services company.</p>
+				<p class="font-weight-light">Customr.app is a Budapest based AI analytics survey app developer. The company CEO wanted a modern looking landing page to help him explain what the application is about and start collecting leads with a form where visitors can sign up for the demo of the app. Robert, the company CEO got in touch with me after searching for a single person to both develop and design him a landing page. We got in touch on skype and after a nice chat he sent me over the pdf abstract document he has put together. It was a complex document that I had to simplify and turn into a website presentation that is user friendly. I then began designing the page following my standard workflow process and sent him over the image files of the initial design. We iterated a few times and eventually created a design that we both liked. I then started coding by forking a bootstrap template with pre built gulpjs configuration and scss partials for efficient development. I coded the static page and then turned it into a WordPress theme, utilizing the Custom Field plugin to allow Robert to change all the content on the page: images that were in the sliders, text in every section and social urls. Robert and I moved into another project after this one, design and development of his personal analytics services company.</p>
 			</div>
 		</div>
 		<div class="row mb-5">
@@ -174,14 +174,14 @@ get_header();
 			</div>
 			<div class="col-lg-6 pl-5">
 				<p class="font-weight-light">Radiance is a beauty salon in Toronto. Their marketing coordinator got in touch with me because her Unbounce landing 
-				pages weren't converting as much as she wanted. After successfully redesining some of her pages and bringing up their conversion ratios by 
-				more than 60% I had to design a completley new page for a new marketing campaign which. It was a simple page with great results, it ended 
+				pages weren't converting as much as she wanted. After successfully re-designing some of her pages and bringing up their conversion ratios by 
+				more than 60% I had to design a completely new page for a new marketing campaign which. It was a simple page with great results, it ended 
 				up converting more than 11% of the visitors!</p>
 			</div>
 		</div>
 		<div class="row mb-5">
 			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
+				<!-- <h2 class="font-weight-bold">Client Review</h2> -->
 			</div>
 			<!-- <div class="col-lg-6 pl-5">
 				<p class="font-weight-light"><i>I needed someone who can design AND develop a landing page and upload it to my website. Filip

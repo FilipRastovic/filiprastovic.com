@@ -27,8 +27,8 @@ get_header();
 		<h2 class="font-weight-bold text-primary">Hi I'm Filip Rastovic</h2>
         <p class="font-weight-light">I'm Filip, a passionate web designer and software developer. I've been fascinated with the way technology, especially software, 
 			look and feel like since an early age and I always knew my future will have something to do with it. My path lead me to the intersection of visual arts 
-			and software engineering, a blade's edge where I feel most comfortable. While desining landing pages is my daily job and a business, in my spare time I enjoy 
-			drawing using code and algorthims, writing, making video games with my friends and producting educational youtube videos.
+			and software engineering, a blade's edge where I feel most comfortable. While designing landing pages is my daily job and a business, in my spare time I enjoy 
+			drawing using code and algorithms, writing, making video games with my friends and producing educational youtube videos.
 		</p>
 		<p class="font-weight-light mb-5">
 			Looking forward to hearing from you.

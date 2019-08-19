@@ -132,7 +132,7 @@ get_header();
 					40+ Satisfied Clients
 				</h2>
 				<p class="font-weight-light text-muted mb-4">
-					Our design process has been critical the to success of y clients. In partnership with you and your team, I guide you from start to finish through the process of 
+					Our design process has been critical to success of my clients. In partnership with you and your team, I guide you from start to finish through the process of 
 					designing and developing a landing page that speaks directly to your customers.
 				</p>
 				<h5 class="text-uppercase font-weight-bold text-primary mb-3">
@@ -140,7 +140,7 @@ get_header();
 				</h5>
 				<p class="font-weight-light text-muted mb-5">
 					Conversion centered design is a combination of both graphic design and marketing principles that are aware of low attention span the average human has today.
-					There is too much content on the web, and the way to capture someone's attention is to levarage the principles of visual design with a strong persuasive copy.
+					There is too much content on the web, and the way to capture someone's attention is to leverage the principles of visual design with a strong persuasive copy.
 				</p>
 				<a href="/portfolio" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i class="fas fa-eye"></i>SEE MY RECENT WORK</a>
 
@@ -177,7 +177,7 @@ get_header();
 								<li class=" font-weight-light">Strong Messaging</li>
 								<li class=" font-weight-light">Enticing Content</li>
 								<li class=" font-weight-light">Authority</li>
-								<li class=" font-weight-light">Trustwhortiness</li>
+								<li class=" font-weight-light">Trustworthiness</li>
 							</ul>
 						</div>
 						</div>
@@ -245,13 +245,13 @@ get_header();
 				<h2 class="font-weight-bold mb-4">
 					Am I a got fit for your project?
 				</h2>
-				<p class="font-weight-light text-muted mb-4">While I welcome inquires from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+				<p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Are small to medium in size ( approximately 10 - 100 employees)
 					</li>
 					<li class="mb-3">
-						<i class="fas fa-check mr-2"></i>Have a opportunity to build growth through their marketing plan
+						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
 					</li>
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset

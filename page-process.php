@@ -47,7 +47,7 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
 				<h6 class="text-primary mb-2">More leads</h6>
-				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, we can help your landing pages generate more higher quality leads.</p>
+				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, we can help your landing pages generate higher quality leads.</p>
 
 			</div>
 
@@ -74,15 +74,15 @@ get_header();
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
-				<h6 class="text-primary mb-2">Complicance with standards</h6>
-				<p class="font-weight-light text-muted">Avoid pentalties and fines by complying with all governmental guidelines as well as web accessibility standards and requierments.</p>	
+				<h6 class="text-primary mb-2">Compliance with standards</h6>
+				<p class="font-weight-light text-muted">Avoid penalties and fines by complying with all governmental guidelines as well as web accessibility standards and requirements.</p>	
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".5s">
 
 					<h6 class="text-primary mb-2">Post-launch support</h6>
-					<p class="font-weight-light text-muted">After you landing pages are live, we'll resolvea ny unexpected issues and be around to answer your questions.</p>
+					<p class="font-weight-light text-muted">After you landing pages are live, we'll resolve any unexpected issues and be around to answer your questions.</p>
 					
 			</div>
 		</div>
@@ -124,7 +124,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">I don't know to do everything, but the things I do know, I know well.</p>
+				<p class="font-weight-light text-muted mb-4">I don't know how to do everything, but the things I do know, I know well.</p>
 			</div>
 
 		</div>
@@ -135,7 +135,7 @@ get_header();
 					<div class="icon"><i class="fas fa-info"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Information Architecture</h6>
-						<p class="font-weight-light text-muted">We discuss on the best way to break down your unique selling points into something easy to digest.</p>
+						<p class="font-weight-light text-muted">We discuss the best way to break down your unique selling points into something easy to digest.</p>
 					</div>
 				</div>
 				
@@ -145,7 +145,7 @@ get_header();
 					<div class="icon"><i class="fas fa-users"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">UX &amp; Market Research</h6>
-						<p class="font-weight-light text-muted">We check what your competitors are doing, thoroughly analyise their UX and build something greater on top of that.</p>
+						<p class="font-weight-light text-muted">We check what your competitors are doing, thoroughly analyze their UX and build something greater on top of that.</p>
 					</div>
 				</div>
 				
@@ -176,7 +176,7 @@ get_header();
 					<div class="icon"><i class="fas fa-star"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Interaction &amp; Motion</h6>
-						<p class="font-weight-light text-muted">Micro interactions, animations and motion bring delight to your audience making them love your brand.</p>
+						<p class="font-weight-light text-muted">Micro interactions, animations and motion bring delight to your audience by making them love your brand.</p>
 					</div>
 				</div>
 				
