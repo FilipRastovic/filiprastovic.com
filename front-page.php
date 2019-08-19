@@ -155,7 +155,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 self-align-end">
-				<h2 class="text-uppercase font-weight-bold mb-5">I I can help you to ...</h2>
+				<h2 class="text-uppercase font-weight-bold mb-5">I can help you to ...</h2>
 			</div>
 			<div class="col-lg-8 align-self-end">
 				<div class="accordion" id="accordionExample">
@@ -243,7 +243,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6 position-relative">
 				<h2 class="font-weight-bold mb-4">
-					Are I a got fit for your project?
+					Am I a got fit for your project?
 				</h2>
 				<p class="font-weight-light text-muted mb-4">While I welcome inquires from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
