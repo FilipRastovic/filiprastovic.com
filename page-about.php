@@ -75,7 +75,7 @@ get_header();
 				<form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 				method="post">
 					<div class="text-center mb-4">
-						<p class="h5 font-weight-light text-primary text-center">Schedule your <u class="font-weight-bold text-uppercase">free</u> consultation!</p>
+						<p class="h5 font-weight-light text-primary text-center">Schedule your <u class="font-weight-bold text-uppercase">paid</u> consultation!</p>
 					</div>
 					<div class="form-row">
 						<div class="form-group required col-md-6">
