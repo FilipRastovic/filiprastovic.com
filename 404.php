@@ -10,51 +10,23 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<header class="header" id="thank-you">
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center text-center">
 
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'filip-rastovic' ); ?></h1>
-				</header><!-- .page-header -->
+			<div class="col-lg-10 align-self-end">
+				<h1 class="text-uppercase font-weight-bold">Page not found!</h1>
+				<hr class="divider my-4">
+			</div>
 
-				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'filip-rastovic' ); ?></p>
+			<div class="col-lg-10 align-self-baseline">
+      			  <p class="font-weight-light">Go back home?</p>
+				<a href="/" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Go Back</a>
+			</div>
 
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'filip-rastovic' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$filip_rastovic_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'filip-rastovic' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$filip_rastovic_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+		</div>
+	</div>
+</header>
 
 <?php
 get_footer();

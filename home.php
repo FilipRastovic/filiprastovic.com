@@ -10,21 +10,28 @@ get_header();
 ?>
 
 <header class="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 mx-auto text-center">
-        <h1 class="section-heading">Blog</h1>
-        <hr class="my-4">
-        <p class="mb-5">I write about freelance web development &amp; design.</p>
-      </div>
-    </div>
-  </div>
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center text-center">
+
+			<div class="col-lg-10 align-self-end">
+				<h1 class="text-uppercase font-weight-bold">Read my blog!</h1>
+				<hr class="divider my-4">
+			</div>
+
+			<div class="col-lg-10 align-self-baseline">
+				<p class="font-weight-light text-uppercase mb-5">I love writing about freelancing, design and web development. 
+				</p>
+				<a href="#content" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read blog</a>
+			</div>
+
+		</div>
+	</div>
 </header>
 
-<section class="blog-section">
+<section class="blog-section" id="content">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 mx-auto">
+      <div class="col-md-7 mx-auto">
 
         <?php
       if ( have_posts() ) :

@@ -1,42 +1,12 @@
-/* Theme collors */
-$green:	#2ecc71;
-$green-hover:	#41ed88;
-$green-pressed:	#115b30;
-$green-disabled:	#6ff2a6;
+$blue: #00f !default;
 
-$red:	#E15554;
-$red-hover: #e46362;
-$red-pressed: #dc3837;
-$red-disabled: #f5c8c8;
+$primary: $blue !default;
 
-/* Grayscale */
-$white: #fff;
-$gray-02: #fbfbfb;
-$gray-04: #F6F6F6;
-$gray-08: #EDEDED;
-$gray-12: #E2E3E3;
-$gray-20: #D0D1D1;
-$gray-40: #A1A2A3;
-$gray-70: #5A5C5E;
-$gray-75: #5d5d5d;
-$gray-80: #434548;
-$gray-90: #2B2E30;
-$gray-100: #14171A;
+$font-family-sans-serif: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji', sans-serif  !default;
 
-$primary-font-family: 'Open Sans', sans-serif;
+$font-family-base: $font-family-sans-serif !default;
 
-$primary: #212529;
+$headings-font-family: $font-family-sans-serif !default;
 
-$paragraph-size-lg: 1.25rem;
-$paragraph-size-lg-lheight: 2.1875rem;
-
-$paragraph-size-md: 20px;
-$paragraph-size-md-lheight: 1.6;
-
-$caption-size: 0.75rem;
-$caption-lheight: 1.25rem;
-
-$btn-text-size: 1rem;
-$link-text-lheight: 1.8125rem;
-
-$link-text-size: 0.875rem;
+// Custom variables
+$nav-height: 102px;

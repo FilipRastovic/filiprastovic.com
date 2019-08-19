@@ -1,69 +1,39 @@
-.btn,
-input#submit {
-	text-align: center;
-	border: 1px solid transparent;
-	font-size: $btn-text-size;
-	line-height: $link-text-lheight;
-	border-radius: 4px;
-	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-	box-shadow: 2px 2px 12px rgb(245, 245, 245);
-	@include transition-all;
-}
+.btn {
+	font-family: $font-family-sans-serif;
+	letter-spacing: 2px;
 
-.btn-primary,
-input#submit {
-	color: $gray-12;
-	background-color: $red;
-	padding: 3px 32px;
-	
-	&:hover {
-		background-color: $red-hover;
-		border: 1px solid transparent;
-	}
-
-	&:not(:disabled):not(.disabled):active, 
-	&:not(:disabled):not(.disabled).active, 
-	.show > &.dropdown-toggle {
-		background-color: $red-pressed;
-		border: 1px solid transparent;
+	&:focus,
+	&:active:focus,
+	&.active:focus,
+	&.focus,
+	&:active.focus,
+	&.active.focus {
 		outline: none;
+		box-shadow: none;
 	}
 
-	&:disabled {
-		background-color: $red-disabled;
-	}
-}
-
-.btn-secondary {
-	background-color: $green;
-
-	&:hover {
-		background-color: $green-hover;
-		border: 1px solid transparent;
+	svg {
+		margin-right: .5rem; 
 	}
 
-	&:not(:disabled):not(.disabled):active, 
-	&:not(:disabled):not(.disabled).active, 
-	.show > &.dropdown-toggle {
-		background-color: $green-pressed;
-		border: 1px solid transparent;
-		outline: none;
+	&.collapsed {		
+		svg {
+			transform: rotate(180deg);
+		}
 	}
 
-	&:disabled {
-		background-color: $green-disabled;
+	&-sm {
+		padding: 0.6rem 1.1rem;
+		font-size: 0.675rem;
+		line-height: 1.5;
+		border-radius: 0.2rem
 	}
-}
 
-.btn-square {
-	padding: 57px 42px;
-	color: #fff !important;
-
-	&:hover {
-		cursor: pointer;
+	&-xl {
+		padding: 1rem 2.25rem;
+		font-size: 0.85rem;
+		text-transform: uppercase;
+		border: none;
+		border-radius: 0px;
 	}
-}
-
-.btn-small {
-	width: 150px;
 }

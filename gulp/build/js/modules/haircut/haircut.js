@@ -1,8 +1,6 @@
 
 var flag;
 
-console.log( flag );
-
 $( '#haircut' ).on( 'click', function() {
 
 	var string = $( '.filipo' ).attr( 'src' );
@@ -24,3 +22,5 @@ $( '#haircut' ).on( 'click', function() {
 	$( '.filipo' ).attr( 'src', string );
 
 });
+
+new WOW().init();

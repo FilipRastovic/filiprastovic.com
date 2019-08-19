@@ -1,26 +1,7 @@
-.gray-background {
-	background: $gray-02;
+.bg-grey {
+	background-color: $gray-100;
 }
 
-section {
-	padding: 150px 0;
-}
-
-hr {
-	border-color: $green;
-	border-width: 3px;
-
-	&.light {
-		border-color: $gray-08;
-		border-width: 1px;
-	}
-}
-
-#haircut {
-	color: $green;
-
-	&:hover {
-		text-decoration: underline;
-		cursor: pointer;
-	}
+.bg-blue {
+	background-color: #3498db;
 }

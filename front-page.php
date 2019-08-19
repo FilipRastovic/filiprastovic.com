@@ -14,242 +14,281 @@
 get_header();
 ?>
 
-<header class="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-4 offset-7 col-md-2 offset-md-10 mb-3">
-				<figure class="text-center">
-					<img class="filipo img-fluid rounded-circle shadow mb-3" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
-					<figcaption><a id="haircut" >Click to cut my hair!</a></figcaption>
 
-				</figure>
+<header class="header">
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center text-center">
+
+			<div class="col-lg-10 align-self-end">
+				<h1 class="text-uppercase font-weight-bold">Expert Unbounce Landing Page Design</h1>
+				<hr class="divider my-4">
 			</div>
-			<div class="col-md-8">
-				<h1>Expert Landing Page Designer</h1>
-				<hr>
-				<p class="lead mb-5">I'm Filip, a <strong>Expert Landing Page Designer</strong> based in Serbia. I work with
-					companies all around the world helping them
-					build better web experiences with focus on <b>conversions</b>, performance and accessibility. Check
-					out my
-					<a href="/landing-page-design-service/">portfolio</a>, learn about my <a href="/process">process</a>, get my
-					<a href="<?php bloginfo('template_url'); ?>/assets/download/Filip-Rastovic-FrontEnd-Developer-Resume.pdf"
-						target="_blank">resume</a> or send me an <a href="mailto:filiporastovic@gmail.com" target="_top">email</a>.
+
+			<div class="col-lg-10 align-self-baseline">
+				<p class="font-weight-light text-uppercase mb-5">I increase <strong class="font-weight-bold">quality leads</strong> for your established firm, turning your landing pages into most effective 24/7 salesperson. 
 				</p>
-				<a href="/contact" class="btn-primary p-3 text-decoration-none text-white">I NEED A LANDING PAGE</a>
+				<a href="#content" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>LEARN MORE</a>
 			</div>
+
 		</div>
 	</div>
 </header>
 
-<section class="gray-background social">
+<section class="page-section bg-grey" id="content">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<h2>Connect with me</h2>
-				<hr>
-				<ul class="mb-5">
-					<li class="list-inline-item">
-						<a href="http://codepen.io/FilipRastovic" target="_blank">
-							<i class="fa fa-codepen"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://twitter.com/FRastovic" target="_blank">
-							<i class="fa fa-twitter"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://www.facebook.com/rorschach.bleji" target="_blank">
-							<i class="fa fa-facebook-f"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://www.linkedin.com/in/filip-rastovic/" target="_blank">
-							<i class="fa fa-linkedin"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://dribbble.com/filipo" target="_blank">
-							<i class="fa fa-dribbble"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://www.instagram.com/rastovicfilip/" target="_blank">
-							<i class="fa fa-instagram"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://github.com/FilipRastovic" target="_blank">
-							<i class="fa fa-github"></i>
-						</a>
-					</li>
-				</ul>
+		<div class="row justify-content-center mb-5">
 
-				<i class="fa fa-code"></i>
-				<a href="https://codepen.io/FilipRastovic/pen/pXgqKK" target="_blank">See my latest code sample / UI prototype on CodePen</a>
+			<div class="col-lg-10 align-self-end text-center">
+				<h2 class="text-uppercase font-weight-bold mb-3">Your Landing Pages have a unique sales cycle</h2>
+			</div>
 
+			<div class="col-lg-7 align-self-baseline text-center">
+				<p class="font-weight-light text-muted mb-4">I understand the nuances of landing page transactions. Knowing what motivates buyers to create online purchases, I help you...</p>
+			</div>
+
+		</div>
+
+		<div class="row justify-content-center animatedParent animateOnce">
+			<div class="col-lg-4 mb-5 wow animated fadeIn" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10"  >
+				<div class="circle-icon">
+					<div class="icon">1</div>
+					<div class="text">
+						<h5 class="text-uppercase text-primary mb-3">Generate more leads</h5>
+						<p class="font-weight-light text-muted">Well-written copy and persuasive calls to action, present your offerings in a way that visitors can't help but follow your sales funnel.</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-lg-4 mb-5 wow animated fadeIn" data-wow-duration="3s" data-wow-delay=".4s">
+				<div class="circle-icon">
+					<div class="icon">2</div>
+					<div class="text">
+						<h5 class="text-uppercase text-primary mb-3">Market your brand</h5>
+						<p class="font-weight-light text-muted">You only get one chance to make a first impression. I make sure your landing page provides best possible reflection of your brand.</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-lg-4 mb-5 wow animated fadeIn" data-wow-duration="3s" data-wow-delay=".5s">
+				<div class="circle-icon">
+					<div class="icon">3</div>
+					<div class="text">
+						<h5 class="text-uppercase text-primary mb-3">Optimize &amp; Grow</h5>
+						<p class="font-weight-light text-muted">Unbounce allows you to update the content on your pages and create variation easy, without needing to be coders or designers.</p>
+					</div>
+				</div>
 				
 			</div>
 
-			<div class="col-md-6 mt-4">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/clarity-enhanced.png" alt=""
-					class="img-fluid">
+			<div class="col-lg-12 mb-3 text-center wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+				<a href="#recent-work" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i class="fas fa-info-circle"></i>SEE PORTFOLIO</a>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="reviews">
+<section class="page-section" id="recent-work">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 mx-auto text-center">
-				<h3>Client reviews</h3>
-				<hr class="light">
-				<h6 class="text-muted">What they've said about me</h6>
+			<div class="col-lg-8">
+					<img class="img-fluid mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/portfolio/customr-small.png"
+					alt="Portfolio image">
+					<div class="row mt-4">
+						<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+
+							<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/0.png" alt="Brand Logo 1">
+
+						</div>
+						<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+
+							<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/Crewdox-1.png" alt="Brand Logo 2">
+						
+						</div>
+						<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+
+							<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/download.png" alt="Brand Logo 3">
+
+						</div>
+						<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+
+							<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/GearLogoVertical.png" alt="Brand Logo 4">
+
+						</div>
+						<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".6s">
+
+							<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/header-728x180.png" alt="Brand Logo 5">
+						
+						</div>
+						<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
+
+							<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/think3.jpg" alt="Brand Logo 6">
+
+						</div>
+					</div>
 			</div>
+			<div class="col-lg-4">
+				<h2 class="text-uppercase font-weight-bold mb-3">
+					40+ Satisfied Clients
+				</h2>
+				<p class="font-weight-light text-muted mb-4">
+					Our design process has been critical the to success of y clients. In partnership with you and your team, I guide you from start to finish through the process of 
+					designing and developing a landing page that speaks directly to your customers.
+				</p>
+				<h5 class="text-uppercase font-weight-bold text-primary mb-3">
+					Focus on conversions
+				</h5>
+				<p class="font-weight-light text-muted mb-5">
+					Conversion centered design is a combination of both graphic design and marketing principles that are aware of low attention span the average human has today.
+					There is too much content on the web, and the way to capture someone's attention is to levarage the principles of visual design with a strong persuasive copy.
+				</p>
+				<a href="/portfolio" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i class="fas fa-eye"></i>SEE MY RECENT WORK</a>
+
+			</div>
+
+
 		</div>
-		<div class="row mt-5">
-			<div class="col-md-6 mt-5">
-				<p>Filip has a unique combo of skills: design & development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</p>
-				<hr class="light">
-				<span class="text-muted">Robert Molnar, Customr.app</span>
+	</div>
+</section>
+
+<section class="page-section bg-grey bg-help-you">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 self-align-end">
+				<h2 class="text-uppercase font-weight-bold mb-5">I I can help you to ...</h2>
 			</div>
-			<div class="col-md-6 mt-5">
-				<p>I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way. 
-						For my next projects for landing pages I would would with him again. 
-						Thank you Filip!</p>
-				<hr class="light">
-				<span class="text-muted">Maria Smith, Justo.ca</span>
-			</div>
-		</div>
-		<div class="row mt-5">
-			<div class="col-md-6 mt-5">
-				<p>Simply awesome experience working with Filip. It's especially difficult to manage a project that requires programming since you have to anticipate the time it takes to debug and make modifications to the project but it was easy working with someone who has the patience and understanding to handle projects like this. Looking forward to working with him again in the future. Thank you!</p>
-				<hr class="light">
-				<span class="text-muted">Jason Coleman</span>
-			</div>
-			<div class="col-md-6 mt-5">
-				<p>Filip was AMAZING! The only reason we are ending the contract is because he got too busy with bigger projects. I am sad to loose him as he is awesome. I would definitely hire again and again. If you have the opportunity to work with Filip, you should absolutely do it, he will make you proud!</p>
-				<hr class="light">
-				<span class="text-muted">Liam Shy</span>
+			<div class="col-lg-8 align-self-end">
+				<div class="accordion" id="accordionExample">
+					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<span>Generate more quality leads</span><i class="fas fa-chevron-up"></i>
+								</button>
+							</h2>
+							
+						</div>
+					
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<p class="font-weight-light">Your landing pages get a lot of traffic but not enough of these visitors are converted into viable leads? Those that do take action are frequently not ideal clients.</p>
+							<p class=" font-weight-light">A good design has:</p>
+							<ul>
+								<li class=" font-weight-light">Strong Messaging</li>
+								<li class=" font-weight-light">Enticing Content</li>
+								<li class=" font-weight-light">Authority</li>
+								<li class=" font-weight-light">Trustwhortiness</li>
+							</ul>
+						</div>
+						</div>
+					</div>
+					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Redesign outdated and embarrassing old web design<i class="fas fa-chevron-up"></i>
+								</button>
+								
+							</h2>
+							
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div class="card-body">
+							<p class="font-weight-light ">Web design trends change over time so it's important to keep up to date. But it is not only the aesthetics that increase conversions, it is the thorough research and strategy behind
+								design decisions that make the visitors fall in love with your offerings.</p>
+						</div>
+						</div>
+					</div>
+					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Make your pages work on mobile<i class="fas fa-chevron-up"></i>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						<div class="card-body">
+							<p class="font-weight-light ">People surf the web using mobile devices, it's a fact. Responsive web design is a term coined for this purpose. It's a 
+								set of techniques that allow the landing pages to have a fluid layout that changes based on device screen width.
+							</p>
+						</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="gray-background lala pl-0 pt-3 pb-3">
-	<div class="container-fluid">
+
+<section class="page-section testimonials">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-4 text-center wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
+					<img class="img-fluid rounded shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/molnar.jpeg" alt="Testimonial">
+			</div>
+			<div class="col-lg-8 wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4"><i>Filip has a unique combo of skills: design & development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</i></p>
+				<p class="text-primary font-weight-bold mb-2 text-left">Robert Molnar</p>
+				<p class="font-weight-light text-muted text-left">CEO Of Stratolytics</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="page-section bg-grey bg-contact" id="contact">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-8 pl-0"><img class="img-fluid rounded mb-4" src="<?php bloginfo('template_url') ?>/assets/img/lala.jpg" alt="Photo of Filip"></div>
-			<div class="col-md-4 my-auto">
-				<h4>Some stats:</h4>
-				<hr>
-				<ul class="ml-3">
-					<li>45 Clients</li>
-					<li>4 years in bussiness</li>
-					<li>Never worked in a real office</li>
-					<li>This website was visited by people in 78 countries</li>
+			<div class="col-lg-6 position-relative">
+				<h2 class="font-weight-bold mb-4">
+					Are I a got fit for your project?
+				</h2>
+				<p class="font-weight-light text-muted mb-4">While I welcome inquires from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+				<ul class="list-unstyled text-primary font-weight-light">
+					<li class="mb-3">
+						<i class="fas fa-check mr-2"></i>Are small to medium in size ( approximately 10 - 100 employees)
+					</li>
+					<li class="mb-3">
+						<i class="fas fa-check mr-2"></i>Have a opportunity to build growth through their marketing plan
+					</li>
+					<li class="mb-3">
+						<i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset
+					</li>
+					<li class="mb-5">
+						<i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
+					</li>
 				</ul>
+				<div class="animated-arrow right show-for-xlarge"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div></div>
+			</div>
+			<div class="col-lg-5 offset-lg-1 wow animated fadeInRight" data-wow-duration="2s" data-wow-delay=".1s">
+				<form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
+				method="post">
+					<div class="text-center mb-4">
+						<p class="h5 font-weight-light text-primary text-center">Schedule your <u class="font-weight-bold text-uppercase">free</u> consultation!</p>
+					</div>
+					<div class="form-row">
+						<div class="form-group required col-md-6">
+							<label class="control-label text-muted" for="inputFirstName">First Name</label>
+							<input type="text" class="form-control" name="FNAME" id="inputFirstName" placeholder="" required>
+						</div>
+							<div class="form-group required col-md-6">
+							<label class="control-label text-muted" for="inputLastName">Last Name</label>
+							<input type="text" class="form-control" name="LNAME" id="inputLastName" placeholder="">
+						</div>
+					</div>
+					<div class="form-group required pb-3">
+						<label class="control-label text-muted" for="inputEmail">Email Address</label>
+						<input type="email" class="form-control" name="EMAIL" name="EMAIL" id="inputEmail" placeholder="">
+					</div>
+					<button type="submit" class="btn btn-primary btn-xl shadow btn-block">Start Your Consultation</button>
+				</form>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="services">
-	<div class="container">
-		<div class="row mb-5">
-			<div class="col-md-4 mx-auto text-center">
-				<h3>I can help you with</h3>
-				<hr class="light">
-				<h6 class="text-muted">My skills</h6>
-			</div>
-		</div>
-		<div class="row">
-		<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-paint-brush"></i>
-				<h5>Web Design</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">Principles of visual arts applied to web pages. I'm constatly learning about new styles and web trends. The way the web looks fascinated me since I was very young.</p>
-			</div>
-			<div class="col-md-4 text-center mb-5">
-				<i class="fa mb-4 fa-bullseye"></i>
-				<h5>Conversions</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">What makes people say yes? I've been obsessed with this question so much, it has lead me to research and learn more and more about design.</p>
-			</div>
-
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-comments"></i>
-				<h5>Consulting</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">I offer consulting services to creative bussinesses and individuals that are in need of a stronger online presence.</p>
-			</div>
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-html5"></i>
-				<h4>HTML</h4>
-				<hr class="light">
-				<p class="ml-1 mr-1">Clean, validated, semantic HTML. I try to write as little markup as possible while trying to convey the meaning behind it.</p>
-			</div>
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-css3"></i>
-				<h5>CSS</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">How would the web look without colors, shapes and layout? That's why I love CSS! Lately I've been using SCSS mostly because it really is CSS with superpowers.</p>
-			</div>
-			<div class="col-md-4 text-center mb-5">
-				<i class="mb-4 fa fa-cogs"></i>
-				<h5>JavaScript</h5>
-				<hr class="light">
-				<p class="ml-1 mr-1">JavaScript, the language of the web, it's responsible for everything going on in your web browser. I love using JS to create drawings!</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="gray-background lala pl-0 pt-3 pb-3">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-5 col-lg-4 offset-lg-1 my-auto">
-				<h4>Some facts:</h4>
-				<hr>
-				<ul class="ml-3">
-					<li>Talks a lot</li>
-					<li>Loves summer, hates winter.</li>
-					<li>Drinks fruit smoothies each morning.</li>
-					<li>Uses polished photos for marketing purposes.</li>
-					<li>Sometimes thinks reality is a computer generated simulation.</li>
-					<li>Spent more than 200 days playing a video games during high school.</li>
-				</ul>
-			</div>
-			<div class="col-md-7 col-lg-7 text-right p-0">
-				<img class="img-fluid" src="<?php bloginfo('template_url') ?>/assets/img/hunter.jpg" alt="Photo of Filip">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="trusted-by">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h2><?php _e( 'Trusted by', 'filip-rastovic' ); ?></h2>
-			</div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/0.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/Crewdox-1.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/download.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/GearLogoVertical.png" alt="">
-			</div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/header-728x180.png" alt=""></div>
-			<div class="col-4 col-md-2 mb-3"><img class="img-fluid"
-					src="<?php echo get_template_directory_uri() ?>/assets/img/clients/think3.jpg" alt=""></div>
-		</div>
-	</div>
-</section>
 
 <?php
 

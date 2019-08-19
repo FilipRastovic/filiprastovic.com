@@ -1,0 +1,67 @@
+.single-post {
+	padding-top: 8rem;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		margin-bottom: 2rem;
+	}
+
+	.comments-title,
+	.comment-reply-title {
+		font-size: 1rem;
+	}
+
+	.comment-body {
+		background: $gray-200;
+		margin-bottom: 1rem;
+		padding: 10px;
+		border-radius: 7px;
+
+		a {
+			color: $gray-700;
+			text-decoration: underline;
+		}
+	}
+}
+
+#commentform,
+#contactForm {
+
+	input,
+	textarea {
+		width: 100%;
+		border-color: transparent;
+		background-color: $gray-200;
+		border-radius: 7px;
+		&:focus,
+		&:active:focus,
+		&.active:focus,
+		&.focus,
+		&:active.focus,
+		&.active.focus {
+			outline: none;
+			box-shadow: none;
+		}
+	}
+
+	.submit {
+		padding: 1rem 2.25rem;
+		font-size: 0.85rem;
+		text-transform: uppercase;
+		border: none !important;
+		border-radius: 0px !important;
+		font-family: $font-family-sans-serif;
+		letter-spacing: 2px;
+		background-color: $primary;
+		color: $white;
+
+		&:hover {
+			background-color: fade-out( $primary, .3 );
+		}
+	}
+}

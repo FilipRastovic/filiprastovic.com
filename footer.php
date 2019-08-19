@@ -12,59 +12,56 @@
 ?>
 
 <?php wp_footer(); ?>
-<footer class="gray-background pt-4">
+<footer class="footer">
 	<div class="container text-center text-md-left">
 		<div class="row">
-			<div class="col-md-6 mt-md-0 mt-3">
-				<h5 class="text-uppercase">Hello there</h5>
-				<p>Thanks for visiting my website!</p>
+			<div class="col-md-5 mt-md-0 mt-3">
+				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
+				<p class="font-weight-light mb-4">Expert Landing Page Design</p>
+				<p class="font-weight-light text-muted small">As expert in conversion centered design, We aim to improve your business by designing and developing you landing pages that will act as your most effective sales person.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">
-			<div class="col-md-3 mb-md-0 mb-3">
-				<h5 class="text-uppercase">Social</h5>
+			<div class="col-md-3 offset-md-1 mb-md-0 mb-3">
+				<h5 class="font-weight-bold text-uppercase">Social</h5>
 
-				<ul class="list-unstyled">
+				<ul class="list-unstyled font-weight-light">
 					<li>
-						<a href="http://codepen.io/FilipRastovic">CodePen</a>
+						<a class="small" href="http://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
 					</li>
 					<li>
-						<a href="https://github.com/FilipRastovic">GitHub</a>
+						<a class="small" href="https://github.com/FilipRastovic"><i class="mr-2 fab fa-github"></i>GitHub</a>
 					</li>
 					<li>
-						<a href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
+						<a class="small" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/filip-rastovic/">Linkedin</a>
+						<a class="small" href="https://dribbble.com/filipo"><i class="mr-2 fab fa-dribbble"></i>Dribbble</a>
 					</li>
 					<li>
-						<a href="https://dribbble.com/filipo">Dribbble</a>
+						<a class="small" href="https://www.instagram.com/nether_world_tales/"><i class="mr-2 fab fa-instagram"></i>Instagram</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/rastovicfilip/">Instagram</a>
+						<a class="small" href="https://www.facebook.com/rorschach.bleji"><i class="mr-2 fab fa-facebook-f"></i>Facebook</a>
 					</li>
 					<li>
-						<a href="https://www.facebook.com/rorschach.bleji">Facebook</a>
+						<a class="small" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
 					</li>
 					<li>
-						<a href="https://twitter.com/FRastovic">Twitter</a>
+						<a class="small" href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-md-3 mb-md-0 mb-3">
-				<h5 class="text-uppercase">Side projects</h5>
+				<h5 class="font-weight-bold text-uppercase">Side projects</h5>
 
-				<ul class="list-unstyled">
+				<ul class="list-unstyled font-weight-light">
 					<li>
-						<a href="http://stargazerstudio.net">Stargazer Studio</a>
+						<a class="small" href="http://stargazerstudio.net">Stargazer Studio</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div class="footer-copyright text-center py-3">
-		<hr>
-		<a href="https://filiprastovic.com">Filip Rastovic</a>
 	</div>
 </footer>
 </body>

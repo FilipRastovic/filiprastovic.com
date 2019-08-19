@@ -14,19 +14,23 @@
 get_header();
 ?>
 
-
 <header class="header" id="thank-you">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h1 class="section-heading">Thank you!</h1>
-        <hr class="my-4">
-        <p class="mb-5">I'll get to you as soon as possible!</p>
-        <p>You can read my blog in the meantime</p>
-        <a href="/blog" class="btn btn-primary btn-square">Read Blog</a href="/blog">
-      </div>
-    </div>
-  </div>
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center text-center">
+
+			<div class="col-lg-10 align-self-end">
+				<h1 class="text-uppercase font-weight-bold">Thank you!</h1>
+				<hr class="divider my-4">
+			</div>
+
+			<div class="col-lg-10 align-self-baseline">
+        <p class="font-weight-light">I'll get to you as soon as possible!</p>
+        <p class="font-weight-light">You can read my blog in the meantime</p>
+				<a href="/blog" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read Blog</a>
+			</div>
+
+		</div>
+	</div>
 </header>
 
 <?php

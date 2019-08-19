@@ -1,0 +1,9 @@
+form {
+	padding: 2rem 1.25rem 2.5rem 2rem;
+	background: fade-out( $white, .3 );
+}
+
+.form-group.required .control-label:after {
+	content:"*";
+	color:red;
+  }

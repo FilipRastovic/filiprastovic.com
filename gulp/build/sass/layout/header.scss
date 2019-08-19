@@ -1,17 +1,28 @@
 .header {
-	padding: 100px 0 50px;
+	padding-top: 10rem;
+	padding-bottom: calc(10rem - #{$nav-height});
 
-	@include media-breakpoint-up(md) { 
-		padding: 150px 0 50px;
-	 }
-}
+	h1 {
+		font-size: 2.25rem;
+	}
 
-.home {
-	header {
-		padding: 100px 0 50px;
+	p {
+		font-size: 1.279rem;
+	}
 
-		@include media-breakpoint-up(md) { 
-			padding: 150px 0 150px;
-		 }
+	@include media-breakpoint-up(lg) {
+		height: 100vh;
+		min-height: 40rem;
+		padding-top: $nav-height;
+		padding-bottom: 0;
+
+		h1 {
+			font-size: 3.7rem;
+		}
+
+		p {
+			font-size: 1.35rem;
+		}
+
 	}
 }

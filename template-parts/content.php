@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>">
+<article class="mb-5" id="post-<?php the_ID(); ?>">
 	<header class="post-header">
 		<?php
 		if ( is_singular() ) :

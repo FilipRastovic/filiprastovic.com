@@ -1,34 +1,56 @@
 .navbar {
-	transition: .2s ease-out;
+	padding: 0.8rem 1rem;
+	transition: background-color 0.2s ease;
+	background-color: transparent;
+	border-color: transparent;
+	@include transition-all;
 
-	@include media-breakpoint-up( md ) { 
-		padding: 30px 0;
+	&-nav {
+		margin-bottom: 0 !important;
 	}
 
 	.navbar-brand {
-		font-weight: 900;
-		line-height: 1.3;
+		line-height: 1;
+		color: $gray-700;
+		font-weight: 700;
+		text-transform: uppercase;
+		&:hover {
+			color: $primary;
+		}
+
+		small {
+			font-weight: 300;
+			font-size: 70%;
+		}
 	}
 
-	a {
-		text-decoration: none;
+	.nav-link a {
+		color: $gray-700;
+		font-family: $font-family-sans-serif;
+		font-weight: $font-weight-bold;
+		font-size: 0.9rem;
+		padding: 0.75rem 0;
 		text-transform: uppercase;
 
-		&:hover {
-			color: $green;
-		}
-	}
-
-	.navbar-brand {
 		&:hover,
-		&:focus {
-			color: $green;
+		&:active {
+			color: $primary;
+		}
+
+		&.actiev {
+			color: $primary !important;
 		}
 	}
 
-	&-shrink {
-		border-bottom: 1px solid $gray-04;
-		background-color: $gray-02;
-		padding: 10px 0;
+	
+	&.navbar-shrink {
+		padding: 0.4rem 1rem;
+		background-color: $gray-100;
+		box-shadow: 1px 2px 12px #eee;
 	}
+}
+
+.current-menu-item a {
+	color: $primary !important;
+	text-decoration: underline;
 }

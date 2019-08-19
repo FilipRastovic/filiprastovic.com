@@ -1,47 +1,52 @@
-
-a {
-	color: $primary;
-	text-decoration: underline;
-
-	&:hover {
-		color: $green;
-	}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	letter-spacing: 1px;
+	line-height: 1.4;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Noto Serif', serif;
-	font-weight: 900;
+h2 {
+	font-size: 2rem;
 }
 
-.lead {
-
-	a {
-		text-decoration-color: $green;
-	}
-
-	@include media-breakpoint-up(md) { 
-		font-size: 2rem !important;
-	 }
+p,
+ul li {
+	font-size: 1rem;
 }
 
-p {
-	font-weight: 300;
-	font-size: 1.25rem;
-	
-	@include media-breakpoint-up(md) {
-		font-weight: 400;
+ul, ol, dl {
+    margin-bottom: 1.5rem !important;
+    list-style-position: outside;
+	line-height: 2 !important;
+}
+
+@include media-breakpoint-up(lg) {
+	h2 {
+		font-size: 2.25rem;
 	}
 	
+	p,
+	ul li {
+		font-size: 1.279rem;
+	}
+
+	.paragraph-small {
+		font-size: 0.8rem;
+	}
 }
 
-.page-template-page-portfolio section {
-	ul {
-		margin-left: 40px;
+@include media-breakpoint-up(xl) {
+	h2 {
+		font-size: 2rem;
+	}
+
+	p,
+	ul li {
+		font-size: 1rem;
+	}
+
+	.paragraph-small {
+		font-size: 0.8rem;
 	}
 }

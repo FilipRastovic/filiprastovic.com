@@ -39,27 +39,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
+
   <meta name="description" content="Filip Rastovic - Web Development &amp; Design">
   <meta name="keywords" content="web,design,development,stargazer,studio">
   <meta name="author" content="Filip Rastovic">
+
   <meta property="og:title" content="Filip Rastovic - Web Development &amp; Design" />
   <meta property="og:url" content="https://filiprastovic.net" />
   <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
 
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700,900&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top gray-background" id="mainNav">
+  <nav class="navbar fixed-top navbar-expand-lg gray-background " id="mainNav">
     <div class="container">
-      <a class="navbar-brand font-weight-bold" href="/"><?php _e( 'Filip Rastovic', 'filiprastovic' ); ?>
-      <br> <small>Expert Landing Page Design</small>
-    </a>
+      <a class="navbar-brand font-weight-bold" href="/">
+
+        <?php _e( 'Filip Rastovic', 'filiprastovic' ); ?>
+        <br> 
+        <small><?php _e( 'Expert landing page design', 'filiprastovic' ); ?></small>
+        
+        
+     </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
       </button>

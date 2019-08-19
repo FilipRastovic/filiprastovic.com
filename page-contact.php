@@ -9,26 +9,14 @@
 get_header();
 ?>
 
-<header class="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 mx-auto text-center">
-				<h1 class="section-heading">Contact me</h1>
-				<hr class="my-4">
-				<p><?php _e( 'Let\'s get in touch', 'filiprastovic' ); ?></p>
-			</div>
-		</div>
-	</div>
-</header>
-
 <!-- Contact -->
-<section id="contact mb-5">
+<section class="contact-page" id="contact mb-5">
 	<div class="container">
 		<div class="row gutter-bot">
 			<div class="col-md-6">
-				<h2>Welcome to my website</h2>
-				<hr>
-				<p>Hello there! If you're looking for a <b>landing page expert</b> feel free to get in touch with me filling
+				<h2 class="font-weight-bold">Welcome to my website</h2>
+				<hr class="divider">
+				<p class="font-weight-light">Hello there! If you're looking for a <span class="font-weight-bold">landing page expert</span> feel free to get in touch with me filling
 					out the form below. Please, the more you can tell me about your project, the better.</p>
       </div>
       <div class="col-md-6">
