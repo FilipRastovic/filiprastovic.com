@@ -13,7 +13,7 @@ get_header();
 		<div class="row h-100 justify-content-center text-center">
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Read about our latest work</h1>
+				<h1 class="text-uppercase font-weight-bold">Read about my latest work</h1>
 				<hr class="divider my-4">
 			</div>
 
@@ -210,7 +210,7 @@ get_header();
 				<h2 class="font-weight-bold mb-4">
 					Am I a got fit for your project?
 				</h2>
-				<p class="font-weight-light text-muted mb-4">While we welcome inquires from all types of companies that use Unbounce landing pages, experience has shown we obtain the best result for clients with the following traits...</p>
+				<p class="font-weight-light text-muted mb-4">While I welcome inquires from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Are small to medium in size ( approximately 10 - 100 employees)

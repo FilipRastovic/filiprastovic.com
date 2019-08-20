@@ -22,7 +22,7 @@ get_header();
 			<div class="col-lg-10 align-self-baseline">
 				<p class="font-weight-light text-uppercase mb-5">Your landing pages should help your sales team! Learn about my design process below. 
 				</p>
-				<a href="#what-we-do" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>What We Do</a>
+				<a href="#what-we-do" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>What I Do</a>
 			</div>
 
 		</div>
@@ -38,7 +38,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">Regardless of your industry - if your business sells using Unbounce, we'll make sure to deliver all of the following...</p>
+				<p class="font-weight-light text-muted mb-4">Regardless of your industry - if your business sells using Unbounce, I'll make sure to deliver all of the following...</p>
 			</div>
 
 		</div>
@@ -47,14 +47,14 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
 				<h6 class="text-primary mb-2">More leads</h6>
-				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, we can help your landing pages generate higher quality leads.</p>
+				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, I can help your landing pages generate higher quality leads.</p>
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
 				<h6 class="text-primary mb-2">Awesome user experience</h6>
-				<p class="font-weight-light text-muted">We design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
+				<p class="font-weight-light text-muted">I design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
 
 			</div>
 
@@ -94,7 +94,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4">
 				<h2 class="font-weight-bold ">CUSTOMR.APP</h2>
-				<p class="font-weight-light ">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. We had to break down complex documents into easy to digest design.</p>
+				<p class="font-weight-light ">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
 				<ul class="list-unstyled text-primary">
 					<li class=""><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li class=""><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
@@ -135,7 +135,7 @@ get_header();
 					<div class="icon"><i class="fas fa-info"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Information Architecture</h6>
-						<p class="font-weight-light text-muted">We discuss the best way to break down your unique selling points into something easy to digest.</p>
+						<p class="font-weight-light text-muted">I discuss the best way to break down your unique selling points into something easy to digest.</p>
 					</div>
 				</div>
 				
@@ -145,7 +145,7 @@ get_header();
 					<div class="icon"><i class="fas fa-users"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">UX &amp; Market Research</h6>
-						<p class="font-weight-light text-muted">We check what your competitors are doing, thoroughly analyze their UX and build something greater on top of that.</p>
+						<p class="font-weight-light text-muted">I check what your competitors are doing, thoroughly analyze their UX and build something greater on top of that.</p>
 					</div>
 				</div>
 				
@@ -155,7 +155,7 @@ get_header();
 					<div class="icon"><i class="fas fa-pencil-ruler"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Responsive Web Design</h6>
-						<p class="font-weight-light text-muted">With increasing number of mobile devices each day, we make sure your pages work well on all of them.</p>
+						<p class="font-weight-light text-muted">With increasing number of mobile devices each day, I make sure your pages work well on all of them.</p>
 					</div>
 				</div>
 				
@@ -165,7 +165,7 @@ get_header();
 					<div class="icon"><i class="fas fa-edit"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Unbounce</h6>
-						<p class="font-weight-light text-muted">We love implementing our designs onto Unbounce, allowing you to easily take control of your content.</p>
+						<p class="font-weight-light text-muted">I love implementing designs into Unbounce, allowing you to easily take control of your content.</p>
 					</div>
 				</div>
 				
@@ -222,7 +222,7 @@ get_header();
 				<h2 class="font-weight-bold mb-4">
 					Am I a got fit for your project?
 				</h2>
-				<p class="font-weight-light text-muted mb-4">While we welcome inquires from all types of companies that use Unbounce landing pages, experience has shown we obtain the best result for clients with the following traits...</p>
+				<p class="font-weight-light text-muted mb-4">While I welcome inquires from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Are small to medium in size ( approximately 10 - 100 employees)

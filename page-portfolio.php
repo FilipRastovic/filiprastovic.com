@@ -35,7 +35,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4">
 				<h2 class="font-weight-bold">Customr.app</h2>
-				<p class="font-weight-light text-muted">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. We had to break down complex documents into easy to digest design.</p>
+				<p class="font-weight-light text-muted">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
@@ -67,7 +67,7 @@ get_header();
 			</div>
 			<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
 				<h2 class="font-weight-bold">Drapper</h2>
-				<p class="font-weight-light text-muted">Draper is a clothing brand. We were hired to improve the performance of their existing Unbounce pages and create new variations for split testing. The conversion rates of this page are around 40%.</p>
+				<p class="font-weight-light text-muted">Draper is a clothing brand. I was hired to improve the performance of their existing Unbounce pages and create new variations for split testing. The conversion rates of this page are around 40%.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-cogs mr-2"></i>Maintenance</li>
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
@@ -85,7 +85,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4">
 				<h2 class="font-weight-bold">Justo</h2>
-				<p class="font-weight-light text-muted">Justo is a Canadian SaaS real estate provider. We were given a wireframe of the landing page the company wanted and designed an elegant mockup which was later implemented using Unbounce and Wordpress.</p>
+				<p class="font-weight-light text-muted">Justo is a Canadian SaaS real estate provider. I was given a wireframe of the landing page the company wanted and designed an elegant mockup which was later implemented using Unbounce and Wordpress.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
@@ -119,7 +119,7 @@ get_header();
 			</div>
 			<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
 				<h2 class="font-weight-bold">Velo</h2>
-				<p class="font-weight-light text-muted">Velo creates hand dryers. We were hired to implement few existing designs and build new Unbounce landing pages for different lines of their hand dryer products.</p>
+				<p class="font-weight-light text-muted">Velo creates hand dryers. I was hired to implement few existing designs and build new Unbounce landing pages for different lines of their hand dryer products.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
@@ -216,7 +216,7 @@ get_header();
 
 			<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
 				<h2 class="font-weight-bold">Radiance</h2>
-				<p class="font-weight-light text-muted">Radiance is a health &amp; beauty salon based in Toronto. We were hired to design a series of landing pages for their special offers.</p>
+				<p class="font-weight-light text-muted">Radiance is a health &amp; beauty salon based in Toronto. I was hired to design a series of landing pages for their special offers.</p>
 				<ul class="list-unstyled text-primary">
 					<li><i class="fas fa-info-circle mr-2"></i>Wireframes</li>
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
@@ -236,7 +236,7 @@ get_header();
 				<h2 class="font-weight-bold mb-4">
 					Am I a got fit for your project?
 				</h2>
-				<p class="font-weight-light text-muted mb-4">While we welcome inquires from all types of companies that use Unbounce landing pages, experience has shown we obtain the best result for clients with the following traits...</p>
+				<p class="font-weight-light text-muted mb-4">While I welcome inquires from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Are small to medium in size ( approximately 10 - 100 employees)
