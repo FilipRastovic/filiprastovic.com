@@ -42,17 +42,19 @@
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
 
-  <meta name="description" content="Filip Rastovic - Web Development &amp; Design">
-  <meta name="keywords" content="web,design,development,stargazer,studio">
+  <meta name="description" content="Filip Rastovic - Expert Landing Page Designer">
+  <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
   <meta name="author" content="Filip Rastovic">
 
-  <meta property="og:title" content="Filip Rastovic - Web Development &amp; Design" />
+  <meta property="og:title" content="Filip Rastovic - Expert Landing Page Designer" />
   <meta property="og:url" content="https://filiprastovic.net" />
   <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700,900&display=swap" rel="stylesheet">
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <?php wp_head(); ?>
 </head>
 

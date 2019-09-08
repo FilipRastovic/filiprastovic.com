@@ -5,6 +5,10 @@
 	border-color: transparent;
 	@include transition-all;
 
+	@media (max-width: 768px) {
+		background-color: $gray-100;
+	}
+
 	&-nav {
 		margin-bottom: 0 !important;
 	}

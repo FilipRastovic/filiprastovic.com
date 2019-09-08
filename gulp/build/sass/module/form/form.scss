@@ -1,6 +1,12 @@
 form {
-	padding: 2rem 1.25rem 2.5rem 2rem;
 	background: fade-out( $white, .3 );
+	@media ( min-width: 768px ) {
+		padding: 2rem 1.25rem 2.5rem 2rem;
+	} 
+}
+
+#contact form {
+	padding: 2rem 1.25rem 2.5rem 2rem;
 }
 
 .form-group.required .control-label:after {

@@ -1,13 +1,8 @@
 .header {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - #{$nav-height});
-
 	h1 {
-		font-size: 2.25rem;
-	}
-
-	p {
-		font-size: 1.279rem;
+		font-size: 2rem;
 	}
 
 	@include media-breakpoint-up(lg) {

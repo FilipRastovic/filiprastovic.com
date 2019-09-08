@@ -2,4 +2,12 @@
 .about-me {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
+
+	h2 {
+		text-align: center;
+
+		@media (min-width: 768px) {
+			text-align: left;
+		}
+	}
 }

@@ -5,3 +5,16 @@
 .bg-blue {
 	background-color: #3498db;
 }
+
+.padded-l-on-lg {
+	padding-left: 15px;
+
+	@media (min-width: 768px) {
+		padding-left: 3rem;
+	}
+}
+
+#displayCanvas {
+	position: absolute;
+	left: 0;
+}

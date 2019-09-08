@@ -1,7 +1,7 @@
 .btn {
 	font-family: $font-family-sans-serif;
 	letter-spacing: 2px;
-
+	border-radius: 0.2rem;
 	&:focus,
 	&:active:focus,
 	&.active:focus,
@@ -34,6 +34,10 @@
 		font-size: 0.85rem;
 		text-transform: uppercase;
 		border: none;
-		border-radius: 0px;
+		border-radius: 0.2rem;
 	}
+}
+
+.accordion .btn {
+	letter-spacing: 0px;
 }
