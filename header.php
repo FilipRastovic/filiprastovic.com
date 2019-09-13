@@ -42,13 +42,28 @@
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
 
-  <meta name="description" content="Filip Rastovic - Expert Landing Page Designer">
+  <meta property="og:site_name" content="Filip Rastovic - Expert Landing Page Designer - Conversion Rate Optimization Expert"/>
+  <meta property="og:title" content="Filip Rastovic - Expert Landing Page Designer - Conversion Rate Optimization Expert" />
+  <meta property="og:url" content="https://filiprastovic.com" />
+  <meta property="og:type" content="website"/>
+  <meta name="description" content="Filip Rastovic is a top rated Conversion Focused Unbounce Landing Page Designer, specializing in Conversion Centered Design and Conversion Rate Optimization">
+  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
   <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
   <meta name="author" content="Filip Rastovic">
 
-  <meta property="og:title" content="Filip Rastovic - Expert Landing Page Designer" />
-  <meta property="og:url" content="https://filiprastovic.net" />
-  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
+  <meta itemprop="name" content="Filip Rastovic - Expert Landing Page Designer"/>
+  <meta itemprop="url" content="https://filiprastovic.com"/>
+  <meta itemprop="description" content="Filip Rastovic is a top rated Conversion Focused Unbounce Landing Page Designer, specializing in Conversion Centered Design and Conversion Rate Optimization"/>
+  <meta itemprop="thumbnailUrl" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
+  <meta itemprop="image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
+  <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
+
+  <meta name="twitter:title" content="Filip Rastovic - Expert Landing Page Designer - Conversion Rate Optimization Expert"/>
+  <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
+  <meta name="twitter:url" content="https://filiprastovic.com"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:description" content="Filip Rastovic is a top rated Conversion Focused Unbounce Landing Page Designer, specializing in Conversion Centered Design and Conversion Rate Optimization"/>
+  <meta name="description" content="Filip Rastovic is a top rated Conversion Focused Unbounce Landing Page Designer, specializing in Conversion Centered Design and Conversion Rate Optimization" />
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700,900&display=swap" rel="stylesheet">

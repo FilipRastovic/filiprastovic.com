@@ -1,4 +1,11 @@
 .footer {
 	padding: 3rem 0;
 	border-top: 3px solid $primary;
+
+	li {
+		margin-bottom: 1rem;
+		@media (min-width: 768px) {
+			margin-bottom: 0;
+		}
+	}
 }

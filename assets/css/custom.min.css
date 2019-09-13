@@ -14103,6 +14103,11 @@ ul, ol, dl {
 .footer {
   padding: 3rem 0;
   border-top: 3px solid #00f; }
+  .footer li {
+    margin-bottom: 1rem; }
+    @media (min-width: 768px) {
+      .footer li {
+        margin-bottom: 0; } }
 
 .header {
   padding-top: 10rem;
@@ -14138,67 +14143,6 @@ ul, ol, dl {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline; }
-
-@media (min-width: 992px) {
-  .animated-arrow {
-    position: absolute;
-    top: 78%;
-    right: 6rem;
-    margin-top: -3rem;
-    opacity: 0.1; }
-  div#check-email {
-    position: relative;
-    height: 18rem;
-    margin-top: -6rem; }
-  div#check-email div.animated-arrow {
-    position: absolute;
-    left: 50%;
-    margin-left: -3rem;
-    margin-bottom: 6rem; }
-  div.animated-arrow.left {
-    transform: rotate(90deg); }
-  div.animated-arrow.right {
-    transform: rotate(-90deg); }
-  div.animated-arrow.up {
-    transform: rotate(180deg); }
-  .chevron {
-    position: absolute;
-    width: 7rem;
-    height: 1.6rem;
-    opacity: 0;
-    transform: scale(0.3);
-    animation: move-chevron 3s ease-out infinite; }
-  .chevron:first-child {
-    animation: move-chevron 3s ease-out 1s infinite; }
-  .chevron:nth-child(2) {
-    animation: move-chevron 3s ease-out 2s infinite; }
-  .chevron:before,
-  .chevron:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 50%;
-    background: #0671BC; }
-  .chevron:before {
-    left: 0;
-    transform: skewY(30deg); }
-  .chevron:after {
-    right: 0;
-    width: 50%;
-    transform: skewY(-30deg); }
-  @keyframes move-chevron {
-    25% {
-      opacity: 1; }
-    33.3% {
-      opacity: 1;
-      transform: translateY(7.6rem); }
-    66.6% {
-      opacity: 1;
-      transform: translateY(10.4rem); }
-    100% {
-      opacity: 0;
-      transform: translateY(16rem) scale(0.5); } } }
 
 .blog .post-content p {
   font-weight: 300; }
@@ -14272,31 +14216,66 @@ ul, ol, dl {
   #contactForm .submit:hover {
     background-color: rgba(0, 0, 255, 0.7); }
 
-.btn {
-  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
-  letter-spacing: 2px;
-  border-radius: 0.2rem; }
-  .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-    outline: none;
-    box-shadow: none; }
-  .btn svg {
-    margin-right: .5rem; }
-  .btn.collapsed svg {
+@media (min-width: 992px) {
+  .animated-arrow {
+    position: absolute;
+    top: 78%;
+    right: 6rem;
+    margin-top: -3rem;
+    opacity: 0.1; }
+  div#check-email {
+    position: relative;
+    height: 18rem;
+    margin-top: -6rem; }
+  div#check-email div.animated-arrow {
+    position: absolute;
+    left: 50%;
+    margin-left: -3rem;
+    margin-bottom: 6rem; }
+  div.animated-arrow.left {
+    transform: rotate(90deg); }
+  div.animated-arrow.right {
+    transform: rotate(-90deg); }
+  div.animated-arrow.up {
     transform: rotate(180deg); }
-  .btn-sm, .btn-group-sm > .btn {
-    padding: 0.6rem 1.1rem;
-    font-size: 0.675rem;
-    line-height: 1.5;
-    border-radius: 0.2rem; }
-  .btn-xl {
-    padding: 1rem 2.25rem;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 0.2rem; }
-
-.accordion .btn {
-  letter-spacing: 0px; }
+  .chevron {
+    position: absolute;
+    width: 7rem;
+    height: 1.6rem;
+    opacity: 0;
+    transform: scale(0.3);
+    animation: move-chevron 3s ease-out infinite; }
+  .chevron:first-child {
+    animation: move-chevron 3s ease-out 1s infinite; }
+  .chevron:nth-child(2) {
+    animation: move-chevron 3s ease-out 2s infinite; }
+  .chevron:before,
+  .chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #0671BC; }
+  .chevron:before {
+    left: 0;
+    transform: skewY(30deg); }
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg); }
+  @keyframes move-chevron {
+    25% {
+      opacity: 1; }
+    33.3% {
+      opacity: 1;
+      transform: translateY(7.6rem); }
+    66.6% {
+      opacity: 1;
+      transform: translateY(10.4rem); }
+    100% {
+      opacity: 0;
+      transform: translateY(16rem) scale(0.5); } } }
 
 .contact-page,
 .about-me {
@@ -14326,14 +14305,42 @@ ul, ol, dl {
   padding-top: 0.325rem;
   margin-left: 4rem; }
 
+.btn {
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  letter-spacing: 2px;
+  border-radius: 0.2rem; }
+  .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+    box-shadow: none; }
+  .btn svg {
+    margin-right: .5rem; }
+  .btn.collapsed svg {
+    transform: rotate(180deg); }
+  .btn-sm, .btn-group-sm > .btn {
+    padding: 0.6rem 1.1rem;
+    font-size: 0.675rem;
+    line-height: 1.5;
+    border-radius: 0.2rem; }
+  .btn-xl {
+    padding: 1rem 2.25rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.2rem; }
+
+.accordion .btn {
+  letter-spacing: 0px; }
+
 form {
   background: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     form {
       padding: 2rem 1.25rem 2.5rem 2rem; } }
 
-#contact form {
-  padding: 2rem 1.25rem 2.5rem 2rem; }
+.contact-form {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.25rem 2.5rem 2rem;
+  border-radius: 6px; }
 
 .form-group.required .control-label:after {
   content: "*";

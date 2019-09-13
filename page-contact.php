@@ -13,6 +13,7 @@ get_header();
 <section class="contact-page" id="contact mb-5">
 	<div class="container">
 		<div class="row gutter-bot">
+		<canvas id="displayCanvas"></canvas>
 			<div class="col-md-6">
 				<h2 class="font-weight-bold">Welcome to my website</h2>
 				<hr class="divider">
@@ -22,10 +23,14 @@ get_header();
       <div class="col-md-6">
 		  	<div class="col-md-4">
 			  </div>
-				<form
+				<form class="contact-form"
 					action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 					method="post" id="contactForm" name="sentMessage">
 					<div class="row">
+						<div class="col-md-12">
+							<h2 class="text-center">Let's get in touch!</h2>
+							<hr class="divider my-4">
+						</div>
 						<div class="col-md-12">
 							<div class="form-group">
 								<input class="form-control" name="EMAIL" id="email" type="email"

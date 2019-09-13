@@ -17,6 +17,7 @@ get_header();
 <section class="about-me">
   <div class="container">
     <div class="row">
+	<canvas id="displayCanvas"></canvas>
 	<div class="col-6 offset-3 col-lg-2 offset-lg-3">
 			<figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">

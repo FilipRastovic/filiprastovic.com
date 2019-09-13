@@ -5,11 +5,13 @@ form {
 	} 
 }
 
-#contact form {
+.contact-form {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
 	padding: 2rem 1.25rem 2.5rem 2rem;
+	border-radius: 6px;
 }
 
 .form-group.required .control-label:after {
 	content:"*";
 	color:red;
-  }
+}
