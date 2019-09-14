@@ -1,7 +1,8 @@
 form {
 	background: fade-out( $white, .3 );
+	padding: 2rem 1.25rem 2.5rem 2rem;
 	@media ( min-width: 768px ) {
-		padding: 2rem 1.25rem 2.5rem 2rem;
+		
 	} 
 }
 
