@@ -228,7 +228,7 @@ get_header();
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-4 text-center wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
-					<img class="img-fluid rounded shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/molnar.jpeg" alt="Testimonial">
+					<h4 class="text-right font-weight-bold text-uppercase">Client testimonial</h4>
 			</div>
 			<div class="col-lg-8 wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4"><i>Filip has a unique combo of skills: design & development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</i></p>
