@@ -22,14 +22,16 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Expert Landing Page Design</h1>
+				<h1 class="text-uppercase font-weight-bold">Conversion optimized landing page design</h1>
 				<hr class="divider my-4">
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<p class="font-weight-light mb-5">I increase <strong class="font-weight-bold">quality leads</strong> for your established firm, turning your landing pages into most effective 24/7 salesperson. 
+				<p class="font-weight-light mb-5">
+					Increase <strong class="font-weight-bold">quality leads</strong> 
+					for your next campaign, optimizing your landing pages for conversion, turning them into effective sales machines. 
 				</p>
-				<a href="#content" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>LEARN MORE</a>
+				<a href="#content" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>LEARN HOW</a>
 			</div>
 
 		</div>
@@ -41,11 +43,11 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">Your Landing Pages have a unique sales cycle</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Stop wasting cash on low converting pages</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">I understand the nuances of landing page transactions. Knowing what motivates buyers to create online purchases, I help you...</p>
+				<p class="font-weight-light text-muted mb-4">Generate more leads utilizing conversion centered design practices and modern aesthetic trends, desining your pages I help you... </p>
 			</div>
 
 		</div>
@@ -56,7 +58,7 @@ get_header();
 					<div class="icon">1</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Generate more leads</h5>
-						<p class="font-weight-light text-muted">Well-written copy and persuasive calls to action, present your offerings in a way that visitors can't help but follow your sales funnel.</p>
+						<p class="font-weight-light text-muted">Web is a messy place. Combining your copywriting, calls to action and conversion centered design, visitors can't help but follow your sales funnel. </p>
 					</div>
 				</div>
 				
@@ -66,7 +68,7 @@ get_header();
 					<div class="icon">2</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Market your brand</h5>
-						<p class="font-weight-light text-muted">You only get one chance to make a first impression. I make sure your landing page provides best possible reflection of your brand.</p>
+						<p class="font-weight-light text-muted">You only get one chance to make a first impression. Make sure your landing page provides best possible reflection of your brand.</p>
 					</div>
 				</div>
 				
@@ -76,7 +78,7 @@ get_header();
 					<div class="icon">3</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Optimize &amp; Grow</h5>
-						<p class="font-weight-light text-muted">Unbounce allows you to update the content on your pages and create variation easy, without needing to be coders or designers.</p>
+						<p class="font-weight-light text-muted">Start with a hypothesis and test until you're satisfied with the results. Applying scientific method can help you grow. </p>
 					</div>
 				</div>
 				
@@ -134,8 +136,8 @@ get_header();
 					40+ Satisfied Clients
 				</h2>
 				<p class="font-weight-light text-muted mb-4">
-					Our design process has been critical to success of my clients. In partnership with you and your team, I guide you from start to finish through the process of 
-					designing and developing a landing page that speaks directly to your customers.
+					My design process has been critical to success of my clients. In partnership with you and your team, I guide you from start to finish through the process of 
+					designing and developing a landing page that converts your visitors into leads.
 				</p>
 				<h5 class="text-uppercase font-weight-bold text-primary mb-3">
 					Focus on conversions
@@ -173,13 +175,13 @@ get_header();
 					
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 						<div class="card-body">
-							<p class="font-weight-light">Your landing pages get a lot of traffic but not enough of these visitors are converted into viable leads? Those that do take action are frequently not ideal clients.</p>
-							<p class=" font-weight-light">A good design has:</p>
+							<p class="font-weight-light">You're throwing cash on campaigns and not getting your ROI? Your landing pages might lack some of the elements of conversion centered design: </p>
+							<p class=" font-weight-light">A conversion centered design has:</p>
 							<ul>
 								<li class=" font-weight-light">Strong Messaging</li>
-								<li class=" font-weight-light">Enticing Content</li>
+								<li class=" font-weight-light">Clear Calls To Action</li>
 								<li class=" font-weight-light">Authority</li>
-								<li class=" font-weight-light">Trustworthiness</li>
+								<li class=" font-weight-light">Social Proof</li>
 							</ul>
 						</div>
 						</div>

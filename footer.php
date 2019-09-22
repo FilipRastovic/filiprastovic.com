@@ -20,7 +20,7 @@
 		<div class="row">
 			<div class="col-lg-6 position-relative">
 				<h2 class="font-weight-bold mb-4">
-					Am I a got fit for your project?
+					Am I a good fit for your project?
 				</h2>
 				<p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
@@ -76,7 +76,7 @@
 			<div class="col-md-5 mt-md-0 mt-3">
 				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
 				<p class="font-weight-light mb-4">Expert Landing Page Design</p>
-				<p class="font-weight-light text-muted small">As expert in conversion centered design, We aim to improve your business by designing and developing you landing pages that will act as your most effective sales person.</p>
+				<p class="font-weight-light text-muted small">As expert in conversion centered design, I improve your business by designing and developing you landing pages that will be your most effective sales machine.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">
