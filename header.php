@@ -47,6 +47,7 @@
   <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/filip.png" />
   <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/filip.png"/>
   <meta name="twitter:url" content="https://filiprastovic.com"/>
+  <meta name="google-site-verification" content="mlQnTGLwU-XJVF0iQquG9-LnTinXUVGJmobgYUr4phM" />
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700,900&display=swap" rel="stylesheet">
