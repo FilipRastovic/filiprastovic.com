@@ -41,11 +41,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
-  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
+  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/filip.png" />
   <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
   <meta name="author" content="Filip Rastovic">
-  <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
-  <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
+  <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/filip.png" />
+  <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/filip.png"/>
   <meta name="twitter:url" content="https://filiprastovic.com"/>
 
   <!-- Font -->
