@@ -57,7 +57,7 @@
 					</div>
 					<div class="form-group required pb-3">
 						<label class="control-label text-muted" for="inputEmail">Email Address</label>
-						<input type="email" class="form-control" name="EMAIL" name="EMAIL" id="inputEmail" placeholder="">
+						<input type="email" class="form-control" name="EMAIL" id="inputEmail" placeholder="">
 					</div>
 					<button type="submit" class="btn btn-primary btn-xl shadow btn-block">Start Your Consultation</button>
 				</form>

@@ -44,12 +44,6 @@
   <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
   <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
   <meta name="author" content="Filip Rastovic">
-
-  <meta itemprop="name" content="Filip Rastovic - Expert Landing Page Designer"/>
-  <meta itemprop="url" content="https://filiprastovic.com"/>
-  <meta itemprop="description" content="Filip Rastovic is an Expert Landing Page Designer specializing in Conversion Centered Design and Conversion Rate Optimization."/>
-  <meta itemprop="thumbnailUrl" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
-  <meta itemprop="image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
   <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/venn.png" />
   <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/venn.png"/>
   <meta name="twitter:url" content="https://filiprastovic.com"/>
