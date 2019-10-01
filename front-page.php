@@ -22,7 +22,7 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Conversion optimized landing page design</h1>
+				<h1 class="text-uppercase font-weight-bold">Expert landing page design</h1>
 				<hr class="divider my-4">
 			</div>
 
