@@ -1,7 +1,7 @@
 /*font Variables*/ 
 $roboto: 'Roboto', sans-serif; 
 /*Color Variables*/ 
-$bc: #5cb85c;
+
 $heding: #405867; 
 $pfont: #5f6771;
 
@@ -22,14 +22,16 @@ $pfont: #5f6771;
 @import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,700,900');
 
 .multi_step_form{
-    background: #f6f9fb;
+    //background: #f6f9fb;
     display: block;
     overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
     #msform {
         text-align: center;
         position: relative;
         padding-top: 50px;
-        min-height: 820px;  
+        min-height: 620px;  
         max-width: 810px;
         margin: 0 auto;
         background: #ffffff;
@@ -49,7 +51,7 @@ $pfont: #5f6771;
         }
         fieldset { 
             border: 0; 
-            padding: 20px 105px 0;  
+            //padding: 20px 105px 0;  
             position: relative;
             width: 100%;
             left: 0;
@@ -122,7 +124,7 @@ $pfont: #5f6771;
                     color: $pfont;
                 } 
                 &:hover, &:focus{
-                    border-color: $bc;
+                    border-color: $blue;
                 }
                 &:focus{  
                     @include placeholder{
@@ -154,7 +156,7 @@ $pfont: #5f6771;
                     line-height: 36px;
                     font-size: 22px;
                     margin-bottom: 10px;
-                    background: $bc;
+                    background: $blue;
                     display: inline-block;
                     border-radius: 50%;
                     color: #ffffff;
@@ -193,7 +195,7 @@ $pfont: #5f6771;
                     position: absolute;
                     top: 4px;
                     right: 0; 
-                    background: $bc;
+                    background: $blue;
                     display: inline-block;
 					border-radius: 50%;
 					counter-increment: section;
@@ -226,8 +228,8 @@ $pfont: #5f6771;
                             padding-right: 10px;
                         }
                         &:hover, &:focus{
-                            background: $bc;
-                            border-color: $bc;
+                            background: $blue;
+                            border-color: $blue;
                             color: #fff;
                         }
                     }
@@ -244,7 +246,7 @@ $pfont: #5f6771;
                     font: 400 15px/28px $roboto;
                     color: $pfont;
                     a{
-                        color: $bc;
+                        color: $blue;
                         font-weight: 500;
                         display: inline-block;
                         position: relative;
@@ -268,11 +270,11 @@ $pfont: #5f6771;
                 list-style-type: none;
                 color: #99a2a8; 
                 font-size: 9px;
-                width: calc(100%/11);
+                width: calc(100%/12);
                 float: left;
                 position: relative; 
                 &:before {
-                    content: "\f1fa";
+                    content: "";
                     font: normal normal normal 30px/50px Ionicons;
                     width: 40px;
                     height: 40px;
@@ -298,23 +300,23 @@ $pfont: #5f6771;
                     }
                 }
                 &.active{
-                    color: $bc;
+                    color: $blue;
                     &:before, &:after{
-                        background: $bc;
+                        background: $blue;
                         color: white;
                     }
                 }
             }
         } 
         .action-button { 
-            background: $bc; 
+            background: $blue; 
             color: white;
             border: 0 none;
             border-radius: 5px;
             cursor: pointer; 
             min-width: 130px;
             font: 700 14px/40px $roboto;
-            border: 1px solid $bc;
+            border: 1px solid $blue;
             margin: 0 5px;
             text-transform: uppercase; 
             display: inline-block;
@@ -334,5 +336,17 @@ $pfont: #5f6771;
             }
         } 
     } 
+
+    textarea,
+    input {
+        background-color: #e9ecef;
+        border-radius: 7px;
+
+        &:focus,
+        &:hover {
+            outline: none;
+            border: 1px solid transparent;
+        }
+    }
 }
  
