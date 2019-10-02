@@ -25,8 +25,8 @@ get_header();
 
 			<div class="col-lg-10 align-self-baseline">
         <p class="font-weight-light">I'll get to you as soon as possible!</p>
-        <p class="font-weight-light">You can read my blog in the meantime</p>
-				<a href="/blog" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read Blog</a>
+        <p class="font-weight-light">You can read about my services in the meantime:</p>
+				<a href="/process" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read Blog</a>
 			</div>
 
 		</div>
