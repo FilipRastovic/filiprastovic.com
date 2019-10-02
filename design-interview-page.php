@@ -17,11 +17,10 @@ get_header();
 <header class="header">
 	<div class="container h-100">
 		<div class="row h-100 justify-content-center text-center">
-			<div class="col-lg-12 align-self-baseline">
-					<canvas id="displayCanvas">
-			
-						</canvas>
+			<canvas id="displayCanvas">
 
+			</canvas>
+			<div class="col-lg-12 align-self-baseline">
 				<!-- Multi step form -->
 				<section class="multi_step_form">
 					<form id="msform" action="https://gmail.us20.list-manage.com/subscribe/post?u=90a3dc4e1984a166af54c6c28&amp;id=dfc7a62187" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
