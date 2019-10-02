@@ -22,7 +22,7 @@ $pfont: #5f6771;
 @import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,700,900');
 
 .multi_step_form{
-    //background: #f6f9fb;
+    background: #fff;
     display: block;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
@@ -314,7 +314,7 @@ $pfont: #5f6771;
             border: 0 none;
             border-radius: 5px;
             cursor: pointer; 
-            min-width: 130px;
+            min-width: 118px;
             font: 700 14px/40px $roboto;
             border: 1px solid $blue;
             margin: 0 5px;

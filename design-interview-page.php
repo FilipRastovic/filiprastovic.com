@@ -26,11 +26,11 @@ get_header();
 					<form id="msform" action="https://gmail.us20.list-manage.com/subscribe/post?u=90a3dc4e1984a166af54c6c28&amp;id=dfc7a62187" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<!-- Tittle -->
 						<div class="tittle">
-							<h2 class="font-weight-bold text-primary">Landing Page Design Interview</h2>
+							<h1 class="font-weight-bold text-primary">Landing Page Design Interview</h1>
 							<p>In order for me to better understand your needs, please answer the questeions below!</p>
 						</div>
 						<!-- progressbar -->
-						<ul id="progressbar">
+						<ul class="pl-0" id="progressbar">
 							<li class="active">1</li>
 							<li>2</li>
 							<li>3</li>
