@@ -17,6 +17,9 @@ get_header();
 <header class="header" id="thank-you">
 	<div class="container h-100">
 		<div class="row h-100 justify-content-center text-center">
+		<canvas id="displayCanvas">
+			
+			</canvas>
 
 			<div class="col-lg-10 align-self-end">
 				<h1 class="text-uppercase font-weight-bold">Thank you!</h1>

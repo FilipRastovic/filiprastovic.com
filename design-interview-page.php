@@ -18,6 +18,9 @@ get_header();
 	<div class="container h-100">
 		<div class="row h-100 justify-content-center text-center">
 			<div class="col-lg-12 align-self-baseline">
+					<canvas id="displayCanvas">
+			
+						</canvas>
 
 				<!-- Multi step form -->
 				<section class="multi_step_form">
