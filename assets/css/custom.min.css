@@ -14278,22 +14278,6 @@ ul, ol, dl {
   #contactForm .submit:hover {
     background-color: rgba(0, 0, 255, 0.7); }
 
-.circle-icon .icon {
-  background: #00f;
-  float: left;
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.3rem;
-  line-height: 2.3;
-  font-weight: 500;
-  border-radius: 50%;
-  text-align: center;
-  color: #fff; }
-
-.circle-icon .text {
-  padding-top: 0.325rem;
-  margin-left: 4rem; }
-
 .btn {
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
   letter-spacing: 2px;
@@ -14331,6 +14315,35 @@ ul, ol, dl {
       .contact-page h2,
       .about-me h2 {
         text-align: left; } }
+
+form {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2rem 1.25rem 2.5rem 2rem; }
+
+.contact-form {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.25rem 2.5rem 2rem;
+  border-radius: 6px; }
+
+.form-group.required .control-label:after {
+  content: "*";
+  color: red; }
+
+.circle-icon .icon {
+  background: #00f;
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  line-height: 2.3;
+  font-weight: 500;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff; }
+
+.circle-icon .text {
+  padding-top: 0.325rem;
+  margin-left: 4rem; }
 
 /*font Variables*/
 /*Color Variables*/
@@ -14651,19 +14664,6 @@ ul, ol, dl {
   color: #00f !important;
   text-decoration: underline; }
 
-form {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 2rem 1.25rem 2.5rem 2rem; }
-
-.contact-form {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
-  padding: 2rem 1.25rem 2.5rem 2rem;
-  border-radius: 6px; }
-
-.form-group.required .control-label:after {
-  content: "*";
-  color: red; }
-
 .screenshot {
   height: 600px;
   overflow: hidden;
@@ -14697,3 +14697,9 @@ form {
 #displayCanvas {
   position: absolute;
   left: 0; }
+
+.pt-50 {
+  padding-top: 10rem; }
+
+.pb-50 {
+  padding-bottom: 10rem; }

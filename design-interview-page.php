@@ -14,9 +14,9 @@
 get_header();
 ?>
 
-<header class="header">
-	<div class="container h-100">
-		<div class="row h-100 justify-content-center text-center">
+<header class="pt-50 pb-50">
+	<div class="container ">
+		<div class="row justify-content-center text-center">
 			<canvas id="displayCanvas">
 
 			</canvas>
