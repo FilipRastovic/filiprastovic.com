@@ -28,7 +28,7 @@ get_header();
 
 			<div class="col-lg-10 align-self-baseline">
 				<p class="font-weight-light mb-5">
-					Increase <strong class="font-weight-bold">quality leads</strong> 
+					I increase <strong class="font-weight-bold">quality leads</strong> 
 					for your next campaign, optimizing your landing pages for conversion, turning them into effective sales machines. 
 				</p>
 				<a href="#content" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>LEARN HOW</a>
@@ -43,7 +43,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">Stop wasting cash on low converting pages</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Your landing pages have a unique selling cycle</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
