@@ -3,5 +3,27 @@
 		p {
 			font-weight: 300;
 		}
+		figure {
+			width: 100% !important;
+			height: auto;
+		}
+
+		.wp-caption-text {
+			font-weight: 300;
+			color: $gray-600;
+		}
+
+		strong {
+			font-weight: 800 !important;
+		}
 	}
 }
+
+.post-thumbnail {
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+}
+
