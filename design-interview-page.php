@@ -27,7 +27,7 @@ get_header();
 						<!-- Tittle -->
 						<div class="tittle">
 							<h1 class="font-weight-bold text-primary">Landing Page Design Interview</h1>
-							<p>In order for me to better understand your needs, please answer the questeions below!</p>
+							<p>In order for me to better understand your needs, please answer the questions below!</p>
 						</div>
 						<!-- progressbar -->
 						<ul class="pl-0" id="progressbar">
