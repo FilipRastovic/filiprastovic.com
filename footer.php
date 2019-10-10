@@ -25,10 +25,10 @@
 				<p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary font-weight-light">
 					<li class="mb-3">
-						<i class="fas fa-check mr-2"></i>Are small to medium in size ( approximately 1 - 100 employees)
+						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
 					</li>
 					<li class="mb-3">
-						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
+						<i class="fas fa-check mr-2"></i>Are running paid advetising
 					</li>
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset
