@@ -90,7 +90,6 @@ get_header();
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
 				</ul>
-				<a target="_BLANK" href="http://www.justopromo.ca/promo/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				<a href="/case-studies#justo" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">

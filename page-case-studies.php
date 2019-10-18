@@ -19,14 +19,75 @@ get_header();
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<a href="#customr" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Latest work</a>
+				<a href="#usbfactory" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Latest work</a>
 			</div>
 
 		</div>
 	</div>
 </header>
 
-<section class="page-section bg-grey" id="customr">
+<section class="page-section bg-grey" id="usbfactory">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
+				<h2 class="text-center font-weight-light mb-4">USB Factory</h2>
+					<div class="row text-center text-primary mb-5">
+						<div class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+					</div>
+				<hr class="divider">
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">The Process</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light">USB Factory is a Swiss based custom USB design manufacturer. Basically companies send them over their logos and USB Factory creates USB drives ( among other things ) with their logos on them.
+				Company CEO, Battista, got it touch with me in order to solve one problem: their Unbounce landing pages not converting enough. After checking out their current designs it was obvious to me that their 
+				Unbounce landing pages were very outdated, not optimized for conversions and most importantly the design was not aligned with their current website. The conversion rate was something around 
+				<span class="font-weight-bold">6%</span>. I got all the copywriting and images Battista wanted me to include in the new landing page and started working. After sending him over the first mockup, he 
+				gave me some feedback and I revised the page. The second version was aproved and I started implementing the page onto Unbounce. The page had a custom slider and some nice animations. After the implementation was 
+				over, we tested the page on both mobile and desktop. We than started getting paid traffic to the page and the <span class="font-weight-bold">conversion rate doubeled.</span> Their new landing page has more than 
+				<span class="font-weight-bold">12% conversion rate.</span>
+				</p>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">Client Review</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light"><i>Whaou! Working with Filip is just GREAT! Everything is easy and simple. Thanks a lot for your great job, I'll come back to order more pages soon!</i></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">Old Landing Page Design</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/usb-factory/usb-factory-old.jpg"
+					alt="Portfolio image">
+				<h3 class="font-weight-bold text-primary">Results:</h3>
+				<h6>Old Page: <span class="font-weight-bold text-danger">6% conversion rate</span> </h6>
+				<h6>New Page: <span class="font-weight-bold text-primary">12% conversion rate</span></h6>
+			</div>
+			<div class="col-lg-6">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Design</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/usb-factory/usb-factory-new.jpg"
+					alt="Portfolio image">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section" id="customr">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 mx-auto">
