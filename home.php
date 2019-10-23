@@ -34,12 +34,19 @@ get_header();
     <div class="row">
       <div class="col-md-7 mx-auto">
 
+      <?php 
+   // the query
+      $the_query = new WP_Query( array(
+          'posts_per_page' => 1
+      )); 
+    ?>
+
         <?php
-      if ( have_posts() ) :
+      if ( $the_query->have_posts() ) :
 
         /* Start the Loop */
-        while ( have_posts() ) :
-          the_post();
+        while ( $the_query->have_posts() ) :
+          $the_query->the_post();
 
           /*
           * Include the Post-Type-specific template for the content.
