@@ -77,7 +77,7 @@ get_header();
 							<button type="button" class="next action-button">Continue</button>
 						</fieldset>
 						<fieldset>
-							<h3 class="font-weight-bold text-primary">Are there any other skateholders and what are their roles?</h3>
+							<h3 class="font-weight-bold text-primary">Are there any other stakeholders and what are their roles?</h3>
 							<div class="form-row">
 								<div class="form-group col-md-12">
 									<textarea type="text" name="MMERGE5" id="mce-MMERGE5" class="form-control" placeholder="Write here..."></textarea>
