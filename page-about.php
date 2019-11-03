@@ -26,10 +26,9 @@ get_header();
       </div>
       <div class="col-md-5">
 		<h1 class="font-weight-bold text-primary">Hi I'm Filip Rastovic</h1>
-        <p class="font-weight-light">I'm Filip, a passionate web designer and software developer. I've been fascinated with the way technology, especially software, 
-			look and feel like since an early age and I always knew my future will have something to do with it. My path lead me to the intersection of visual arts 
-			and software engineering, a blade's edge where I feel most comfortable. While designing landing pages is my daily job and a business, in my spare time I enjoy 
-			drawing using code and algorithms, writing, making video games with my friends and producing educational youtube videos.
+        <p class="font-weight-light">I'm Filip, designer, developer, CRO consultant, tinkerer, curios guy. With background in computer science and engineering and experience working as a web designer / developer for various 
+			US based digital agencies I bring an innovative and fresh perspective to every project. My work is on the blade's edge of design, software and visual arts, a place 
+			where I feel most comfortable. Always learning, always growing, I help grow businesses utilizing the latest technology and research of human behaviour.
 		</p>
 		<p class="font-weight-light mb-5">
 			Looking forward to hearing from you.

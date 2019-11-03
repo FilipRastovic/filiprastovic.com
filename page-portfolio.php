@@ -73,8 +73,61 @@ get_header();
 					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
 				</ul>
-				<a target="_BLANK" href="https://discover.mrdraper.com/your-stylist/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a target="_BLANK" href="http://unbouncepages.com/6429992a-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				<a href="/case-studies#drapper" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section--portfolio bg-grey">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<h2 class="font-weight-bold">DNSFilter</h2>
+				<p class="font-weight-light text-muted">DNSFilter is a software solution that helps companies secure their network and provide a safe experience for their employes. With competitors such as Cisco this 
+					landing page had to stand out with its simplicity and use of animated SVG illustrations.
+				</p>
+				<ul class="list-unstyled text-primary">
+					<li><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
+					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
+					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+				</ul>
+				<a href="http://unbouncepages.com/2aad142e-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+			</div>
+			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+				<div class="screenshot">
+					
+					<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png" alt="Portfolio image">
+			
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+<section class="page-section--portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+				<div class="screenshot">
+					
+					<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/usb-factory-new.jpg?>" alt="Fashion Stylist landing page">
+			
+				</div>
+			</div>
+			<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
+				<h2 class="font-weight-bold">USBFactory</h2>
+				<p class="font-weight-light text-muted">USBFactory is a Swiss based custom USB manufacturer. Serving really big companies in France, Switzerland and Germany USBFactory
+					needed a modern landing page to replace their outdated one. We managed to double the conversion rate.
+				</p>
+				<ul class="list-unstyled text-primary">
+					<li><i class="fas fa-cogs mr-2"></i>Maintenance</li>
+					<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
+					<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+				</ul>
+				<a target="_BLANK" href="http://unbouncepages.com/1e397b10-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a href="/case-studies#usbfactory" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
 			</div>
 		</div>
 	</div>
@@ -177,6 +230,59 @@ get_header();
 		</div>
 	</div>
 </section>
+
+<!-- NEW STUFF -->
+<section class="page-section--portfolio bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h2 class="font-weight-bold">Trader Lead Magnet</h2>
+					<p class="font-weight-light text-muted">This is a simple stock trader lead magnet landing page. Simplistic, above the fold section only landing page with outstanding performance, conversion rate around 40% !
+					</p>
+					<ul class="list-unstyled text-primary">
+						<li><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
+						<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
+						<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					</ul>
+					<a href="http://unbouncepages.com/6acea7fc-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				</div>
+				<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+					<div class="shadow">
+						
+						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/TRADERS.jpg" alt="Portfolio image">
+				
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="page-section--portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+					<div class="shadow">
+						
+						<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/POT.jpg?>" alt="Fashion Stylist landing page">
+				
+					</div>
+				</div>
+				<div class="order-1 col-lg-4 order-lg-2 offset-lg-1">
+					<h2 class="font-weight-bold">Investor Lead Magnet</h2>
+					<p class="font-weight-light text-muted">Very simple landing page for investors. Single section, perfect for Youtube Ads.
+					</p>
+					<ul class="list-unstyled text-primary">
+						<li><i class="fas fa-cogs mr-2"></i>Maintenance</li>
+						<li><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
+						<li><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					</ul>
+					<a target="_BLANK" href="http://unbouncepages.com/7737456c-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- NEW STUFF ENDS -->
 
 <section class="page-section--portfolio bg-grey">
 	<div class="container">
