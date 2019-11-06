@@ -10,6 +10,11 @@
 	&-body {
 		background: #fafafa;
 
+		@media (max-width: 768px) {
+			padding: 0;
+			background: transparent;
+		}
+
 		form {
 			background: #fff;
 		}
@@ -18,4 +23,13 @@
 	li {
 		font-size: 14px;
 	}
+
+	@media (max-width: 768px) {
+
+		.col-lg-6 {
+			padding: 0;
+		}
+
+	}
 }
+
