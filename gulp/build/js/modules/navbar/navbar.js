@@ -10,3 +10,10 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+  $( '.contact-link' ).on( 'click', function() {
+
+    $( '#exampleModal' ).modal( 'show' );
+
+  });
+    

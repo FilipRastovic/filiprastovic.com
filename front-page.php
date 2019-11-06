@@ -17,9 +17,9 @@ get_header();
 <header class="header">
 	<div class="container h-100">
 		<div class="row h-100 justify-content-center text-center">
-			<!-- <canvas id="displayCanvas">
+			<canvas id="displayCanvas">
 			
-			</canvas> -->
+			</canvas>
 
 			<div class="col-lg-10 align-self-end">
 				<h1 class="text-uppercase font-weight-bold">Expert landing page design</h1>
@@ -31,7 +31,7 @@ get_header();
 					I increase <strong class="font-weight-bold">quality leads</strong> 
 					for your next campaign, optimizing your landing pages for conversion, turning them into effective sales machines. 
 				</p>
-				<a href="/process" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>LEARN HOW</a>
+				<a href="#" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>REQUEST QUOTE</a>
 			</div>
 
 		</div>

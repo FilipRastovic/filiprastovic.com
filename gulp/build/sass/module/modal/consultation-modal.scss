@@ -1,0 +1,21 @@
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 1000px;
+	}
+}
+
+.modal {
+	padding-right: 0 !important;
+	
+	&-body {
+		background: #fafafa;
+
+		form {
+			background: #fff;
+		}
+	}
+
+	li {
+		font-size: 14px;
+	}
+}

@@ -39,7 +39,7 @@
 				</ul>
 				<div class="animated-arrow right show-for-xlarge"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div></div>
 			</div>
-			<div class="col-lg-5 offset-lg-1 wow animated fadeInRight" data-wow-duration="2s" data-wow-delay=".1s">
+			<div class="col-lg-5 offset-lg-1 wow animated fadeInRight overflow-hidden" data-wow-duration="2s" data-wow-delay=".1s">
 				<form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 				method="post">
 					<div class="text-center mb-4">
@@ -92,6 +92,9 @@
 					</li>
 					<li>
 						<a class="small" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
+					</li>
+					<li>
+						<a class="small" href="https://www.behance.net/filiporastovic"><i class="mr-2 fab fa-behance"></i>Behance</a>
 					</li>
 					<li>
 						<a class="small" href="https://dribbble.com/filipo"><i class="mr-2 fab fa-dribbble"></i>Dribbble</a>
