@@ -32,9 +32,9 @@ get_header();
 			<div class="col-lg-8 mx-auto">
 				<h2 class="text-center font-weight-light mb-4">USB Factory</h2>
 					<div class="row text-center text-primary mb-5">
-						<div class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
 			</div>
@@ -93,9 +93,9 @@ get_header();
 			<div class="col-lg-8 mx-auto">
 				<h2 class="text-center font-weight-light mb-4">Customr.App</h2>
 					<div class="row text-center text-primary mb-5">
-						<div class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
 			</div>
@@ -132,9 +132,9 @@ get_header();
 			<div class="col-lg-8 mx-auto">
 				<h2 class="text-center font-weight-light mb-4">Justo.ca</h2>
 					<div class="row text-center text-primary mb-5">
-						<div class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
 			</div>
@@ -179,9 +179,9 @@ get_header();
 			<div class="col-lg-8 mx-auto">
 				<h2 class="text-center font-weight-light mb-4">Drapper</h2>
 					<div class="row text-center text-primary mb-5">
-						<div class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
 			</div>
@@ -223,9 +223,9 @@ get_header();
 			<div class="col-lg-8 mx-auto">
 				<h2 class="text-center font-weight-light mb-4">Radiance</h2>
 					<div class="row text-center text-primary mb-5">
-						<div class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
 			</div>

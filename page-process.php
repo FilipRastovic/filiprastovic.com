@@ -201,35 +201,22 @@ get_header();
 	</div>
 </section>
 
-<!-- <section class="page-section testimonials">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-3 text-center wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
-					<img class="img-fluid rounded shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/Maria.png" alt="Testimonial">
-			</div>
-			<div class="col-lg-8 offset-lg-1 wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4"><i>I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way. For my next projects for landing pages I would would with him again. Thank you Filip!</i></p>
-				<p class="text-primary font-weight-bold mb-2 text-left">Maria Davidson</p>
-				<p class="font-weight-light text-muted text-left">Justo</p>
-			</div>
-		</div>
-	</div>
-</section> -->
-
 <section class="page-section testimonials">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
-				<h2 class="text-uppercase font-weight-bold mb-5">Client testimonials</h2>
+			<div class="col-lg-6 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
+				<h2 class="text-uppercase font-weight-bold mb-5">What they said about me</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/molnar.jpeg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4"><i>Filip has a unique combo of skills: design &amp; development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</i></p>
 				<p class="text-primary font-weight-bold mb-2 text-left">Robert Molnar</p>
 				<p class="font-weight-light text-muted text-left">CEO Of Stratolytics</p>
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/Maria.jpg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4">
 					I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way.
 					For my next projects for landing pages I would would with him again.
@@ -239,6 +226,7 @@ get_header();
 				<p class="font-weight-light text-muted text-left">Justo</p>
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/liam.jpg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4">
 					Filip was AMAZING! The only reason we are ending the contract is because he got too busy with bigger projects. I am sad to loose him as he is awesome. I would definitely hire again and again. If you have the opportunity to work with Filip, you should absolutely do it, he will make you proud!
 				</p>
@@ -248,6 +236,7 @@ get_header();
 		</div>
 		<div class="row">
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/andrew.jpg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4">
 					Fillip understood the project, understood my needs and made it happen. Created a really beautiful landing page that is going to work well with my ad campaign.
 				</p>
@@ -255,6 +244,7 @@ get_header();
 				<p class="font-weight-light text-muted text-left">Practice Cultivator</p>
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/battista.jpg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4">
 					Whaou ! working with Filip is just GREAT ! Everything is easy and simple. Thanks a lot for your great job, will have more job soon ;)
 				</p>
@@ -262,6 +252,7 @@ get_header();
 				<p class="font-weight-light text-muted text-left">USBFactory</p>
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/gari-designer.jpg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4">
 					Working with Filip has been a very smooth process. He is quick and clear with communication and works through revisions easily and without any hiccups.
 				</p>
