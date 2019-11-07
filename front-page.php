@@ -13,17 +13,27 @@
 
 get_header();
 ?>
-
+<div class="container-fluid">
+	<div class="row d-none d-lg-none d-xl-block">
+		<div class="position-absolute col-lg-2 offset-lg-9 u-mt_96">
+			<figure class="text-center">
+					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
+					<figcaption><a class="text-primary" id="haircut" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
+				</figure>
+		</div>
+	</div>
+</div>
 <header class="header">
 	<div class="container h-100">
-		<div class="row h-100 justify-content-center text-center">
+
+		<div class="row h-100">
 			<canvas id="displayCanvas">
 			
 			</canvas>
 
 			<div class="col-lg-10 align-self-end">
 				<h1 class="text-uppercase font-weight-bold">Boost Conversion Rates</h1>
-				<hr class="divider my-4">
+				
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
@@ -236,7 +246,7 @@ get_header();
 <section class="page-section testimonials">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
+			<div class="col-lg-6 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
 				<h2 class="text-uppercase font-weight-bold mb-5">What they said about me</h2>
 			</div>
 		</div>
