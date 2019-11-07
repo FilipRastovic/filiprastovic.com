@@ -246,7 +246,7 @@ get_header();
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
 				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/battista.jpg" alt="Testimonial Person Image" class="testimonial-img">
 				<p class="font-weight-light text-muted testimonial-paragraph text-left mb-4">
-					Whaou ! working with Filip is just GREAT ! Everything is easy and simple. Thanks a lot for your great job, will have more job soon ;)
+					Whaou ! working with Filip is just GREAT ! Everything is easy and simple. Thanks a lot for your great job, we will be booking you again very soon!
 				</p>
 				<p class="text-primary font-weight-bold mb-2 text-left">Battista Ravane</p>
 				<p class="font-weight-light text-muted text-left">USBFactory</p>

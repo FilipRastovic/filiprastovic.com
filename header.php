@@ -109,6 +109,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
       <div class="modal-header">
+        <strong class="font-weight-bold">Filip Rastovic </strong><img class="top-rated" src="/wp-content/themes/filip-rastovic/assets/img/top-rated.png" alt="Top Rated Badge">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -134,6 +135,7 @@
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
                 </li>
+                <img class="unbounce-logo" src="/wp-content/themes/filip-rastovic/assets/img/Unbounce-logo-alt.png" alt="Unbounce Logo">
               </ul>
               <div class="animated-arrow right show-for-xlarge"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div></div>
             </div>
@@ -171,6 +173,7 @@
 <div class="modal-dialog" role="document">
 		<div class="modal-content">
       <div class="modal-header">
+        <strong class="font-weight-bold">Filip Rastovic </strong><img class="top-rated" src="/wp-content/themes/filip-rastovic/assets/img/top-rated.png" alt="Top Rated Badge">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -195,6 +198,9 @@
                 </li>
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
+                </li>
+                <li>
+                  <img class="unbounce-logo" src="/wp-content/themes/filip-rastovic/assets/img/Unbounce-logo-alt.png" alt="Unbounce Logo">
                 </li>
               </ul>
               <div class="animated-arrow right show-for-xlarge"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div></div>

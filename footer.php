@@ -105,7 +105,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 						<a class="small" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
 					</li>
 					<li>
-						<a class="small" href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
+						<img class="upwork-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/upwork-logo.png" alt="Upwork Logo"> <a class="small" href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
 					</li>
 				</ul>
 			</div>
