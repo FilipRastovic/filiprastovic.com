@@ -134,9 +134,7 @@
 				// $('.exit-modal .modal-body p').text("Exit modal shown "+counter+" times");
 			},
 			callbackOnModalShown:           function() {
-				timer = setTimeout(function(){
-					window.location.href = "http://www.jqueryscript.net";
-				}, 4000)
+	
 			},
 			callbackOnModalHide:            function() {
 				clearTimeout(timer);

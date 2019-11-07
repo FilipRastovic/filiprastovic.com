@@ -47,7 +47,9 @@ get_header();
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg" alt="Portfolio image">
+					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg">
+						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg" alt="Portfolio image">
+					</a>
 			
 				</div>
 			</div>
@@ -61,7 +63,9 @@ get_header();
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/landing-pages/8.jpg?>" alt="Fashion Stylist landing page">
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/landing-pages/8.jpg?>">
+							<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/landing-pages/8.jpg?>" alt="Fashion Stylist landing page">
+					</a>
 			
 				</div>
 			</div>
@@ -98,7 +102,9 @@ get_header();
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png" alt="Portfolio image">
+					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png?>">
+						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png?>" alt="Portfolio image">
+					</a>
 			
 				</div>
 			</div>
@@ -112,7 +118,10 @@ get_header();
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/usb-factory-new.jpg?>" alt="Fashion Stylist landing page">
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/usb-factory-new.jpg?>">
+						<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/usb-factory-new.jpg?>" alt="Fashion Stylist landing page">
+					</a>
+					
 			
 				</div>
 			</div>
@@ -148,10 +157,9 @@ get_header();
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-				<img class="img-fluid shadow mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg"
-					alt="Justo landing page">
-			
+					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg?>">
+						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg?>" alt="Justo landing page">
+					</a>
 				</div>
 			</div>
 		</div>
@@ -165,7 +173,10 @@ get_header();
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/velo.jpg" alt="Ib docs">
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/velo.jpg?>">
+						<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/velo.jpg?>" alt="Ib docs">
+					</a>
+					
 
 				</div>
 			</div>
@@ -197,10 +208,10 @@ get_header();
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
-					
-				<img class="img-fluid"
-						src="<?php echo get_template_directory_uri() ?>/assets/img/natours.jpg" alt="Bonsall Img">
-			
+
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/natours.jpg?>">
+						<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/natours.jpg?>" alt="Bonsall Img">
+					</a>
 				</div>
 			</div>
 		</div>
@@ -213,7 +224,10 @@ get_header();
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/brolen.jpg" alt="Ib docs">
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/brolen.jpg?>">
+						<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/brolen.jpg?>" alt="Brolen Homes Img">
+					</a>
+					
 
 				</div>
 			</div>
@@ -249,8 +263,9 @@ get_header();
 				<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 					<div class="shadow">
 						
-						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/TRADERS.jpg" alt="Portfolio image">
-				
+						<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/TRADERS.jpg?>">
+							<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/TRADERS.jpg?>" alt="Portfolio image">
+						</a>
 					</div>
 				</div>
 			</div>
@@ -263,7 +278,9 @@ get_header();
 				<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 					<div class="shadow">
 						
-						<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/POT.jpg?>" alt="Fashion Stylist landing page">
+						<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/POT.jpg?>">
+								<img class="img-fluid shadow" src="<?php echo get_template_directory_uri() ?>/assets/img/case-studies/POT.jpg?>" alt="Fashion Stylist landing page">
+						</a>
 				
 					</div>
 				</div>
@@ -298,7 +315,10 @@ get_header();
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg" alt="Ib docs">
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg?>">
+						<img class="img-fluid shadow mb-5" src="<?php echo get_template_directory_uri() ?>/assets/img/pricing.jpg?>" alt="Ib docs">
+					</a>
+					
 
 				</div>
 			</div>
@@ -313,8 +333,10 @@ get_header();
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-				<img class="img-fluid"
-						src="<?php echo get_template_directory_uri() ?>/assets/img/radiance.jpg" alt="Bonsall Img">
+					<a class="image-link" href="<?php echo get_template_directory_uri() ?>/assets/img/radiance.jpg?>">
+						<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/radiance.jpg?>" alt="Bonsall Img">
+					</a>
+					
 			
 				</div>
 			</div>

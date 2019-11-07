@@ -199,7 +199,7 @@
               </ul>
               <div class="animated-arrow right show-for-xlarge"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div></div>
             </div>
-            <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="2s" data-wow-delay=".1s">
+            <div class="col-lg-6 ">
               <form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
               method="post">
                 <div class="text-center mb-4">
