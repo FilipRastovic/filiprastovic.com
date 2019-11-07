@@ -41,6 +41,7 @@ get_header();
 					Optimize your <strong class="font-weight-bold">landing page</strong> utilizing the best practices of <strong class="font-weight-bold">conversion centered design</strong>
 				</p>
 				<a href="#" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>REQUEST QUOTE</a>
+				<img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button">
 			</div>
 
 		</div>
@@ -95,6 +96,7 @@ get_header();
 
 			<div class="col-lg-12 mb-3 text-center wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<a href="/portfolio" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i class="fas fa-info-circle"></i>SEE PORTFOLIO</a>
+				<img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button">
 			</div>
 		</div>
 	</div>
@@ -156,7 +158,7 @@ get_header();
 					There is too much content on the web, and the way to capture someone's attention is to leverage the principles of visual design with a strong persuasive copy.
 				</p>
 				<a href="/case-studies" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i class="fas fa-book"></i>READ CASE STUIDY</a>
-
+				<img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button">
 			</div>
 
 

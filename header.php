@@ -102,7 +102,7 @@
           <div class="row">
             <div class="d-none d-sm-block col-lg-6 position-relative">
               <h2 class="font-weight-bold mb-4">
-                Am I a good fit for your project?
+                Let's talk!
               </h2>
               <p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-primary font-weight-light">
@@ -164,7 +164,7 @@
           <div class="row">
             <div class="d-none d-sm-block col-lg-6 position-relative">
               <h2 class="font-weight-bold mb-4">
-                Am I a good fit for your project?
+                Let's talk!
               </h2>
               <p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-primary font-weight-light">
