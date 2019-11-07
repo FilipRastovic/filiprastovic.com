@@ -22,14 +22,13 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Expert landing page design</h1>
+				<h1 class="text-uppercase font-weight-bold">Boost Conversion Rates</h1>
 				<hr class="divider my-4">
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
 				<p class="font-weight-light mb-5">
-					I increase <strong class="font-weight-bold">quality leads</strong> 
-					for your next campaign, optimizing your landing pages for conversion, turning them into effective sales machines. 
+					Optimize your <strong class="font-weight-bold">landing page</strong> utilizing the best practices of <strong class="font-weight-bold">conversion centered design</strong>
 				</p>
 				<a href="#" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>REQUEST QUOTE</a>
 			</div>
@@ -47,7 +46,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">Generate more leads utilizing conversion centered design practices and modern aesthetic trends, desining your pages I help you... </p>
+				<p class="font-weight-light text-muted mb-4">Apply best practices or risk wasting cash on paid advertising that doesn't convert. But it doesn't have to be like that. I can help you: </p>
 			</div>
 
 		</div>
@@ -58,7 +57,7 @@ get_header();
 					<div class="icon">1</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Generate more leads</h5>
-						<p class="font-weight-light text-muted">Web is a messy place. Combining your copywriting, calls to action and conversion centered design, visitors can't help but follow your sales funnel. </p>
+						<p class="font-weight-light text-muted">Users are overwhelmed by too much choice. What do I read? Where do I click? Remove distractions and you'll convert more.</p>
 					</div>
 				</div>
 				
@@ -68,7 +67,7 @@ get_header();
 					<div class="icon">2</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Market your brand</h5>
-						<p class="font-weight-light text-muted">You only get one chance to make a first impression. Make sure your landing page provides best possible reflection of your brand.</p>
+						<p class="font-weight-light text-muted">Associate your brand with clarity. Users love brands they can understand and leaving a great first impression is crucial.</p>
 					</div>
 				</div>
 				
@@ -78,7 +77,7 @@ get_header();
 					<div class="icon">3</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Optimize &amp; Grow</h5>
-						<p class="font-weight-light text-muted">Start with a hypothesis and test until you're satisfied with the results. Applying scientific method can help you grow. </p>
+						<p class="font-weight-light text-muted">Start with a hypothesis and test until you're satisfied with the results. Applying scientific method can help you grow. Leverage Big Data. </p>
 					</div>
 				</div>
 				
@@ -133,7 +132,7 @@ get_header();
 			</div>
 			<div class="col-lg-4">
 				<h2 class="text-uppercase font-weight-bold mb-3">
-					40+ Satisfied Clients
+					Satisfied clients
 				</h2>
 				<p class="font-weight-light text-muted mb-4">
 					My design process has been critical to success of my clients. In partnership with you and your team, I guide you from start to finish through the process of 
@@ -159,7 +158,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 self-align-end">
-				<h2 class="text-uppercase font-weight-bold mb-5">I can help you to ...</h2>
+				<h2 class="text-uppercase font-weight-bold mb-5">Landing Page Design Process</h2>
 			</div>
 			<div class="col-lg-8 align-self-end">
 				<div class="accordion" id="accordionExample">
@@ -167,7 +166,7 @@ get_header();
 						<div class="card-header" id="headingOne">
 							<h2 class="mb-0">
 								<button class="btn font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									<span>Generate more quality leads</span><i class="fas fa-chevron-up"></i>
+									<span>1. Industry / Competitor Research &amp; Analysis</span><i class="fas fa-chevron-up"></i>
 								</button>
 							</h2>
 							
@@ -175,14 +174,7 @@ get_header();
 					
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 						<div class="card-body">
-							<p class="font-weight-light">You're throwing cash on campaigns and not getting your ROI? Your landing pages might lack some of the elements of conversion centered design: </p>
-							<p class=" font-weight-light">A conversion centered design has:</p>
-							<ul>
-								<li class=" font-weight-light">Strong Messaging</li>
-								<li class=" font-weight-light">Clear Calls To Action</li>
-								<li class=" font-weight-light">Authority</li>
-								<li class=" font-weight-light">Social Proof</li>
-							</ul>
+							<p class="font-weight-light">Are you aware of your competition? You should be. I make sure to research your PPC keywords and analyse landing pages for your competitors. Breaking them down gives <strong class="font-weight-bold">great insight</strong> that you can use to build something better on top of.</p>
 						</div>
 						</div>
 					</div>
@@ -190,7 +182,7 @@ get_header();
 						<div class="card-header" id="headingTwo">
 							<h2 class="mb-0">
 								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									Redesign outdated and embarrassing old web design<i class="fas fa-chevron-up"></i>
+									2. Prototyping and Wireframing<i class="fas fa-chevron-up"></i>
 								</button>
 								
 							</h2>
@@ -198,8 +190,7 @@ get_header();
 						</div>
 						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 						<div class="card-body">
-							<p class="font-weight-light ">Web design trends change over time so it's important to keep up to date. But it is not only the aesthetics that increase conversions, it is the thorough research and strategy behind
-								design decisions that make the visitors fall in love with your offerings.</p>
+							<p class="font-weight-light ">Failing to plan is planning to fail. That's why I don't rush into design just yet. Creating a structured user flow of your landing page I help you best construct the narrative of your offer so <strong class="font-weight-bold">users can understand</strong> what it's all about.</p>
 						</div>
 						</div>
 					</div>
@@ -207,14 +198,30 @@ get_header();
 						<div class="card-header" id="headingThree">
 							<h2 class="mb-0">
 								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									Make your pages work on mobile<i class="fas fa-chevron-up"></i>
+									3. Design &amp; Implementation<i class="fas fa-chevron-up"></i>
 								</button>
 							</h2>
 						</div>
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						<div class="card-body">
-							<p class="font-weight-light ">People surf the web using mobile devices, it's a fact. Responsive web design is a term coined for this purpose. It's a 
-								set of techniques that allow the landing pages to have a fluid layout that changes based on device screen width.
+							<p class="font-weight-light ">After we have agreed and the wireframe has been approved it's time to apply your brand guidelines into it. We talk about the content in advance: are you going to provide the images and other neccecery media for the landing page or do I have to buy them? We often do one or two revisions during this step.
+								After the design has been approved we take it into production and test on both <strong class="font-weight-bold">desktop and mobile screens</strong> afterwards.
+							</p>
+						</div>
+						</div>
+					</div>
+					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									4. Testing, enoying and improving the results<i class="fas fa-chevron-up"></i>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						<div class="card-body">
+							<p class="font-weight-light ">The best part of the process! Enjoying the results of your high converting landing pages. But it shouldn't end here. We create at least one <strong class="font-weight-bold">new variation</strong> of the landing page to split test against. 
+								Did you know that you can get very different results by just changing the color of your primary call to action button? 
 							</p>
 						</div>
 						</div>
@@ -230,7 +237,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
-				<h2 class="text-uppercase font-weight-bold mb-5">Client testimonials</h2>
+				<h2 class="text-uppercase font-weight-bold mb-5">What they said about me</h2>
 			</div>
 		</div>
 		<div class="row">
