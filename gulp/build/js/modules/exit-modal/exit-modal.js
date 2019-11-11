@@ -141,10 +141,10 @@
 			}
 		}
 		
-		$('.exit-modal').exitModal(exitModalParams);
-		if($('.exit-modal').data('exit-modal')) {
-			$(".destroyed-state").hide();
-			$(".initialized-state").show();
-		}
+		// $('.exit-modal').exitModal(exitModalParams);
+		// if($('.exit-modal').data('exit-modal')) {
+		// 	$(".destroyed-state").hide();
+		// 	$(".initialized-state").show();
+		// }
 
     })();

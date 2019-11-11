@@ -141,11 +141,11 @@ jQuery(document).ready(function($){/**
 			}
 		}
 		
-		$('.exit-modal').exitModal(exitModalParams);
-		if($('.exit-modal').data('exit-modal')) {
-			$(".destroyed-state").hide();
-			$(".initialized-state").show();
-		}
+		// $('.exit-modal').exitModal(exitModalParams);
+		// if($('.exit-modal').data('exit-modal')) {
+		// 	$(".destroyed-state").hide();
+		// 	$(".initialized-state").show();
+		// }
 
     })();
 
@@ -2154,25 +2154,9 @@ verificationForm ();
 phoneNoselect ();
 nice_Select ();
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-
-  $( '.contact-link' ).on( 'click', function() {
-
-    $( '#exampleModal' ).modal( 'show' );
-
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
   });
-    
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -2191,6 +2175,22 @@ nice_Select ();
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
-$(document).ready(function(){
-	$('[data-toggle="tooltip"]').tooltip();
-  });});
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+  $( '.contact-link' ).on( 'click', function() {
+
+    $( '#exampleModal' ).modal( 'show' );
+
+  });
+    });
