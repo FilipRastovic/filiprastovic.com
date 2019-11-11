@@ -1,6 +1,8 @@
 .header {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - #{$nav-height});
+	@include pretty-gradient;
+
 	h1 {
 		font-size: 2rem;
 	}

@@ -14,7 +14,7 @@
 get_header();
 ?>
 
-<section class="about-me">
+<section class="about-me pretty-gradient">
   <div class="container">
     <div class="row">
 	<canvas id="displayCanvas"></canvas>

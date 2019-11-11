@@ -29,7 +29,7 @@ get_header();
 	</div>
 </header>
 
-<section class="blog-section pb-5" id="content">
+<section class="blog-section u-pt-200 u-pb-200" id="content">
   <div class="container">
     <div class="row">
       

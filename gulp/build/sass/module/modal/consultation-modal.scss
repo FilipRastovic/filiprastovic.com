@@ -7,8 +7,12 @@
 .modal {
 	padding-right: 0 !important;
 	
+	&-header {
+		background-image: linear-gradient( 111.5deg,  rgba(228,247,255,1) 21.9%, rgba(255,216,194,1) 92.2% );
+		border-color: transparent;
+	}
 	&-body {
-		background: #fafafa;
+		background-image: linear-gradient( 111.5deg,  rgba(228,247,255,1) 21.9%, rgba(255,216,194,1) 92.2% );
 
 		@media (max-width: 768px) {
 			padding: 0;

@@ -1,15 +1,17 @@
 .accordion {
 
 	.card {
-		border-color: $gray-100;
+		border-color: transparent;
 		margin-bottom: 3rem;
 		background-color: $white;
+		@include pretty-gradient-two;
 	}
 
 	.card-header {
-		border-color: $gray-100;
+		border-color: transparent;
 		padding: 0.75rem;
 		background-color: $white;
+		@include pretty-gradient-two;
 
 	}
 

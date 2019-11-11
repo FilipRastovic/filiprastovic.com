@@ -149,6 +149,7 @@ jQuery(document).ready(function($){/**
 
     })();
 
+
 var flag;
 
 $( '#haircut' ).on( 'click', function() {
@@ -174,7 +175,6 @@ $( '#haircut' ).on( 'click', function() {
 });
 
 new WOW().init();
-
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */
@@ -2039,6 +2039,46 @@ new WOW().init();
 	 $(document).ready(function() {
 		$('.image-link').magnificPopup({type:'image'});
 	  });
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+  $( '.contact-link' ).on( 'click', function() {
+
+    $( '#exampleModal' ).modal( 'show' );
+
+  });
+    
+  // Smooth scrolling using jQuery easing
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 72)
+        }, 1000, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+  });
 
 function verificationForm(){
 	//jQuery time
@@ -2153,44 +2193,4 @@ function nice_Select(){
 verificationForm ();
 phoneNoselect ();
 nice_Select ();
-
-$(document).ready(function(){
-	$('[data-toggle="tooltip"]').tooltip();
-  });
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 72)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-
-  $( '.contact-link' ).on( 'click', function() {
-
-    $( '#exampleModal' ).modal( 'show' );
-
-  });
-    });
+});

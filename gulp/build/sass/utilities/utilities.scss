@@ -46,7 +46,7 @@
     .u-p_64
 */
 
-$spacings:   0,2,4,8,16,32,64,96;
+$spacings:   0,2,4,8,16,32,64,96, 200;
 
 $properties: (margin, m),
             (padding, p);
@@ -60,7 +60,7 @@ $sides: (top, t),
     @each $property, $property_short in $properties {
         .u-#{$property_short} { #{$property}: $space + px + '!important'; }
         @each $side, $side_short in $sides {
-            .u-#{$property_short}#{$side_short}_#{$space}{ 
+            .u-#{$property_short}#{$side_short}-#{$space}{ 
                 #{$property}-#{$side}: $space + px + '!important';
             }
         }

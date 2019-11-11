@@ -17,15 +17,15 @@
 
 if ( ! is_page( 'contact' ) ) { ?>
 
-<section class="page-section bg-grey bg-contact" id="contact">
+<section class="page-section bg-grey bg-contact pretty-gradient-two" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 position-relative">
 				<h2 class="font-weight-bold mb-4">
 					Am I a good fit for your project?
 				</h2>
-				<p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
-				<ul class="list-unstyled text-primary font-weight-light">
+				<p class="  mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+				<ul class="list-unstyled text-primary ">
 					<li class="mb-3">
 						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
 					</li>
@@ -45,14 +45,14 @@ if ( ! is_page( 'contact' ) ) { ?>
 				<form class="shadow rounded wow animated fadeInRight overflow-hidden" data-wow-duration="2s" data-wow-delay=".1s" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 				method="post">
 					<div class="text-center mb-4">
-						<p class="h5 font-weight-light text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+						<p class="h5  text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
 					</div>
 					<div class="form-group required pb-3">
-						<label class="control-label text-muted" for="inputFirstName">Full Name</label>
+						<label class="control-label " for="inputFirstName">Full Name</label>
 						<input type="text" class="form-control" name="FNAME" id="inputFirstName" placeholder="" required>
 					</div>
 					<div class="form-group required pb-3">
-						<label class="control-label text-muted" for="inputEmail">Email Address</label>
+						<label class="control-label " for="inputEmail">Email Address</label>
 						<input type="email" class="form-control" name="EMAIL" id="inputEmail" placeholder="">
 					</div>
 					<button type="submit" class="btn btn-primary btn-xl shadow btn-block">Start Your Consultation</button>
@@ -67,20 +67,20 @@ if ( ! is_page( 'contact' ) ) { ?>
 	}
 ?>
 
-<footer class="footer">
+<footer class="footer pretty-gradient-two">
 	<div class="container text-center text-md-left">
 		<div class="row">
 			<div class="col-md-5 mt-md-0 mt-3">
 				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
-				<p class="font-weight-light mb-4">Expert Landing Page Design</p>
-				<p class="font-weight-light text-muted small">As expert in conversion centered design, I improve your business by designing and developing you landing pages that will be your most effective sales machine.</p>
+				<p class=" mb-4">Expert Landing Page Design</p>
+				<p class="  small">As expert in conversion centered design, I improve your business by designing and developing you landing pages that will be your most effective sales machine.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">
 			<div class="col-md-3 offset-md-1 mb-md-0 mb-3">
 				<h5 class="font-weight-bold text-uppercase">Social</h5>
 
-				<ul class="list-unstyled font-weight-light">
+				<ul class="list-unstyled ">
 					<li>
 						<a class="small" href="http://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
 					</li>
