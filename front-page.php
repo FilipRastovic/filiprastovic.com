@@ -18,7 +18,7 @@ get_header();
 		<div class="position-absolute col-lg-2 offset-lg-9 u-mt-96">
 			<figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
-					<figcaption><a class="text-blue" id="haircut" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
+					<figcaption><a class="text-blue haircut" id="" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
 				</figure>
 		</div>
 	</div>
@@ -49,7 +49,7 @@ get_header();
 		<div class="col-6 offset-5 u-mt-96">
 			<figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
-					<figcaption><a class="text-blue" id="haircut" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
+					<figcaption><a class="text-blue haircut" id="-two" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
 				</figure>
 		</div>
 	</div>
@@ -263,7 +263,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
 				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/molnar.jpeg" alt="Testimonial Person Image" class="testimonial-img">
-				<p class="  testimonial-paragraph text-left mb-4"><i>Filip has a unique combo of skills: design &amp; development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</i></p>
+				<p class="testimonial-paragraph text-left mb-4">Filip has a unique combo of skills: design &amp; development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All All in all great designer-developer with an outstanding sense for client service.</p>
 				<p class="text-primary font-weight-bold mb-2 text-left">Robert Molnar</p>
 				<p class="  text-left">CEO Of Stratolytics</p>
 			</div>

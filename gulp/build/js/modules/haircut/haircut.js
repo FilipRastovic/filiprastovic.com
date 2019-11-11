@@ -1,7 +1,7 @@
 
 var flag;
 
-$( '#haircut' ).on( 'click', function() {
+$( '.haircut' ).on( 'click', function() {
 
 	var string = $( '.filipo' ).attr( 'src' );
 
@@ -9,18 +9,20 @@ $( '#haircut' ).on( 'click', function() {
 
 		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
 
-		$( '#haircut' ).text( 'Put hair back on!' );
+		$( '.haircut' ).text( 'Put hair back on!' );
 
 	} else {
 
 		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
 
-		$( '#haircut' ).text( 'Click to cut my hair!' );
+		$( '.haircut' ).text( 'Click to cut my hair!' );
 
 	}
 
 	$( '.filipo' ).attr( 'src', string );
 
 });
+
+
 
 new WOW().init();

@@ -2013,24 +2013,34 @@ jQuery(document).ready(function($){/**
 	 $(document).ready(function() {
 		$('.image-link').magnificPopup({type:'image'});
 	  });
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 72)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
 
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
+var flag;
+
+$( '.haircut' ).on( 'click', function() {
+
+	var string = $( '.filipo' ).attr( 'src' );
+
+	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
+
+		$( '.haircut' ).text( 'Put hair back on!' );
+
+	} else {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
+
+		$( '.haircut' ).text( 'Click to cut my hair!' );
+
+	}
+
+	$( '.filipo' ).attr( 'src', string );
+
+});
+
+
+
+new WOW().init();
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
@@ -2050,32 +2060,6 @@ jQuery(document).ready(function($){/**
 
   });
     
-
-var flag;
-
-$( '#haircut' ).on( 'click', function() {
-
-	var string = $( '.filipo' ).attr( 'src' );
-
-	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
-
-		$( '#haircut' ).text( 'Put hair back on!' );
-
-	} else {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
-
-		$( '#haircut' ).text( 'Click to cut my hair!' );
-
-	}
-
-	$( '.filipo' ).attr( 'src', string );
-
-});
-
-new WOW().init();
 
 function verificationForm(){
 	//jQuery time
@@ -2191,6 +2175,24 @@ verificationForm ();
 phoneNoselect ();
 nice_Select ();
 
+  // Smooth scrolling using jQuery easing
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 72)
+        }, 1000, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip();
   });});
