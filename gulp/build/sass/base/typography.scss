@@ -49,3 +49,18 @@ ul, ol, dl {
 		font-size: 0.8rem;
 	}
 }
+
+@mixin text-gradient {
+	background: -webkit-linear-gradient( right, #104f8c, #30e5e2) !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;//a
+}
+
+.text-primary {
+	@include text-gradient;
+	color: #30e5e2 !important;
+}
+
+.text-blue {
+	color: $primary !important;
+}

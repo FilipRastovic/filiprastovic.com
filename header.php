@@ -121,8 +121,8 @@
               <h2 class="font-weight-bold mb-4">
                 Am I a good fit for your project?
               </h2>
-              <p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
-              <ul class="list-unstyled text-primary font-weight-light">
+              <p class=" mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+              <ul class="list-unstyled text-primary ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
                 </li>
@@ -143,7 +143,7 @@
               <form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
               method="post">
                 <div class="text-center mb-4">
-                  <p class="h5 font-weight-light text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+                  <p class="h5  text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
                 </div>
                 <div class="form-group required pb-3">
                   <label class="control-label text-muted" for="inputFirstName">Full Name</label>
@@ -180,8 +180,8 @@
               <h2 class="font-weight-bold mb-4">
                 Am I a good fit for your project?
               </h2>
-              <p class="font-weight-light text-muted mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
-              <ul class="list-unstyled text-primary font-weight-light">
+              <p class=" mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+              <ul class="list-unstyled text-primary ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
                 </li>
@@ -204,7 +204,7 @@
               <form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
               method="post">
                 <div class="text-center mb-4">
-                  <p class="h5 font-weight-light text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+                  <p class="h5  text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
                 </div>
                 <div class="form-group required pb-3">
                   <label class="control-label text-muted" for="inputFirstName">Full Name</label>
