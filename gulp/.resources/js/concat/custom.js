@@ -149,6 +149,32 @@ jQuery(document).ready(function($){/**
 
     })();
 
+var flag;
+
+$( '#haircut' ).on( 'click', function() {
+
+	var string = $( '.filipo' ).attr( 'src' );
+
+	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
+
+		$( '#haircut' ).text( 'Put hair back on!' );
+
+	} else {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
+
+		$( '#haircut' ).text( 'Click to cut my hair!' );
+
+	}
+
+	$( '.filipo' ).attr( 'src', string );
+
+});
+
+new WOW().init();
+
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */
@@ -2013,32 +2039,6 @@ jQuery(document).ready(function($){/**
 	 $(document).ready(function() {
 		$('.image-link').magnificPopup({type:'image'});
 	  });
-
-var flag;
-
-$( '#haircut' ).on( 'click', function() {
-
-	var string = $( '.filipo' ).attr( 'src' );
-
-	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
-
-		$( '#haircut' ).text( 'Put hair back on!' );
-
-	} else {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
-
-		$( '#haircut' ).text( 'Click to cut my hair!' );
-
-	}
-
-	$( '.filipo' ).attr( 'src', string );
-
-});
-
-new WOW().init();
 
 function verificationForm(){
 	//jQuery time

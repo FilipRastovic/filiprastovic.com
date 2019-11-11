@@ -29,43 +29,42 @@ get_header();
 	</div>
 </header>
 
-<section class="blog-section" id="content">
+<section class="blog-section pb-5" id="content">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 mx-auto">
+      
 
       <?php 
    // the query
       $the_query = new WP_Query( array(
-          'posts_per_page' => 1
+          'posts_per_page' => 3
       )); 
-    ?>
-
-        <?php
+        
       if ( $the_query->have_posts() ) :
 
         /* Start the Loop */
-        while ( $the_query->have_posts() ) :
-          $the_query->the_post();
+        while ( $the_query->have_posts() ) : ?>
 
-          /*
-          * Include the Post-Type-specific template for the content.
-          * If you want to override this in a child theme, then include a file
-          * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-          */
-          get_template_part( 'template-parts/content', get_post_type() );
+          <div class="col-md-4">
 
-        endwhile;
+            <?php
+              $the_query->the_post();
+              /*
+              * Include the Post-Type-specific template for the content.
+              * If you want to override this in a child theme, then include a file
+              * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+              */
+              get_template_part( 'template-parts/content', get_post_type() );
+            ?>
+          </div>
+        <?php endwhile;
 
         the_posts_navigation();
 
-      else :
+        else : get_template_part( 'template-parts/content', 'none' );
 
-        get_template_part( 'template-parts/content', 'none' );
-
-      endif;
+        endif;
       ?>
-      </div>
     </div>
   </div>
 </section>
