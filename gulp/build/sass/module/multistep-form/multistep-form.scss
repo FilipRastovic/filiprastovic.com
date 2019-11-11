@@ -321,8 +321,8 @@ $pfont: #5f6771;
             text-transform: uppercase; 
             display: inline-block;
             &:hover, &:focus{
-                background: $heding;
-                border-color: $heding;
+                background: darken($primary, 10%);
+                border-color: darken($primary, 10%);
             }
         }
         .previous_button {

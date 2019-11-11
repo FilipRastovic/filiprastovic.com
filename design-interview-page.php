@@ -14,15 +14,15 @@
 get_header();
 ?>
 
-<header class="pt-50 pb-50">
+<header class="pt-50 pb-50 pretty-gradient">
 	<div class="container ">
 		<div class="row justify-content-center text-center">
 			<canvas id="displayCanvas">
 
 			</canvas>
-			<div class="col-lg-12 align-self-baseline">
+			<div class="col-lg-12 align-self-baseline ">
 				<!-- Multi step form -->
-				<section class="multi_step_form">
+				<section class="multi_step_form ">
 					<form id="msform" action="https://gmail.us20.list-manage.com/subscribe/post?u=90a3dc4e1984a166af54c6c28&amp;id=dfc7a62187" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<!-- Tittle -->
 						<div class="tittle">
@@ -240,7 +240,7 @@ get_header();
 
 <?php wp_footer(); ?>
 
-<footer class="footer">
+<footer class="footer pretty-gradient-two">
 	<div class="container text-center text-md-left">
 		<div class="row">
 			<div class="col-md-5 mt-md-0 mt-3">
