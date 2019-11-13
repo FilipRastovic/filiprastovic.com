@@ -26,9 +26,8 @@ get_header();
       </div>
       <div class="col-md-5">
 		<h1 class="font-weight-bold text-primary">Hi I'm Filip Rastovic</h1>
-        <p class="font-weight-light">I'm Filip, designer, developer, CRO consultant, tinkerer, curios guy. With background in computer science and engineering and experience working as a web designer / developer for various 
-			US based digital agencies I bring an innovative and fresh perspective to every project. My work is on the blade's edge of design, software and visual arts, a place 
-			where I feel most comfortable. Always learning, always growing, I help grow businesses utilizing the latest technology and research of human behaviour.
+        <p class="font-weight-light">I'm Filip, designer who helps startupts grow with great design. I can help you communicate complex products and services to your customers without making them feel overwhelmed or unsure about what you're all about.
+		 
 		</p>
 		<p class="font-weight-light mb-5">
 			Looking forward to hearing from you.
