@@ -32,7 +32,7 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Boost Conversion Rates With Great Design</h1>
+				<h1 class="text-uppercase font-weight-bold">Generate More Quality Leads</h1>
 				
 			</div>
 
