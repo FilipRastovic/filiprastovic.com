@@ -26,8 +26,7 @@ get_header();
       </div>
       <div class="col-md-5">
 		<h1 class="font-weight-bold text-primary">Hi I'm Filip Rastovic</h1>
-        <p class="font-weight-light">I'm Filip, designer who helps startupts grow with great design. I can help you communicate complex products and services to your customers without making them feel overwhelmed or unsure about what you're all about.
-		 
+        <p class="font-weight-light">I'm Filip, a designer who helps startups grow with great design. I can help you communicate complex products and services to your customers without making them feel overwhelmed or unsure about what you're all about.
 		</p>
 		<p class="font-weight-light mb-5">
 			Looking forward to hearing from you.
