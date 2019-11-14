@@ -193,7 +193,7 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section--portfolio bg-grey">
+<!-- <section class="page-section--portfolio bg-grey">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
@@ -216,9 +216,9 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<section class="page-section--portfolio">
+<!-- <section class="page-section--portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -243,10 +243,10 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- NEW STUFF -->
-<section class="page-section--portfolio bg-grey">
+<!-- <section class="page-section--portfolio bg-grey">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
@@ -270,9 +270,9 @@ get_header();
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	
-	<section class="page-section--portfolio">
+	<!-- <section class="page-section--portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -297,7 +297,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	
 	<!-- NEW STUFF ENDS -->
 
@@ -327,7 +327,7 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section--portfolio">
+<!-- <section class="page-section--portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="order-2 col-lg-7 order-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -354,7 +354,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <?php
 

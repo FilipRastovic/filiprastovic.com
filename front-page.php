@@ -32,14 +32,14 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Generate More Leads</h1>
+				<h1 class="text-uppercase font-weight-bold mb-5">I help companies grow through great design!</h1>
 				
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<p class=" mb-5">
+				<!-- <p class=" mb-5">
 					I'm a designer who helps businesses better communicate ideas with their customers.
-				</p>
+				</p> -->
 				<a href="#" data-toggle="modal" data-target="#exampleModal"class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>REQUEST QUOTE</a>
 				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
 			</div>
