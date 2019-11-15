@@ -217,53 +217,7 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section" id="radiance">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<h2 class="text-center font-weight-light mb-4">Radiance</h2>
-					<div class="row text-center text-dark mb-5">
-						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
-					</div>
-				<hr class="divider">
-			</div>
-		</div>
-		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
-			</div>
-			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light">Radiance is a beauty salon in Toronto. Their marketing coordinator got in touch with me because her Unbounce landing 
-				pages weren't converting as much as she wanted. After successfully re-designing some of her pages and bringing up their conversion ratios by 
-				more than 60% I had to design a completely new page for a new marketing campaign which. It was a simple page with great results, it ended 
-				up converting more than 11% of the visitors!</p>
-			</div>
-		</div>
-		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<!-- <h2 class="font-weight-bold">Client Review</h2> -->
-			</div>
-			<!-- <div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light"><i>I needed someone who can design AND develop a landing page and upload it to my website. Filip
-						did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done
-						and does it in very quick and efficient way. For my next projects for landing pages I would work with him again.
-						Thank you Filip! -Justo</i></p>
-			</div> -->
-		</div>
-		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<img class="img-fluid shadow mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/radiance.jpg"
-					alt="Portfolio image">
-			</div>
-			<div class="col-lg-12 mx-auto">
-				<img class="img-fluid mx-auto mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/unbounce-2.jpg" alt="CRO">
-			</div>
-		</div>
-	</div>
-</section>
+
 
 
 <?php
