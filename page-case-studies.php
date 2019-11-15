@@ -173,49 +173,6 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section bg-grey" id="drapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<h2 class="text-center font-weight-light mb-4">Drapper</h2>
-					<div class="row text-center text-dark mb-5">
-						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
-					</div>
-				<hr class="divider">
-			</div>
-		</div>
-		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
-			</div>
-			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light">Drapper is clothing brand in Dubai. Drapper CEO got it touch with me because some of his Unbounce landing page's 
-					weren't converting as much as they wanted. After a thorough analysis we diagnosed that the pages lacked design polishing. They were ugly
-					and unpleasant to the visitors. I applied some basic design principles to these pages such as white-space, harmonizing the typography and 
-					 adjusting font weights. After that we tested the pages again and got an astonishing conversion rate of more than 39%!</p>
-			</div>
-		</div>
-		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
-			</div>
-			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light"><i>Filip pointed out some great facts about why our landing pages weren't bringing the results we wanted. 
-				We moved on to creating more pages after the first task was successfully completed!</i></p>
-			</div>
-		</div>
-		<div class="row">
-			<!-- <div class="col-lg-8 mx-auto">
-				<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/landing-pages/8.jpg" alt="Portfolio image">
-			</div>
-			<div class="col-lg-12 mx-auto">
-				<img class="img-fluid mx-auto mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/unbounce.jpg" alt="CRO">
-			</div> -->
-		</div>
-	</div>
-</section>
 
 
 
