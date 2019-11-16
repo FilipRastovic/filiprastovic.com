@@ -17,8 +17,8 @@ get_header();
 	<div class="row d-none d-lg-block">
 		<div class="position-absolute col-lg-2 offset-lg-9 u-mt-96">
 			<figure class="text-center">
-					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
-					<figcaption><a class="text-blue haircut" id="" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
+					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
+					<figcaption>Hi I'm Filip, a designer. </figcaption>
 				</figure>
 		</div>
 	</div>
@@ -48,8 +48,8 @@ get_header();
 		<div class="row d-block d-lg-none">
 		<div class="col-6 offset-5 u-mt-96">
 			<figure class="text-center">
-					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
-					<figcaption><a class="text-blue haircut" id="-two" ><div class="text-dark">Hi I'm Filip, a designer. </div>Click to cut my hair!</a></figcaption>
+					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
+					<figcaption><div class="text-dark">Hi I'm Filip, a designer.</figcaption>
 				</figure>
 		</div>
 	</div>

@@ -20,8 +20,8 @@ get_header();
 	<canvas id="displayCanvas"></canvas>
 	<div class="col-6 offset-3 col-lg-2 offset-lg-3">
 			<figure class="text-center">
-					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg" alt="Filip Rastovic">
-					<figcaption><a class="text-primary" id="haircut" >Click to cut my hair!</a></figcaption>
+					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
+					<figcaption>Hi there!</figcaption>
 				</figure>
       </div>
       <div class="col-md-5">
