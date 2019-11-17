@@ -18,7 +18,7 @@ get_header();
 		<div class="position-absolute col-lg-2 offset-lg-9 u-mt-96">
 			<figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
-					<figcaption>Hi I'm Filip, a designer. </figcaption>
+					<figcaption>Hi, I'm Filip, welcome to my website! </figcaption>
 				</figure>
 		</div>
 	</div>
@@ -49,7 +49,7 @@ get_header();
 		<div class="col-6 offset-5 u-mt-96">
 			<figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
-					<figcaption><div class="text-dark">Hi I'm Filip, a designer.</figcaption>
+					<figcaption><div class="text-dark">Hi, I'm Filip, welcome to my website!</figcaption>
 				</figure>
 		</div>
 	</div>
