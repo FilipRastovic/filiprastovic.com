@@ -41,7 +41,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
-  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/filip.png" />
+  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/profilna.jpg" />
   <meta property="og:image:width" content="551"/>
   <meta property="og:image:height" content="306"/>
   <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
