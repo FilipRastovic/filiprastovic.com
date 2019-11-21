@@ -31,8 +31,8 @@ get_header();
 			
 			</canvas>
 
-			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold mb-5">I help companies grow through great design!</h1>
+			<div class="col-lg-8 align-self-end">
+				<h1 class="text-uppercase font-weight-bold mb-5">I help companies solve business problems through visual design</h1>
 				
 			</div>
 
