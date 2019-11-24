@@ -3,15 +3,15 @@
 	.card {
 		border-color: transparent;
 		margin-bottom: 3rem;
-		background-color: $white;
-		@include pretty-gradient-two;
+		background-color: $gray-200;
+		
 	}
 
 	.card-header {
 		border-color: transparent;
 		padding: 0.75rem;
-		background-color: $white;
-		@include pretty-gradient-two;
+		background-color: $gray-200;
+		
 
 	}
 

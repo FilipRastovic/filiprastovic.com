@@ -89,3 +89,9 @@ $sides: (top, t),
 	width: 15px;
 	height: auto;
 }
+
+.big-padding {
+	@media (min-width: 768px) {
+		padding: 16rem 0;
+	}
+}

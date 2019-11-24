@@ -148,6 +148,34 @@ jQuery(document).ready(function($){/**
 		// }
 
     })();
+
+var flag;
+
+$( '.haircut' ).on( 'click', function() {
+
+	var string = $( '.filipo' ).attr( 'src' );
+
+	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
+
+		$( '.haircut' ).text( 'Put hair back on!' );
+
+	} else {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
+
+		$( '.haircut' ).text( 'Click to cut my hair!' );
+
+	}
+
+	$( '.filipo' ).attr( 'src', string );
+
+});
+
+
+
+new WOW().init();
 window.addEventListener("load", windowLoadHandler, false);
 
 //for debug messages while testing code
@@ -2333,53 +2361,6 @@ function canvasApp() {
 		$('.image-link').magnificPopup({type:'image'});
 	  });
 
-var flag;
-
-$( '.haircut' ).on( 'click', function() {
-
-	var string = $( '.filipo' ).attr( 'src' );
-
-	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
-
-		$( '.haircut' ).text( 'Put hair back on!' );
-
-	} else {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
-
-		$( '.haircut' ).text( 'Click to cut my hair!' );
-
-	}
-
-	$( '.filipo' ).attr( 'src', string );
-
-});
-
-
-
-new WOW().init();
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-
-  $( '.contact-link' ).on( 'click', function() {
-
-    $( '#exampleModal' ).modal( 'show' );
-
-  });
-    
-
 function verificationForm(){
 	//jQuery time
 	var current_fs, next_fs, previous_fs; //fieldsets
@@ -2494,6 +2475,25 @@ verificationForm ();
 phoneNoselect ();
 nice_Select ();
 
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+  $( '.contact-link' ).on( 'click', function() {
+
+    $( '#exampleModal' ).modal( 'show' );
+
+  });
+    
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

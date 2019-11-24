@@ -17,7 +17,7 @@
 
 if ( ! is_page( 'contact' ) ) { ?>
 
-<section class="page-section bg-grey bg-contact pretty-gradient-two" id="contact">
+<section class="page-section bg-grey bg-contact" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 position-relative">
@@ -67,7 +67,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 	}
 ?>
 
-<footer class="footer pretty-gradient-two">
+<footer class="footer bg-grey">
 	<div class="container text-center text-md-left">
 		<div class="row">
 			<div class="col-md-5 mt-md-0 mt-3">
