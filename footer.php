@@ -73,7 +73,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 			<div class="col-md-5 mt-md-0 mt-3">
 				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
 				<p class=" mb-4">Expert Landing Page Design</p>
-				<p class="  small">As expert in conversion centered design, I improve your business by designing and developing you landing pages that will be your most effective sales machine.</p>
+				<p class="  small">I help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">
