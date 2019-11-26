@@ -19,7 +19,7 @@ get_header();
 			<figure class="text-center">
 				<img class="filipo img-fluid rounded-circle shadow mb-4"
 					src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
-				<figcaption>Hi, I'm Filip, welcome to my website! </figcaption>
+				<figcaption class="text-white">Hi, I'm Filip, welcome to my website! </figcaption>
 			</figure>
 		</div>
 	</div>
@@ -33,7 +33,7 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-8 align-self-end">
-				<h1 class="text-uppercase font-weight-bold mb-5">I help companies solve business problems through visual
+				<h1 class="text-uppercase font-weight-bold mb-5 text-white">I help companies solve business problems through visual
 					design</h1>
 
 			</div>
@@ -43,7 +43,7 @@ get_header();
 					I'm a designer who helps businesses better communicate ideas with their customers.
 				</p> -->
 				<a href="#" data-toggle="modal" data-target="#exampleModal"
-					class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s"
+					class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s"
 					data-wow-delay=".2s"><i class="fas fa-info-circle"></i>REQUEST QUOTE</a>
 				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
 			</div>
@@ -55,7 +55,7 @@ get_header();
 					<img class="filipo img-fluid rounded-circle shadow mb-4"
 						src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
 					<figcaption>
-						<div class="text-dark">Hi, I'm Filip, welcome to my website!
+						<div class="text-white">Hi, I'm Filip, welcome to my website!</div>
 					</figcaption>
 				</figure>
 			</div>
@@ -63,7 +63,7 @@ get_header();
 	</div>
 </header>
 
-<section class="page-section bg-grey big-padding" id="content">
+<section class="page-section big-padding" id="content">
 	<div class="container">
 		<div class="row justify-content-center mb-5">
 
@@ -85,7 +85,7 @@ get_header();
 					<div class="icon">1</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Generate more leads</h5>
-						<p class=" ">Users are overwhelmed by too much choice. What do I read? Where do I click? Remove
+						<p class="text-dark">Users are overwhelmed by too much choice. What do I read? Where do I click? Remove
 							distractions and you'll convert more.</p>
 					</div>
 				</div>
@@ -96,7 +96,7 @@ get_header();
 					<div class="icon">2</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Market your brand</h5>
-						<p class=" ">Associate your brand with clarity. Users love brands they can understand and
+						<p class="text-dark">Associate your brand with clarity. Users love brands they can understand and
 							leaving a great first impression is crucial.</p>
 					</div>
 				</div>
@@ -107,7 +107,7 @@ get_header();
 					<div class="icon">3</div>
 					<div class="text">
 						<h5 class="text-uppercase text-primary mb-3">Optimize &amp; Grow</h5>
-						<p class=" ">Start with a hypothesis and test until you're satisfied with the results. Applying
+						<p class="text-dark">Start with a hypothesis and test until you're satisfied with the results. Applying
 							scientific method can help you grow. Leverage Big Data. </p>
 					</div>
 				</div>
@@ -115,7 +115,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-12 mb-3 text-center wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-				<a href="/portfolio" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i
+				<a href="/portfolio" class="btn btn-secondary btn-xl shadow js-scroll-trigger"><i
 						class="fas fa-info-circle"></i>SEE PORTFOLIO</a>
 				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
 			</div>
@@ -123,97 +123,18 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section pretty-gradient-two" id="recent-work">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8">
-				<img class="img-fluid mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/portfolio/customr-small.png"
-					alt="Portfolio image">
-				<div class="row mt-4">
-					<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-
-						<img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/assets/img/clients/0.png"
-							alt="Brand Logo 1">
-
-					</div>
-					<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
-
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri() ?>/assets/img/clients/Crewdox-1.png"
-							alt="Brand Logo 2">
-
-					</div>
-					<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
-
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri() ?>/assets/img/clients/download.png"
-							alt="Brand Logo 3">
-
-					</div>
-					<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
-
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri() ?>/assets/img/clients/GearLogoVertical.png"
-							alt="Brand Logo 4">
-
-					</div>
-					<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".6s">
-
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri() ?>/assets/img/clients/header-728x180.png"
-							alt="Brand Logo 5">
-
-					</div>
-					<div class="col-4 col-md-2 mb-3 wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
-
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri() ?>/assets/img/clients/think3.png"
-							alt="Brand Logo 6">
-
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<h2 class="text-uppercase font-weight-bold mb-3">
-					Satisfied clients
-				</h2>
-				<p class="  mb-4">
-					My design process has been critical to success of my clients. In partnership with you and your team,
-					I guide you from start to finish through the process of
-					designing and developing a landing page that converts your visitors into leads.
-				</p>
-				<h5 class="text-uppercase font-weight-bold text-primary mb-3">
-					Focus on conversions
-				</h5>
-				<p class="  mb-5">
-					Conversion centered design is a combination of both graphic design and marketing principles that are
-					aware of low attention span the average human has today.
-					There is too much content on the web, and the way to capture someone's attention is to leverage the
-					principles of visual design with a strong persuasive copy.
-				</p>
-				<a href="/case-studies" class="btn btn-primary btn-xl shadow js-scroll-trigger"><i
-						class="fas fa-book"></i>READ CASE STUIDY</a>
-				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
-			</div>
-
-
-		</div>
-	</div>
-</section>
-
-<section class="page-section bg-grey bg-help-you">
+<section class="page-section bg-primary">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 self-align-end">
-				<h2 class="text-uppercase font-weight-bold mb-5">Landing Page Design Process</h2>
+				<h2 class="text-uppercase font-weight-bold mb-5 text-white">Landing Page Design Process</h2>
 			</div>
 			<div class="col-lg-8 align-self-end">
 				<div class="accordion" id="accordionExample">
 					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-						<div class="card-header" id="headingOne">
+						<div class="card-header bg-warning" id="headingOne">
 							<h2 class="mb-0">
-								<button class="btn font-weight-bold text-uppercase text-primary" type="button"
+								<button class="btn font-weight-bold text-uppercase text-dark" type="button"
 									data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
 									aria-controls="collapseOne">
 									<span>1. Strategy</span><i class="fas fa-chevron-up"></i>
@@ -225,15 +146,15 @@ get_header();
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
 							data-parent="#accordionExample">
 							<div class="card-body">
-								<p class="">First we create a strategy and a plan. What are the problems we're trying to
+								<p class="">First we create a <span class="font-weight-bold">strategy</span> and a <span class="font-weight-bold">plan</span>. What are the problems we're trying to
 									solve, how are we going to do it and how do we measure success?</p>
 							</div>
 						</div>
 					</div>
 					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-						<div class="card-header" id="headingTwo">
+						<div class="card-header bg-warning" id="headingTwo">
 							<h2 class="mb-0">
-								<button class="btn font-weight-bold text-uppercase text-primary" type="button"
+								<button class="btn font-weight-bold text-uppercase text-dark" type="button"
 									data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
 									aria-controls="collapseTwo">
 									<span>2. Industry / Competitor Research &amp; Analysis</span><i
@@ -254,9 +175,9 @@ get_header();
 						</div>
 					</div>
 					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-						<div class="card-header" id="headingThree">
+						<div class="card-header bg-warning" id="headingThree">
 							<h2 class="mb-0">
-								<button class="btn font-weight-bold text-uppercase text-primary" type="button"
+								<button class="btn font-weight-bold text-uppercase text-dark" type="button"
 									data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
 									aria-controls="collapseThree">
 									<span>3. Content development</span><i class="fas fa-chevron-up"></i>
@@ -275,9 +196,9 @@ get_header();
 						</div>
 					</div>
 					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
-						<div class="card-header" id="headingFour">
+						<div class="card-header bg-warning" id="headingFour">
 							<h2 class="mb-0">
-								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button"
+								<button class="btn collapsed font-weight-bold text-uppercase text-dark" type="button"
 									data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
 									aria-controls="collapseFour">
 									4. Prototyping and Wireframing<i class="fas fa-chevron-up"></i>
@@ -297,9 +218,9 @@ get_header();
 						</div>
 					</div>
 					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
-						<div class="card-header" id="headingFive">
+						<div class="card-header bg-warning" id="headingFive">
 							<h2 class="mb-0">
-								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button"
+								<button class="btn collapsed font-weight-bold text-uppercase text-dark" type="button"
 									data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
 									aria-controls="collapseFive">
 									5. Design &amp; Implementation<i class="fas fa-chevron-up"></i>
@@ -320,9 +241,9 @@ get_header();
 						</div>
 					</div>
 					<div class="card shadow wow animated fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
-						<div class="card-header" id="headingSix">
+						<div class="card-header bg-warning" id="headingSix">
 							<h2 class="mb-0">
-								<button class="btn collapsed font-weight-bold text-uppercase text-primary" type="button"
+								<button class="btn collapsed font-weight-bold text-uppercase text-dark" type="button"
 									data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
 									aria-controls="collapseSix">
 									6. Testing, enoying and improving the results<i class="fas fa-chevron-up"></i>
@@ -349,7 +270,7 @@ get_header();
 </section>
 
 
-<section class="page-section testimonials pretty-gradient">
+<section class="page-section testimonials">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">

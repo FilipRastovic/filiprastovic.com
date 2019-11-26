@@ -17,25 +17,25 @@
 
 if ( ! is_page( 'contact' ) ) { ?>
 
-<section class="page-section bg-grey bg-contact" id="contact">
+<section class="page-section bg-primary" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 position-relative">
-				<h2 class="font-weight-bold mb-4">
+				<h2 class="font-weight-bold mb-4 text-white">
 					Am I a good fit for your project?
 				</h2>
-				<p class="  mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+				<p class="text-white  mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary ">
-					<li class="mb-3">
+					<li class="mb-3 text-warning">
 						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
 					</li>
-					<li class="mb-3">
+					<li class="mb-3 text-warning">
 						<i class="fas fa-check mr-2"></i>Are running paid advetising
 					</li>
-					<li class="mb-3">
+					<li class="mb-3 text-warning">
 						<i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset
 					</li>
-					<li class="mb-5">
+					<li class="mb-5 text-warning">
 						<i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
 					</li>
 				</ul>
@@ -45,7 +45,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 				<form class="shadow rounded wow animated fadeInRight overflow-hidden" data-wow-duration="2s" data-wow-delay=".1s" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 				method="post">
 					<div class="text-center mb-4">
-						<p class="h5  text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+						<p class="h5 text-dark text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
 					</div>
 					<div class="form-group required pb-3">
 						<label class="control-label " for="inputFirstName">Full Name</label>
@@ -55,8 +55,8 @@ if ( ! is_page( 'contact' ) ) { ?>
 						<label class="control-label " for="inputEmail">Email Address</label>
 						<input type="email" class="form-control" name="EMAIL" id="inputEmail" placeholder="">
 					</div>
-					<button type="submit" class="btn btn-primary btn-xl shadow btn-block">Start Your Consultation</button>
-					<p class="mt-3 mb-0 text-center"> <i class="fa fa-phone text-primary"></i> Preffer calling? <a href="tel:381631714561">+381631714561</a> </p>
+					<button type="submit" class="btn btn-secondary btn-xl shadow btn-block">Start Your Consultation</button>
+					<p class="mt-3 mb-0 text-center"> <i class="fa fa-phone text-secondary"></i> Preffer calling? <a class="text-secondary" href="tel:381631714561">+381631714561</a> </p>
 				</form>
 			</div>
 		</div>

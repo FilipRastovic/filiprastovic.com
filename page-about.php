@@ -14,21 +14,21 @@
 get_header();
 ?>
 
-<section class="about-me pretty-gradient">
+<section class="about-me bg-primary">
   <div class="container">
     <div class="row">
 	<canvas id="displayCanvas"></canvas>
 	<div class="col-6 offset-3 col-lg-2 offset-lg-3">
 			<figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
-					<figcaption>Hi there!</figcaption>
+					<figcaption class="text-white">Hi there!</figcaption>
 				</figure>
       </div>
       <div class="col-md-5">
-		<h1 class="font-weight-bold text-primary">Hi I'm Filip Rastovic</h1>
-        <p class="font-weight-light">I'm Filip, a designer who helps startups grow with great design. I can help you communicate complex products and services to your customers without making them feel overwhelmed or unsure about what you're all about.
+		<h1 class="font-weight-bold text-white">Hi I'm Filip Rastovic</h1>
+        <p class="font-weight-light text-white">I'm Filip, a designer who helps startups grow with great design. I can help you communicate complex products and services to your customers without making them feel overwhelmed or unsure about what you're all about.
 		</p>
-		<p class="font-weight-light mb-5">
+		<p class="font-weight-light mb-5 text-white">
 			Looking forward to hearing from you.
 		</p>
       </div>

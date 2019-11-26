@@ -22,7 +22,7 @@ get_header();
 			<div class="col-lg-10 align-self-baseline">
 				<p class="font-weight-light text-uppercase mb-5">I love writing about freelancing, design and web development. 
 				</p>
-				<a href="#content" class="btn btn-primary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read blog</a>
+				<a href="#content" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read blog</a>
 			</div>
 
 		</div>

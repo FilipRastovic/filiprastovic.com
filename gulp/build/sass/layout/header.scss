@@ -1,10 +1,14 @@
 .header {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - #{$nav-height});
-	@include pretty-gradient;
-
+	background: $primary;
 	h1 {
 		font-size: 2rem;
+		color: white;
+	}
+	
+	p {
+		color: white;
 	}
 
 	@include media-breakpoint-up(lg) {

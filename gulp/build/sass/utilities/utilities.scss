@@ -95,3 +95,12 @@ $sides: (top, t),
 		padding: 16rem 0;
 	}
 }
+
+.card {
+	border-color: transparent;
+	box-shadow: 0 0 3px rgb(230, 230, 122);
+}
+
+.accordion .card {
+	background: white;
+}

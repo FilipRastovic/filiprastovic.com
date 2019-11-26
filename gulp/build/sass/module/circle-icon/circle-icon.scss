@@ -1,7 +1,7 @@
 .circle-icon {
 
 	.icon {
-		background: #30e5e2;
+		background: $primary;
 		float: left;
 		width: 3rem;
 		height: 3rem;
@@ -10,12 +10,13 @@
 		font-weight: 500;
 		border-radius: 50%;
 		text-align: center;
-		color: #fff;
+		color: white;
 	}
 
 	.text {
 		padding-top: 0.325rem;
 		margin-left: 4rem;
+		color: $blue;
 	}
 
 }

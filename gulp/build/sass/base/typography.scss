@@ -57,8 +57,7 @@ ul, ol, dl {
 }
 
 .text-primary {
-	@include text-gradient;
-	color: #0097b1 !important;
+	color: $primary;
 }
 
 .text-blue {

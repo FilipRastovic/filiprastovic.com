@@ -1,6 +1,9 @@
 form {
-	background: fade-out( $white, .3 );
+	background: white;
 	padding: 2rem 1.25rem 1.8rem 2rem;
+	input {
+		background: rgb(216, 216, 216);
+	}
 }
 
 .contact-form {
