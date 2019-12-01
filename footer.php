@@ -72,7 +72,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 		<div class="row">
 			<div class="col-md-5 mt-md-0 mt-3">
 				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
-				<p class=" mb-4">Expert Landing Page Design</p>
+				<p class=" mb-4">Clarity Enhanced</p>
 				<p class="  small">I help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
 
 			</div>
@@ -101,6 +101,17 @@ if ( ! is_page( 'contact' ) ) { ?>
 					</li>
 					<li>
 						<img class="upwork-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/upwork-logo.png" alt="Upwork Logo"> <a class="small" href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3 mb-md-0 mb-3">
+				<h5 class="font-weight-bold text-uppercase">Other</h5>
+				<ul class="list-unstyled ">
+					<!-- <li>
+						<a class="small" href="/generative"><i class="mr-2 fa fa-paint-brush"></i>Generative Design</a>
+					</li> -->
+					<li>
+						<a target="_blank" class="small" href="https://store.steampowered.com/app/1131520/Trial_And_Terror/"><i class="mr-2 fa fa-gamepad"></i>My Video Game</a>
 					</li>
 				</ul>
 			</div>

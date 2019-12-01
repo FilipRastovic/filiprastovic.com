@@ -85,7 +85,7 @@
 
         <?php _e( 'Filip Rastovic', 'filiprastovic' ); ?>
         <br> 
-        <small><?php _e( 'CONVERSION CENTERED DESIGN', 'filiprastovic' ); ?></small>
+        <small><?php _e( 'clarity enhanced', 'filiprastovic' ); ?></small>
         
         
      </a>
