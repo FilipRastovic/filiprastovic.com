@@ -35,11 +35,11 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">Turn your landing pages into your best salesperson</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Landing page design process</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">Regardless of your industry - if your business sells using Unbounce, I'll make sure to deliver all of the following...</p>
+				<p class="font-weight-light text-muted mb-4">Read more about my web design process below</p>
 			</div>
 
 		</div>
@@ -47,43 +47,43 @@ get_header();
 		<div class="row justify-content-center animatedParent animateOnce bordered-columns">
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
-				<h6 class="text-primary mb-2">More leads</h6>
-				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, I can help your landing pages generate higher quality leads.</p>
+				<h6 class="text-primary mb-2">Discovery &amp; Strategy</h6>
+				<p class="font-weight-light text-muted">First we create a strategy and a plan. What are the problems we're trying to solve, how are we going to do it and how do we measure success?</p>
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
-				<h6 class="text-primary mb-2">Awesome user experience</h6>
-				<p class="font-weight-light text-muted">I design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
+				<h6 class="text-primary mb-2">Industry Research & Analysis</h6>
+				<p class="font-weight-light text-muted">Are you aware of your competition? You should be. I make sure to research your PPC keywords and analyse landing pages for your competitors. Breaking them down gives great insight that you can use to build something better on top of.</p>	
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".5s">
 
-					<h6 class="text-primary mb-2">Consistent brand identity</h6>
-					<p class="font-weight-light text-muted">Your landing pages will visually aligned with your branding guidelines ando ther marketing initiatives, ensuring your customers receive a consistent marketing message.</p>
+					<h6 class="text-primary mb-2">Content development</h6>
+					<p class="font-weight-light text-muted">Working with your copywriter I help you structure a compelling story and give you advice on other media formats we're going to use for your landing page: images, videos, animations and so on.</p>
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
-				<h6 class="text-primary mb-2">Easily edit content</h6>
-				<p class="font-weight-light text-muted">Unbounce's drag and drop builder allows you to very easily edit the copywriting and images on your pages, as well as duplicate them and make new variations for split testing.</p>
+				<h6 class="text-primary mb-2">Prototyping &amp; Wireframing</h6>
+				<p class="font-weight-light text-muted">Failing to plan is planning to fail. That's why I don't rush into design just yet. Creating a structured user flow of your landing page I help you best construct the narrative of your offer so users can understand what it's all about.</p>
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
-				<h6 class="text-primary mb-2">Compliance with standards</h6>
-				<p class="font-weight-light text-muted">Avoid penalties and fines by complying with all governmental guidelines as well as web accessibility standards and requirements.</p>	
+				<h6 class="text-primary mb-2">Design &amp; Implementation</h6>
+				<p class="font-weight-light text-muted">We apply your branding guidelines onto wireframes, do revisions until we're satisfied and then do the implementation of the deisgn into production</p>	
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".5s">
 
-					<h6 class="text-primary mb-2">Post-launch support</h6>
-					<p class="font-weight-light text-muted">After you landing pages are live, we'll resolve any unexpected issues and be around to answer your questions.</p>
+					<h6 class="text-primary mb-2">Testing &amp; Optimizing</h6>
+					<p class="font-weight-light text-muted">The best part of the process! Enjoying the results of your high converting landing pages. But it shouldn't end here. We create at least one new variation of the landing page to split test against. Did you know that you can get very different results by just changing the color of your primary call to action button?</p>
 					
 			</div>
 		</div>
@@ -95,7 +95,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4">
 				<h2 class="font-weight-bold ">CUSTOMR.APP</h2>
-				<p class="font-weight-light ">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
+				<p class="font-weight-light text-muted">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
 				<ul class="list-unstyled text-primary">
 					<li class=""><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li class=""><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>

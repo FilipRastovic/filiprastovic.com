@@ -1,10 +1,13 @@
-$blue: #2460a7 !default;
+$blue: #4075b1 !default;
+$light-blue: #4A90E2 !default;
 
-$brand-blue: #2460a7;
+$brand-blue: #4075b1;
 
-$secondary: rgb(250, 117, 50) !default; 
+$secondary: #fa7532 !default; 
 
-$primary: $blue !default;
+$warning:  rgb(255, 241, 71) !default;
+
+$primary: $light-blue !default;
 
 $font-family-sans-serif: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji', sans-serif  !default;
 

@@ -30,6 +30,150 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 mx-auto">
+				<h2 class="text-center font-weight-light mb-4">DNSFilter</h2>
+					<div class="row text-center text-dark mb-5">
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+					</div>
+				<hr class="divider">
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">The Challenge</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light">DNSFilter had some really bad and ugly looking Unbounce landing pages. Their marketing team wanted to align these 
+					with their brand's design guidelines in order to increase conversions and improve customer loyalty.
+				</span>
+				</p>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">The Process</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light">
+					After diagnosing the problems I had to take the content out of DNSFilter's old landing pages and redesign it following their brand guidelines. 
+					We ended up with a beautiful landing page that raised the conversion rate from <span class="font-weight-bold text-danger">2.36%</span> to 
+					<span class="font-weight-bold text-primary">23.44%</span>.
+				</p>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">Client Review</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light"><i>Filip created a beautiful landing page for us that increased our conversion rates more than by more than 1000%</i></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">Old Landing Page Design</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter-old.jpg"
+					alt="Portfolio image">
+
+			</div>
+			<div class="col-lg-6">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Design</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png"
+					alt="Portfolio image">
+				<h3 class="font-weight-bold text-primary">Results:</h3>
+				<h6>Old Page: <span class="font-weight-bold text-danger">2.36% conversion rate</span> </h6>
+				<h6>New Page: <span class="font-weight-bold text-primary">23.44% conversion rate</span></h6>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section" id="tutordoc">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
+				<h2 class="text-center font-weight-light mb-4">Tutor Doctor</h2>
+					<div class="row text-center text-dark mb-5">
+						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
+						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
+					</div>
+				<hr class="divider">
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">The Challenge</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light">Tutor Doctor needed a new landing page for their new marketing campaign. The company wasn't satisfied with their old landing pages and
+					the biggest reason was that their current branding is too colorful, thus distracting the users from important elements on the page.
+				</p>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">The Process</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light">After analying Tutor Doctor's website and old landing pages we came to a conclusion that their branding looks like its for children, not for parents and tutors.
+					It is too colorful, intense and distracting. Our primary idea is to use the same branding guidelines but limit the colors and have less copywriting. We wanted for awards 
+					the company recieved to stand out and make the users understand this is a trusted and good copmany.
+				</span>
+				</p>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-lg-2 offset-2">
+				<h2 class="font-weight-bold">Client Review</h2>
+			</div>
+			<div class="col-lg-6 padded-l-on-lg">
+				<p class="font-weight-light"><i>Filip excels not only in his creative design but he is unafraid to provide advice regarding potential blind spots. I highly recommend Filip for anyone wanting to build a landing page.</i></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">Old Landing Page Design</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/old-lp.jpg"
+					alt="Portfolio image">
+				<!-- <h3 class="font-weight-bold text-primary">Results:</h3>
+				<h6>Old Page: <span class="font-weight-bold text-danger">6% conversion rate</span> </h6>
+				<h6>New Page: <span class="font-weight-bold text-primary">12% conversion rate</span></h6> -->
+			</div>
+			<div class="col-lg-4">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Wireframes</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/TutorDoctorLP-Wireframe.jpg"
+					alt="Portfolio image">
+			</div>
+			<div class="col-lg-4">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Mockup</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/new-lp.jpg"
+					alt="Portfolio image">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section bg-grey" id="usbfactory">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
 				<h2 class="text-center font-weight-light mb-4">USB Factory</h2>
 					<div class="row text-center text-dark mb-5">
 						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
@@ -87,11 +231,11 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section" id="customr">
+<section class="page-section" id="jc">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 mx-auto">
-				<h2 class="text-center font-weight-light mb-4">Customr.App</h2>
+				<h2 class="text-center font-weight-light mb-4">JC eBook Campaign</h2>
 					<div class="row text-center text-dark mb-5">
 						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
 						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
@@ -102,41 +246,12 @@ get_header();
 		</div>
 		<div class="row mb-5">
 			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
+				<h2 class="font-weight-bold">The Challenge</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light">Customr.app is a Budapest based AI analytics survey app developer. The company CEO wanted a modern looking landing page to help him explain what the application is about and start collecting leads with a form where visitors can sign up for the demo of the app. Robert, the company CEO got in touch with me after searching for a single person to both develop and design him a landing page. We got in touch on skype and after a nice chat he sent me over the pdf abstract document he has put together. It was a complex document that I had to simplify and turn into a website presentation that is user friendly. I then began designing the page following my standard workflow process and sent him over the image files of the initial design. We iterated a few times and eventually created a design that we both liked. I then started coding by forking a bootstrap template with pre built gulpjs configuration and scss partials for efficient development. I coded the static page and then turned it into a WordPress theme, utilizing the Custom Field plugin to allow Robert to change all the content on the page: images that were in the sliders, text in every section and social urls. Robert and I moved into another project after this one, design and development of his personal analytics services company.</p>
-			</div>
-		</div>
-		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
-			</div>
-			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light"><i>Client review: Filip has a unique combo of skills, design and development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All in all, great designer-developer with an outstanding sense for client service.-Customr.app</i></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<img class="img-fluid shadow mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg"
-					alt="Portfolio image">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section" id="justo">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 mx-auto">
-				<h2 class="text-center font-weight-light mb-4">Justo.ca</h2>
-					<div class="row text-center text-dark mb-5">
-						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
-						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
-					</div>
-				<hr class="divider">
+				<p class="font-weight-light">This was a landing page design and conversion rate optimization projet and our primary goal and challenge was 
+					to increase conversion rates on this youtube campaign.
+				</p>
 			</div>
 		</div>
 		<div class="row mb-5">
@@ -144,38 +259,47 @@ get_header();
 				<h2 class="font-weight-bold">The Process</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light">Justo is a Toronto based real estate agent company that helps its customers buy and sell property
-					easily and with a discount. They needed a landing page for their marketing campaign. Justo team sent me over their website to draw design inspiration 
-					from and sent me over a wireframe of the landing page they desired. The landing page had a savings calculator that would allow visitors to
-					preview how much they would save by buying or selling a property with Justo. I developed a calculator by hand
-					using jQuery and designed a page that would capture their leads and easily allow its visitors to get in
-					touch with a contact person from Justo team.</p>
+				<p class="font-weight-light">
+					Because most of the traffic for our landing page comes from youtube we decided the best approach is to have very short landing page 
+					that allows users to finish the call to action as fast as possible. After watching the youtube video most of our users were already 
+					heated up and ready to convert. Our primary landing page was converting at a good <span class="font-weight-bold text-danger">40.34%</span>
+					and we decided to split test that variant against the same variant with different call to action colors. Turns out a variant with an 
+					orange call to action converts at <span class="text-primary font-weight-bold">61.23%</span> which blew our minds!
+				</p>
 			</div>
 		</div>
-		<div class="row mb-5">
+		<!-- <div class="row mb-5">
 			<div class="col-lg-2 offset-2">
 				<h2 class="font-weight-bold">Client Review</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
-				<p class="font-weight-light"><i>I needed someone who can design AND develop a landing page and upload it to my website. Filip
-						did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done
-						and does it in very quick and efficient way. For my next projects for landing pages I would work with him again.
-						Thank you Filip! -Justo</i></p>
+				<p class="font-weight-light"><i>Filip did a great work for us,</i></p>
+			</div>
+		</div> -->
+		<div class="row">
+			<div class="col-lg-12">
+				<hr>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-8 mx-auto">
+			<div class="col-lg-6">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">Green CTA</h3>
 				<img class="img-fluid shadow mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/justo-case-study.jpg"
+					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/jc/green.jpg"
+					alt="Portfolio image">
+				<h3 class="font-weight-bold text-primary">Results:</h3>
+				<h6>Old Page: <span class="font-weight-bold text-danger">40.34%% conversion rate</span> </h6>
+				<h6>New Page: <span class="font-weight-bold text-primary">61.23% conversion rate</span></h6>
+			</div>
+			<div class="col-lg-6">
+				<h3 class="text-center font-weight-bold mt-2 mb-4">Orange CTA</h3>
+				<img class="img-fluid shadow mb-5"
+					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/jc/orange.jpg"
 					alt="Portfolio image">
 			</div>
 		</div>
 	</div>
 </section>
-
-
-
-
 
 <?php
 get_footer();

@@ -22,17 +22,17 @@ if ( ! is_page( 'contact' ) ) { ?>
 		<div class="row">
 			<div class="col-lg-6 position-relative">
 				<h2 class="font-weight-bold mb-4 text-white">
-					Am I a good fit for your project?
+					Are we a match?
 				</h2>
 				<p class="text-white  mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary ">
-					<li class="mb-3 text-warning">
+					<li class="text-warning">
 						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
 					</li>
-					<li class="mb-3 text-warning">
+					<li class="text-warning">
 						<i class="fas fa-check mr-2"></i>Are running paid advetising
 					</li>
-					<li class="mb-3 text-warning">
+					<li class="text-warning">
 						<i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset
 					</li>
 					<li class="mb-5 text-warning">
@@ -45,7 +45,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 				<form class="shadow rounded wow animated fadeInRight overflow-hidden" data-wow-duration="2s" data-wow-delay=".1s" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
 				method="post">
 					<div class="text-center mb-4">
-						<p class="h5 text-dark text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+						<p class="h5 text-dark text-center">Schedule <u class="font-weight-bold text-uppercase text-primary">your</u> consultation!</p>
 					</div>
 					<div class="form-group required pb-3">
 						<label class="control-label " for="inputFirstName">Full Name</label>

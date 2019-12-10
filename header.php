@@ -41,13 +41,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/ico.png" />
-  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/profilna.jpg" />
-  <meta property="og:image:width" content="551"/>
-  <meta property="og:image:height" content="306"/>
+  <meta property="og:image" content="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
   <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
   <meta name="author" content="Filip Rastovic">
-  <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/filip.png" />
-  <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/filip.png"/>
+  <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png" />
+  <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png"/>
   <meta name="twitter:url" content="https://filiprastovic.com"/>
   <meta name="google-site-verification" content="mlQnTGLwU-XJVF0iQquG9-LnTinXUVGJmobgYUr4phM" />
 
@@ -119,7 +119,7 @@
           <div class="row">
             <div class="d-none d-sm-block col-lg-6 position-relative">
               <h2 class="font-weight-bold mb-4 text-white">
-                Am I a good fit for your project?
+                Are we a match?
               </h2>
               <p class="text-white mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-warning ">
@@ -143,7 +143,7 @@
               <form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
               method="post">
                 <div class="text-center mb-4">
-                  <p class="h5  text-dark text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+                  <p class="h5  text-dark text-center">Schedule <u class="font-weight-bold text-uppercase text-primary">your</u> consultation!</p>
                 </div>
                 <div class="form-group required pb-3">
                   <label class="control-label text-muted" for="inputFirstName">Full Name</label>
@@ -178,7 +178,7 @@
           <div class="row">
             <div class="d-none d-sm-block col-lg-6 position-relative">
               <h2 class="font-weight-bold mb-4">
-                Am I a good fit for your project?
+                Are we a match?
               </h2>
               <p class=" mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-primary ">
@@ -204,7 +204,7 @@
               <form class="shadow rounded" action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=fc04893671"
               method="post">
                 <div class="text-center mb-4">
-                  <p class="h5  text-primary text-center">Schedule <u class="font-weight-bold text-uppercase">your</u> consultation!</p>
+                  <p class="h5  text-primary text-center">Schedule <u class="font-weight-bold text-uppercase text-primary">your</u> consultation!</p>
                 </div>
                 <div class="form-group required pb-3">
                   <label class="control-label text-muted" for="inputFirstName">Full Name</label>
