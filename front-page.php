@@ -184,10 +184,16 @@ get_header();
 
 <section class="page-section testimonials">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 wow animated fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
-				<h2 class="text-uppercase font-weight-bold mb-5">What they said about me</h2>
+		<div class="row justify-content-center mb-5">
+
+			<div class="col-lg-10 align-self-end text-center">
+				<h2 class="text-uppercase font-weight-bold mb-3">What they said about me</h2>
 			</div>
+
+			<div class="col-lg-7 align-self-baseline text-center">
+				<p class="text-muted font-weight-light mb-4">Once we start working together we're a team </p>
+			</div>
+
 		</div>
 		<div class="row">
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
