@@ -30,25 +30,27 @@ get_header();
 	</div>
 </header>
 
-<section class="page-section--portfolio bg-grey" id="portfolio">
+<section class="page-section--portfolio bg-grey">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="font-weight-bold">Customr.app</h2>
-				<p class="font-weight-light text-muted">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
+				<h2 class="font-weight-bold">DNSFilter</h2>
+				<p class="font-weight-light text-muted">DNSFilter is a software solution that helps companies secure their network and provide a safe experience for their employes. With competitors such as Cisco this 
+					landing page had to stand out with its simplicity and use of animated SVG illustrations.
+				</p>
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page."><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
 				</ul>
-				<a href="https://customr.app" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
-				
+				<a href="http://unbouncepages.com/2aad142e-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a href="/case-studies#dnsfilter" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg">
-						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg" alt="Portfolio image">
+					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png?>">
+						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png?>" alt="Portfolio image">
 					</a>
 			
 				</div>
@@ -84,27 +86,25 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section--portfolio bg-grey">
+<section class="page-section--portfolio bg-grey" id="portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="font-weight-bold">DNSFilter</h2>
-				<p class="font-weight-light text-muted">DNSFilter is a software solution that helps companies secure their network and provide a safe experience for their employes. With competitors such as Cisco this 
-					landing page had to stand out with its simplicity and use of animated SVG illustrations.
-				</p>
+				<h2 class="font-weight-bold">Customr.app</h2>
+				<p class="font-weight-light text-muted">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page."><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
 					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
 				</ul>
-				<a href="http://unbouncepages.com/2aad142e-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
-				<a href="/case-studies#dnsfilter" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
+				<a href="https://customr.app" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">
 					
-					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png?>">
-						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png?>" alt="Portfolio image">
+					<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg">
+						<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/customr-case-study.jpg" alt="Portfolio image">
 					</a>
 			
 				</div>

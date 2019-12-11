@@ -26,7 +26,7 @@ get_header();
 	</div>
 </header>
 
-<section class="page-section bg-grey" id="usbfactory">
+<section class="page-section bg-grey" id="dnsfilter">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 mx-auto">
