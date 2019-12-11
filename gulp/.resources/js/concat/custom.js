@@ -268,9 +268,9 @@ function canvasApp() {
 			
 			//define gradient
 			grad = context.createRadialGradient(0,0,minR,0,0,maxR);
-			grad.addColorStop(1,"rgba(255,241,71, 0.2)");
-			grad.addColorStop(0,"rgba(255,241,771, 0.2)"); 
-			
+			grad.addColorStop(1,"rgba(0,0,0, 0.2)");
+			grad.addColorStop(0,"rgba(0,0,0, 0.2)"); 
+		
 			var newCircle = {
 				centerX: -maxR,
 				centerY: displayHeight/2-50,
@@ -2360,6 +2360,46 @@ $( '.haircut' ).on( 'click', function() {
 
 
 new WOW().init();
+  // Smooth scrolling using jQuery easing
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 72)
+        }, 1000, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+  $( '.contact-link' ).on( 'click', function() {
+
+    $( '#exampleModal' ).modal( 'show' );
+
+  });
+    
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+  });
 
 function verificationForm(){
 	//jQuery time
@@ -2474,44 +2514,4 @@ function nice_Select(){
 verificationForm ();
 phoneNoselect ();
 nice_Select ();
-
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-
-  $( '.contact-link' ).on( 'click', function() {
-
-    $( '#exampleModal' ).modal( 'show' );
-
-  });
-    
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 72)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-$(document).ready(function(){
-	$('[data-toggle="tooltip"]').tooltip();
-  });});
+});

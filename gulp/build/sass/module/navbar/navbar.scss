@@ -1,12 +1,12 @@
 .navbar {
 	padding: 0.8rem 1rem;
 	transition: background-color 0.2s ease;
-	background-color: $brand-blue;
-	border-color: $brand-blue;
+	background-color: $light-blue;
+	border-color: $light-blue;
 	@include transition-all;
 
 	@media (max-width: 768px) {
-		background-color: $brand-blue;
+		background-color: $light-blue;
 	}
 
 	&-nav {
