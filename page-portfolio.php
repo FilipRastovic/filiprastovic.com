@@ -23,7 +23,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<a href="#portfolio" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>VIEW PORTFOLIO</a>
+				<a href="#dnsfilter" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>VIEW PORTFOLIO</a>
 			</div>
 
 		</div>
