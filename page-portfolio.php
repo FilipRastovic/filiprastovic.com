@@ -23,14 +23,14 @@ get_header();
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<a href="#dnsfilter" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>VIEW PORTFOLIO</a>
+				<a href="#portfolio" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>VIEW PORTFOLIO</a>
 			</div>
 
 		</div>
 	</div>
 </header>
 
-<section class="page-section--portfolio bg-grey">
+<section class="page-section--portfolio bg-grey" id="portfolio" >
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
@@ -86,7 +86,7 @@ get_header();
 	</div>
 </section>
 
-<section class="page-section--portfolio bg-grey" id="portfolio">
+<section class="page-section--portfolio bg-grey" id="">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">

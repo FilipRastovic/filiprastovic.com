@@ -19,7 +19,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<a href="#usbfactory" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Latest work</a>
+				<a href="#dnsfilter" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Latest work</a>
 			</div>
 
 		</div>
