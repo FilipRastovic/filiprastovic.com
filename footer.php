@@ -100,22 +100,22 @@ if ( ! is_page( 'contact' ) ) { ?>
 
 				<ul class="list-unstyled ">
 					<li>
-						<a class="small" href="http://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
+						<a class="small" target="_blank" href="http://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
 					</li>
 					<li>
-						<a class="small" href="https://github.com/FilipRastovic"><i class="mr-2 fab fa-github"></i>GitHub</a>
+						<a class="small" target="_blank" href="https://github.com/FilipRastovic"><i class="mr-2 fab fa-github"></i>GitHub</a>
 					</li>
 					<li>
-						<a class="small" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
+						<a class="small" target="_blank" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
 					</li>
 					<li>
-						<a class="small" href="https://www.behance.net/filiporastovic"><i class="mr-2 fab fa-behance"></i>Behance</a>
+						<a class="small" target="_blank" href="https://www.behance.net/filiporastovic"><i class="mr-2 fab fa-behance"></i>Behance</a>
 					</li>
 					<li>
-						<a class="small" href="https://dribbble.com/filipo"><i class="mr-2 fab fa-dribbble"></i>Dribbble</a>
+						<a class="small" target="_blank" href="https://dribbble.com/filipo"><i class="mr-2 fab fa-dribbble"></i>Dribbble</a>
 					</li>
 					<li>
-						<a class="small" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
+						<a class="small" target="_blank" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
 					</li>
 				</ul>
 			</div>
