@@ -70,14 +70,32 @@ if ( ! is_page( 'contact' ) ) { ?>
 <footer class="footer bg-grey">
 	<div class="container text-center text-md-left">
 		<div class="row">
-			<div class="col-md-5 mt-md-0 mt-3">
+			<div class="col-md-3 mt-md-0 mt-3">
 				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
-				<p class=" mb-4">Clarity Enhanced</p>
-				<p class="  small">I help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
+				<p class=" b-4">Clarity Enhanced</p>
+				<p class=" small">I help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">
-			<div class="col-md-3 offset-md-1 mb-md-0 mb-3">
+			<div class="col-md-2 offset-md-1  mb-3">
+				<h5 class="font-weight-bold text-uppercase">Links</h5>
+
+				<ul class="list-unstyled ">
+					<li>
+						<a class="small" href="/portfolio"><i class="mr-2 fa fa-paint-brush"></i>Portfolio</a>
+					</li>
+					<li>
+						<a class="small" href="/case-studies"><i class="mr-2 fa fa-book"></i>Case Studies</a>
+					</li>
+					<li>
+						<a class="small" href="/process"><i class="mr-2 fa fa-microchip"></i>Process</a>
+					</li>
+					<li>
+						<a class="small" href="/about"><i class="mr-2 fa fa-user-tie"></i>About</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2 offset-md-1  mb-3">
 				<h5 class="font-weight-bold text-uppercase">Social</h5>
 
 				<ul class="list-unstyled ">
@@ -99,12 +117,9 @@ if ( ! is_page( 'contact' ) ) { ?>
 					<li>
 						<a class="small" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
 					</li>
-					<li>
-						<img class="upwork-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/upwork-logo.png" alt="Upwork Logo"> <a class="small" href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
-					</li>
 				</ul>
 			</div>
-			<div class="col-md-3 mb-md-0 mb-3">
+			<div class="col-md-2 offset-md-1  mb-3">
 				<h5 class="font-weight-bold text-uppercase">Other</h5>
 				<ul class="list-unstyled ">
 					<!-- <li>
