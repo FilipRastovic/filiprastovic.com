@@ -90,7 +90,7 @@ get_header();
 					alt="Portfolio image">
 				<h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">2.36% conversion rate</span> </h6>
-				<h6>New Page: <span class="font-weight-bold text-primary">23.44% conversion rate</span></h6>
+				<div class="big"><h6>New Page: <span class="font-weight-bold text-primary">23.44% conversion rate</span></h6></div>
 			</div>
 		</div>
 	</div>
@@ -219,7 +219,7 @@ get_header();
 					alt="Portfolio image">
 				<h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">6% conversion rate</span> </h6>
-				<h6>New Page: <span class="font-weight-bold text-primary">12% conversion rate</span></h6>
+				<div class="big"><h6>New Page: <span class="font-weight-bold text-primary">12% conversion rate</span></h6></div>
 			</div>
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Design</h3>
@@ -289,7 +289,7 @@ get_header();
 					alt="Portfolio image">
 				<h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">40.34%% conversion rate</span> </h6>
-				<h6>New Page: <span class="font-weight-bold text-primary">61.23% conversion rate</span></h6>
+				<div class="big"><h6>New Page: <span class="font-weight-bold text-primary">61.23% conversion rate</span></h6></div>
 			</div>
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">Orange CTA</h3>

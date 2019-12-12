@@ -63,3 +63,11 @@ ul, ol, dl {
 .text-blue {
 	color: $primary !important;
 }
+
+.big h6{
+	font-size: 150%;
+
+	@media (min-width: 768px) {
+		font-size: 175%;
+	}
+}
