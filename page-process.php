@@ -16,7 +16,7 @@ get_header();
 			<canvas id="displayCanvas"></canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">I build quality leads for your business</h1>
+				<h1 class="text-uppercase font-weight-bold">I build leads for your business</h1>
 				<hr class="divider my-4">
 			</div>
 
@@ -101,7 +101,7 @@ get_header();
 					<li class=""><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
 				</ul>
 				<a target="_BLANK" href="http://www.justopromo.ca/promo/" class="btn btn-outline-primary btn-sm mb-5 ">Visit Page</a>
-				<a href="/case-studies#customr" target="_BLANK" class="btn btn-primary btn-sm mb-5 ">Read Case Study</a>
+				<!-- <a href="/case-studies#customr" target="_BLANK" class="btn btn-primary btn-sm mb-5 ">Read Case Study</a> -->
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<div class="screenshot">

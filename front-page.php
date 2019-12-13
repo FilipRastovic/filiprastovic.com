@@ -33,7 +33,7 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-8 align-self-end">
-				<h1 class="text-uppercase font-weight-bold mb-5 text-white">I build landing pages that convert more</h1>
+				<h1 class="text-uppercase font-weight-bold mb-5 text-white">Conversion optimized landing pages</h1>
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
@@ -61,7 +61,7 @@ get_header();
 	</div>
 </header>
 
-<section class="page-section big-padding" id="content">
+<section class="page-section" id="content">
 	<div class="container">
 		<div class="row justify-content-center mb-5">
 

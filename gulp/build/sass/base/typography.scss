@@ -71,3 +71,9 @@ ul, ol, dl {
 		font-size: 175%;
 	}
 }
+
+.subtitle {
+	@media (min-width: 768px) {
+		text-align: right;
+	}
+}

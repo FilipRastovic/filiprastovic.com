@@ -40,8 +40,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Challenge</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Challenge</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">DNSFilter had some really bad and ugly looking Unbounce landing pages. Their marketing team wanted to align these 
@@ -51,8 +51,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Process</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">
@@ -63,8 +63,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">Client Review</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light"><i>Filip created a beautiful landing page for us that increased our conversion rates more than by more than 1000%</i></p>
@@ -110,8 +110,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Challenge</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Challenge</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">Tutor Doctor needed a new landing page for their new marketing campaign. The company wasn't satisfied with their old landing pages and
@@ -120,8 +120,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Process</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">After analying Tutor Doctor's website and old landing pages we came to a conclusion that their branding looks like its for children, not for parents and tutors.
@@ -132,8 +132,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">Client Review</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light"><i>Filip excels not only in his creative design but he is unafraid to provide advice regarding potential blind spots. I highly recommend Filip for anyone wanting to build a landing page.</i></p>
@@ -184,8 +184,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Process</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">USB Factory is a Swiss based custom USB design manufacturer. Basically companies send them over their logos and USB Factory creates USB drives ( among other things ) with their logos on them.
@@ -199,8 +199,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">Client Review</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light"><i>Whaou! Working with Filip is just GREAT! Everything is easy and simple. Thanks a lot for your great job, I'll come back to order more pages soon!</i></p>
@@ -245,8 +245,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Challenge</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Challenge</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">This was a landing page design and conversion rate optimization projet and our primary goal and challenge was 
@@ -255,8 +255,8 @@ get_header();
 			</div>
 		</div>
 		<div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">The Process</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">The Process</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">
@@ -269,8 +269,8 @@ get_header();
 			</div>
 		</div>
 		<!-- <div class="row mb-5">
-			<div class="col-lg-2 offset-2">
-				<h2 class="font-weight-bold">Client Review</h2>
+			<div class="col-lg-4">
+				<h2 class="subtitle font-weight-bold">Client Review</h2>
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light"><i>Filip did a great work for us,</i></p>
