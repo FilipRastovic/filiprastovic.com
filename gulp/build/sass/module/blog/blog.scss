@@ -1,7 +1,7 @@
 .blog {
 	.post-content {
 		p {
-			font-weight: 300;
+			font-weight: 400;
 		}
 		figure {
 			width: 100% !important;
@@ -9,7 +9,7 @@
 		}
 
 		.wp-caption-text {
-			font-weight: 300;
+			font-weight: 400;
 			color: $gray-600;
 		}
 
@@ -23,7 +23,11 @@
 	img {
 		width: 100%;
 		height: auto;
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 	}
 }
 
+
+.post-title {
+	font-weight: 700;
+}

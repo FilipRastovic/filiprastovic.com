@@ -10,10 +10,10 @@
 get_header();
 ?>
 
-<section class="single-post">
+<section class="single-post u-mt-100 u-mb-100">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 mx-auto">
+      <div class="col-md-8">
 
         <?php
 		while ( have_posts() ) :

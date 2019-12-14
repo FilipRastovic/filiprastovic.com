@@ -20,7 +20,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<p class="font-weight-light text-uppercase mb-5">I love writing about freelancing, design and web development. 
+				<p class="font-weight-light mb-5">I love writing about, business of design and design of business. 
 				</p>
 				<a href="#content" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Read blog</a>
 			</div>
@@ -29,7 +29,7 @@ get_header();
 	</div>
 </header>
 
-<section class="blog-section u-pt-200 u-pb-200" id="content">
+<section class="blog-section pt-5 pb-5" id="content">
   <div class="container">
     <div class="row">
       
