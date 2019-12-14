@@ -121,7 +121,7 @@
               <h2 class="font-weight-bold mb-4 text-white">
                 Are we a match?
               </h2>
-              <p class="text-white mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+              <p class="text-white mb-4">While I welcome inquiries from all types of companies that use landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-warning ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
@@ -180,7 +180,7 @@
               <h2 class="font-weight-bold mb-4">
                 Are we a match?
               </h2>
-              <p class=" mb-4">While I welcome inquiries from all types of companies that use Unbounce landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+              <p class=" mb-4">While I welcome inquiries from all types of companies that use landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-primary ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
@@ -193,9 +193,6 @@
                 </li>
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
-                </li>
-                <li>
-                  <img class="unbounce-logo" src="/wp-content/themes/filip-rastovic/assets/img/Unbounce-logo-alt.png" alt="Unbounce Logo">
                 </li>
               </ul>
               <div class="animated-arrow right show-for-xlarge"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div></div>
