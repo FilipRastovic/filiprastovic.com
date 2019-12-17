@@ -41,7 +41,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page."><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a href="http://unbouncepages.com/2aad142e-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				<a href="/case-studies#dnsfilter" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
@@ -77,7 +78,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Web changes and in order to keep up pages that are online need to be slightly adjusted to stay funcitonal."><i class="fas fa-cogs mr-2"></i>Maintenance</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a target="_BLANK" href="http://unbouncepages.com/6429992a-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				
@@ -95,7 +97,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page."><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a href="https://customr.app" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				
@@ -134,7 +137,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Web changes and in order to keep up pages that are online need to be slightly adjusted to stay funcitonal."><i class="fas fa-cogs mr-2"></i>Maintenance</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a target="_BLANK" href="http://unbouncepages.com/1e397b10-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				<a href="/case-studies#usbfactory" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
@@ -186,7 +190,8 @@ get_header();
 				<p class="font-weight-light text-muted">Velo creates hand dryers. I was hired to implement few existing designs and build new Unbounce landing pages for different lines of their hand dryer products.</p>
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a target="_BLANK" href="https://www.velohanddryers.com.au/page/hand-dryers" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 			</div>
@@ -203,7 +208,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page." ><i class="fas fa-info-circle mr-2"></i>Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				
 			</div>
@@ -238,7 +244,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page." ><i class="fas fa-info-circle mr-2"></i>Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a target="_BLANK" href="http://unbouncepages.com/test-brief/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 			</div>
@@ -257,7 +264,8 @@ get_header();
 					<ul class="list-unstyled text-primary">
 						<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page."><i class="fas fa-info-circle mr-2"></i></i>Information Architecture, Wireframes</li>
 						<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-						<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+						<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+						designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 					</ul>
 					<a href="http://unbouncepages.com/6acea7fc-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				</div>
@@ -292,7 +300,8 @@ get_header();
 					<ul class="list-unstyled text-primary">
 						<li  data-toggle="tooltip" title="Web changes and in order to keep up pages that are online need to be slightly adjusted to stay funcitonal."><i class="fas fa-cogs mr-2"></i>Maintenance</li>
 						<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-						<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+						<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+						designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 					</ul>
 					<a target="_BLANK" href="http://unbouncepages.com/7737456c-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				</div>
@@ -309,7 +318,8 @@ get_header();
 				<h2 class="font-weight-bold">Pricing Page</h2>
 				<p class="font-weight-light text-muted">This is a pricing landing page for a software product, our job was working closely with another designer in coming up with this awesome implementation.</p>
 				<ul class="list-unstyled text-primary">
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 			</div>
 
@@ -348,7 +358,8 @@ get_header();
 				<ul class="list-unstyled text-primary">
 					<li  data-toggle="tooltip" title="Wireframes are skeletons of the landing page. These files define the layout and structure of the page." ><i class="fas fa-info-circle mr-2"></i>Wireframes</li>
 					<li  data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD."><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform."><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a target="_BLANK" href="http://www.woodlandsradiancespa.com/info-event/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
 				<a href="/case-studies#radiance" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>

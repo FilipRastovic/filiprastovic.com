@@ -98,7 +98,7 @@ get_header();
 				<p class="font-weight-light text-muted">Customrr.app is a SAAS solution for market analysis. Company CEO wanted a modern landing page to start collecting leads. I had to break down complex documents into easy to digest design.</p>
 				<ul class="list-unstyled text-primary">
 					<li class=""><i class="fas fa-paint-brush mr-2"></i>Design Mockups</li>
-					<li class=""><i class="fas fa-edit mr-2"></i>Unbounce Implementation</li>
+					<li class=""><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
 				<a target="_BLANK" href="http://www.justopromo.ca/promo/" class="btn btn-outline-primary btn-sm mb-5 ">Visit Page</a>
 				<!-- <a href="/case-studies#customr" target="_BLANK" class="btn btn-primary btn-sm mb-5 ">Read Case Study</a> -->

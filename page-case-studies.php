@@ -33,7 +33,8 @@ get_header();
 				<h2 class="text-center font-weight-light mb-4">DNSFilter</h2>
 					<div class="row text-center text-dark mb-5">
 						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Implementation</div>
 						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
@@ -103,7 +104,8 @@ get_header();
 				<h2 class="text-center font-weight-light mb-4">Tutor Doctor</h2>
 					<div class="row text-center text-dark mb-5">
 						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Implementation</div>
 						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
@@ -177,7 +179,8 @@ get_header();
 				<h2 class="text-center font-weight-light mb-4">USB Factory</h2>
 					<div class="row text-center text-dark mb-5">
 						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Implementation</div>
 						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
@@ -238,7 +241,8 @@ get_header();
 				<h2 class="text-center font-weight-light mb-4">JC eBook Campaign</h2>
 					<div class="row text-center text-dark mb-5">
 						<div data-toggle="tooltip" title="Design mockups are image files of your landing page. These are not yet online and are created in design tools such as Sketch or Adobe XD." class="col-lg-4 mb-4"><i class="fas fa-paint-brush"></i> Design</div>
-						<div data-toggle="tooltip" title="Unbounce is a famous landing page and conversion rate optimization platform." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Unbounce Implementation</div>
+						<div data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
+					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow." class="col-lg-4 mb-4"><i class="fas fa-edit"></i> Implementation</div>
 						<div data-toggle="tooltip" title="Animations enhance user experience. These subtle design elements make the website feel alive and delight the user." class="col-lg-4 mb-4"><i class="fas fa-star"></i> Animations</div>
 					</div>
 				<hr class="divider">
