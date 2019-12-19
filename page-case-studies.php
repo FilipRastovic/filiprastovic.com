@@ -14,7 +14,7 @@ get_header();
 			<canvas id="displayCanvas"></canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">Read about my latest work</h1>
+				<h1 class="text-uppercase font-weight-bold">Read about our latest work</h1>
 				<hr class="divider my-4">
 			</div>
 
@@ -57,7 +57,7 @@ get_header();
 			</div>
 			<div class="col-lg-6 padded-l-on-lg">
 				<p class="font-weight-light">
-					After diagnosing the problems I had to take the content out of DNSFilter's old landing pages and redesign it following their brand guidelines. 
+					After diagnosing the problems we had to take the content out of DNSFilter's old landing pages and redesign it following their brand guidelines. 
 					We ended up with a beautiful landing page that raised the conversion rate from <span class="font-weight-bold text-danger">2.36%</span> to 
 					<span class="font-weight-bold text-primary">23.44%</span>.
 				</p>
@@ -194,7 +194,7 @@ get_header();
 				<p class="font-weight-light">USB Factory is a Swiss based custom USB design manufacturer. Basically companies send them over their logos and USB Factory creates USB drives ( among other things ) with their logos on them.
 				Company CEO, Battista, got it touch with me in order to solve one problem: their Unbounce landing pages not converting enough. After checking out their current designs it was obvious to me that their 
 				Unbounce landing pages were very outdated, not optimized for conversions and most importantly the design was not aligned with their current website. The conversion rate was something around 
-				<span class="font-weight-bold">6%</span>. I got all the copywriting and images Battista wanted me to include in the new landing page and started working. After sending him over the first mockup, he 
+				<span class="font-weight-bold">6%</span>. We got all the copywriting and images Battista wanted me to include in the new landing page and started working. After sending him over the first mockup, he 
 				gave me some feedback and I revised the page. The second version was aproved and I started implementing the page onto Unbounce. The page had a custom slider and some nice animations. After the implementation was 
 				over, we tested the page on both mobile and desktop. We than started getting paid traffic to the page and the <span class="font-weight-bold">conversion rate doubeled.</span> Their new landing page has more than 
 				<span class="font-weight-bold">12% conversion rate.</span>

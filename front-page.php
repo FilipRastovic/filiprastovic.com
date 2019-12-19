@@ -16,11 +16,11 @@ get_header();
 <div class="container-fluid">
 	<div class="row d-none d-lg-block">
 		<div class="position-absolute col-lg-2 offset-lg-9 u-mt-96">
-			<figure class="text-center">
+			<!-- <figure class="text-center">
 				<img class="filipo img-fluid rounded-circle shadow mb-4"
 					src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
 				<figcaption class="text-white">Hi, I'm Filip, welcome to my website! </figcaption>
-			</figure>
+			</figure> -->
 		</div>
 	</div>
 </div>
@@ -49,13 +49,13 @@ get_header();
 		</div>
 		<div class="row d-block d-lg-none">
 			<div class="col-6 offset-5 u-mt-96">
-				<figure class="text-center">
+				<!-- <figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4"
 						src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
 					<figcaption>
 						<div class="text-white">Hi, I'm Filip, welcome to my website!</div>
 					</figcaption>
-				</figure>
+				</figure> -->
 			</div>
 		</div>
 	</div>
@@ -71,7 +71,7 @@ get_header();
 
 			<div class="col-lg-7 align-self-baseline text-center">
 				<p class="text-muted font-weight-light mb-4">Apply best practices or risk wasting cash on paid advertising that doesn't convert.
-					But it doesn't have to be like that. I can help you: </p>
+					But it doesn't have to be like that. We can help you: </p>
 			</div>
 
 		</div>
@@ -130,7 +130,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">Regardless of your industry - if your business sells using Unbounce, I'll make sure to deliver all of the following...</p>
+				<p class="font-weight-light text-muted mb-4">Regardless of your industry - if your business sells using Unbounce, We'll make sure to deliver all of the following...</p>
 			</div>
 
 		</div>
@@ -139,14 +139,14 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
 				<h6 class="text-primary mb-2">More leads</h6>
-				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, I can help your landing pages generate higher quality leads.</p>
+				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, We can help your landing pages generate higher quality leads.</p>
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
 				<h6 class="text-primary mb-2">Awesome user experience</h6>
-				<p class="font-weight-light text-muted">I design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
+				<p class="font-weight-light text-muted">We design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
 
 			</div>
 
@@ -187,7 +187,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">What they said about me</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">What they said about us</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">

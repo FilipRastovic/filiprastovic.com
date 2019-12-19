@@ -24,7 +24,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 				<h2 class="font-weight-bold mb-4 text-white">
 					Are we a match?
 				</h2>
-				<p class="text-white  mb-4">While I welcome inquiries from all types of companies that use landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+				<p class="text-white  mb-4">While we welcome inquiries from all types of companies that use landing pages, experience has shown we obtain the best result for clients with the following traits...</p>
 				<ul class="list-unstyled text-primary ">
 					<li class="text-warning">
 						<i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
@@ -71,9 +71,9 @@ if ( ! is_page( 'contact' ) ) { ?>
 	<div class="container text-center text-md-left">
 		<div class="row">
 			<div class="col-md-3 mt-md-0 mt-3">
-				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
-				<p class=" b-4">Clarity Enhanced</p>
-				<p class=" small">I help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
+				<h5 class="font-weight-bold text-uppercase ">Clarity Enhanced</h5>
+				<p class=" b-4">Always learning</p>
+				<p class=" small">We help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">

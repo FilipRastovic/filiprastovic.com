@@ -16,7 +16,7 @@ get_header();
 			<canvas id="displayCanvas"></canvas>
 
 			<div class="col-lg-10 align-self-end">
-				<h1 class="text-uppercase font-weight-bold">I build leads for your business</h1>
+				<h1 class="text-uppercase font-weight-bold">We build leads for your business</h1>
 				<hr class="divider my-4">
 			</div>
 
@@ -39,7 +39,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">Read more about my web design process below</p>
+				<p class="font-weight-light text-muted mb-4">Read more about our web design process below</p>
 			</div>
 
 		</div>
@@ -55,21 +55,21 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
 				<h6 class="text-primary mb-2">Industry Research & Analysis</h6>
-				<p class="font-weight-light text-muted">Are you aware of your competition? You should be. I make sure to research your PPC keywords and analyse landing pages for your competitors. Breaking them down gives great insight that you can use to build something better on top of.</p>	
+				<p class="font-weight-light text-muted">Are you aware of your competition? You should be. We make sure to research your PPC keywords and analyse landing pages for your competitors. Breaking them down gives great insight that you can use to build something better on top of.</p>	
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".5s">
 
 					<h6 class="text-primary mb-2">Content development</h6>
-					<p class="font-weight-light text-muted">Working with your copywriter I help you structure a compelling story and give you advice on other media formats we're going to use for your landing page: images, videos, animations and so on.</p>
+					<p class="font-weight-light text-muted">Working with your copywriter we help you structure a compelling story and give you advice on other media formats we're going to use for your landing page: images, videos, animations and so on.</p>
 
 			</div>
 
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
 				<h6 class="text-primary mb-2">Prototyping &amp; Wireframing</h6>
-				<p class="font-weight-light text-muted">Failing to plan is planning to fail. That's why I don't rush into design just yet. Creating a structured user flow of your landing page I help you best construct the narrative of your offer so users can understand what it's all about.</p>
+				<p class="font-weight-light text-muted">Failing to plan is planning to fail. That's why we don't rush into design just yet. Creating a structured user flow of your landing page we help you best construct the narrative of your offer so users can understand what it's all about.</p>
 
 			</div>
 
@@ -125,7 +125,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
-				<p class="font-weight-light text-muted mb-4">I don't know how to do everything, but the things I do know, I know well.</p>
+				<p class="font-weight-light text-muted mb-4">We don't know how to do everything, but the things we do know, we know well.</p>
 			</div>
 
 		</div>
@@ -136,7 +136,7 @@ get_header();
 					<div class="icon"><i class="fas fa-info"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Information Architecture</h6>
-						<p class="font-weight-light text-muted">I discuss the best way to break down your unique selling points into something easy to digest.</p>
+						<p class="font-weight-light text-muted">We discuss the best way to break down your unique selling points into something easy to digest.</p>
 					</div>
 				</div>
 				
@@ -146,7 +146,7 @@ get_header();
 					<div class="icon"><i class="fas fa-users"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">UX &amp; Market Research</h6>
-						<p class="font-weight-light text-muted">I check what your competitors are doing, thoroughly analyze their UX and build something greater on top of that.</p>
+						<p class="font-weight-light text-muted">We check what your competitors are doing, thoroughly analyze their UX and build something greater on top of that.</p>
 					</div>
 				</div>
 				
@@ -166,7 +166,7 @@ get_header();
 					<div class="icon"><i class="fas fa-edit"></i></div>
 					<div class="text">
 						<h6 class="text-uppercase text-primary mb-2">Unbounce</h6>
-						<p class="font-weight-light text-muted">I love implementing designs into Unbounce, allowing you to easily take control of your content.</p>
+						<p class="font-weight-light text-muted">We love implementing designs into Unbounce, allowing you to easily take control of your content.</p>
 					</div>
 				</div>
 				
@@ -206,7 +206,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">What they said about me</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">What they said about us</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">

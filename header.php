@@ -83,9 +83,9 @@
     <div class="container">
       <a class="navbar-brand font-weight-bold text-white" href="/">
 
-        <?php _e( 'Filip Rastovic', 'filiprastovic' ); ?>
+        <?php _e( 'Clarity Enhanced', 'filiprastovic' ); ?>
         <br> 
-        <small><?php _e( 'clarity enhanced', 'filiprastovic' ); ?></small>
+        <small><?php _e( 'Always learning', 'filiprastovic' ); ?></small>
         
         
      </a>
@@ -121,7 +121,7 @@
               <h2 class="font-weight-bold mb-4 text-white">
                 Are we a match?
               </h2>
-              <p class="text-white mb-4">While I welcome inquiries from all types of companies that use landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+              <p class="text-white mb-4">While we welcome inquiries from all types of companies that use landing pages, experience has shown we obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-warning ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
@@ -180,7 +180,7 @@
               <h2 class="font-weight-bold mb-4">
                 Are we a match?
               </h2>
-              <p class=" mb-4">While I welcome inquiries from all types of companies that use landing pages, experience has shown I obtain the best result for clients with the following traits...</p>
+              <p class=" mb-4">While We welcome inquiries from all types of companies that use landing pages, experience has shown We obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-primary ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
