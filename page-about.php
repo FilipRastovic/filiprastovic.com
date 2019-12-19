@@ -20,7 +20,7 @@ get_header();
 	<canvas id="displayCanvas"></canvas>
 	<div class="col-6 offset-3 col-lg-2 offset-lg-3">
 			<figure class="text-center">
-					<img class="filipo img-fluid rounded-circle shadow mb-4" src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
+					<img class="filipo img-fluid rounded-circle shadow mb-4" src="<?php bloginfo('template_url'); ?>/assets/img/profilna.jpg" alt="Filip Rastovic">
 					<figcaption class="text-white">Hi there!</figcaption>
 				</figure>
       </div>
@@ -37,10 +37,10 @@ get_header();
 	</div>
 	<div class="row">
 		<div class="col-lg-4 offset-lg-2">
-			<img class=" img-fluid shadow rounded mb-4" src="/wp-content/themes/filip-rastovic/assets/img/lala.jpg" alt="Filip Rastovic">
+			<img class=" img-fluid shadow rounded mb-4" src="<?php bloginfo('template_url'); ?>/assets/img/lala.jpg" alt="Filip Rastovic">
 		</div>
 		<div class="col-lg-4">
-			<img class=" img-fluid shadow rounded mb-4" src="/wp-content/themes/filip-rastovic/assets/img/hunter.jpg" alt="Filip Rastovic">
+			<img class=" img-fluid shadow rounded mb-4" src="<?php bloginfo('template_url'); ?>/assets/img/hunter.jpg" alt="Filip Rastovic">
 		</div>
 	</div>
   </div>

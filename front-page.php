@@ -18,7 +18,7 @@ get_header();
 		<div class="position-absolute col-lg-2 offset-lg-9 u-mt-96">
 			<!-- <figure class="text-center">
 				<img class="filipo img-fluid rounded-circle shadow mb-4"
-					src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
+					src="<?php bloginfo('template_url'); ?>/assets/img/profilna.jpg" alt="Filip Rastovic">
 				<figcaption class="text-white">Hi, I'm Filip, welcome to my website! </figcaption>
 			</figure> -->
 		</div>
@@ -43,7 +43,7 @@ get_header();
 				<a href="/portfolio" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 					<i class="fas fa-info-circle"></i>See Portfolio
 				</a>
-				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
+				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="<?php bloginfo('template_url'); ?>/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
 			</div>
 
 		</div>
@@ -51,7 +51,7 @@ get_header();
 			<div class="col-6 offset-5 u-mt-96">
 				<!-- <figure class="text-center">
 					<img class="filipo img-fluid rounded-circle shadow mb-4"
-						src="/wp-content/themes/filip-rastovic/assets/img/profilna.jpg" alt="Filip Rastovic">
+						src="<?php bloginfo('template_url'); ?>/assets/img/profilna.jpg" alt="Filip Rastovic">
 					<figcaption>
 						<div class="text-white">Hi, I'm Filip, welcome to my website!</div>
 					</figcaption>
@@ -115,7 +115,7 @@ get_header();
 			<div class="col-lg-12 mb-3 text-center wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 				<a href="/portfolio" class="btn btn-secondary btn-xl shadow js-scroll-trigger"><i
 						class="fas fa-info-circle"></i>SEE PORTFOLIO</a>
-				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="/wp-content/themes/filip-rastovic/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
+				<!-- <img class="ml-1 back-arrow js-scroll-trigger wow animated fadeInRight" data-wow-duration="3s" data-wow-delay=".5s" src="<?php bloginfo('template_url'); ?>/assets/img/back-arrow.png" alt="Arrow image pointing to the button"> -->
 			</div>
 		</div>
 	</div>
@@ -198,7 +198,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
 				style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
-				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/molnar.jpeg"
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/testimonials/molnar.jpeg"
 					alt="Testimonial Person Image" class="testimonial-img">
 				<p class="testimonial-paragraph font-weight-light text-muted text-left mb-4">Filip has a unique combo of skills: design &amp;
 					development. He proactively suggested some great ideas on how to make the website not just
@@ -210,7 +210,7 @@ get_header();
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
 				style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
-				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/Maria.jpg"
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/testimonials/Maria.jpg"
 					alt="Testimonial Person Image" class="testimonial-img">
 				<p class="  testimonial-paragraph font-weight-light text-muted text-left mb-4">
 					I needed someone who can design AND develop a landing page and upload it to my website. Filip did a
@@ -224,7 +224,7 @@ get_header();
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
 				style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
-				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/liam.jpg"
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/testimonials/liam.jpg"
 					alt="Testimonial Person Image" class="testimonial-img">
 				<p class="  testimonial-paragraph font-weight-light text-muted text-left mb-4">
 					Filip was AMAZING! The only reason we are ending the contract is because he got too busy with bigger
@@ -238,7 +238,7 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
 				style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
-				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/andrew.jpg"
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/testimonials/andrew.jpg"
 					alt="Testimonial Person Image" class="testimonial-img">
 				<p class="  testimonial-paragraph font-weight-light text-muted text-left mb-4">
 					Fillip understood the project, understood my needs and made it happen. Created a really beautiful
@@ -249,7 +249,7 @@ get_header();
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
 				style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
-				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/battista.jpg"
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/testimonials/battista.jpg"
 					alt="Testimonial Person Image" class="testimonial-img">
 				<p class="  testimonial-paragraph font-weight-light text-muted text-left mb-4">
 					Whaou ! Working with Filip is just GREAT ! Everything is easy and simple. Thanks a lot for your
@@ -260,7 +260,7 @@ get_header();
 			</div>
 			<div class="col-lg-4 mb-5 wow fadeIn animated" data-wow-duration="1s" data-wow-delay=".1s"
 				style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
-				<img src="/wp-content/themes/filip-rastovic/assets/img/testimonials/gari-designer.jpg"
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/testimonials/gari-designer.jpg"
 					alt="Testimonial Person Image" class="testimonial-img">
 				<p class="  testimonial-paragraph font-weight-light text-muted text-left mb-4">
 					Working with Filip has been a very smooth process. He is quick and clear with communication and
