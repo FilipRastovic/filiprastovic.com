@@ -27,7 +27,7 @@ get_header();
 <header class="header">
 	<div class="container h-100">
 
-		<div class="row h-100">
+		<div class="row h-100 justify-content-center text-center">
 			<canvas id="displayCanvas">
 
 			</canvas>
