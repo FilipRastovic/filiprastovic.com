@@ -8,13 +8,13 @@
  * different template.
  *
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();
 ?>
 
-<header class="pt-50 pb-50 pretty-gradient">
+<header class="pt-50 pb-50 bg-primary">
 	<div class="container ">
 		<div class="row justify-content-center text-center">
 			<canvas id="displayCanvas">
@@ -203,7 +203,7 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".4s">
 
 				<h6 class="text-primary mb-2">Awesome user experience</h6>
-				<p class="font-weight-light text-muted">I design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
+				<p class="font-weight-light text-muted">We design clean, modern and delightful experiences. Your audience will fall in love with your design, resulting in higher conversion rates.</p>	
 
 			</div>
 
@@ -240,37 +240,66 @@ get_header();
 
 <?php wp_footer(); ?>
 
-<footer class="footer pretty-gradient-two">
+<footer class="footer bg-grey">
 	<div class="container text-center text-md-left">
 		<div class="row">
-			<div class="col-md-5 mt-md-0 mt-3">
-				<h5 class="font-weight-bold text-uppercase ">Filip Rastovic</h5>
-				<p class="font-weight-light mb-4">Expert Landing Page Design</p>
-				<p class="font-weight-light text-muted small">As expert in conversion centered design, I improve your business by designing and developing you landing pages that will be your most effective sales machine.</p>
+			<div class="col-md-3 mt-md-0 mt-3">
+				<h5 class="font-weight-bold text-uppercase ">Clarity Enhanced</h5>
+				<p class=" b-4">Always learning</p>
+				<p class=" small">We help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
 
 			</div>
 			<hr class="clearfix w-100 d-md-none pb-3">
-			<div class="col-md-3 offset-md-1 mb-md-0 mb-3">
+			<div class="col-md-2 offset-md-1  mb-3">
+				<h5 class="font-weight-bold text-uppercase">Links</h5>
+
+				<ul class="list-unstyled ">
+					<li>
+						<a class="small" href="/portfolio"><i class="mr-2 fa fa-paint-brush"></i>Portfolio</a>
+					</li>
+					<li>
+						<a class="small" href="/case-studies"><i class="mr-2 fa fa-book"></i>Case Studies</a>
+					</li>
+					<li>
+						<a class="small" href="/process"><i class="mr-2 fa fa-microchip"></i>Process</a>
+					</li>
+					<li>
+						<a class="small" href="/about"><i class="mr-2 fa fa-user-tie"></i>About</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2 offset-md-1  mb-3">
 				<h5 class="font-weight-bold text-uppercase">Social</h5>
 
-				<ul class="list-unstyled font-weight-light">
+				<ul class="list-unstyled ">
 					<li>
-						<a class="small" href="http://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
+						<a class="small" target="_blank" href="http://codepen.io/clarity-enhanced"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
 					</li>
 					<li>
-						<a class="small" href="https://github.com/FilipRastovic"><i class="mr-2 fab fa-github"></i>GitHub</a>
+						<a class="small" target="_blank" href="https://github.com/clarity-enhanced"><i class="mr-2 fab fa-github"></i>GitHub</a>
 					</li>
 					<li>
-						<a class="small" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
+						<a class="small" target="_blank" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
 					</li>
 					<li>
-						<a class="small" href="https://dribbble.com/filipo"><i class="mr-2 fab fa-dribbble"></i>Dribbble</a>
+						<a class="small" target="_blank" href="https://www.behance.net/filiporastovic"><i class="mr-2 fab fa-behance"></i>Behance</a>
 					</li>
 					<li>
-						<a class="small" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
+						<a class="small" target="_blank" href="https://dribbble.com/filipo"><i class="mr-2 fab fa-dribbble"></i>Dribbble</a>
 					</li>
 					<li>
-						<a class="small" href="https://www.upwork.com/fl/filiprastovic">Upwork</a>
+						<a class="small" target="_blank" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2 offset-md-1  mb-3">
+				<h5 class="font-weight-bold text-uppercase">Other</h5>
+				<ul class="list-unstyled ">
+					<!-- <li>
+						<a class="small" href="/generative"><i class="mr-2 fa fa-paint-brush"></i>Generative Design</a>
+					</li> -->
+					<li>
+						<a target="_blank" class="small" href="https://store.steampowered.com/app/1131520/Trial_And_Terror/"><i class="mr-2 fa fa-gamepad"></i>My Video Game</a>
 					</li>
 				</ul>
 			</div>

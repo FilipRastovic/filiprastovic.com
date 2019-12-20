@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();
@@ -21,7 +21,7 @@ get_header();
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
-				<p class="font-weight-light mb-5">Welcome to my archive
+				<p class="font-weight-light mb-5">Welcome to our archive
 				</p>
 				<a href="#see-archive" class="btn btn-secondary btn-xl shadow js-scroll-trigger wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s"><i class="fas fa-info-circle"></i>Learn More</a>
 			</div>

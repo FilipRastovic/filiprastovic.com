@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 if ( ! function_exists( 'filip_rastovic_posted_on' ) ) :

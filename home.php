@@ -3,7 +3,7 @@
  * Home
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();

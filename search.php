@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();

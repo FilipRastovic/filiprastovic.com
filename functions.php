@@ -1,10 +1,10 @@
 <?php
 /**
- * filiprastovic functions and definitions
+ * clarity-enhanced functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 if ( ! function_exists( 'filip_rastovic_setup' ) ) :
@@ -19,7 +19,7 @@ if ( ! function_exists( 'filip_rastovic_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on filiprastovic, use a find and replace
+		 * If you're building a theme based on clarity-enhanced, use a find and replace
 		 * to change 'filip-rastovic' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'filip-rastovic', get_template_directory() . '/languages' );

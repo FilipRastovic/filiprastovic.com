@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 ?>
@@ -100,10 +100,10 @@ if ( ! is_page( 'contact' ) ) { ?>
 
 				<ul class="list-unstyled ">
 					<li>
-						<a class="small" target="_blank" href="http://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
+						<a class="small" target="_blank" href="http://codepen.io/clarity-enhanced"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
 					</li>
 					<li>
-						<a class="small" target="_blank" href="https://github.com/FilipRastovic"><i class="mr-2 fab fa-github"></i>GitHub</a>
+						<a class="small" target="_blank" href="https://github.com/clarity-enhanced"><i class="mr-2 fab fa-github"></i>GitHub</a>
 					</li>
 					<li>
 						<a class="small" target="_blank" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>

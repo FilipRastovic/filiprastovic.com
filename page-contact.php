@@ -3,7 +3,7 @@
  * Template Name: Contact Template
  *
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();

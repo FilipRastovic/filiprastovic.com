@@ -2,7 +2,7 @@
 /**
  * Template Name: Case Studies Template
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();

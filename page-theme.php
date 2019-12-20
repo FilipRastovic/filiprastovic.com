@@ -8,7 +8,7 @@
  * different template.
  *
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();
@@ -20,7 +20,7 @@ get_header();
     <div class="row">
       <div class="col-lg-8">
         <div class="card">
-          <a class="mb-2" href="https://filiprastovic.github.io/stargazerworkshop-freelancer-landing-page/" target="_BLANK"><img
+          <a class="mb-2" href="https://clarity-enhanced.github.io/stargazerworkshop-freelancer-landing-page/" target="_BLANK"><img
               class="card-img-top" src="<?php bloginfo('template_url'); ?>/assets/img/landing-page-1.jpg" alt="Card image cap"></a>
           <div class="card-header">
             <h6 class="ml-4">Freelancer Landing Page</h6>
@@ -41,9 +41,9 @@ get_header();
         </div>
       </div>
       <div class="col-lg-4 text-center">
-        <a class="btn-outline theme-action-btn" href="https://filiprastovic.github.io/stargazerworkshop-freelancer-landing-page/"
+        <a class="btn-outline theme-action-btn" href="https://clarity-enhanced.github.io/stargazerworkshop-freelancer-landing-page/"
           target="_BLANK">Live Preview</a>
-        <a class="btn-outline theme-action-btn" href="https://github.com/FilipRastovic/stargazerworkshop-freelancer-landing-page"
+        <a class="btn-outline theme-action-btn" href="https://github.com/clarity-enhanced/stargazerworkshop-freelancer-landing-page"
           target="_blank">View On Github</a>
         <a class="btn-outline theme-action-btn" href="<?php bloginfo('template_url'); ?>/assets/themes/freelancer-landing-page.zip" download>Download
           Source</a>

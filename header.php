@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 ?>
@@ -23,7 +23,7 @@
     gtag('config', 'UA-123056545-1');
   </script>
 
-  <!-- Hotjar Tracking Code for https://filiprastovic.com -->
+  <!-- Hotjar Tracking Code for https://clarity-enhanced.com -->
   <script>
       (function(h,o,t,j,a,r){
           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -48,7 +48,7 @@
   <meta name="author" content="Filip Rastovic">
   <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png" />
   <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png"/>
-  <meta name="twitter:url" content="https://filiprastovic.com"/>
+  <meta name="twitter:url" content="https://clarity-enhanced.com"/>
   <meta name="google-site-verification" content="mlQnTGLwU-XJVF0iQquG9-LnTinXUVGJmobgYUr4phM" />
 
   <!-- Font -->
@@ -83,9 +83,9 @@
     <div class="container">
       <a class="navbar-brand font-weight-bold text-white" href="/">
 
-        <?php _e( 'Clarity Enhanced', 'filiprastovic' ); ?>
+        <?php _e( 'Clarity Enhanced', 'clarity-enhanced' ); ?>
         <br> 
-        <small><?php _e( 'Always learning', 'filiprastovic' ); ?></small>
+        <small><?php _e( 'Always learning', 'clarity-enhanced' ); ?></small>
         
         
      </a>

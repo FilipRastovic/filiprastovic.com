@@ -8,7 +8,7 @@
  * different template.
  *
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();

@@ -38,7 +38,7 @@
 		</a>
 	</li>
 	<li class="list-inline-item">
-		<a href="https://github.com/FilipRastovic" target="_blank">
+		<a href="https://github.com/clarity-enhanced" target="_blank">
 			<i class="fa fa-github"></i>
 		</a>
 	</li>

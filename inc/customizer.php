@@ -1,8 +1,8 @@
 <?php
 /**
- * filiprastovic Theme Customizer
+ * clarity-enhanced Theme Customizer
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 /**

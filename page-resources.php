@@ -3,7 +3,7 @@
  * Template Name: Resources Template
  *
  *
- * @package filiprastovic
+ * @package clarity-enhanced
  */
 
 get_header();
