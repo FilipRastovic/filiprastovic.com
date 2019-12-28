@@ -45,10 +45,10 @@
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
   <meta name="keywords" content="expert,landing,page,design,conversion,rate,optimization,unbounce">
-  <meta name="author" content="Filip Rastovic">
+  <meta name="author" content="Clarity Enhanced">
   <link rel="image_src" href="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png" />
   <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/assets/img/ogimg.png"/>
-  <meta name="twitter:url" content="https://clarity-enhanced.com"/>
+  <meta name="twitter:url" content="https://clarity-enhanced.net"/>
   <meta name="google-site-verification" content="mlQnTGLwU-XJVF0iQquG9-LnTinXUVGJmobgYUr4phM" />
 
   <!-- Font -->
@@ -109,7 +109,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
       <div class="modal-header">
-        <!-- <strong class="font-weight-bold">Filip Rastovic </strong><img class="top-rated" src="/wp-content/themes/filip-rastovic/assets/img/top-rated.png" alt="Top Rated Badge"> -->
+        <!-- <strong class="font-weight-bold">Clarity Enhanced </strong><img class="top-rated" src="/wp-content/themes/filip-rastovic/assets/img/top-rated.png" alt="Top Rated Badge"> -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -168,7 +168,7 @@
 <div class="modal-dialog" role="document">
 		<div class="modal-content">
       <div class="modal-header">
-        <!-- <strong class="font-weight-bold">Filip Rastovic </strong><img class="top-rated" src="/wp-content/themes/filip-rastovic/assets/img/top-rated.png" alt="Top Rated Badge"> -->
+        <!-- <strong class="font-weight-bold">Clarity Enhanced </strong><img class="top-rated" src="/wp-content/themes/filip-rastovic/assets/img/top-rated.png" alt="Top Rated Badge"> -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
