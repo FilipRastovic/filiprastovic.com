@@ -148,6 +148,34 @@ jQuery(document).ready(function($){/**
 		// }
 
     })();
+
+var flag;
+
+$( '.haircut' ).on( 'click', function() {
+
+	var string = $( '.filipo' ).attr( 'src' );
+
+	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
+
+		$( '.haircut' ).text( 'Put hair back on!' );
+
+	} else {
+
+		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
+
+		$( '.haircut' ).text( 'Click to cut my hair!' );
+
+	}
+
+	$( '.filipo' ).attr( 'src', string );
+
+});
+
+
+
+new WOW().init();
 window.addEventListener("load", windowLoadHandler, false);
 
 //for debug messages while testing code
@@ -268,8 +296,8 @@ function canvasApp() {
 			
 			//define gradient
 			grad = context.createRadialGradient(0,0,minR,0,0,maxR);
-			grad.addColorStop(1,"rgba(0,0,0, 0.2)");
-			grad.addColorStop(0,"rgba(0,0,0, 0.2)"); 
+			grad.addColorStop(1,"rgba(70,198,250, .28)");
+			grad.addColorStop(0,"rgba(70,198,250, .28)"); 
 		
 			var newCircle = {
 				centerX: -maxR,
@@ -468,34 +496,6 @@ function canvasApp() {
 	
 }
 
-
-var flag;
-
-$( '.haircut' ).on( 'click', function() {
-
-	var string = $( '.filipo' ).attr( 'src' );
-
-	if ( string === '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg' ) {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/profilna.jpg';
-
-		$( '.haircut' ).text( 'Put hair back on!' );
-
-	} else {
-
-		string = '/wp-content/themes/filip-rastovic/assets/img/long-hair.jpg';
-
-		$( '.haircut' ).text( 'Click to cut my hair!' );
-
-	}
-
-	$( '.filipo' ).attr( 'src', string );
-
-});
-
-
-
-new WOW().init();
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */

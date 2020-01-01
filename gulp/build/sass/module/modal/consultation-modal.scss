@@ -11,12 +11,14 @@
 .modal {
 	padding-right: 0 !important;
 	
+	
 	&-header {
 		background: $primary;
 		border-color: transparent;
 	}
 	&-body {
 		background: $primary;
+		padding-bottom: 3rem;
 
 		@media (max-width: 768px) {
 			padding: 0;

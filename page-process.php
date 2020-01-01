@@ -121,7 +121,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">My skills and expertise</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Our skills and expertise</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">

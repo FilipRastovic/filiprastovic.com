@@ -118,8 +118,8 @@ function canvasApp() {
 			
 			//define gradient
 			grad = context.createRadialGradient(0,0,minR,0,0,maxR);
-			grad.addColorStop(1,"rgba(0,0,0, 0.2)");
-			grad.addColorStop(0,"rgba(0,0,0, 0.2)"); 
+			grad.addColorStop(1,"rgba(70,198,250, .28)");
+			grad.addColorStop(0,"rgba(70,198,250, .28)"); 
 		
 			var newCircle = {
 				centerX: -maxR,
