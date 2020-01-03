@@ -97,7 +97,10 @@
             wp_nav_menu( array(
               'theme_location' => 'primary',
               'container'      => false,
-              'menu_class'     => 'navbar-nav ml-auto'
+              'menu_class'     => 'navbar-nav ml-auto',
+              'depth'           => 2,
+              'fallback_cb'     => 'bs4navwalker::fallback',
+              'walker'          => new bs4navwalker()
             ));
           ?>
       </div>

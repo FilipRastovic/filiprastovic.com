@@ -128,7 +128,7 @@ function filip_rastovic_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'filip_rastovic_scripts' );
-
+require_once('bs4navwalker.php');
 /**
  * Custom template tags for this theme.
  */
@@ -171,3 +171,4 @@ function sk_body_class_for_pages( $classes ) {
 	return $classes;
 
 }
+

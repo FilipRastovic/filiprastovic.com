@@ -81,3 +81,21 @@
 	// 	}
 	// }
 }
+
+.dropdown-menu {
+	padding: 0 0 0 10px;
+	border: transparent !important;
+	box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.dropdown-item {
+	border-bottom-color: rgb(94, 94, 94) !important;
+	color: #212529 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background: white;
+	color: #212529 !important;
+	text-decoration: underline;
+}
+
