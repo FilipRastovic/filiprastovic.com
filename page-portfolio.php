@@ -44,7 +44,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a href="http://unbouncepages.com/2aad142e-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a href="http://unbouncepages.com/2aad142e-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				<a href="/case-studies#dnsfilter" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -81,7 +81,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a target="_BLANK" href="http://unbouncepages.com/6429992a-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a target="_BLANK" href="http://unbouncepages.com/6429992a-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				
 			</div>
 		</div>
@@ -100,7 +100,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a href="https://customr.app" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a href="https://customr.app" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				
 			</div>
 			<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -140,7 +140,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a target="_BLANK" href="http://unbouncepages.com/1e397b10-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a target="_BLANK" href="http://unbouncepages.com/1e397b10-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				<a href="/case-studies#usbfactory" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
 			</div>
 		</div>
@@ -193,7 +193,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a target="_BLANK" href="https://www.velohanddryers.com.au/page/hand-dryers" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a target="_BLANK" href="https://www.velohanddryers.com.au/page/hand-dryers" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 			</div>
 		</div>
 	</div>
@@ -247,7 +247,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a target="_BLANK" href="http://unbouncepages.com/test-brief/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a target="_BLANK" href="http://unbouncepages.com/test-brief/" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 			</div>
 		</div>
 	</div>
@@ -267,7 +267,7 @@ get_header();
 						<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 						designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 					</ul>
-					<a href="http://unbouncepages.com/6acea7fc-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+					<a href="http://unbouncepages.com/6acea7fc-fe6f-11e9-8332-024280f0cb1c/" target="_BLANK" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				</div>
 				<div class="col-lg-7 offset-lg-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
 					<div class="shadow">
@@ -303,7 +303,7 @@ get_header();
 						<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 						designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 					</ul>
-					<a target="_BLANK" href="http://unbouncepages.com/7737456c-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+					<a target="_BLANK" href="http://unbouncepages.com/7737456c-fe6f-11e9-8332-024280f0cb1c/" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				</div>
 			</div>
 		</div>
@@ -361,7 +361,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a target="_BLANK" href="http://www.woodlandsradiancespa.com/info-event/" class="btn btn-outline-primary btn-sm mb-5">Visit Page</a>
+				<a target="_BLANK" href="http://www.woodlandsradiancespa.com/info-event/" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
 				<a href="/case-studies#radiance" target="_BLANK" class="btn btn-primary btn-sm mb-5">Read Case Study</a>
 			</div>
 		</div>

@@ -79,16 +79,17 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">Old Landing Page Design</h3>
-				<img class="img-fluid shadow mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter-old.jpg"
-					alt="Portfolio image">
-
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter-old.jpg">
+					<img class="img-fluid shadow mb-5" src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter-old.jpg" alt="Portfolio image">
+				</a>
 			</div>
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Design</h3>
-				<img class="img-fluid shadow mb-5"
-					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png"
-					alt="Portfolio image">
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png">
+					<img class="img-fluid shadow mb-5"
+						src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/dnsfilter.png"
+						alt="Portfolio image">
+				</a>
 				<h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">2.36% conversion rate</span> </h6>
 				<div class="big"><h6>New Page: <span class="font-weight-bold text-primary">23.44% conversion rate</span></h6></div>
@@ -149,24 +150,30 @@ get_header();
 		<div class="row">
 			<div class="col-lg-4">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">Old Landing Page Design</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/old-lp.jpg">
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/old-lp.jpg"
 					alt="Portfolio image">
-				<!-- <h3 class="font-weight-bold text-primary">Results:</h3>
+				</a>
+					<!-- <h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">6% conversion rate</span> </h6>
 				<h6>New Page: <span class="font-weight-bold text-primary">12% conversion rate</span></h6> -->
 			</div>
 			<div class="col-lg-4">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Wireframes</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/TutorDoctorLP-Wireframe.jpg">
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/TutorDoctorLP-Wireframe.jpg"
 					alt="Portfolio image">
+				</a>
 			</div>
 			<div class="col-lg-4">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Mockup</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/new-lp.jpg">
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/tutordoc/new-lp.jpg"
 					alt="Portfolio image">
+				</a>
 			</div>
 		</div>
 	</div>
@@ -217,18 +224,22 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">Old Landing Page Design</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/usb-factory/usb-factory-old.jpg">
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/usb-factory/usb-factory-old.jpg"
 					alt="Portfolio image">
-				<h3 class="font-weight-bold text-primary">Results:</h3>
+				</a>
+					<h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">6% conversion rate</span> </h6>
 				<div class="big"><h6>New Page: <span class="font-weight-bold text-primary">12% conversion rate</span></h6></div>
 			</div>
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">New Landing Page Design</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/usb-factory/usb-factory-new.jpg">
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/usb-factory/usb-factory-new.jpg"
 					alt="Portfolio image">
+				</a>
 			</div>
 		</div>
 	</div>
@@ -288,18 +299,23 @@ get_header();
 		<div class="row">
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">Green CTA</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/jc/green.jpg">
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/jc/green.jpg"
 					alt="Portfolio image">
+				</a>
 				<h3 class="font-weight-bold text-primary">Results:</h3>
 				<h6>Old Page: <span class="font-weight-bold text-danger">40.34%% conversion rate</span> </h6>
 				<div class="big"><h6>New Page: <span class="font-weight-bold text-primary">61.23% conversion rate</span></h6></div>
 			</div>
 			<div class="col-lg-6">
 				<h3 class="text-center font-weight-bold mt-2 mb-4">Orange CTA</h3>
-				<img class="img-fluid shadow mb-5"
+				<a class="image-link" href="<?php bloginfo('template_url'); ?>/assets/img/case-studies/jc/orange.jpg">
+
+					<img class="img-fluid shadow mb-5"
 					src="<?php bloginfo('template_url'); ?>/assets/img/case-studies/jc/orange.jpg"
 					alt="Portfolio image">
+				</a>
 			</div>
 		</div>
 	</div>
