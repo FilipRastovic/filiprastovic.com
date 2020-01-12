@@ -157,7 +157,7 @@
                   <input type="email" class="form-control" name="EMAIL" id="inputEmail" placeholder="">
                 </div>
                 <button type="submit" class="btn btn-secondary btn-xl shadow btn-block">Start Your Consultation</button>
-                <p class="mt-3 mb-0 text-center"> <i class="fa fa-phone text-secondary"></i> Preffer calling? <a class="text-secondary" href="tel:381631714561">+381631714561</a> </p>
+                
               </form>
             </div>
           </div>
