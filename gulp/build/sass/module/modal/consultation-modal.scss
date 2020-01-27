@@ -6,6 +6,7 @@
 
 .modal-header{
 	padding: 10px 10px;
+
 }
 
 .modal {
@@ -15,6 +16,9 @@
 	&-header {
 		background: $primary;
 		border-color: transparent;
+		@media (max-width: 768px) {
+			background: white;
+		}
 	}
 	&-body {
 		background: $primary;
