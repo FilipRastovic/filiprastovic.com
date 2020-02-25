@@ -193,7 +193,7 @@ get_header();
 					<li data-toggle="tooltip" title="Taking your designs into production! This part is done by writing front end web languages such as HTML,CSS & JavaScript, integrating the 
 					designs into a CMS, or with a dedicated page builder such as Unbounce / Webflow."><i class="fas fa-edit mr-2"></i>Implementation</li>
 				</ul>
-				<a target="_BLANK" href="https://www.velohanddryers.com.au/page/hand-dryers" class="btn btn-outline-primary btn-sm mb-5">See Page</a>
+				<a target="_BLANK" href="https://www.velohanddryers.com.au/page/hand-dryers" class="btn btn-outline-primary btn-sm mb-5">Scroll Down</a>
 			</div>
 		</div>
 	</div>
