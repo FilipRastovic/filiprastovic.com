@@ -100,12 +100,6 @@ if ( ! is_page( 'contact' ) ) { ?>
 
 				<ul class="list-unstyled ">
 					<li>
-						<a class="small" target="_blank" href="https://codepen.io/FilipRastovic"><i class="mr-2 fab fa-codepen"></i>CodePen</a>
-					</li>
-					<li>
-						<a class="small" target="_blank" href="https://github.com/FilipRastovic"><i class="mr-2 fab fa-github"></i>GitHub</a>
-					</li>
-					<li>
 						<a class="small" target="_blank" href="https://www.linkedin.com/in/filip-rastovic/"><i class="mr-2 fab fa-linkedin-in"></i>Linkedin</a>
 					</li>
 					<li>
@@ -116,17 +110,6 @@ if ( ! is_page( 'contact' ) ) { ?>
 					</li>
 					<li>
 						<a class="small" target="_blank" href="https://twitter.com/FRastovic"><i class="mr-2 fab fa-twitter"></i>Twitter</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-2 offset-md-1  mb-3">
-				<h5 class="font-weight-bold text-uppercase">Other</h5>
-				<ul class="list-unstyled ">
-					<!-- <li>
-						<a class="small" href="/generative"><i class="mr-2 fa fa-paint-brush"></i>Generative Design</a>
-					</li> -->
-					<li>
-						<a target="_blank" class="small" href="https://store.steampowered.com/app/1131520/Trial_And_Terror/"><i class="mr-2 fa fa-gamepad"></i>My Video Game</a>
 					</li>
 				</ul>
 			</div>
