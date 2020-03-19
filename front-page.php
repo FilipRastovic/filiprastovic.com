@@ -66,7 +66,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">Your landing pages have a unique selling cycle</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Your website has a unique selling cycle</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
@@ -126,7 +126,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">Turn your landing pages into your best salesperson</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Turn your website into your best salesperson</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
@@ -139,7 +139,7 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".3s" data-wow-offset="10">
 
 				<h6 class="text-primary mb-2">More leads</h6>
-				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, We can help your landing pages generate higher quality leads.</p>
+				<p class="font-weight-light text-muted">By better targeting your core audience and speaking directly to their pain points, We can help your website generate higher quality leads.</p>
 
 			</div>
 
@@ -153,7 +153,7 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".5s">
 
 					<h6 class="text-primary mb-2">Consistent brand identity</h6>
-					<p class="font-weight-light text-muted">Your landing pages will visually aligned with your branding guidelines ando ther marketing initiatives, ensuring your customers receive a consistent marketing message.</p>
+					<p class="font-weight-light text-muted">Your website will visually aligned with your branding guidelines ando ther marketing initiatives, ensuring your customers receive a consistent marketing message.</p>
 
 			</div>
 
@@ -174,7 +174,7 @@ get_header();
 			<div class="col-lg-4 wow animated fadeIn text-center p-4" data-wow-duration="3s" data-wow-delay=".5s">
 
 					<h6 class="text-primary mb-2">Post-launch support</h6>
-					<p class="font-weight-light text-muted">After you landing pages are live, we'll resolve any unexpected issues and be around to answer your questions.</p>
+					<p class="font-weight-light text-muted">After you website is live, we'll resolve any unexpected issues and be around to answer your questions.</p>
 					
 			</div>
 		</div>
@@ -216,7 +216,7 @@ get_header();
 					I needed someone who can design AND develop a landing page and upload it to my website. Filip did a
 					great work in doing the above. It is pleasure working with Filip, he understands what needs to be
 					done and does it in very quick and efficient way.
-					For my next projects for landing pages I would would with him again.
+					For my next projects for website I would would with him again.
 					Thank you Filip!
 				</p>
 				<p class="text-primary font-weight-bold mb-2 text-left">Maria Davidson</p>
