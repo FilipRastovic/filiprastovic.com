@@ -33,7 +33,7 @@ get_header();
 			</canvas>
 
 			<div class="col-lg-8 align-self-end">
-				<h1 class="text-uppercase font-weight-bold mb-5 text-white">Conversion optimized landing pages and A/b testing</h1>
+				<h1 class="text-uppercase font-weight-bold mb-5 text-white">Conversion optimized web design and A/b testing</h1>
 			</div>
 
 			<div class="col-lg-10 align-self-baseline">
