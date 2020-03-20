@@ -124,7 +124,7 @@
               <h2 class="font-weight-bold mb-4 text-white">
                 Are we a match?
               </h2>
-              <p class="text-white mb-4">While we welcome inquiries from all types of companies that use landing pages, experience has shown we obtain the best result for clients with the following traits...</p>
+              <p class="text-white mb-4">While we welcome inquiries from all types of companies that use websites, experience has shown we obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-warning ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
@@ -133,7 +133,7 @@
                   <i class="fas fa-check mr-2"></i>Are running paid advetising
                 </li>
                 <li class="">
-                  <i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset
+                  <i class="fas fa-check mr-2"></i>Recognize their websites are a valuable marketing asset
                 </li>
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
@@ -183,7 +183,7 @@
               <h2 class="font-weight-bold mb-4">
                 Are we a match?
               </h2>
-              <p class=" mb-4">While We welcome inquiries from all types of companies that use landing pages, experience has shown We obtain the best result for clients with the following traits...</p>
+              <p class=" mb-4">While We welcome inquiries from all types of companies that use website, experience has shown We obtain the best result for clients with the following traits...</p>
               <ul class="list-unstyled text-primary ">
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Have an opportunity to build growth through their marketing plan
@@ -192,7 +192,7 @@
                   <i class="fas fa-check mr-2"></i>Are running paid advetising
                 </li>
                 <li class="">
-                  <i class="fas fa-check mr-2"></i>Recognize their landing pages are a valuable marketing asset
+                  <i class="fas fa-check mr-2"></i>Recognize their websites are a valuable marketing asset
                 </li>
                 <li class="">
                   <i class="fas fa-check mr-2"></i>Value a structured process to ensure great results
