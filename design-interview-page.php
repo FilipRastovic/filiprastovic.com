@@ -26,7 +26,7 @@ get_header();
 					<form id="msform" action="https://gmail.us20.list-manage.com/subscribe/post?u=90a3dc4e1984a166af54c6c28&amp;id=dfc7a62187" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<!-- Tittle -->
 						<div class="tittle">
-							<h1 class="font-weight-bold text-primary">Landing Page Design Interview</h1>
+							<h1 class="font-weight-bold text-primary">Web Design Interview</h1>
 							<p>In order for me to better understand your needs, please answer the questions below!</p>
 						</div>
 						<!-- progressbar -->
@@ -183,7 +183,7 @@ get_header();
 		<div class="row justify-content-center mb-5">
 
 			<div class="col-lg-10 align-self-end text-center">
-				<h2 class="text-uppercase font-weight-bold mb-3">Turn your landing pages into your best salesperson</h2>
+				<h2 class="text-uppercase font-weight-bold mb-3">Turn your website into your best salesperson</h2>
 			</div>
 
 			<div class="col-lg-7 align-self-baseline text-center">
