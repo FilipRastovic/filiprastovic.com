@@ -60,22 +60,23 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<p class="font-weight-light">With background in computer science and engineering, and a huge passion for
-					design
-					I help my clients stand out in the crowd. Nowdays I work with companies all around the world,
-					helping them simplify their user interfaces
-					and offer delightful web experiences to their users. I beleive web of today is cluttered with too
-					much information,
-					thus comes the name of my company: <span class="font-weight-bold">Clarity Enhanced</span> which
-					stands for what I believe in, communicating with clarity.
+				<p class="font-weight-light">Hi, you're a small to medium-sized business that relies on your web presence and paid advertising in order to generate leads? You're overwhelmed by too much choice and finding the right person to take care of your web related graphic design problems? I can help.
+
+					I'm Filip, a <b>graphic designer</b> with an academic background in computer science and engineering. I understand it's a dice-roll to trust the design of your most profitable customer touchpoints to a designer from Eastern Europe, but my multi-disciplinary skillset can help you strategize, plan and execute successful solutions for your next marketing campaign.
+					
+					The plan I have for you is the following: leverage the latest technologies when building websites, landing pages, and app UI, adopt a scientific approach to problem-solving, develop a hypothesis, test and then optimize. When it comes to web design - starting with a simple user interface and then slightly tweaking it, driving traffic to it and then improving based on insights collected is the only way to develop useful user interfaces.
+					
+					
 				</p>
 			</div>
 			<div class="col-md-6">
 				<p class="font-weight-light">
-					I'm based in Novi Sad, Serbia, running my design studio from a local co-working space. When I'm not
-					working I host meetups of local design community,
-					create video games, read, play guitar and produce educational videos for my youtube channel. I'm a
-					music lover and an avid reader.
+					So let's get in touch. Don't hesitate to send me a message, <b>I'm here to consult you</b>. If you're having doubts, feel free to watch the video on my profile about the landing page design process and read past client reviews on my profile. Also, check out my portfolio at clarity-enhanced.com/portfolio
+					
+					We will work together to achieve successful results, generate more leads, reduce the cost of customer acquisition and avoid wasting your budget on driving traffic to interfaces that just don't work.
+					
+					Best
+					Filip
 				</p>
 			</div>
 		</div>
