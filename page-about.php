@@ -64,13 +64,13 @@ get_header();
 
 					I'm Filip, a <span class="font-weight-bold">graphic designer</span> with an academic background in computer science and engineering. I understand it's a dice-roll to trust the design of your most profitable customer touchpoints to a designer from Eastern Europe, but my multi-disciplinary skillset can help you strategize, plan and execute successful solutions for your next marketing campaign.
 					
-					
+					The plan I have for you is the following: leverage the latest technologies when building websites, landing pages, and app UI, adopt a scientific approach to problem-solving, develop a hypothesis, test and then optimize.
 					
 				</p>
 			</div>
 			<div class="col-md-6">
 				<p class="font-weight-light">
-					The plan I have for you is the following: leverage the latest technologies when building websites, landing pages, and app UI, adopt a scientific approach to problem-solving, develop a hypothesis, test and then optimize. When it comes to web design - starting with a simple user interface and then slightly tweaking it, driving traffic to it and then improving based on insights collected is the only way to develop useful user interfaces.
+					 When it comes to web design - starting with a simple user interface and then slightly tweaking it, driving traffic to it and then improving based on insights collected is the only way to develop useful user interfaces.
 
 					So let's get in touch. Don't hesitate to send me a message, <span class="font-weight-bold">I'm here to consult you.</span> If you're having doubts, feel free to watch the video on my profile about the landing page design process and read past client reviews on my profile. Also, check out my portfolio at clarity-enhanced.com/portfolio
 					
