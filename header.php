@@ -85,7 +85,7 @@
 
         <?php _e( 'Clarity Enhanced', 'clarity-enhanced' ); ?>
         <br> 
-        <small><?php _e( 'Always learning', 'clarity-enhanced' ); ?></small>
+        <small><?php _e( 'Conversion Centered', 'clarity-enhanced' ); ?></small>
         
         
      </a>

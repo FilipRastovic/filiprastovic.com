@@ -72,7 +72,7 @@ if ( ! is_page( 'contact' ) ) { ?>
 		<div class="row">
 			<div class="col-md-3 mt-md-0 mt-3">
 				<h5 class="font-weight-bold text-uppercase ">Clarity Enhanced</h5>
-				<p class=" b-4">Always learning</p>
+				<p class=" b-4">Conversion Centered</p>
 				<p class=" small">We help companies solve their business problems and better communicate complex offers with their customers with great design.</p>
 
 			</div>
