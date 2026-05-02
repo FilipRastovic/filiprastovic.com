@@ -1,4 +1,18 @@
 <nav id="nav">
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accepting new projects for Q3 and Q4 of 2026</span>
+    </div>
+  </div>
   <div class="nav-inner">
     <a href="/" class="nav-name">Filip Rastovic</a>
     <ul class="nav-links">
