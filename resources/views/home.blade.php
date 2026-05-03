@@ -8,7 +8,7 @@
       <div class="avatar-wrap">
         <picture>
           <source srcset="/images/filip.webp" type="image/webp" />
-          <img src="/images/filip.png" alt="Filip Rastovic" width="308" height="308" />
+          <img src="/images/filip.png" alt="Filip Rastovic" width="308" height="308" fetchpriority="high" />
         </picture>
       </div>
       <div class="avatar-meta">
@@ -310,16 +310,16 @@
     <div class="section-label">3D Art</div>
     <p class="section-note">Rendered in <strong>Cinema 4D</strong> using <strong>Octane Render</strong> from 2020–2023. Google and Microsoft reached out off the back of this work. Traditional lighting &amp; composition throughout - one half lit, the other in shadow. <strong>Free to download</strong> - if you print it, send me a photo.</p>
     <div class="art-grid">
-      <img src="/images/art-1.png" alt="3D Art 1" loading="lazy" />
-      <img src="/images/art-2.png" alt="3D Art 2" loading="lazy" />
-      <img src="/images/art-3.png" alt="3D Art 3" loading="lazy" />
-      <img src="/images/art-4.png" alt="3D Art 4" loading="lazy" />
-      <img src="/images/art-5.png" alt="3D Art 5" loading="lazy" />
-      <img src="/images/art-6.png" alt="3D Art 6" loading="lazy" />
-      <img src="/images/art-7.png" alt="3D Art 7" loading="lazy" />
-      <img src="/images/art-8.png" alt="3D Art 8" loading="lazy" />
-      <img src="/images/art-9.png" alt="3D Art 9" loading="lazy" />
-      <img src="/images/art-10.png" alt="3D Art 10" loading="lazy" />
+      <img src="/images/art-1.png" alt="3D Art 1" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-2.png" alt="3D Art 2" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-3.png" alt="3D Art 3" loading="lazy" width="1024" height="1024" />
+      <img src="/images/art-4.png" alt="3D Art 4" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-5.png" alt="3D Art 5" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-6.png" alt="3D Art 6" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-7.png" alt="3D Art 7" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-8.png" alt="3D Art 8" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-9.png" alt="3D Art 9" loading="lazy" width="819" height="1024" />
+      <img src="/images/art-10.png" alt="3D Art 10" loading="lazy" width="819" height="1024" />
     </div>
   </section>
 
