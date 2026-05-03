@@ -21,7 +21,7 @@
       <span>Head of Web Development</span>
       <span>CRO Specialist</span>
     </div>
-    <p>Always questioning the world around me, I enjoy reading, music, guitar, gaming, gym &amp; archery. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led. I hold a bachelors degree in <strong>Software Engineering</strong> and have been working with global brands for the past nine years.</p>
+    <p>Always questioning the world around me, I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led. I hold a bachelors degree in <strong>Software Engineering</strong> and have been working with global brands for the past nine years.</p>
   </header>
 
   {{-- NOW --}}
