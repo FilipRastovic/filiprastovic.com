@@ -6,7 +6,10 @@
   <header class="header">
     <div class="avatar-row">
       <div class="avatar-wrap">
-        <img src="/images/filip.png" alt="Filip Rastovic" />
+        <picture>
+          <source srcset="/images/filip.webp" type="image/webp" />
+          <img src="/images/filip.png" alt="Filip Rastovic" width="308" height="308" />
+        </picture>
       </div>
       <div class="avatar-meta">
         <span class="avatar-name">Filip Rastovic</span>

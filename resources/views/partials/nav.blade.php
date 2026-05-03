@@ -30,7 +30,7 @@
 </nav>
 
 {{-- Mobile menu --}}
-<div class="nav-mobile" id="nav-mobile" aria-hidden="true">
+<div class="nav-mobile" id="nav-mobile" aria-hidden="true" inert>
   <div class="nav-mobile-header">
     <a href="/" class="nav-name">Filip Rastovic</a>
     <button class="nav-mobile-close" id="nav-mobile-close" aria-label="Close menu">✕</button>
@@ -58,12 +58,14 @@
   function openMenu() {
     mobileMenu.classList.add('open');
     mobileMenu.setAttribute('aria-hidden', 'false');
+    mobileMenu.removeAttribute('inert');
     hamburger.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
   function closeMenu() {
     mobileMenu.classList.remove('open');
     mobileMenu.setAttribute('aria-hidden', 'true');
+    mobileMenu.setAttribute('inert', '');
     hamburger.classList.remove('open');
     document.body.style.overflow = '';
   }
