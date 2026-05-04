@@ -349,6 +349,7 @@
     }
     .art-grid img {
       width: 100%;
+      height: auto;
       border-radius: 10px;
       display: block;
       border: 1px solid var(--border);
