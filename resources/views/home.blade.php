@@ -29,9 +29,9 @@
     <div class="section-label">Now</div>
     <div class="now-grid">
       <div class="now-card accent">
-        <div class="now-card-label">Day Job</div>
-        <div class="now-card-value">Head of Web Dev at PDM</div>
-        <div class="now-card-sub">UK-based digital agency</div>
+        <div class="now-card-label">Independent Contractor</div>
+        <div class="now-card-value">Head of Web Dev</div>
+        <div class="now-card-sub">Web dev & CRO</div>
       </div>
       <div class="now-card accent">
         <div class="now-card-label">Building</div>
