@@ -13,15 +13,15 @@
       </div>
       <div class="avatar-meta">
         <span class="avatar-name">Filip Rastovic</span>
-        <span class="avatar-role">Building the web</span>
+        <span class="avatar-role">Senior Shopify Developer · 10+ years</span>
       </div>
     </div>
     <div class="header-roles">
-      <span>Software Engineer</span>
-      <span>Head of Web Development</span>
+      <span>Senior Shopify Developer</span>
+      <span>Full-Stack Software Engineer</span>
       <span>CRO Specialist</span>
     </div>
-    <p>Always questioning the world around me, I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led. I hold a bachelors degree in <strong>Software Engineering</strong> and have been working with global brands for the past nine years.</p>
+    <p>I'm a <strong>Senior Shopify Developer</strong> and <strong>Full-Stack Software Engineer</strong> with <strong>10+ years of web development experience</strong> and a <strong>Bachelor's degree in Software Engineering</strong>. I build high-converting Shopify stores and custom web applications for global brands. Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led.</p>
   </header>
 
   {{-- NOW --}}
@@ -140,8 +140,8 @@
     <div class="section-label">About</div>
     <div class="about-block">
       <div class="about-text">
-        <p>I hold a Bachelor's in Software Engineering and have worked with global brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition. My work blends engineering, CRO principles, and product thinking - focusing on reliability, performance, and revenue impact.</p>
-        <p>Before specializing in Shopify, data and backend systems, I also worked in 3D (Cinema 4D, Octane Render) and shipped projects for major brands. That experience gives me an advantage when working with design-heavy builds and cross-functional teams.</p>
+        <p>Senior Shopify Developer and full-stack software engineer with a <strong>Bachelor's degree in Software Engineering</strong> and <strong>10+ years of professional web development experience</strong>. I've worked with global brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition. My work blends engineering, CRO principles, and product thinking - focusing on reliability, performance, and revenue impact.</p>
+        <p>I work full-stack across the modern Shopify ecosystem (Liquid, Hydrogen, Remix, Storefront &amp; Admin GraphQL APIs) as well as PHP/Laravel, Node, SQL, and Python for tooling, migrations, and data work. Before specializing in Shopify and backend systems, I also worked in 3D (Cinema 4D, Octane Render) and shipped projects for major brands - which gives me an advantage on design-heavy builds and cross-functional teams.</p>
         <ul class="skills-list">
           <li>HTML, CSS, JavaScript, Liquid, Laravel, Next</li>
           <li>Python / JS scripting for migrations + tooling</li>

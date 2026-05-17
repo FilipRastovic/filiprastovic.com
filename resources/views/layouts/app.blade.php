@@ -3,11 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ $title ?? 'Filip Rastovic – Shopify Developer' }}</title>
-  <meta name="description" content="@yield('description', 'Shopify developer building high-converting stores for ambitious brands.')" />
-  <meta property="og:title" content="{{ $title ?? 'Filip Rastovic – Shopify Developer' }}" />
-  <meta property="og:description" content="@yield('description', 'Shopify developer building high-converting stores for ambitious brands.')" />
+  <title>{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer' }}</title>
+  <meta name="description" content="@yield('description', 'Senior Shopify developer and full-stack software engineer with 10+ years of web development experience. Bachelor\'s in Software Engineering. Building high-converting stores for global brands including Google, Johnson & Johnson, and Cosy House Collection.')" />
+  <meta name="author" content="Filip Rastovic" />
+  <meta name="keywords" content="Senior Shopify Developer, Full-Stack Software Engineer, Shopify Plus, Liquid, Hydrogen, Remix, Laravel, CRO Specialist, Web Development, Shopify Expert" />
+  <link rel="canonical" href="https://filiprastovic.com/" />
+  <meta property="og:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer' }}" />
+  <meta property="og:description" content="@yield('description', 'Senior Shopify developer and full-stack software engineer with 10+ years of web development experience. Bachelor\'s in Software Engineering.')" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://filiprastovic.com/" />
+  <meta property="og:image" content="https://filiprastovic.com/images/filip.png" />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer' }}" />
+  <meta name="twitter:description" content="@yield('description', 'Senior Shopify developer and full-stack software engineer with 10+ years of web development experience.')" />
+  <meta name="twitter:image" content="https://filiprastovic.com/images/filip.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Filip Rastovic",
+    "url": "https://filiprastovic.com/",
+    "image": "https://filiprastovic.com/images/filip.png",
+    "jobTitle": "Senior Shopify Developer & Full-Stack Software Engineer",
+    "description": "Senior Shopify Developer and full-stack software engineer with a Bachelor's degree in Software Engineering and 10+ years of web development experience.",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Bachelor's degree in Software Engineering"
+    },
+    "knowsAbout": ["Shopify", "Shopify Plus", "Liquid", "Hydrogen", "Remix", "JavaScript", "TypeScript", "React", "PHP", "Laravel", "SQL", "Python", "GraphQL", "Conversion Rate Optimization", "Full-Stack Web Development"],
+    "sameAs": [
+      "https://www.linkedin.com/in/rastovicfilip/",
+      "https://github.com/FilipRastovic",
+      "https://www.behance.net/rastovicfilip",
+      "https://codepen.io/FilipRastovic"
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" onload="this.rel='stylesheet'" />
