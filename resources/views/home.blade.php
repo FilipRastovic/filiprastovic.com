@@ -8,12 +8,12 @@
       <div class="avatar-wrap">
         <picture>
           <source srcset="/images/filip.webp" type="image/webp" />
-          <img src="/images/filip.png" alt="Filip Rastovic" width="308" height="308" fetchpriority="high" />
+          <img src="/images/filip.png" alt="Filip Rastovic – Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia" width="308" height="308" fetchpriority="high" />
         </picture>
       </div>
       <div class="avatar-meta">
-        <span class="avatar-name">Filip Rastovic</span>
-        <span class="avatar-role">Senior Shopify Developer · 10+ years</span>
+        <h1 class="avatar-name">Filip Rastovic</h1>
+        <span class="avatar-role">Senior Shopify Developer · Belgrade, Serbia</span>
       </div>
     </div>
     <div class="header-roles">
@@ -21,7 +21,7 @@
       <span>Full-Stack Software Engineer</span>
       <span>CRO Specialist</span>
     </div>
-    <p>I'm a <strong>Senior Shopify Developer</strong> and <strong>Full-Stack Software Engineer</strong> with <strong>10+ years of web development experience</strong> and a <strong>Bachelor's degree in Software Engineering</strong>. I build high-converting Shopify stores and custom web applications for global brands. Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led.</p>
+    <p>I'm a <strong>Senior Shopify Developer</strong> and <strong>Full-Stack Software Engineer</strong> based in <strong>Belgrade, Serbia</strong>, with <strong>10+ years of professional web development experience</strong> and a <strong>Bachelor's degree in Software Engineering</strong>. I build high-converting Shopify stores, Shopify Plus implementations, headless Shopify (Hydrogen / Remix) builds, and custom web applications for global brands - working remotely worldwide. Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led.</p>
   </header>
 
   {{-- NOW --}}

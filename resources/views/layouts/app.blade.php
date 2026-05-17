@@ -3,40 +3,139 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer' }}</title>
-  <meta name="description" content="@yield('description', 'Senior Shopify developer and full-stack software engineer with 10+ years of web development experience. Bachelor\'s in Software Engineering. Building high-converting stores for global brands including Google, Johnson & Johnson, and Cosy House Collection.')" />
+  <title>{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}</title>
+  <meta name="description" content="@yield('description', 'Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia, with 10+ years of web development experience and a Bachelor\'s degree in Software Engineering. Building high-converting Shopify stores for global brands including Google, Johnson & Johnson, and Cosy House Collection.')" />
   <meta name="author" content="Filip Rastovic" />
-  <meta name="keywords" content="Senior Shopify Developer, Full-Stack Software Engineer, Shopify Plus, Liquid, Hydrogen, Remix, Laravel, CRO Specialist, Web Development, Shopify Expert" />
+  <meta name="keywords" content="Senior Shopify Developer, Shopify Developer Serbia, Shopify Expert Serbia, Full-Stack Software Engineer, Shopify Plus Developer, Liquid Developer, Hydrogen, Remix, Laravel, CRO Specialist, Belgrade Web Developer, Filip Rastovic" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="geo.region" content="RS-00" />
+  <meta name="geo.placename" content="Belgrade, Serbia" />
+  <meta name="geo.position" content="44.7866;20.4489" />
+  <meta name="ICBM" content="44.7866, 20.4489" />
   <link rel="canonical" href="https://filiprastovic.com/" />
-  <meta property="og:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer' }}" />
-  <meta property="og:description" content="@yield('description', 'Senior Shopify developer and full-stack software engineer with 10+ years of web development experience. Bachelor\'s in Software Engineering.')" />
+  <meta property="og:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}" />
+  <meta property="og:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia. 10+ years of web development experience. Bachelor\'s in Software Engineering.')" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://filiprastovic.com/" />
   <meta property="og:image" content="https://filiprastovic.com/images/filip.png" />
+  <meta property="og:image:width" content="308" />
+  <meta property="og:image:height" content="308" />
+  <meta property="og:site_name" content="Filip Rastovic" />
   <meta property="og:locale" content="en_GB" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer' }}" />
-  <meta name="twitter:description" content="@yield('description', 'Senior Shopify developer and full-stack software engineer with 10+ years of web development experience.')" />
+  <meta name="twitter:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}" />
+  <meta name="twitter:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia. 10+ years of experience.')" />
   <meta name="twitter:image" content="https://filiprastovic.com/images/filip.png" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Filip Rastovic",
+    "alternateName": ["Filip Rastović", "Филип Растовић"],
     "url": "https://filiprastovic.com/",
     "image": "https://filiprastovic.com/images/filip.png",
     "jobTitle": "Senior Shopify Developer & Full-Stack Software Engineer",
-    "description": "Senior Shopify Developer and full-stack software engineer with a Bachelor's degree in Software Engineering and 10+ years of web development experience.",
+    "description": "Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia, with a Bachelor's degree in Software Engineering and 10+ years of professional web development experience.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belgrade",
+      "addressRegion": "Belgrade District",
+      "addressCountry": "Serbia"
+    },
+    "nationality": {
+      "@type": "Country",
+      "name": "Serbia"
+    },
     "alumniOf": {
       "@type": "EducationalOrganization",
       "name": "Bachelor's degree in Software Engineering"
     },
-    "knowsAbout": ["Shopify", "Shopify Plus", "Liquid", "Hydrogen", "Remix", "JavaScript", "TypeScript", "React", "PHP", "Laravel", "SQL", "Python", "GraphQL", "Conversion Rate Optimization", "Full-Stack Web Development"],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "educationalLevel": "Bachelor's degree",
+      "name": "Bachelor's degree in Software Engineering"
+    },
+    "knowsAbout": ["Shopify", "Shopify Plus", "Liquid", "Hydrogen", "Remix", "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "PHP", "Laravel", "SQL", "Python", "GraphQL", "Storefront API", "Shopify Admin API", "Conversion Rate Optimization", "A/B Testing", "Full-Stack Web Development", "E-commerce Development", "Performance Optimization"],
+    "knowsLanguage": ["English", "Serbian"],
     "sameAs": [
       "https://www.linkedin.com/in/rastovicfilip/",
       "https://github.com/FilipRastovic",
       "https://www.behance.net/rastovicfilip",
       "https://codepen.io/FilipRastovic"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Filip Rastovic",
+    "url": "https://filiprastovic.com/",
+    "description": "Portfolio of Filip Rastovic, Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia.",
+    "inLanguage": "en-GB",
+    "author": {
+      "@type": "Person",
+      "name": "Filip Rastovic",
+      "url": "https://filiprastovic.com/"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who is Filip Rastovic?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia. He holds a Bachelor's degree in Software Engineering and has 10+ years of professional web development experience working with global brands including Google, Johnson & Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is Filip Rastovic based?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filip Rastovic is based in Belgrade, Serbia (GMT+2) and works remotely with clients worldwide. He is fluent in English and Serbian."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does Filip Rastovic do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filip is a Senior Shopify Developer and Full-Stack Software Engineer. He builds high-converting custom Shopify stores, Shopify Plus implementations, headless Shopify (Hydrogen / Remix) builds, and bespoke web applications. His work blends software engineering, conversion rate optimization (CRO), and product thinking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Filip Rastovic's tech stack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Shopify (Liquid, Hydrogen, Remix, Storefront and Admin GraphQL APIs), JavaScript, TypeScript, React, Next.js, Node.js, PHP, Laravel, Python, SQL, Tailwind CSS, Figma, and Cinema 4D for 3D work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many years of experience does Filip Rastovic have?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filip Rastovic has 10+ years of professional web development experience and holds a Bachelor's degree in Software Engineering."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Filip Rastovic available for new Shopify projects?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Filip is currently accepting new Shopify development projects for Q3 and Q4 of 2026 and is available remotely worldwide from Belgrade, Serbia."
+        }
+      }
     ]
   }
   </script>
