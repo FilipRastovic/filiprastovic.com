@@ -4,19 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}</title>
-  <meta name="description" content="@yield('description', 'Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia, with 10+ years of web development experience and a Bachelor\'s degree in Software Engineering. Building high-converting Shopify stores for global brands including Google, Johnson & Johnson, and Cosy House Collection.')" />
+  <meta name="description" content="@yield('description', 'Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia, with 10+ years of web development experience and a Bachelor\'s degree in Software Engineering. Building high-converting Shopify stores for global brands including Google, Johnson & Johnson, and Cosy House Collection.')" />
   <meta name="author" content="Filip Rastovic" />
-  <meta name="keywords" content="Senior Shopify Developer, Shopify Developer Serbia, Shopify Expert Serbia, Full-Stack Software Engineer, Shopify Plus Developer, Liquid Developer, Hydrogen, Remix, Laravel, CRO Specialist, Belgrade Web Developer, Filip Rastovic" />
+  <meta name="keywords" content="Senior Shopify Developer, Shopify Developer Serbia, Shopify Expert Serbia, Full-Stack Software Engineer, Shopify Plus Developer, Liquid Developer, Hydrogen, Remix, Laravel, CRO Specialist, Novi Sad Web Developer, Filip Rastovic" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="language" content="English" />
   <meta name="revisit-after" content="7 days" />
-  <meta name="geo.region" content="RS-00" />
-  <meta name="geo.placename" content="Belgrade, Serbia" />
-  <meta name="geo.position" content="44.7866;20.4489" />
-  <meta name="ICBM" content="44.7866, 20.4489" />
+  <meta name="geo.region" content="RS-06" />
+  <meta name="geo.placename" content="Novi Sad, Serbia" />
+  <meta name="geo.position" content="45.2671;19.8335" />
+  <meta name="ICBM" content="45.2671, 19.8335" />
   <link rel="canonical" href="https://filiprastovic.com/" />
   <meta property="og:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}" />
-  <meta property="og:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia. 10+ years of web development experience. Bachelor\'s in Software Engineering.')" />
+  <meta property="og:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia. 10+ years of web development experience. Bachelor\'s in Software Engineering.')" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://filiprastovic.com/" />
   <meta property="og:image" content="https://filiprastovic.com/images/filip.png" />
@@ -26,7 +26,7 @@
   <meta property="og:locale" content="en_GB" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}" />
-  <meta name="twitter:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia. 10+ years of experience.')" />
+  <meta name="twitter:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia. 10+ years of experience.')" />
   <meta name="twitter:image" content="https://filiprastovic.com/images/filip.png" />
   <script type="application/ld+json">
   {
@@ -37,11 +37,11 @@
     "url": "https://filiprastovic.com/",
     "image": "https://filiprastovic.com/images/filip.png",
     "jobTitle": "Senior Shopify Developer & Full-Stack Software Engineer",
-    "description": "Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia, with a Bachelor's degree in Software Engineering and 10+ years of professional web development experience.",
+    "description": "Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia, with a Bachelor's degree in Software Engineering and 10+ years of professional web development experience.",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Belgrade",
-      "addressRegion": "Belgrade District",
+      "addressLocality": "Novi Sad",
+      "addressRegion": "Vojvodina",
       "addressCountry": "Serbia"
     },
     "nationality": {
@@ -74,7 +74,7 @@
     "@type": "WebSite",
     "name": "Filip Rastovic",
     "url": "https://filiprastovic.com/",
-    "description": "Portfolio of Filip Rastovic, Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia.",
+    "description": "Portfolio of Filip Rastovic, Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia.",
     "inLanguage": "en-GB",
     "author": {
       "@type": "Person",
@@ -93,7 +93,7 @@
         "name": "Who is Filip Rastovic?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Belgrade, Serbia. He holds a Bachelor's degree in Software Engineering and has 10+ years of professional web development experience working with global brands including Google, Johnson & Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition."
+          "text": "Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia. He holds a Bachelor's degree in Software Engineering and has 10+ years of professional web development experience working with global brands including Google, Johnson & Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition."
         }
       },
       {
@@ -101,7 +101,7 @@
         "name": "Where is Filip Rastovic based?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Filip Rastovic is based in Belgrade, Serbia (GMT+2) and works remotely with clients worldwide. He is fluent in English and Serbian."
+          "text": "Filip Rastovic is based in Novi Sad, Serbia (GMT+2) and works remotely with clients worldwide. He is fluent in English and Serbian."
         }
       },
       {
@@ -133,7 +133,7 @@
         "name": "Is Filip Rastovic available for new Shopify projects?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Filip is currently accepting new Shopify development projects for Q3 and Q4 of 2026 and is available remotely worldwide from Belgrade, Serbia."
+          "text": "Yes. Filip is currently accepting new Shopify development projects for Q3 and Q4 of 2026 and is available remotely worldwide from Novi Sad, Serbia."
         }
       }
     ]
