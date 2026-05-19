@@ -173,7 +173,7 @@
 
     /* ── TICKER ── */
     .ticker {
-      background: #1C1A17;
+      background: linear-gradient(90deg, #2e1f0e 0%, #1C1A17 40%, #1a1a2e 100%);
       overflow: hidden;
       height: 32px;
       display: flex;
