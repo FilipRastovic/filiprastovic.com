@@ -141,24 +141,25 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" onload="this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" /></noscript>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" onload="this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #f9f9f8;
-      --bg-2: #f2f2f0;
-      --bg-3: #eaeae7;
-      --bg-card: #ffffff;
-      --border: rgba(0,0,0,0.10);
-      --border-strong: rgba(0,0,0,0.18);
-      --text: #0d0d0c;
-      --text-muted: #3d4350;
-      --text-dim: #555f6e;
-      --accent: #d97706;
-      --accent-2: #b45309;
+      --bg: #F7F3ED;
+      --bg-2: #EDEAE2;
+      --bg-3: #E4E0D8;
+      --bg-card: #FFFDF9;
+      --border: rgba(28,26,23,0.10);
+      --border-strong: rgba(28,26,23,0.18);
+      --text: #1C1A17;
+      --text-muted: #6B6459;
+      --text-dim: #9E9287;
+      --accent: #C8A882;
+      --accent-2: #8B6F4E;
       --green: #16a34a;
+      --serif: 'Playfair Display', Georgia, serif;
     }
 
     html { scroll-behavior: smooth; }
@@ -173,7 +174,7 @@
 
     /* ── TICKER ── */
     .ticker {
-      background: #0d0d0c;
+      background: #1C1A17;
       overflow: hidden;
       height: 32px;
       display: flex;
@@ -203,7 +204,7 @@
       width: 4px;
       height: 4px;
       border-radius: 50%;
-      background: #d97706;
+      background: #C8A882;
       flex-shrink: 0;
     }
     @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
@@ -213,7 +214,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(242,242,240,0.96);
+      background: rgba(247,243,237,0.93);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
@@ -228,7 +229,7 @@
       justify-content: space-between;
     }
     .nav-name {
-      font-family: 'Syne', sans-serif;
+      font-family: var(--serif);
       font-size: 18px;
       font-weight: 700;
       color: var(--text);
@@ -284,7 +285,7 @@
     }
     .avatar-meta { display: flex; flex-direction: column; gap: 6px; }
     .avatar-name {
-      font-family: 'Syne', sans-serif;
+      font-family: var(--serif);
       font-size: 26px;
       font-weight: 700;
       color: var(--text);
@@ -350,7 +351,7 @@
       display: flex;
       flex-direction: column;
       border: 1px solid var(--border);
-      border-radius: 14px;
+      border-radius: 8px;
       overflow: hidden;
       background: var(--bg-card);
       margin-bottom: 52px;
@@ -393,7 +394,7 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 1px;
       background: var(--border);
-      border-radius: 14px;
+      border-radius: 8px;
       overflow: hidden;
       border: 1px solid var(--border);
       margin-bottom: 52px;
@@ -424,15 +425,15 @@
     .now-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 6px;
       padding: 20px;
       transition: border-color 0.15s ease, box-shadow 0.15s ease;
       box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     .now-card:hover { border-color: var(--border-strong); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     .now-card.accent {
-      background: rgba(217,119,6,0.04);
-      border-color: rgba(217,119,6,0.20);
+      background: rgba(200,168,130,0.08);
+      border-color: rgba(200,168,130,0.30);
     }
     .now-card-label {
       font-size: 12px;
@@ -481,7 +482,7 @@
     .art-grid img {
       width: 100%;
       height: auto;
-      border-radius: 10px;
+      border-radius: 6px;
       display: block;
       border: 1px solid var(--border);
       transition: transform 0.2s ease, border-color 0.2s ease;
@@ -512,7 +513,7 @@
       overflow-y: auto;
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 8px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.10);
       padding: 6px;
       opacity: 0;
@@ -555,7 +556,7 @@
 
     /* ── ARTICLE VIDEO ── */
     .article-video-wrap {
-      border-radius: 12px;
+      border-radius: 6px;
       overflow: hidden;
       margin-bottom: 32px;
       border: 1px solid var(--border);
@@ -664,13 +665,13 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
       color: var(--accent);
-      background: rgba(217,119,6,0.08);
-      border: 1px solid rgba(217,119,6,0.22);
+      background: rgba(200,168,130,0.12);
+      border: 1px solid rgba(200,168,130,0.32);
       border-radius: 6px;
       padding: 3px 8px;
     }
     .article-title {
-      font-family: 'Syne', sans-serif;
+      font-family: var(--serif);
       font-size: 32px;
       font-weight: 800;
       color: var(--text);
@@ -688,7 +689,7 @@
     .article-figure { margin: 32px 0; }
     .article-figure img {
       width: 100%;
-      border-radius: 12px;
+      border-radius: 6px;
       display: block;
       border: 1px solid var(--border);
       box-shadow: 0 2px 12px rgba(0,0,0,0.07);
@@ -725,7 +726,7 @@
       gap: 10px;
       margin-bottom: 32px;
     }
-    .article-gallery-item { display: block; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); transition: border-color 0.2s ease; }
+    .article-gallery-item { display: block; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); transition: border-color 0.2s ease; }
     .article-gallery-item:hover { border-color: var(--border-strong); }
     .article-gallery-item img { width: 100%; display: block; transition: transform 0.2s ease; }
     .article-gallery-item:hover img { transform: scale(1.03); }
