@@ -161,86 +161,22 @@
   <section id="stack">
     <div class="section-label">Stack</div>
     <div class="stack-grid">
-      <div class="stack-item">
-        <span class="stack-emoji">🛍️</span>
-        <span class="stack-name">Shopify</span>
-        <span class="stack-tag">Platform</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">💧</span>
-        <span class="stack-name">Liquid</span>
-        <span class="stack-tag">Templating</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">⚛️</span>
-        <span class="stack-name">React</span>
-        <span class="stack-tag">Hydrogen</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🎨</span>
-        <span class="stack-name">CSS / Tailwind</span>
-        <span class="stack-tag">Styling</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🔗</span>
-        <span class="stack-name">GraphQL</span>
-        <span class="stack-tag">Storefront API</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">⚡</span>
-        <span class="stack-name">Remix</span>
-        <span class="stack-tag">Framework</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🐘</span>
-        <span class="stack-name">PHP</span>
-        <span class="stack-tag">Backend</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🏗️</span>
-        <span class="stack-name">Laravel</span>
-        <span class="stack-tag">Framework</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🗄️</span>
-        <span class="stack-name">SQL</span>
-        <span class="stack-tag">Database</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🐍</span>
-        <span class="stack-name">Python / Pandas</span>
-        <span class="stack-tag">Data</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">📐</span>
-        <span class="stack-name">Figma</span>
-        <span class="stack-tag">Design</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🎬</span>
-        <span class="stack-name">Cinema 4D</span>
-        <span class="stack-tag">3D / Render</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">📝</span>
-        <span class="stack-name">WordPress</span>
-        <span class="stack-tag">CMS</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🟨</span>
-        <span class="stack-name">JavaScript</span>
-        <span class="stack-tag">Language</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🔌</span>
-        <span class="stack-name">Shopify Apps</span>
-        <span class="stack-tag">Extensions</span>
-      </div>
-      <div class="stack-item">
-        <span class="stack-emoji">🖌️</span>
-        <span class="stack-name">Photoshop</span>
-        <span class="stack-tag">Design</span>
-      </div>
+      <div class="stack-item"><span class="stack-name">Shopify</span><span class="stack-tag">Platform</span></div>
+      <div class="stack-item"><span class="stack-name">Liquid</span><span class="stack-tag">Templating</span></div>
+      <div class="stack-item"><span class="stack-name">React</span><span class="stack-tag">Hydrogen</span></div>
+      <div class="stack-item"><span class="stack-name">CSS / Tailwind</span><span class="stack-tag">Styling</span></div>
+      <div class="stack-item"><span class="stack-name">GraphQL</span><span class="stack-tag">Storefront API</span></div>
+      <div class="stack-item"><span class="stack-name">Remix</span><span class="stack-tag">Framework</span></div>
+      <div class="stack-item"><span class="stack-name">PHP</span><span class="stack-tag">Backend</span></div>
+      <div class="stack-item"><span class="stack-name">Laravel</span><span class="stack-tag">Framework</span></div>
+      <div class="stack-item"><span class="stack-name">SQL</span><span class="stack-tag">Database</span></div>
+      <div class="stack-item"><span class="stack-name">Python / Pandas</span><span class="stack-tag">Data</span></div>
+      <div class="stack-item"><span class="stack-name">Figma</span><span class="stack-tag">Design</span></div>
+      <div class="stack-item"><span class="stack-name">Cinema 4D</span><span class="stack-tag">3D / Render</span></div>
+      <div class="stack-item"><span class="stack-name">WordPress</span><span class="stack-tag">CMS</span></div>
+      <div class="stack-item"><span class="stack-name">JavaScript</span><span class="stack-tag">Language</span></div>
+      <div class="stack-item"><span class="stack-name">Shopify Apps</span><span class="stack-tag">Extensions</span></div>
+      <div class="stack-item"><span class="stack-name">Photoshop</span><span class="stack-tag">Design</span></div>
     </div>
   </section>
 

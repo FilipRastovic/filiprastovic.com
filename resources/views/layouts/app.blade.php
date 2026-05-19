@@ -413,7 +413,6 @@
       transition: background 0.12s ease;
     }
     .stack-item:hover { background: var(--bg); }
-    .stack-emoji { font-size: 26px; line-height: 1; }
     .stack-name { font-size: 14px; font-weight: 600; color: var(--text-muted); }
     .stack-tag { font-size: 12px; color: var(--text-dim); font-weight: 500; }
 
