@@ -754,15 +754,27 @@
     /* ── MOBILE ── */
     @media (max-width: 600px) {
       .wrap { padding: 0 16px 80px; }
-      .header { padding: 48px 0 44px; }
-      .avatar-wrap, .avatar-wrap img { width: 180px; height: 180px; }
+      .header { padding: 36px 0 32px; }
+      .avatar-wrap, .avatar-wrap img { width: 160px; height: 160px; }
+      .avatar-name { font-size: 22px; }
+      .avatar-role { font-size: 14px; }
+      .header-roles span { font-size: 12px; }
+      .header p { font-size: 15px; line-height: 1.7; }
       .stack-grid { grid-template-columns: repeat(2, 1fr); }
       .now-grid { grid-template-columns: 1fr; }
+      .now-card-value { font-size: 15px; }
       .art-grid { grid-template-columns: repeat(2, 1fr); }
       .nav-links { display: none; }
       .nav-hamburger { display: flex; }
-      .article-title { font-size: 26px; }
-      .article-list li { font-size: 16px; }
+      .link-text strong { font-size: 15px; }
+      .link-text span { font-size: 12px; }
+      .about-text p { font-size: 15px; line-height: 1.7; }
+      .skills-list li { font-size: 14px; }
+      .section-note { font-size: 15px; }
+      .article-title { font-size: 22px; }
+      .article-intro { font-size: 15px; }
+      .article-list li { font-size: 15px; }
+      .divider { margin: 36px 0; }
     }
   </style>
   @stack('head')
