@@ -141,8 +141,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" onload="this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -350,42 +349,44 @@
     .links-list {
       display: flex;
       flex-direction: column;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow: hidden;
-      background: var(--bg-card);
       margin-bottom: 52px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     }
     .link-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 15px 20px;
+      padding: 14px 0;
       text-decoration: none;
       color: var(--text);
       border-bottom: 1px solid var(--border);
-      transition: background 0.12s ease;
+      transition: color 0.15s ease;
       gap: 14px;
     }
-    .link-item:last-child { border-bottom: none; }
-    .link-item:hover { background: var(--bg); }
-    .link-item:hover .link-arrow { transform: translate(2px, -2px); opacity: 1; }
-.link-text strong {
+    .link-item:first-child { border-top: 1px solid var(--border); }
+    .link-item:hover { color: var(--accent-2); }
+    .link-item:hover .link-text strong {
+      text-decoration-color: var(--accent-2);
+    }
+    .link-item:hover .link-arrow { transform: translate(3px, -3px); opacity: 1; color: var(--accent-2); }
+    .link-text strong {
       display: block;
       font-size: 17px;
       font-weight: 600;
-      color: var(--text);
-      margin-bottom: 1px;
+      color: inherit;
+      margin-bottom: 2px;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: var(--border-strong);
+      transition: text-decoration-color 0.15s ease;
     }
-    .link-text span { font-size: 14px; color: var(--text-dim); }
+    .link-text span { font-size: 13px; color: var(--text-dim); }
     .link-arrow {
       width: 14px;
       height: 14px;
       color: var(--text-dim);
       flex-shrink: 0;
-      transition: transform 0.15s ease, opacity 0.15s ease;
-      opacity: 0.4;
+      transition: transform 0.15s ease, opacity 0.15s ease, color 0.15s ease;
+      opacity: 0.5;
     }
 
     /* ── STACK ── */
@@ -432,19 +433,22 @@
     }
     .now-card:hover { border-color: var(--border-strong); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     .now-card.accent {
-      background: rgba(200,168,130,0.08);
-      border-color: rgba(200,168,130,0.30);
+      background: #1C1A17;
+      border-color: #1C1A17;
     }
+    .now-card.accent .now-card-label { color: rgba(247,243,237,0.45); }
+    .now-card.accent .now-card-value { color: #F7F3ED; }
+    .now-card.accent .now-card-sub { color: rgba(247,243,237,0.60); }
     .now-card-label {
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.10em;
       text-transform: uppercase;
       color: var(--text-dim);
-      margin-bottom: 6px;
+      margin-bottom: 8px;
     }
-    .now-card-value { font-size: 17px; font-weight: 600; color: var(--text); line-height: 1.4; }
-    .now-card-sub { font-size: 14px; color: var(--text-muted); margin-top: 3px; }
+    .now-card-value { font-size: 17px; font-weight: 600; color: var(--text); line-height: 1.3; }
+    .now-card-sub { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
 
     /* ── ABOUT ── */
     .about-block { margin-bottom: 52px; }
