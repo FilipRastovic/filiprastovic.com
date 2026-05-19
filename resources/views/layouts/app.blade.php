@@ -370,7 +370,8 @@
     .link-item:hover .link-arrow { transform: translate(3px, -3px); opacity: 1; color: var(--accent-2); }
     .link-text strong {
       display: block;
-      font-size: 17px;
+      font-family: var(--serif);
+      font-size: 18px;
       font-weight: 600;
       color: inherit;
       margin-bottom: 2px;
@@ -433,7 +434,7 @@
     }
     .now-card:hover { border-color: var(--border-strong); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     .now-card.accent {
-      background: #1C1A17;
+      background: linear-gradient(145deg, #3a2a18 0%, #1C1A17 70%);
       border-color: #1C1A17;
     }
     .now-card.accent .now-card-label { color: rgba(247,243,237,0.45); }
@@ -447,7 +448,7 @@
       color: var(--text-dim);
       margin-bottom: 8px;
     }
-    .now-card-value { font-size: 17px; font-weight: 600; color: var(--text); line-height: 1.3; }
+    .now-card-value { font-family: var(--serif); font-size: 17px; font-weight: 600; color: var(--text); line-height: 1.3; }
     .now-card-sub { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
 
     /* ── ABOUT ── */
