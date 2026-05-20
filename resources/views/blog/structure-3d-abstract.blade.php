@@ -13,7 +13,7 @@
       <span class="article-tag">Design</span>
     </div>
     <h1 class="article-title">Structure – 3D Abstract Geometric Composition</h1>
-    <p class="article-date">2022</p>
+    <time class="article-date" datetime="2022-01-01">2022</time>
   </header>
 
   <div class="article-body">

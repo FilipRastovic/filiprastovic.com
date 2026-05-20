@@ -13,7 +13,7 @@
       <span class="article-tag">Usability</span>
     </div>
     <h1 class="article-title">DTC E-Commerce Conversion Optimization – Usability</h1>
-    <p class="article-date">March 2024</p>
+    <time class="article-date" datetime="2024-03-01">March 2024</time>
   </header>
 
   <div class="article-body">

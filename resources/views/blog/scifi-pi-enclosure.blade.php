@@ -13,7 +13,7 @@
       <span class="article-tag">CAD</span>
     </div>
     <h1 class="article-title">Sci-Fi Raspberry Pi Enclosure</h1>
-    <p class="article-date">2024</p>
+    <time class="article-date" datetime="2024-01-01">2024</time>
   </header>
 
   <div class="article-body">

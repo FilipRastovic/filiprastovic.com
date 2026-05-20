@@ -12,7 +12,7 @@
       <span class="article-tag">Unity</span>
     </div>
     <h1 class="article-title">Trial And Terror – My Video Game</h1>
-    <p class="article-date">2019</p>
+    <time class="article-date" datetime="2019-01-01">2019</time>
   </header>
 
   <div class="article-body">

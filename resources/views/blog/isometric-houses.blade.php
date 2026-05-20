@@ -12,7 +12,7 @@
       <span class="article-tag">Art</span>
     </div>
     <h1 class="article-title">Isometric Houses 3D Art</h1>
-    <p class="article-date">2024</p>
+    <time class="article-date" datetime="2024-01-01">2024</time>
   </header>
 
   <div class="article-body">

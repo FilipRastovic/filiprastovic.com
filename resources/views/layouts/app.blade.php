@@ -14,20 +14,34 @@
   <meta name="geo.placename" content="Novi Sad, Serbia" />
   <meta name="geo.position" content="45.2671;19.8335" />
   <meta name="ICBM" content="45.2671, 19.8335" />
-  <link rel="canonical" href="https://filiprastovic.com/" />
+  @php
+    $isArticle    = !empty($articleMeta);
+    $canonicalUrl = 'https://filiprastovic.com' . ($currentPath ?? '/');
+    $ogImage      = ($isArticle && !empty($articleMeta['image']))
+                    ? 'https://filiprastovic.com' . $articleMeta['image']
+                    : 'https://filiprastovic.com/images/filip.png';
+  @endphp
+  <link rel="canonical" href="{{ $canonicalUrl }}" />
   <meta property="og:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}" />
   <meta property="og:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia. 10+ years of web development experience. Bachelor\'s in Software Engineering.')" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://filiprastovic.com/" />
-  <meta property="og:image" content="https://filiprastovic.com/images/filip.png" />
+  <meta property="og:type" content="{{ $isArticle ? 'article' : 'website' }}" />
+  <meta property="og:url" content="{{ $canonicalUrl }}" />
+  <meta property="og:image" content="{{ $ogImage }}" />
+  @if(!$isArticle || empty($articleMeta['image']))
   <meta property="og:image:width" content="308" />
   <meta property="og:image:height" content="308" />
+  @endif
   <meta property="og:site_name" content="Filip Rastovic" />
   <meta property="og:locale" content="en_GB" />
+  @if($isArticle)
+  <meta property="article:published_time" content="{{ $articleMeta['date'] }}T00:00:00+02:00" />
+  <meta property="article:modified_time" content="{{ $articleMeta['modified'] }}T00:00:00+02:00" />
+  <meta property="article:author" content="https://filiprastovic.com/" />
+  @endif
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}" />
   <meta name="twitter:description" content="@yield('description', 'Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia. 10+ years of experience.')" />
-  <meta name="twitter:image" content="https://filiprastovic.com/images/filip.png" />
+  <meta name="twitter:image" content="{{ $ogImage }}" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -139,6 +153,34 @@
     ]
   }
   </script>
+  @if($isArticle)
+  @php
+    $articleSchema = array_filter([
+      '@context'        => 'https://schema.org',
+      '@type'           => $articleMeta['type'],
+      'headline'        => $title ?? '',
+      'description'     => $articleMeta['description'],
+      'image'           => !empty($articleMeta['image']) ? 'https://filiprastovic.com' . $articleMeta['image'] : null,
+      'datePublished'   => $articleMeta['date'],
+      'dateModified'    => $articleMeta['modified'],
+      'author'          => ['@type' => 'Person', 'name' => 'Filip Rastovic', 'url' => 'https://filiprastovic.com/'],
+      'publisher'       => ['@type' => 'Person', 'name' => 'Filip Rastovic', 'url' => 'https://filiprastovic.com/'],
+      'mainEntityOfPage'=> $canonicalUrl,
+      'keywords'        => implode(', ', $articleMeta['tags']),
+    ], fn($v) => $v !== null);
+    $breadcrumbSchema = [
+      '@context'        => 'https://schema.org',
+      '@type'           => 'BreadcrumbList',
+      'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => 'https://filiprastovic.com/'],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => 'https://filiprastovic.com/blog'],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => $title ?? ''],
+      ],
+    ];
+  @endphp
+  <script type="application/ld+json">{!! json_encode($articleSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
+  <script type="application/ld+json">{!! json_encode($breadcrumbSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}</script>
+  @endif
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" />

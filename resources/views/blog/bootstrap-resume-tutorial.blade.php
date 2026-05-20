@@ -13,7 +13,7 @@
       <span class="article-tag">HTML/CSS</span>
     </div>
     <h1 class="article-title">Resume Portfolio Bootstrap 4 – Code-Along Tutorial</h1>
-    <p class="article-date">2024</p>
+    <time class="article-date" datetime="2024-03-01">2024</time>
   </header>
 
   <div class="article-body">

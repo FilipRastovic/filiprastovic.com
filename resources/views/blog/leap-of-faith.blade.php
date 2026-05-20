@@ -11,7 +11,7 @@
       <span class="article-tag">Game Dev</span>
     </div>
     <h1 class="article-title">Leap of Faith – My Video Game</h1>
-    <p class="article-date">2016</p>
+    <time class="article-date" datetime="2016-01-01">2016</time>
   </header>
 
   <div class="article-body">

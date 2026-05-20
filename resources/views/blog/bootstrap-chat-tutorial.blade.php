@@ -13,7 +13,7 @@
       <span class="article-tag">HTML/CSS</span>
     </div>
     <h1 class="article-title">Bootstrap Chat App UI – Code-Along Tutorial</h1>
-    <p class="article-date">2019</p>
+    <time class="article-date" datetime="2019-06-30">2019</time>
   </header>
 
   <div class="article-body">
