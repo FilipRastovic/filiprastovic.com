@@ -1,4 +1,4 @@
-import { Animator, Animated, aaVisibility } from '@arwes/react'
+import { Animator, Animated, fade } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
@@ -17,7 +17,7 @@ export default function AboutSection() {
     <section id="about" style={{ marginBottom: '3rem' }}>
       <SectionLabel>About</SectionLabel>
       <Animator>
-        <Animated animated={[aaVisibility()]}>
+        <Animated animated={[fade()]}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem' }}>
             <p style={{ fontSize: '14px', lineHeight: 1.75, color: colors.text }}>
               Senior Shopify Developer and full-stack software engineer with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. I've worked with global brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition. My work blends engineering, CRO principles, and product thinking — focusing on reliability, performance, and revenue impact.

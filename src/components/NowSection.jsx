@@ -1,30 +1,21 @@
-import { Animator, Animated, Text, aaVisibility, aa } from '@arwes/react'
-import { useRef } from 'react'
-import { FrameSVGKranox, useFrameSVGAssemblingAnimation } from '@arwes/react'
+import { Animator, Animated, fade, transition, FrameKranox } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
 function NowCard({ label, value, sub, accent }) {
-  const svgRef = useRef(null)
-  const { onRender } = useFrameSVGAssemblingAnimation(svgRef)
   return (
     <Animator>
       <Animated
-        animated={[aaVisibility(), aa('y', 16, 0)]}
+        animated={[fade(), transition('y', 16, 0)]}
         style={{
           position: 'relative',
           padding: '1.25rem',
           background: accent ? 'rgba(0,255,180,0.05)' : 'rgba(2,20,20,0.5)',
+          color: accent ? colors.primary : colors.border,
           minWidth: 0,
         }}
       >
-        <FrameSVGKranox
-          elementRef={svgRef}
-          onRender={onRender}
-          style={{ position: 'absolute', inset: 0 }}
-          strokeWidth={1}
-          color={accent ? colors.primary : colors.border}
-        />
+        <FrameKranox strokeWidth={1} />
         <div style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '10px', letterSpacing: '0.12em', textTransform: 'uppercase', color: accent ? colors.primary : colors.textMuted, marginBottom: '0.4rem' }}>
             {label}

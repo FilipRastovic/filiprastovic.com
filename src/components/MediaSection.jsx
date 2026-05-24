@@ -1,4 +1,4 @@
-import { Animator, Animated, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
@@ -21,7 +21,7 @@ export default function MediaSection() {
       <div style={{ border: `1px solid ${colors.border}`, borderBottom: 'none' }}>
         {mentions.map(m => (
           <Animator key={m.href}>
-            <Animated animated={[aaVisibility(), aa('x', -8, 0)]}>
+            <Animated animated={[fade(), transition('x', -8, 0)]}>
               <a href={m.href} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.85rem 1rem', borderBottom: `1px solid ${colors.border}`, textDecoration: 'none', color: 'inherit' }}>
                 <div>
                   <div style={{ fontSize: '14px', fontWeight: 600, color: colors.text, marginBottom: '2px', textDecoration: 'underline', textDecorationColor: colors.border }}>{m.label}</div>

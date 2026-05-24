@@ -1,4 +1,4 @@
-import { Animator, Animated, Text, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, Text, fade, transition } from '@arwes/react'
 import { colors } from '../theme.js'
 
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.25rem', flexWrap: 'wrap' }}>
         {/* Avatar */}
         <Animator>
-          <Animated animated={[aaVisibility(), aa('scale', 0.9, 1)]}>
+          <Animated animated={[fade(), transition('scale', 0.9, 1)]}>
             <div style={{
               width: '88px',
               height: '88px',
@@ -51,7 +51,7 @@ export default function Header() {
             </Text>
           </Animator>
           <Animator>
-            <Animated animated={[aaVisibility()]}>
+            <Animated animated={[fade()]}>
               <span style={{
                 fontFamily: "'Share Tech Mono', monospace",
                 fontSize: '12px',
@@ -67,7 +67,7 @@ export default function Header() {
 
       {/* Role chips */}
       <Animator>
-        <Animated animated={[aaVisibility()]}>
+        <Animated animated={[fade()]}>
           <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1.25rem' }}>
             {['Senior Shopify Developer', 'Full-Stack Software Engineer', 'CRO Specialist'].map(role => (
               <span key={role} style={{
@@ -90,7 +90,7 @@ export default function Header() {
 
       {/* Bio */}
       <Animator>
-        <Animated animated={[aaVisibility()]}>
+        <Animated animated={[fade()]}>
           <p style={{ fontSize: '15px', lineHeight: 1.7, color: colors.text, maxWidth: '720px' }}>
             I'm a <strong style={{ color: colors.primary }}>Senior Shopify Developer</strong> and{' '}
             <strong style={{ color: colors.primary }}>Full-Stack Software Engineer</strong> based in{' '}

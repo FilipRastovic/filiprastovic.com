@@ -1,24 +1,14 @@
 import { Link } from 'react-router-dom'
-import { useRef } from 'react'
-import { Animator, Animated, aaVisibility, aa, FrameSVGKranox, useFrameSVGAssemblingAnimation } from '@arwes/react'
+import { Animator, Animated, fade, transition, FrameKranox } from '@arwes/react'
 import { colors } from '../../theme.js'
 
 export default function BlogCard({ to, title, date, tags = [], description }) {
-  const svgRef = useRef(null)
-  const { onRender } = useFrameSVGAssemblingAnimation(svgRef)
-
   return (
     <Animator>
-      <Animated animated={[aaVisibility(), aa('y', 12, 0)]}>
+      <Animated animated={[fade(), transition('y', 12, 0)]}>
         <Link to={to} style={{ textDecoration: 'none', display: 'block' }}>
-          <div style={{ position: 'relative', padding: '1.25rem 1.5rem', cursor: 'pointer' }}>
-            <FrameSVGKranox
-              elementRef={svgRef}
-              onRender={onRender}
-              style={{ position: 'absolute', inset: 0 }}
-              strokeWidth={1}
-              color={colors.border}
-            />
+          <div style={{ position: 'relative', padding: '1.25rem 1.5rem', cursor: 'pointer', color: colors.border }}>
+            <FrameKranox strokeWidth={1} />
             <div style={{ position: 'relative', zIndex: 1 }}>
               <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap', marginBottom: '0.6rem' }}>
                 {tags.map(t => (

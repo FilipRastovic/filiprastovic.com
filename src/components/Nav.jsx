@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import { Animator, Animated, Text, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, Text, fade, transition } from '@arwes/react'
 import { colors } from '../theme.js'
 import { useState, useEffect } from 'react'
 

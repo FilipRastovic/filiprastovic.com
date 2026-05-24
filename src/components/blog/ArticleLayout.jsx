@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
-import { Animator, Animated, Text, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, Text, fade, transition } from '@arwes/react'
 import { colors } from '../../theme.js'
 
 export default function ArticleLayout({ title, date, tags = [], children }) {
   return (
     <article style={{ padding: '2.5rem max(1.5rem, calc((100% - 800px)/2))' }}>
       <Animator>
-        <Animated animated={[aaVisibility()]}>
+        <Animated animated={[fade()]}>
           <Link to="/blog" style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -26,7 +26,7 @@ export default function ArticleLayout({ title, date, tags = [], children }) {
 
       <header style={{ marginBottom: '2.5rem' }}>
         <Animator>
-          <Animated animated={[aaVisibility()]}>
+          <Animated animated={[fade()]}>
             <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
               {tags.map(tag => (
                 <span key={tag} style={{
@@ -62,7 +62,7 @@ export default function ArticleLayout({ title, date, tags = [], children }) {
           </Text>
         </Animator>
         <Animator>
-          <Animated animated={[aaVisibility()]}>
+          <Animated animated={[fade()]}>
             <time style={{
               fontFamily: "'Share Tech Mono', monospace",
               fontSize: '11px',

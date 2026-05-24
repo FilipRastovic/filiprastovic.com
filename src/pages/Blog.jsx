@@ -1,4 +1,4 @@
-import { Animator, Text, aaVisibility } from '@arwes/react'
+import { Animator, Text, fade } from '@arwes/react'
 import BlogCard from '../components/blog/BlogCard.jsx'
 import SectionLabel from '../components/SectionLabel.jsx'
 import { colors } from '../theme.js'

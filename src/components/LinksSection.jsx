@@ -1,4 +1,4 @@
-import { Animator, Animated, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, fade, transition } from '@arwes/react'
 import { Link } from 'react-router-dom'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
@@ -19,7 +19,7 @@ function LinkItem({ href, label, sub, external }) {
   const inner = (
     <Animator>
       <Animated
-        animated={[aaVisibility(), aa('x', -12, 0)]}
+        animated={[fade(), transition('x', -12, 0)]}
         style={{
           display: 'flex',
           alignItems: 'center',

@@ -1,4 +1,4 @@
-import { Animator, Animated, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
@@ -25,7 +25,7 @@ export default function ArtSection() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
         {artImages.map((img, i) => (
           <Animator key={img.src}>
-            <Animated animated={[aaVisibility(), aa('y', 12, 0)]}>
+            <Animated animated={[fade(), transition('y', 12, 0)]}>
               <div style={{ border: `1px solid ${colors.border}`, overflow: 'hidden', background: 'rgba(0,20,20,0.5)' }}>
                 <img
                   src={img.src}

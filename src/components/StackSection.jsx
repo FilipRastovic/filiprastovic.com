@@ -1,4 +1,4 @@
-import { Animator, Animated, aaVisibility, aa } from '@arwes/react'
+import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
@@ -20,7 +20,7 @@ export default function StackSection() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '0.6rem' }}>
         {stack.map((item, i) => (
           <Animator key={item.name}>
-            <Animated animated={[aaVisibility(), aa('y', 8, 0)]}>
+            <Animated animated={[fade(), transition('y', 8, 0)]}>
               <div style={{
                 padding: '0.6rem 0.75rem',
                 border: `1px solid ${colors.border}`,
