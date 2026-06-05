@@ -76,7 +76,7 @@ export default function Header() {
       <Animator>
         <Animated animated={[fade()]}>
           <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '2.25rem' }}>
-            {['Senior Shopify Developer', 'Full-Stack Software Engineer', 'CRO Specialist'].map(role => (
+            {['Shopify Consultant', 'Full-Stack Web Developer', 'CRO Specialist'].map(role => (
               <span key={role} style={{
                 fontFamily: "'Share Tech Mono', monospace",
                 fontSize: '13px',
