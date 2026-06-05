@@ -72,7 +72,7 @@ export default function Nav() {
         justifyContent: 'space-between',
         height: '52px',
       }}>
-        <Link to="/" style={{ textDecoration: 'none' }}>
+        <Link to="/" style={{ textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0 }}>
           <span style={{
             fontFamily: "'Share Tech Mono', monospace",
             fontSize: '15px',
@@ -82,7 +82,7 @@ export default function Nav() {
           }}>FR://</span>
           <span style={{ color: colors.text, fontSize: '14px', marginLeft: '6px' }}>Filip Rastovic</span>
         </Link>
-        <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="nav-links">
           {navLinks.map(l => (
             <NavLink key={l.to} to={l.to} end style={({ isActive }) => ({
               textDecoration: 'none',
@@ -115,6 +115,10 @@ export default function Nav() {
       </div>
       <style>{`
         @keyframes ticker { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+        @media (max-width: 600px) {
+          .nav-links { gap: 1rem !important; }
+          .nav-links a { font-size: 11px !important; }
+        }
       `}</style>
     </nav>
   )

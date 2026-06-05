@@ -18,7 +18,7 @@ export default function Home() {
       {/* Full-width cinematic cover */}
       <style>{`
         .hero-cover { height: clamp(192px, 25vw, 384px); }
-        @media (max-width: 600px) { .hero-cover { height: 320px; } }
+        @media (max-width: 600px) { .hero-cover { height: 220px; } }
       `}</style>
       <div className="hero-cover" style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
         <img

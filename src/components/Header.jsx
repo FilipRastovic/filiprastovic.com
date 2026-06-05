@@ -3,11 +3,20 @@ import { colors } from '../theme.js'
 
 export default function Header() {
   return (
-    <header style={{ marginBottom: '5rem' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', marginBottom: '2.5rem', flexWrap: 'wrap' }}>
+    <header className="header-root" style={{ marginBottom: '5rem' }}>
+      <style>{`
+        @media (max-width: 600px) {
+          .header-root { margin-top: -90px; position: relative; z-index: 2; }
+          .header-intro { background: rgba(2,10,10,0.88) !important; padding: 1rem !important; gap: 1.25rem !important; margin-bottom: 1rem !important; flex-wrap: nowrap !important; }
+          .header-photo { width: 90px !important; height: 90px !important; box-shadow: 0 0 24px rgba(0,200,160,0.4) !important; }
+          .header-name { font-size: clamp(1.4rem, 7vw, 2rem) !important; margin-bottom: 0.25rem !important; }
+          .header-subtitle { font-size: 13px !important; }
+        }
+      `}</style>
+      <div className="header-intro" style={{ display: 'flex', alignItems: 'center', gap: '3rem', marginBottom: '2.5rem', flexWrap: 'wrap' }}>
         <Animator>
           <Animated animated={[fade(), transition('scale', 0.9, 1)]}>
-            <div style={{
+            <div className="header-photo" style={{
               width: '200px',
               height: '200px',
               borderRadius: '50%',
@@ -35,6 +44,7 @@ export default function Header() {
             <Text
               as="h1"
               manager="decipher"
+              className="header-name"
               style={{
                 fontFamily: "'Titillium Web', sans-serif",
                 fontSize: 'clamp(3rem, 8vw, 5rem)',
@@ -50,7 +60,7 @@ export default function Header() {
           </Animator>
           <Animator>
             <Animated animated={[fade()]}>
-              <span style={{
+              <span className="header-subtitle" style={{
                 fontFamily: "'Share Tech Mono', monospace",
                 fontSize: '17px',
                 color: colors.textMuted,
