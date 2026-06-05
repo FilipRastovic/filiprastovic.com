@@ -66,7 +66,7 @@ export default function Header() {
                 color: colors.textMuted,
                 letterSpacing: '0.04em',
               }}>
-                Senior Shopify Developer · Novi Sad, Serbia
+                Software Engineer · Novi Sad, Serbia
               </span>
             </Animated>
           </Animator>
