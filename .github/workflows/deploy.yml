@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build and deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: 185.224.137.224
+          port: 65002
+          username: u111992089
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            cd ~/public_html
+            git pull origin main
+            npm run build
+            cp dist/index.html index.html
+            rm -rf assets
+            cp -r dist/assets .
+            rm -f index.php
