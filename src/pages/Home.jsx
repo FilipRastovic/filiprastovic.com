@@ -14,7 +14,22 @@ function Divider() {
 
 export default function Home() {
   return (
-    <div style={{ padding: '2.5rem max(1.5rem, calc((100% - 900px)/2))' }}>
+    <div>
+      {/* Full-width cinematic cover */}
+      <style>{`
+        .hero-cover { height: clamp(192px, 25vw, 384px); }
+        @media (max-width: 600px) { .hero-cover { height: 320px; } }
+      `}</style>
+      <div className="hero-cover" style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
+        <img
+          src="/images/hero-cover.webp"
+          alt="Generative pyramid city"
+          style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center', display: 'block' }}
+        />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, transparent 50%, #020c0c 100%)' }} />
+      </div>
+
+      <div style={{ padding: '2.5rem max(1.5rem, calc((100% - 740px)/2))' }}>
       <Animator>
         <Header />
       </Animator>
@@ -30,6 +45,7 @@ export default function Home() {
       <MediaSection />
       <Divider />
       <ArtSection />
+      </div>
     </div>
   )
 }

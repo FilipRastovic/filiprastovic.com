@@ -5,7 +5,7 @@ const images = ['funky-town-1.jpg','funky-town-2.png','funky-town-3.png','funky-
 
 export default function FunkyTown() {
   return (
-    <ArticleLayout title="Funky Town – 3D Stylized House City" date="2024" tags={['3D Art', 'Cinema 4D', 'Octane Render']}>
+    <ArticleLayout title="Funky Town - 3D Stylized House City" date="2024" tags={['3D Art', 'Cinema 4D', 'Octane Render']}>
       <p style={{ marginBottom: '1.5rem' }}>Personal project. Took some house ideas from Angelo Fernandez. Modeled in Cinema 4D, rendered in Octane Render.</p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
         {images.map((img, i) => (

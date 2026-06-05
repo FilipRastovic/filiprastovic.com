@@ -13,21 +13,21 @@ const mentions = [
 
 export default function MediaSection() {
   return (
-    <section id="media" style={{ marginBottom: '3rem' }}>
+    <section id="media" style={{ marginBottom: '5rem' }}>
       <SectionLabel>Mentions in Media</SectionLabel>
-      <p style={{ fontSize: '13px', color: colors.textMuted, marginBottom: '1rem', fontStyle: 'italic' }}>
-        I used to do 3D art a bit — it got kind of viral. Got offers from Google &amp; Microsoft.
+      <p style={{ fontSize: '17px', color: colors.textMuted, marginBottom: '1.5rem', fontStyle: 'italic' }}>
+        I used to do 3D art a bit - it got kind of viral. Got offers from Google &amp; Microsoft.
       </p>
       <div style={{ border: `1px solid ${colors.border}`, borderBottom: 'none' }}>
         {mentions.map(m => (
           <Animator key={m.href}>
             <Animated animated={[fade(), transition('x', -8, 0)]}>
-              <a href={m.href} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.85rem 1rem', borderBottom: `1px solid ${colors.border}`, textDecoration: 'none', color: 'inherit' }}>
+              <a href={m.href} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1.25rem 1.5rem', borderBottom: `1px solid ${colors.border}`, textDecoration: 'none', color: 'inherit' }}>
                 <div>
-                  <div style={{ fontSize: '14px', fontWeight: 600, color: colors.text, marginBottom: '2px', textDecoration: 'underline', textDecorationColor: colors.border }}>{m.label}</div>
-                  <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '11px', color: colors.textMuted }}>{m.sub}</div>
+                  <div style={{ fontSize: '19px', fontWeight: 600, color: colors.text, marginBottom: '4px', textDecoration: 'underline', textDecorationColor: colors.border }}>{m.label}</div>
+                  <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '13px', color: colors.textMuted }}>{m.sub}</div>
                 </div>
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ width: '13px', height: '13px', color: colors.primary, flexShrink: 0 }}>
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ width: '16px', height: '16px', color: colors.primary, flexShrink: 0 }}>
                   <path d="M3 13L13 3M13 3H7M13 3v6"/>
                 </svg>
               </a>

@@ -5,7 +5,7 @@ const images = ['silvermoon-1.jpg','silvermoon-2.jpg','silvermoon-3.jpg','silver
 
 export default function SilvermoonTown() {
   return (
-    <ArticleLayout title="Silvermoon Town – Abstract 3D Compositions" date="2024" tags={['3D Art', 'Cinema 4D', 'Design']}>
+    <ArticleLayout title="Silvermoon Town - Abstract 3D Compositions" date="2024" tags={['3D Art', 'Cinema 4D', 'Design']}>
       <p style={{ marginBottom: '1.5rem' }}>Some renders I did inspired by Peter Tarka and Omar Aqil.</p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
         {images.map((img, i) => (

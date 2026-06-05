@@ -15,22 +15,22 @@ const stack = [
 
 export default function StackSection() {
   return (
-    <section id="stack" style={{ marginBottom: '3rem' }}>
+    <section id="stack" style={{ marginBottom: '5rem' }}>
       <SectionLabel>Stack</SectionLabel>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '0.6rem' }}>
-        {stack.map((item, i) => (
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '0.75rem' }}>
+        {stack.map((item) => (
           <Animator key={item.name}>
             <Animated animated={[fade(), transition('y', 8, 0)]}>
               <div style={{
-                padding: '0.6rem 0.75rem',
+                padding: '1.1rem 1.25rem',
                 border: `1px solid ${colors.border}`,
                 background: 'rgba(0,200,160,0.03)',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '2px',
+                gap: '5px',
               }}>
-                <span style={{ fontFamily: "'Titillium Web', sans-serif", fontSize: '13px', fontWeight: 600, color: colors.text }}>{item.name}</span>
-                <span style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '10px', color: colors.primary, letterSpacing: '0.08em' }}>{item.tag}</span>
+                <span style={{ fontFamily: "'Titillium Web', sans-serif", fontSize: '20px', fontWeight: 700, color: colors.text }}>{item.name}</span>
+                <span style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '12px', color: colors.primary, letterSpacing: '0.08em' }}>{item.tag}</span>
               </div>
             </Animated>
           </Animator>

@@ -2,7 +2,7 @@ import ArticleLayout from '../../components/blog/ArticleLayout.jsx'
 
 export default function BootstrapChatTutorial() {
   return (
-    <ArticleLayout title="Bootstrap Chat App UI – Code-Along Tutorial" date="2019" tags={['Tutorial', 'Bootstrap', 'HTML/CSS']}>
+    <ArticleLayout title="Bootstrap Chat App UI - Code-Along Tutorial" date="2019" tags={['Tutorial', 'Bootstrap', 'HTML/CSS']}>
       <p style={{ marginBottom: '1.5rem' }}>
         A coding video lesson I shot on June 30, 2019. Code is available on{' '}
         <a href="https://codepen.io/FilipRastovic/pen/pXgqKK" target="_blank" rel="noopener noreferrer">CodePen</a>{' '}and{' '}

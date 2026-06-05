@@ -11,6 +11,7 @@ export default function ArwesCard({ children, style = {}, accent = false }) {
           padding: '1.25rem 1.5rem',
           background: accent ? 'rgba(0,255,180,0.04)' : 'rgba(2,20,20,0.6)',
           color: accent ? colors.primary : colors.border,
+          '--arwes-frames-bg-color': 'transparent',
           ...style,
         }}
       >

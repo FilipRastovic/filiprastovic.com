@@ -5,7 +5,7 @@ const images = ['structure-3d-1.png','structure-3d-2.png','structure-3d-3.png','
 
 export default function Structure3dAbstract() {
   return (
-    <ArticleLayout title="Structure – 3D Abstract Geometric Composition" date="2022" tags={['3D Art', 'Cinema 4D', 'Abstract']}>
+    <ArticleLayout title="Structure - 3D Abstract Geometric Composition" date="2022" tags={['3D Art', 'Cinema 4D', 'Abstract']}>
       <p style={{ marginBottom: '1.5rem' }}>Some 3D renders I did in 2022.</p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
         {images.map((img, i) => (

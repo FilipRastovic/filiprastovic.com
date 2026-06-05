@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer style={{
       borderTop: `1px solid ${colors.border}`,
-      padding: '1.5rem max(1.5rem, calc((100% - 900px)/2))',
+      padding: '1.5rem max(1.5rem, calc((100% - 740px)/2))',
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',

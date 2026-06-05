@@ -3,16 +3,16 @@ import { colors } from '../../theme.js'
 
 export default function DtcEcommerceCro() {
   return (
-    <ArticleLayout title="DTC E-Commerce Conversion Optimization – Usability" date="March 2024" tags={['CRO', 'Design', 'Usability']}>
+    <ArticleLayout title="DTC E-Commerce Conversion Optimization - Usability" date="March 2024" tags={['CRO', 'Design', 'Usability']}>
       <p>In the following four screenshots I want to demonstrate how an e-commerce UI can be redesigned for greater usability. Changes like these increase profit margins, conversion rates and lower cost per acquisition, without increasing the ad spend.</p>
 
       <figure style={{ margin: '2rem 0', border: `1px solid ${colors.border}` }}>
-        <img src="/images/blog/dtc-landing-1.png" alt="Landing page redesign – before and after" style={{ width: '100%', height: 'auto', display: 'block' }} />
+        <img src="/images/blog/dtc-landing-1.png" alt="Landing page redesign - before and after" style={{ width: '100%', height: 'auto', display: 'block' }} />
       </figure>
 
       <ol style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         <li>Added a top header with some sale information.</li>
-        <li>Added a logo and a call to action below it — a common mental model.</li>
+        <li>Added a logo and a call to action below it - a common mental model.</li>
         <li>Made the main heading much smaller but still readable on mobile.</li>
         <li>Added a short subheading with reviews and a discount CTA.</li>
         <li>Added a related image with a customer testimonial.</li>

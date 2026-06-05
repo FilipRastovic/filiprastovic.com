@@ -5,12 +5,12 @@ export default function SectionLabel({ children }) {
     <div style={{
       display: 'flex',
       alignItems: 'center',
-      gap: '12px',
-      marginBottom: '1.25rem',
+      gap: '16px',
+      marginBottom: '2rem',
     }}>
       <span style={{
         fontFamily: "'Share Tech Mono', monospace",
-        fontSize: '10px',
+        fontSize: '16px',
         fontWeight: 700,
         letterSpacing: '0.15em',
         textTransform: 'uppercase',

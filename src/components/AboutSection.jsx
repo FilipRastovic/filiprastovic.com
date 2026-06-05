@@ -14,29 +14,29 @@ const skills = [
 
 export default function AboutSection() {
   return (
-    <section id="about" style={{ marginBottom: '3rem' }}>
+    <section id="about" style={{ marginBottom: '5rem' }}>
       <SectionLabel>About</SectionLabel>
       <Animator>
         <Animated animated={[fade()]}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem' }}>
-            <p style={{ fontSize: '14px', lineHeight: 1.75, color: colors.text }}>
-              Senior Shopify Developer and full-stack software engineer with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. I've worked with global brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition. My work blends engineering, CRO principles, and product thinking — focusing on reliability, performance, and revenue impact.
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.75rem' }}>
+            <p style={{ fontSize: '19px', lineHeight: 1.85, color: colors.text }}>
+              Senior Shopify Developer and full-stack software engineer with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. I've worked with global brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition. My work blends engineering, CRO principles, and product thinking, focusing on reliability, performance, and revenue impact.
             </p>
-            <p style={{ fontSize: '14px', lineHeight: 1.75, color: colors.text }}>
-              I work full-stack across the modern Shopify ecosystem (Liquid, Hydrogen, Remix, Storefront &amp; Admin GraphQL APIs) as well as PHP/Laravel, Node, SQL, and Python for tooling, migrations, and data work.
+            <p style={{ fontSize: '19px', lineHeight: 1.85, color: colors.text }}>
+              I work full-stack across the modern Shopify ecosystem (Liquid, Hydrogen, Remix, Storefront &amp; Admin GraphQL APIs) as well as PHP/Laravel, Node, SQL, and Python for tooling, migrations, and data work. Used to live in the World of Warcraft as a teenager, defeating the Lich King with the guild &lt;Digital Crew&gt; that I led.
             </p>
-            <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '0.5rem' }}>
+            <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
               {skills.map(s => (
                 <li key={s} style={{
                   fontFamily: "'Share Tech Mono', monospace",
-                  fontSize: '12px',
+                  fontSize: '15px',
                   color: colors.textMuted,
-                  padding: '0.5rem 0.75rem',
+                  padding: '0.75rem 1rem',
                   borderLeft: `2px solid ${colors.primaryDim}`,
                   background: 'rgba(0,200,160,0.03)',
                   lineHeight: 1.5,
                 }}>
-                  <span style={{ color: colors.primary, marginRight: '6px' }}>›</span>{s}
+                  <span style={{ color: colors.primary, marginRight: '8px' }}>›</span>{s}
                 </li>
               ))}
             </ul>

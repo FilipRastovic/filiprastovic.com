@@ -47,7 +47,7 @@ export default function Nav() {
               alignItems: 'center',
               gap: '10px',
               padding: '0 28px',
-              fontSize: '10px',
+              fontSize: '11px',
               fontWeight: 600,
               letterSpacing: '0.1em',
               textTransform: 'uppercase',
@@ -66,7 +66,7 @@ export default function Nav() {
         background: 'rgba(2,12,12,0.92)',
         backdropFilter: 'blur(20px)',
         borderBottom: `1px solid ${colors.border}`,
-        padding: '0 max(1.5rem, calc((100% - 900px)/2))',
+        padding: '0 max(1.5rem, calc((100% - 740px)/2))',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -75,18 +75,18 @@ export default function Nav() {
         <Link to="/" style={{ textDecoration: 'none' }}>
           <span style={{
             fontFamily: "'Share Tech Mono', monospace",
-            fontSize: '14px',
+            fontSize: '15px',
             fontWeight: 700,
             color: colors.primary,
             letterSpacing: '0.05em',
           }}>FR://</span>
-          <span style={{ color: colors.text, fontSize: '13px', marginLeft: '6px' }}>Filip Rastovic</span>
+          <span style={{ color: colors.text, fontSize: '14px', marginLeft: '6px' }}>Filip Rastovic</span>
         </Link>
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
           {navLinks.map(l => (
             <NavLink key={l.to} to={l.to} end style={({ isActive }) => ({
               textDecoration: 'none',
-              fontSize: '12px',
+              fontSize: '13px',
               fontWeight: 600,
               letterSpacing: '0.08em',
               textTransform: 'uppercase',
@@ -100,7 +100,7 @@ export default function Nav() {
           ))}
           <a href="mailto:filiporastovic@gmail.com" style={{
             textDecoration: 'none',
-            fontSize: '11px',
+            fontSize: '12px',
             fontWeight: 600,
             letterSpacing: '0.08em',
             textTransform: 'uppercase',
