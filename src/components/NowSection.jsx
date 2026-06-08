@@ -40,7 +40,7 @@ export default function NowSection() {
     <section id="now" style={{ marginBottom: '5rem' }}>
       <SectionLabel>Now</SectionLabel>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem' }}>
-        <NowCard label="Independent Contractor" value="Head of Web Dev" sub="Web dev & CRO" accent />
+        <NowCard label="Current Role" value="Head of Web Development" sub="Perform Digital Media · UK agency" accent />
         <NowCard label="Building" value="Lander.rs" sub="AI landing page builder for lead gen" accent href="https://lander.rs" />
         <NowCard label="Location" value="Serbia" sub="GMT+2 · Available remotely" />
         <NowCard label="Status" value="Open to projects" sub="Custom Shopify work" />

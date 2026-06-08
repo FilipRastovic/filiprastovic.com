@@ -98,13 +98,13 @@ export default function Header() {
       <Animator>
         <Animated animated={[fade()]}>
           <p style={{ fontSize: '20px', lineHeight: 1.85, color: colors.text, maxWidth: '720px' }}>
-            I'm a <strong style={{ color: colors.primary }}>Senior Shopify Developer</strong> and{' '}
-            <strong style={{ color: colors.primary }}>Full-Stack Software Engineer</strong> based in{' '}
+            I'm a <strong style={{ color: colors.primary }}>Software Engineer</strong> and{' '}
+            <strong style={{ color: colors.primary }}>Head of Web Development</strong> at a UK digital agency, based in{' '}
             <strong style={{ color: colors.primary }}>Novi Sad, Serbia</strong>, with{' '}
             <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong> and a{' '}
-            <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong>. I build high-converting
-            Shopify stores, Shopify Plus implementations, headless Shopify (Hydrogen / Remix) builds, and custom web
-            applications for global brands, working remotely worldwide. Outside of work I enjoy reading, music, guitar,
+            <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong>. I lead a team of
+            developers and designers building Shopify and WooCommerce projects end-to-end — from architecture and custom
+            app development (Hydrogen / Remix) to CRO and performance. Outside of work I enjoy reading, music, guitar,
             gaming, gym, gardening &amp; landscaping.
           </p>
         </Animated>
