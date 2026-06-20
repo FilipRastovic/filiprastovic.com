@@ -16,9 +16,13 @@ jobs:
           username: u111992089
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
+            set -e
             cd ~/public_html
             git pull origin main
+            npm ci
             npm run build
+            test -f dist/index.html
+            test -d dist/assets
             cp dist/index.html index.html
             rm -rf assets
             cp -r dist/assets .
