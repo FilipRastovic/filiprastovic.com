@@ -1,7 +1,9 @@
 import { Link, NavLink } from 'react-router-dom'
 import { Animator, Animated, Text, fade, transition } from '@arwes/react'
-import { colors } from '../theme.js'
+import { colors, fonts } from '../theme.js'
 import { useState, useEffect } from 'react'
+
+const CONTACT_EMAIL = 'filiporastovic@gmail.com'
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -23,6 +25,7 @@ const tickerItems = [
 export default function Nav() {
   const [active, setActive] = useState(true)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [contactOpen, setContactOpen] = useState(false)
 
   return (
     <nav style={{ position: 'sticky', top: 0, zIndex: 100 }}>
@@ -98,7 +101,7 @@ export default function Nav() {
               {l.label}
             </NavLink>
           ))}
-          <a href="mailto:filiporastovic@gmail.com" style={{
+          <button onClick={() => setContactOpen(true)} style={{
             textDecoration: 'none',
             fontSize: '12px',
             fontWeight: 600,
@@ -108,9 +111,11 @@ export default function Nav() {
             border: `1px solid ${colors.accent}`,
             padding: '4px 12px',
             fontFamily: "'Share Tech Mono', monospace",
+            background: 'none',
+            cursor: 'pointer',
           }}>
             Contact
-          </a>
+          </button>
         </div>
       </div>
       <style>{`
@@ -120,6 +125,68 @@ export default function Nav() {
           .nav-links a { font-size: 11px !important; }
         }
       `}</style>
+
+      {contactOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Contact"
+          onClick={() => setContactOpen(false)}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            zIndex: 1000,
+            background: 'rgba(0,5,5,0.75)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '1.5rem',
+          }}
+        >
+          <div onClick={(e) => e.stopPropagation()} style={{
+            position: 'relative',
+            width: '100%',
+            maxWidth: '360px',
+            background: colors.bgCard,
+            border: `1px solid ${colors.border}`,
+            boxShadow: '0 0 40px rgba(0,200,160,0.15)',
+            padding: '2rem',
+            textAlign: 'center',
+          }}>
+            <button onClick={() => setContactOpen(false)} aria-label="Close" style={{
+              position: 'absolute',
+              top: '10px',
+              right: '10px',
+              background: 'none',
+              border: 'none',
+              color: colors.textMuted,
+              fontSize: '18px',
+              lineHeight: 1,
+              cursor: 'pointer',
+            }}>✕</button>
+            <div style={{
+              fontFamily: fonts.mono,
+              fontSize: '11px',
+              letterSpacing: '0.1em',
+              textTransform: 'uppercase',
+              color: colors.primaryDim,
+              marginBottom: '0.75rem',
+            }}>
+              Get in touch
+            </div>
+            <a href={`mailto:${CONTACT_EMAIL}`} style={{
+              display: 'block',
+              fontFamily: fonts.mono,
+              fontSize: '17px',
+              color: colors.primary,
+              textDecoration: 'none',
+              wordBreak: 'break-all',
+            }}>
+              {CONTACT_EMAIL}
+            </a>
+          </div>
+        </div>
+      )}
     </nav>
   )
 }
