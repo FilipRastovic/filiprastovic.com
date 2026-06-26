@@ -103,8 +103,8 @@ export default function Header() {
             <strong style={{ color: colors.primary }}>Novi Sad, Serbia</strong>, with{' '}
             <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong> and a{' '}
             <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong>. I lead a team of
-            developers and designers building Shopify and WooCommerce projects end-to-end — from architecture and custom
-            app development (Hydrogen / Remix) to CRO and performance. Outside of work I enjoy reading, music, guitar,
+            developers and designers building Shopify Plus and headless Hydrogen projects end-to-end — from architecture and custom
+            app development to CRO and performance. Outside of work I enjoy reading, music, guitar,
             gaming, gym, gardening &amp; landscaping.
           </p>
         </Animated>

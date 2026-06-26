@@ -3,13 +3,15 @@ import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
 const skills = [
-  'HTML, CSS, JavaScript, Liquid, Laravel, Next',
-  'Python / JS scripting for migrations + tooling',
-  'Database development + complex SQL',
+  'Shopify Hydrogen (React Router) — headless storefronts',
+  'Shopify Plus, Liquid & Checkout Extensibility',
+  'Python / Django — APIs & ERP/PIM/CRM integrations',
+  'GraphQL (Shopify Admin & Storefront APIs)',
+  'Algolia search & Storyblok CMS',
+  'CI/CD pipelines & Shopify Oxygen deployments',
   'Speed & Performance Optimization',
-  'CRO & A/B Testing fundamentals',
+  'CRO & A/B Testing',
   'UX/UI implementation from Figma',
-  'Data-driven problem solving',
 ]
 
 export default function AboutSection() {
@@ -20,10 +22,10 @@ export default function AboutSection() {
         <Animated animated={[fade()]}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.75rem' }}>
             <p style={{ fontSize: '19px', lineHeight: 1.85, color: colors.text }}>
-              Software Engineer and Head of Web Development with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. I currently lead a team of developers and designers at a UK digital agency, architecting Shopify and WooCommerce solutions for global clients. I've worked with brands including Wholesome Goods, Cosy House Collection, Bare Home, Linjer, and Hey Nutrition, and freelanced for Google as a designer. My work blends engineering, CRO principles, and product thinking, focusing on reliability, performance, and revenue impact.
+              Software Engineer and Head of Web Development with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. My background is full-stack engineering, but my day-to-day sits at the intersection of <strong style={{ color: colors.primary }}>Shopify Plus/Hydrogen development</strong>, engineering management, and conversion optimization. I've worked with brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Hey Nutrition, Linjer, Lucy Pittaway, and eTech Mobility.
             </p>
             <p style={{ fontSize: '19px', lineHeight: 1.85, color: colors.text }}>
-              I work full-stack across the modern Shopify ecosystem (Liquid, Hydrogen, Remix, Storefront &amp; Admin GraphQL APIs) as well as PHP/Laravel, Node, SQL, and Python for tooling, migrations, and data work. Used to live in the World of Warcraft as a teenager, defeating the Lich King with the guild &lt;Digital Crew&gt; that I led.
+              The work ranges from custom Shopify Hydrogen storefronts (React Router) and headless builds to Python/Django backend integrations, complex catalog migrations, checkout extensibility, B2B/wholesale features, Algolia search, Storyblok CMS, and CI/CD pipelines. While coding is my main craft, 3D art is my hobby (Cinema 4D, Octane Render) — which gives me a real edge on design-heavy, cross-functional projects.
             </p>
             <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
               {skills.map(s => (
