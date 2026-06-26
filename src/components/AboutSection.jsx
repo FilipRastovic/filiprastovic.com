@@ -7,7 +7,6 @@ const skills = [
   'Shopify Plus, Liquid & Checkout Extensibility',
   'Python / Django — APIs & ERP/PIM/CRM integrations',
   'GraphQL (Shopify Admin & Storefront APIs)',
-  'Algolia search & Storyblok CMS',
   'CI/CD pipelines & Shopify Oxygen deployments',
   'Speed & Performance Optimization',
   'CRO & A/B Testing',
