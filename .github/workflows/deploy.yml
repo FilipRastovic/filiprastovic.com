@@ -19,6 +19,7 @@ jobs:
             set -e
             cd ~/public_html
             git pull origin main
+            git restore index.html
             npm ci
             npm run build
             test -f dist/index.html
