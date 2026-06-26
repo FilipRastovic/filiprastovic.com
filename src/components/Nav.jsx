@@ -1,5 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
-import { Animator, Animated, Text, fade, transition } from '@arwes/react'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import { colors, fonts } from '../theme.js'
 import { useState, useEffect } from 'react'
 
@@ -23,9 +22,11 @@ const tickerItems = [
 ]
 
 export default function Nav() {
-  const [active, setActive] = useState(true)
   const [menuOpen, setMenuOpen] = useState(false)
   const [contactOpen, setContactOpen] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => { setMenuOpen(false) }, [location])
 
   return (
     <nav style={{ position: 'sticky', top: 0, zIndex: 100 }}>
@@ -85,7 +86,9 @@ export default function Nav() {
           }}>FR://</span>
           <span style={{ color: colors.text, fontSize: '14px', marginLeft: '6px' }}>Filip Rastovic</span>
         </Link>
-        <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="nav-links">
+
+        {/* Desktop nav */}
+        <div className="nav-desktop" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
           {navLinks.map(l => (
             <NavLink key={l.to} to={l.to} end style={({ isActive }) => ({
               textDecoration: 'none',
@@ -102,7 +105,6 @@ export default function Nav() {
             </NavLink>
           ))}
           <button onClick={() => setContactOpen(true)} style={{
-            textDecoration: 'none',
             fontSize: '12px',
             fontWeight: 600,
             letterSpacing: '0.08em',
@@ -117,12 +119,78 @@ export default function Nav() {
             Contact
           </button>
         </div>
+
+        {/* Hamburger button — mobile only */}
+        <button
+          className="nav-hamburger"
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          onClick={() => setMenuOpen(o => !o)}
+          style={{
+            display: 'none',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '6px',
+            color: colors.primary,
+          }}
+        >
+          {menuOpen
+            ? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ width: 22, height: 22 }}><path d="M18 6L6 18M6 6l12 12"/></svg>
+            : <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ width: 22, height: 22 }}><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          }
+        </button>
       </div>
+
+      {/* Mobile dropdown */}
+      {menuOpen && (
+        <div className="nav-mobile-menu" style={{
+          background: 'rgba(2,12,12,0.97)',
+          backdropFilter: 'blur(20px)',
+          borderBottom: `1px solid ${colors.border}`,
+          padding: '0.5rem max(1.5rem, calc((100% - 740px)/2)) 1rem',
+        }}>
+          {navLinks.map(l => (
+            <NavLink key={l.to} to={l.to} end style={({ isActive }) => ({
+              display: 'block',
+              textDecoration: 'none',
+              fontSize: '15px',
+              fontWeight: 600,
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              color: isActive ? colors.primary : colors.text,
+              padding: '0.85rem 0',
+              borderBottom: `1px solid ${colors.border}`,
+              fontFamily: "'Share Tech Mono', monospace",
+            })}>
+              {l.label}
+            </NavLink>
+          ))}
+          <button onClick={() => { setMenuOpen(false); setContactOpen(true) }} style={{
+            display: 'block',
+            width: '100%',
+            marginTop: '0.85rem',
+            fontSize: '13px',
+            fontWeight: 600,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            color: colors.accent,
+            border: `1px solid ${colors.accent}`,
+            padding: '10px 0',
+            fontFamily: "'Share Tech Mono', monospace",
+            background: 'none',
+            cursor: 'pointer',
+            textAlign: 'center',
+          }}>
+            Contact
+          </button>
+        </div>
+      )}
+
       <style>{`
         @keyframes ticker { from { transform: translateX(0) } to { transform: translateX(-50%) } }
         @media (max-width: 600px) {
-          .nav-links { gap: 1rem !important; }
-          .nav-links a { font-size: 11px !important; }
+          .nav-desktop { display: none !important; }
+          .nav-hamburger { display: flex !important; }
         }
       `}</style>
 
