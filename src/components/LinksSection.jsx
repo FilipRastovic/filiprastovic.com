@@ -6,7 +6,7 @@ import { colors } from '../theme.js'
 const links = [
   { href: 'https://misfitlinks.me', label: 'Misfitlinks', sub: 'misfitlinks.me', external: true },
   { href: 'https://lander.rs/', label: 'Lander.rs', sub: 'My no-code website builder app', external: true },
-  { href: 'https://pdfflipbook.app/', label: 'PDF Flipbook', sub: 'Shopify app — pdfflipbook.app', external: true },
+  { href: 'https://pdfflipbook.app/', label: 'PDF Flipbook', sub: 'Shopify app - pdfflipbook.app', external: true },
   { href: 'https://stargazerstudio.net/portfolio', label: 'Web Development Portfolio', sub: 'stargazerstudio.net/portfolio', external: true },
   { href: 'https://stargazerstudio.net/case-studies', label: 'Case Studies (CRO)', sub: 'stargazerstudio.net/case-studies', external: true },
   { href: 'https://github.com/FilipRastovic', label: 'GitHub', sub: 'github.com/FilipRastovic', external: true },

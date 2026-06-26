@@ -3,9 +3,9 @@ import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
 const skills = [
-  'Shopify Hydrogen (React Router) — headless storefronts',
+  'Shopify Hydrogen (React Router) - headless storefronts',
   'Shopify Plus, Liquid & Checkout Extensibility',
-  'Python / Django — APIs & ERP/PIM/CRM integrations',
+  'Python / Django - APIs & ERP/PIM/CRM integrations',
   'GraphQL (Shopify Admin & Storefront APIs)',
   'CI/CD pipelines & Shopify Oxygen deployments',
   'Speed & Performance Optimization',
@@ -24,7 +24,7 @@ export default function AboutSection() {
               Software Engineer and Head of Web Development with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. My background is full-stack engineering, but my day-to-day sits at the intersection of <strong style={{ color: colors.primary }}>Shopify Plus/Hydrogen development</strong>, engineering management, and conversion optimization. I've worked with brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Hey Nutrition, Linjer, Lucy Pittaway, and eTech Mobility.
             </p>
             <p style={{ fontSize: '19px', lineHeight: 1.85, color: colors.text }}>
-              The work ranges from custom Shopify Hydrogen storefronts (React Router) and headless builds to Python/Django backend integrations, complex catalog migrations, checkout extensibility, B2B/wholesale features, Algolia search, Storyblok CMS, and CI/CD pipelines. While coding is my main craft, 3D art is my hobby (Cinema 4D, Octane Render) — which gives me a real edge on design-heavy, cross-functional projects.
+              The work ranges from custom Shopify Hydrogen storefronts (React Router) and headless builds to Python/Django backend integrations, complex catalog migrations, checkout extensibility, B2B/wholesale features, Algolia search, Storyblok CMS, and CI/CD pipelines. While coding is my main craft, 3D art is my hobby (Cinema 4D, Octane Render) - which gives me a real edge on design-heavy, cross-functional projects.
             </p>
             <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
               {skills.map(s => (

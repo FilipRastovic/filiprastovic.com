@@ -120,7 +120,7 @@ export default function Nav() {
           </button>
         </div>
 
-        {/* Hamburger button — mobile only */}
+        {/* Hamburger button - mobile only */}
         <button
           className="nav-hamburger"
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
