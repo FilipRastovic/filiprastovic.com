@@ -5,7 +5,8 @@ import { colors } from '../theme.js'
 const skills = [
   'Shopify Hydrogen (React Router) - headless storefronts',
   'Shopify Plus, Liquid & Checkout Extensibility',
-  'Python / Django - APIs & ERP/PIM/CRM integrations',
+  'ETL pipelines',
+  'Python / php - APIs & ERP/PIM/CRM integrations',
   'GraphQL (Shopify Admin & Storefront APIs)',
   'CI/CD pipelines & Shopify Oxygen deployments',
   'Speed & Performance Optimization',
