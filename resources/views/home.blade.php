@@ -19,7 +19,7 @@
     <div class="header-roles">
       <span>Senior Shopify Developer</span>
       <span>Full-Stack Software Engineer</span>
-      <span>CRO Specialist</span>
+      <span>E-Commerce Solutions Architect</span>
     </div>
     <p>I'm a <strong>Senior Shopify Developer</strong> and <strong>Full-Stack Software Engineer</strong> based in <strong>Novi Sad, Serbia</strong>, with <strong>10+ years of professional web development experience</strong> and a <strong>Bachelor's degree in Software Engineering</strong>. I build high-converting Shopify stores, Shopify Plus implementations, and custom web applications for global brands - working remotely worldwide. Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping. Used to live in the <strong>World of Warcraft</strong> as a teenager, defeating the Lich King with the guild <strong>&lt;Digital Crew&gt;</strong> that I led.</p>
   </header>

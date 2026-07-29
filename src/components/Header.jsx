@@ -76,7 +76,7 @@ export default function Header() {
       <Animator>
         <Animated animated={[fade()]}>
           <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '2.25rem' }}>
-            {['Shopify Consultant', 'Full-Stack Web Developer', 'CRO Specialist'].map(role => (
+            {['Shopify Consultant', 'Full-Stack Web Developer', 'E-Commerce Solutions Architect'].map(role => (
               <span key={role} style={{
                 fontFamily: "'Share Tech Mono', monospace",
                 fontSize: '13px',
@@ -103,7 +103,7 @@ export default function Header() {
             <strong style={{ color: colors.primary }}>Novi Sad, Serbia</strong>, with{' '}
             <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong> and a{' '}
             <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong>. I lead a team of
-            developers and designers building Shopify Plus and headless Hydrogen projects end-to-end - from architecture and custom
+            developers and designers building Shopify Plus projects end-to-end - from architecture and custom
             app development to CRO and performance. Outside of work I enjoy reading, music, guitar,
             gaming, gym, gardening &amp; landscaping.
           </p>

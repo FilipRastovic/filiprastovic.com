@@ -13,7 +13,7 @@ const tickerItems = [
   'Senior Shopify Developer',
   'Full-Stack Software Engineer',
   'Novi Sad, Serbia',
-  'CRO Specialist',
+  'E-Commerce Solutions Architect',
   'Available Remotely',
   'Shopify Plus',
   'Hydrogen / Remix',

@@ -6,7 +6,7 @@
   <title>{{ $title ?? 'Filip Rastovic – Senior Shopify Developer & Full-Stack Software Engineer | Serbia' }}</title>
   <meta name="description" content="@yield('description', 'Filip Rastovic is a Senior Shopify Developer and Full-Stack Software Engineer based in Novi Sad, Serbia, with 10+ years of web development experience and a Bachelor\'s degree in Software Engineering. Building high-converting Shopify stores for global brands including Google, Johnson & Johnson, and Cosy House Collection.')" />
   <meta name="author" content="Filip Rastovic" />
-  <meta name="keywords" content="Senior Shopify Developer, Shopify Developer Serbia, Shopify Expert Serbia, Full-Stack Software Engineer, Shopify Plus Developer, Liquid Developer, Hydrogen, Remix, Laravel, CRO Specialist, Novi Sad Web Developer, Filip Rastovic" />
+  <meta name="keywords" content="Senior Shopify Developer, Shopify Developer Serbia, Shopify Expert Serbia, Full-Stack Software Engineer, Shopify Plus Developer, Liquid Developer, Hydrogen, Remix, Laravel, E-Commerce Solutions Architect, Novi Sad Web Developer, Filip Rastovic" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="language" content="English" />
   <meta name="revisit-after" content="7 days" />
