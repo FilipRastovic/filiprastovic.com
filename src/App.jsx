@@ -3,6 +3,8 @@ import { AnimatorGeneralProvider } from '@arwes/react'
 import { BleepsProvider } from '@arwes/react'
 import Layout from './components/Layout.jsx'
 import Home from './pages/Home.jsx'
+import Gallery from './pages/Gallery.jsx'
+import Testimonials from './pages/Testimonials.jsx'
 import Blog from './pages/Blog.jsx'
 import DtcEcommerceCro from './pages/blog/DtcEcommerceCro.jsx'
 import Structure3dAbstract from './pages/blog/Structure3dAbstract.jsx'
@@ -27,6 +29,8 @@ export default function App() {
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/dtc-ecommerce-cro" element={<DtcEcommerceCro />} />
               <Route path="/blog/structure-3d-abstract" element={<Structure3dAbstract />} />

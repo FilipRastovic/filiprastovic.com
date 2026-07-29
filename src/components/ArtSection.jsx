@@ -22,7 +22,7 @@ export default function ArtSection() {
       <p style={{ fontSize: '17px', lineHeight: 1.8, color: colors.textMuted, marginBottom: '1.75rem' }}>
         Rendered in <strong style={{ color: colors.text }}>Cinema 4D</strong> using <strong style={{ color: colors.text }}>Octane Render</strong> from 2020-2023. Google and Microsoft reached out off the back of this work. Traditional lighting &amp; composition throughout - one half lit, the other in shadow. <strong style={{ color: colors.primary }}>Free to download</strong> - if you print it, send me a photo.
       </p>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.75rem' }}>
+      <div className="photo-grid" style={{ '--grid-min': '220px', '--grid-gap': '0.75rem' }}>
         {artImages.map((img) => (
           <Animator key={img.src}>
             <Animated animated={[fade(), transition('y', 12, 0)]}>

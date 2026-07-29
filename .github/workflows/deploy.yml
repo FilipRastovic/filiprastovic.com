@@ -8,23 +8,40 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Install sshpass
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq sshpass
+
       - name: Build and deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: 185.224.137.224
-          port: 65002
-          username: u111992089
-          password: ${{ secrets.SSH_PASSWORD }}
-          script: |
-            set -e
-            cd ~/public_html
-            git pull origin main
-            git restore index.html
-            npm ci
-            npm run build
-            test -f dist/index.html
-            test -d dist/assets
-            cp dist/index.html index.html
-            rm -rf assets
-            cp -r dist/assets .
-            rm -f index.php
+        env:
+          SSHPASS: ${{ secrets.SSH_PASSWORD }}
+        run: |
+          max_attempts=3
+          attempt=0
+          until [ "$attempt" -ge "$max_attempts" ]; do
+            attempt=$((attempt + 1))
+            echo "Deploy attempt $attempt/$max_attempts..."
+            if sshpass -e ssh -o StrictHostKeyChecking=no -o ConnectTimeout=60 -o ServerAliveInterval=15 -p 65002 u111992089@185.224.137.224 '
+              set -e
+              cd ~/public_html
+              git pull origin main
+              git restore index.html
+              npm ci
+              npm run build
+              test -f dist/index.html
+              test -d dist/assets
+              cp dist/index.html index.html
+              rm -rf assets
+              cp -r dist/assets .
+              rm -f index.php
+            '; then
+              echo "Deploy succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "Attempt $attempt failed."
+            if [ "$attempt" -lt "$max_attempts" ]; then
+              echo "Retrying in 20s..."
+              sleep 20
+            fi
+          done
+          echo "All $max_attempts attempts failed"
+          exit 1

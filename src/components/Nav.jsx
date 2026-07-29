@@ -6,6 +6,8 @@ const CONTACT_EMAIL = 'filiporastovic@gmail.com'
 
 const navLinks = [
   { to: '/', label: 'Home' },
+  { to: '/gallery', label: 'Gallery' },
+  { to: '/testimonials', label: 'Testimonials' },
   { to: '/blog', label: 'Blog' },
 ]
 
@@ -76,13 +78,15 @@ export default function Nav() {
         justifyContent: 'space-between',
         height: '52px',
       }}>
-        <Link to="/" style={{ textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0 }}>
+        <Link to="/" style={{ textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0, display: 'flex', alignItems: 'center' }}>
+          <img src="/images/logo.svg" alt="" width={20} height={20} style={{ display: 'block', flexShrink: 0 }} />
           <span style={{
             fontFamily: "'Share Tech Mono', monospace",
             fontSize: '15px',
             fontWeight: 700,
             color: colors.primary,
             letterSpacing: '0.05em',
+            marginLeft: '8px',
           }}>FR://</span>
           <span style={{ color: colors.text, fontSize: '14px', marginLeft: '6px' }}>Filip Rastovic</span>
         </Link>
