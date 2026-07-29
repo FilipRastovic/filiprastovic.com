@@ -12,14 +12,14 @@ const navLinks = [
 ]
 
 const tickerItems = [
-  'Senior Shopify Developer',
   'Full-Stack Software Engineer',
   'Novi Sad, Serbia',
   'E-Commerce Solutions Architect',
   'Available Remotely',
-  'Shopify Plus',
-  'Hydrogen / Remix',
-  'Laravel / PHP',
+  'Shopify',
+  'AI Agents',
+  'Custom Ecommerce Integrations',
+  'Data Migrations',
   '10+ Years Experience',
 ]
 
