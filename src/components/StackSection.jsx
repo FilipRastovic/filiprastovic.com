@@ -3,14 +3,17 @@ import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
 const stack = [
-  { name: 'Shopify', tag: 'Platform' }, { name: 'Liquid', tag: 'Templating' },
-  { name: 'React', tag: 'Hydrogen' }, { name: 'CSS / Tailwind', tag: 'Styling' },
-  { name: 'GraphQL', tag: 'Storefront API' }, { name: 'Remix', tag: 'Framework' },
+  { name: 'Shopify', tag: 'Platform' }, { name: 'Shopify Apps', tag: 'Node / Remix' },
+  { name: 'Liquid', tag: 'Templating' }, { name: 'React', tag: 'Hydrogen' },
+  { name: 'TypeScript', tag: 'Language' }, { name: 'Node.js', tag: 'Runtime' },
+  { name: 'CSS / Tailwind', tag: 'Styling' }, { name: 'GraphQL', tag: 'Storefront API' },
+  { name: 'Remix', tag: 'Framework' }, { name: 'AWS', tag: 'Cloud' },
+  { name: 'Kubernetes', tag: 'Orchestration' },
   { name: 'PHP', tag: 'Backend' }, { name: 'Laravel', tag: 'Framework' },
   { name: 'SQL', tag: 'Database' }, { name: 'Python / Pandas', tag: 'Data' },
   { name: 'Figma', tag: 'Design' }, { name: 'Cinema 4D', tag: '3D / Render' },
   { name: 'WordPress', tag: 'CMS' }, { name: 'JavaScript', tag: 'Language' },
-  { name: 'Shopify Apps', tag: 'Extensions' }, { name: 'Photoshop', tag: 'Design' },
+  { name: 'Photoshop', tag: 'Design' },
 ]
 
 export default function StackSection() {

@@ -3,7 +3,11 @@ import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
 const skills = [
+  'Shopify App Development (Node.js, Remix, Admin API)',
+  'OAuth, Webhooks & App Bridge',
   'Shopify Plus, Liquid & Checkout Extensibility',
+  'AWS (EC2, Lambda, S3)',
+  'Kubernetes & Container Orchestration',
   'ETL pipelines',
   'Python / php - APIs & ERP/PIM/CRM integrations',
   'GraphQL (Shopify Admin & Storefront APIs)',
