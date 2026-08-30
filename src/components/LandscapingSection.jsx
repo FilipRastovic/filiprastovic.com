@@ -35,9 +35,9 @@ const photos = [
   { file: 'landscaping-28.webp', w: 1280, h: 960 },
   { file: 'landscaping-29.webp', w: 960, h: 1280 },
   { file: 'landscaping-30.webp', w: 1280, h: 960 },
-]
+].map((p, i) => ({ ...p, num: i + 1 })).reverse()
 
-const images = photos.map((p, i) => ({ src: `/images/${p.file}`, alt: `Landscaping progress photo ${i + 1}` }))
+const images = photos.map((p) => ({ src: `/images/${p.file}`, alt: `Landscaping progress photo ${p.num}` }))
 
 export default function LandscapingSection() {
   const [openIndex, setOpenIndex] = useState(null)
@@ -46,7 +46,7 @@ export default function LandscapingSection() {
     <section id="landscaping" style={{ marginBottom: '5rem', scrollMarginTop: '140px' }}>
       <SectionLabel>Landscaping</SectionLabel>
       <p style={{ fontSize: '17px', lineHeight: 1.8, color: colors.textMuted, marginBottom: '1.75rem' }}>
-        My own backyard, start to finish - from bare dirt to a finished yard. Shown oldest to newest.
+        My own backyard, start to finish - from bare dirt to a finished yard. Shown newest to oldest.
       </p>
       <div className="instagram-grid">
         {photos.map((p, i) => (
@@ -60,7 +60,7 @@ export default function LandscapingSection() {
               <Animated animated={[fade(), transition('y', 12, 0)]} style={{ width: '100%', height: '100%', display: 'block' }}>
                 <img
                   src={`/images/${p.file}`}
-                  alt={`Landscaping progress photo ${i + 1}`}
+                  alt={`Landscaping progress photo ${p.num}`}
                   loading="lazy"
                   width={p.w}
                   height={p.h}
