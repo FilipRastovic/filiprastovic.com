@@ -10,9 +10,7 @@ const sections = [
 
 export default function GallerySubNav() {
   return (
-    <nav style={{
-      position: 'sticky',
-      top: '80px',
+    <nav className="gallery-subnav" style={{
       zIndex: 50,
       display: 'flex',
       flexWrap: 'wrap',
@@ -43,6 +41,12 @@ export default function GallerySubNav() {
           {s.label}
         </a>
       ))}
+      <style>{`
+        .gallery-subnav { position: static; }
+        @media (min-width: 700px) {
+          .gallery-subnav { position: sticky; top: 80px; }
+        }
+      `}</style>
     </nav>
   )
 }
