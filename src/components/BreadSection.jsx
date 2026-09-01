@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
-import Lightbox from './Lightbox.jsx'
+import { useGalleryLightbox } from './GalleryLightboxContext.jsx'
 import { colors } from '../theme.js'
 
 const photos = [
@@ -17,10 +16,10 @@ const photos = [
   { file: 'bread-10.webp', w: 591, h: 1280 },
 ]
 
-const images = photos.map((p, i) => ({ src: `/images/${p.file}`, alt: `Bread baking photo ${i + 1}` }))
+export const images = photos.map((p, i) => ({ src: `/images/${p.file}`, alt: `Bread baking photo ${i + 1}` }))
 
-export default function BreadSection() {
-  const [openIndex, setOpenIndex] = useState(null)
+export default function BreadSection({ offset }) {
+  const { open } = useGalleryLightbox()
 
   return (
     <section id="bread" style={{ marginBottom: '5rem', scrollMarginTop: '140px' }}>
@@ -34,7 +33,7 @@ export default function BreadSection() {
             key={p.file}
             className="grid-item"
             style={{ border: `1px solid ${colors.border}`, background: 'rgba(0,20,20,0.5)' }}
-            onClick={() => setOpenIndex(i)}
+            onClick={() => open(offset + i)}
           >
             <Animator>
               <Animated animated={[fade(), transition('y', 12, 0)]} style={{ width: '100%', height: '100%', display: 'block' }}>
@@ -50,14 +49,6 @@ export default function BreadSection() {
           </div>
         ))}
       </div>
-      {openIndex !== null && (
-        <Lightbox
-          images={images}
-          index={openIndex}
-          onClose={() => setOpenIndex(null)}
-          onNavigate={(delta) => setOpenIndex((i) => (i + delta + images.length) % images.length)}
-        />
-      )}
     </section>
   )
 }

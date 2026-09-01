@@ -1,11 +1,19 @@
 import { Animator, Text } from '@arwes/react'
 import GallerySubNav from '../components/GallerySubNav.jsx'
-import PhotographySection from '../components/PhotographySection.jsx'
-import LandscapingSection from '../components/LandscapingSection.jsx'
-import GardeningSection from '../components/GardeningSection.jsx'
+import PhotographySection, { images as photographyImages } from '../components/PhotographySection.jsx'
+import LandscapingSection, { images as landscapingImages } from '../components/LandscapingSection.jsx'
+import GardeningSection, { images as gardeningImages } from '../components/GardeningSection.jsx'
 import BehanceSection from '../components/BehanceSection.jsx'
-import BreadSection from '../components/BreadSection.jsx'
+import BreadSection, { images as breadImages } from '../components/BreadSection.jsx'
+import { GalleryLightboxProvider } from '../components/GalleryLightboxContext.jsx'
 import { colors } from '../theme.js'
+
+const allImages = [...photographyImages, ...landscapingImages, ...gardeningImages, ...breadImages]
+
+const photographyOffset = 0
+const landscapingOffset = photographyOffset + photographyImages.length
+const gardeningOffset = landscapingOffset + landscapingImages.length
+const breadOffset = gardeningOffset + gardeningImages.length
 
 export default function Gallery() {
   return (
@@ -29,11 +37,13 @@ export default function Gallery() {
         Photography, landscaping, gardening, 3D art, and bread baking.
       </p>
       <GallerySubNav />
-      <PhotographySection />
-      <LandscapingSection />
-      <GardeningSection />
-      <BehanceSection />
-      <BreadSection />
+      <GalleryLightboxProvider images={allImages}>
+        <PhotographySection offset={photographyOffset} />
+        <LandscapingSection offset={landscapingOffset} />
+        <GardeningSection offset={gardeningOffset} />
+        <BehanceSection />
+        <BreadSection offset={breadOffset} />
+      </GalleryLightboxProvider>
     </div>
   )
 }

@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
-import Lightbox from './Lightbox.jsx'
+import { useGalleryLightbox } from './GalleryLightboxContext.jsx'
 import { colors } from '../theme.js'
 
 const photos = [
@@ -37,10 +36,10 @@ const photos = [
   { file: 'landscaping-30.webp', w: 1280, h: 960 },
 ].map((p, i) => ({ ...p, num: i + 1 })).reverse()
 
-const images = photos.map((p) => ({ src: `/images/${p.file}`, alt: `Landscaping progress photo ${p.num}` }))
+export const images = photos.map((p) => ({ src: `/images/${p.file}`, alt: `Landscaping progress photo ${p.num}` }))
 
-export default function LandscapingSection() {
-  const [openIndex, setOpenIndex] = useState(null)
+export default function LandscapingSection({ offset }) {
+  const { open } = useGalleryLightbox()
 
   return (
     <section id="landscaping" style={{ marginBottom: '5rem', scrollMarginTop: '140px' }}>
@@ -54,7 +53,7 @@ export default function LandscapingSection() {
             key={p.file}
             className="grid-item"
             style={{ border: `1px solid ${colors.border}`, background: 'rgba(0,20,20,0.5)' }}
-            onClick={() => setOpenIndex(i)}
+            onClick={() => open(offset + i)}
           >
             <Animator>
               <Animated animated={[fade(), transition('y', 12, 0)]} style={{ width: '100%', height: '100%', display: 'block' }}>
@@ -71,14 +70,6 @@ export default function LandscapingSection() {
           </div>
         ))}
       </div>
-      {openIndex !== null && (
-        <Lightbox
-          images={images}
-          index={openIndex}
-          onClose={() => setOpenIndex(null)}
-          onNavigate={(delta) => setOpenIndex((i) => (i + delta + images.length) % images.length)}
-        />
-      )}
     </section>
   )
 }

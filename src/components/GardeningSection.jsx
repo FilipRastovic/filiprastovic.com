@@ -1,15 +1,15 @@
-import { useState } from 'react'
 import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
-import Lightbox from './Lightbox.jsx'
+import { useGalleryLightbox } from './GalleryLightboxContext.jsx'
 import { colors } from '../theme.js'
 
-const photoNumbers = Array.from({ length: 24 }, (_, i) => 24 - i)
+const photoNumbers = [25, ...Array.from({ length: 24 }, (_, i) => 24 - i)]
 const photos = photoNumbers.map((n) => `gardening-${n}.webp`)
-const images = photos.map((file, i) => ({ src: `/images/${file}`, alt: `Gardening progress photo ${photoNumbers[i]}` }))
 
-export default function GardeningSection() {
-  const [openIndex, setOpenIndex] = useState(null)
+export const images = photos.map((file, i) => ({ src: `/images/${file}`, alt: `Gardening progress photo ${photoNumbers[i]}` }))
+
+export default function GardeningSection({ offset }) {
+  const { open } = useGalleryLightbox()
 
   return (
     <section id="gardening" style={{ marginBottom: '5rem', scrollMarginTop: '140px' }}>
@@ -23,7 +23,7 @@ export default function GardeningSection() {
             key={file}
             className="grid-item"
             style={{ border: `1px solid ${colors.border}`, background: 'rgba(0,20,20,0.5)' }}
-            onClick={() => setOpenIndex(i)}
+            onClick={() => open(offset + i)}
           >
             <Animator>
               <Animated animated={[fade(), transition('y', 12, 0)]} style={{ width: '100%', height: '100%', display: 'block' }}>
@@ -38,14 +38,6 @@ export default function GardeningSection() {
           </div>
         ))}
       </div>
-      {openIndex !== null && (
-        <Lightbox
-          images={images}
-          index={openIndex}
-          onClose={() => setOpenIndex(null)}
-          onNavigate={(delta) => setOpenIndex((i) => (i + delta + images.length) % images.length)}
-        />
-      )}
     </section>
   )
 }
