@@ -29,9 +29,12 @@ jobs:
               npm run build
               test -f dist/index.html
               test -d dist/assets
+              test -d dist/images
               cp dist/index.html index.html
               rm -rf assets
               cp -r dist/assets .
+              rm -rf images
+              cp -r dist/images .
               rm -f index.php
             '; then
               echo "Deploy succeeded on attempt $attempt"
