@@ -14,7 +14,7 @@ const appLinks = [
   },
   {
     href: 'https://www.newgrounds.com/portal/view/713592',
-    label: 'My Video Game',
+    label: 'My Video Game - Trial And Terror',
     domain: 'newgrounds.com',
     description: 'Unity game built solo and published on Newgrounds.',
     external: true,
