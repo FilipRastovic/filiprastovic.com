@@ -25,10 +25,10 @@ export default function AboutSection() {
         <Animated animated={[fade()]}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.75rem' }}>
             <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.7, color: colors.text }}>
-              Software Engineer and Head of Web Development with a <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong> and <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>. My background is full-stack engineering, but my day-to-day sits at the intersection of <strong style={{ color: colors.primary }}>Shopify Plus development</strong>, engineering management, and conversion optimization. I've worked with brands including Google, Johnson &amp; Johnson, Cosy House Collection, Bare Home, Hey Nutrition, Linjer, Lucy Pittaway, and eTech Mobility.
+              These days for clients I mainly work on <strong style={{ color: colors.primary }}>e-commerce stores built on Shopify</strong> - new themes, new functionality, migrations from old systems, development of apps, and integration of multiple APIs and distributed systems related to Shopify. I have lots of experience in <strong style={{ color: colors.primary }}>CRO and split testing</strong> in e-commerce as well.
             </p>
             <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.7, color: colors.text }}>
-              The work ranges from custom Shopify storefronts and headless builds to custom backend integrations, complex catalog migrations, checkout extensibility, B2B/wholesale features, and CI/CD & ETL pipelines. While coding is my main craft, 3D art is my hobby (Cinema 4D, Octane Render) - which gives me a real edge on design-heavy, cross-functional projects.
+              Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping.
             </p>
             <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
               {skills.map(s => (

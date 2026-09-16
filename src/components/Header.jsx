@@ -1,4 +1,5 @@
 import { Animator, Animated, Text, fade, transition } from '@arwes/react'
+import { Link } from 'react-router-dom'
 import { colors } from '../theme.js'
 
 export default function Header() {
@@ -97,15 +98,17 @@ export default function Header() {
 
       <Animator>
         <Animated animated={[fade()]}>
-          <p style={{ fontSize: '20px', lineHeight: 1.85, color: colors.text, maxWidth: '720px' }}>
-            I'm a <strong style={{ color: colors.primary }}>Software Engineer</strong> and{' '}
-            <strong style={{ color: colors.primary }}>Head of Web Development</strong> at a UK digital agency, based in{' '}
-            <strong style={{ color: colors.primary }}>Novi Sad, Serbia</strong>, with{' '}
-            <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong> and a{' '}
-            <strong style={{ color: colors.primary }}>Bachelor's degree in Software Engineering</strong>. I lead a team of
-            developers and designers building Shopify Plus projects end-to-end - from architecture and custom
-            app development to CRO and performance. Outside of work I enjoy reading, music, guitar,
-            gaming, gym, gardening &amp; landscaping.
+          <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.85, color: colors.text, maxWidth: '720px' }}>
+            My name is Filip and this is my personal website where I share my work. It's mostly software, but
+            there's some interesting photos and 3D graphics you'll find if you browse as well. I'm a{' '}
+            <strong style={{ color: colors.primary }}>software engineer</strong> from{' '}
+            <strong style={{ color: colors.primary }}>Novi Sad, Serbia</strong> with{' '}
+            <strong style={{ color: colors.primary }}>10+ years of professional web development experience</strong>.
+            As a remote freelancer I have had the pleasure to collaborate with{' '}
+            <strong style={{ color: colors.primary }}>over 100 clients</strong> from around the globe (see the{' '}
+            <Link to="/testimonials" style={{ color: colors.primary }}>testimonials page</Link> and my Upwork
+            profile). My biggest clients were <strong style={{ color: colors.primary }}>Google</strong> and{' '}
+            <strong style={{ color: colors.primary }}>Johnson &amp; Johnson</strong>.
           </p>
         </Animated>
       </Animator>
