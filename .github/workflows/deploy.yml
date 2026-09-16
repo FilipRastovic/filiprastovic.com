@@ -14,13 +14,16 @@ jobs:
       - name: Build and deploy via SSH
         env:
           SSHPASS: ${{ secrets.SSH_PASSWORD }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
         run: |
           max_attempts=3
           attempt=0
           until [ "$attempt" -ge "$max_attempts" ]; do
             attempt=$((attempt + 1))
             echo "Deploy attempt $attempt/$max_attempts..."
-            if sshpass -e ssh -o StrictHostKeyChecking=no -o ConnectTimeout=60 -o ServerAliveInterval=15 -p 65002 u111992089@185.224.137.224 '
+            if sshpass -e ssh -o StrictHostKeyChecking=no -o ConnectTimeout=60 -o ServerAliveInterval=15 -p "$SSH_PORT" "$SSH_USER@$SSH_HOST" '
               set -e
               cd ~/public_html
               git pull origin main
