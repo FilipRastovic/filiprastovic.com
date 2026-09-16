@@ -42,7 +42,6 @@ export default function NowSection() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem' }}>
         <NowCard label="Current Role" value="Head of Web Development" sub="Perform Digital Media · UK agency" accent />
         <NowCard label="Location" value="Serbia" sub="GMT+2 · Available remotely" />
-        <NowCard label="Status" value="Open to projects" sub="Custom Shopify work" />
       </div>
     </section>
   )
