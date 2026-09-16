@@ -4,9 +4,6 @@ import { useGalleryLightbox } from './GalleryLightboxContext.jsx'
 import { colors } from '../theme.js'
 
 const photos = [
-  { file: 'landscaping-1.webp', w: 960, h: 1280 },
-  { file: 'landscaping-2.webp', w: 960, h: 1280 },
-  { file: 'landscaping-3.webp', w: 1280, h: 960 },
   { file: 'landscaping-4.webp', w: 960, h: 1280 },
   { file: 'landscaping-5.webp', w: 602, h: 1280 },
   { file: 'landscaping-6.webp', w: 960, h: 1280 },
@@ -27,10 +24,6 @@ const photos = [
   { file: 'landscaping-21.webp', w: 960, h: 1280 },
   { file: 'landscaping-22.webp', w: 960, h: 1280 },
   { file: 'landscaping-23.webp', w: 1280, h: 960 },
-  { file: 'landscaping-24.webp', w: 1280, h: 960 },
-  { file: 'landscaping-25.webp', w: 1280, h: 960 },
-  { file: 'landscaping-26.webp', w: 960, h: 1280 },
-  { file: 'landscaping-27.webp', w: 1280, h: 960 },
   { file: 'landscaping-28.webp', w: 1280, h: 960 },
   { file: 'landscaping-29.webp', w: 960, h: 1280 },
   { file: 'landscaping-30.webp', w: 1280, h: 960 },
