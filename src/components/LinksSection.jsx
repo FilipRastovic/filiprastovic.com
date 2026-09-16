@@ -5,22 +5,6 @@ import { colors, fonts } from '../theme.js'
 
 const appLinks = [
   {
-    href: 'https://lander.rs/',
-    label: 'Lander.rs',
-    domain: 'lander.rs',
-    description: 'No-code website builder for launching sites fast.',
-    external: true,
-    ascii: '┌────┐\n│▤▤▤ │\n└────┘',
-  },
-  {
-    href: 'https://misfitlinks.me',
-    label: 'Misfitlinks',
-    domain: 'misfitlinks.me',
-    description: 'Link-in-bio page for sharing everything in one place.',
-    external: true,
-    ascii: '▭▭▭\n▭▭▭\n▭▭▭',
-  },
-  {
     href: 'https://pdfflipbook.app/',
     label: 'PDF Flipbook',
     domain: 'pdfflipbook.app',
