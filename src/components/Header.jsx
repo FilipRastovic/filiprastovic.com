@@ -1,6 +1,16 @@
 import { Animator, Animated, Text, fade, transition } from '@arwes/react'
 import { Link } from 'react-router-dom'
-import { colors } from '../theme.js'
+import { colors, fonts } from '../theme.js'
+
+const CONTACT_EMAIL = 'filiporastovic@gmail.com'
+
+const clientLogos = [
+  { name: 'Google', src: '/images/clients/google.svg' },
+  { name: 'Johnson & Johnson', src: '/images/clients/johnson-johnson.svg' },
+  { name: 'LINJER', src: '/images/clients/linjer.svg' },
+]
+
+const clientNames = ['Cosy House Collection', 'Bare Home', 'Hey Nutrition', 'Lucy Pittaway', 'eTech Mobility']
 
 export default function Header() {
   return (
@@ -110,6 +120,87 @@ export default function Header() {
             profile). My biggest clients were <strong style={{ color: colors.primary }}>Google</strong> and{' '}
             <strong style={{ color: colors.primary }}>Johnson &amp; Johnson</strong>.
           </p>
+        </Animated>
+      </Animator>
+
+      <Animator>
+        <Animated animated={[fade()]}>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}>
+            <a href={`mailto:${CONTACT_EMAIL}`} style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              background: colors.primary,
+              color: '#02100d',
+              fontFamily: fonts.mono,
+              fontSize: '13px',
+              fontWeight: 700,
+              letterSpacing: '0.06em',
+              textTransform: 'uppercase',
+              padding: '14px 28px',
+              textDecoration: 'none',
+            }}>
+              Get In Touch →
+            </a>
+            <a href="#projects" style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              border: `1px solid ${colors.primaryMuted}`,
+              color: colors.primary,
+              fontFamily: fonts.mono,
+              fontSize: '13px',
+              fontWeight: 700,
+              letterSpacing: '0.06em',
+              textTransform: 'uppercase',
+              padding: '14px 28px',
+              textDecoration: 'none',
+            }}>
+              View Projects
+            </a>
+          </div>
+        </Animated>
+      </Animator>
+
+      <Animator>
+        <Animated animated={[fade()]}>
+          <div style={{ marginTop: '2.75rem' }}>
+            <div style={{
+              fontFamily: fonts.mono,
+              fontSize: '11px',
+              fontWeight: 700,
+              letterSpacing: '0.15em',
+              textTransform: 'uppercase',
+              color: colors.textMuted,
+              marginBottom: '1rem',
+            }}>
+              Trusted by teams at
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '2rem' }}>
+              {clientLogos.map(c => (
+                <img
+                  key={c.name}
+                  src={c.src}
+                  alt={c.name}
+                  title={c.name}
+                  loading="lazy"
+                  style={{ height: '20px', width: 'auto', opacity: 0.75 }}
+                />
+              ))}
+              {clientNames.map(name => (
+                <span key={name} style={{
+                  fontFamily: fonts.mono,
+                  fontSize: '13px',
+                  letterSpacing: '0.03em',
+                  color: colors.textMuted,
+                  opacity: 0.85,
+                  whiteSpace: 'nowrap',
+                }}>
+                  {name}
+                </span>
+              ))}
+            </div>
+          </div>
         </Animated>
       </Animator>
     </header>

@@ -8,37 +8,37 @@ const projects = [
     href: 'https://stargazerstudio.net/portfolio',
     label: 'Web Development Portfolio',
     description: 'Client web builds and project case studies.',
-    screenshot: '/images/link-previews/web-portfolio.png',
+    screenshot: '/images/link-previews/web-portfolio.webp',
   },
   {
     href: 'https://stargazerstudio.net/case-studies',
     label: 'Case Studies (CRO)',
     description: 'Conversion-rate optimization results and breakdowns.',
-    screenshot: '/images/link-previews/case-studies.png',
+    screenshot: '/images/link-previews/case-studies.webp',
   },
   {
     href: 'https://www.newgrounds.com/portal/view/713592',
     label: 'My Video Game - Trial And Terror',
     description: 'Unity game built solo and published on Newgrounds.',
-    screenshot: '/images/link-previews/video-game.png',
+    screenshot: '/images/link-previews/video-game.webp',
   },
   {
     href: 'https://pdfflipbook.app/',
     label: 'PDF Flipbook',
     description: 'Shopify app that turns PDFs into interactive flipbooks.',
-    screenshot: '/images/link-previews/pdf-flipbook.png',
+    screenshot: '/images/link-previews/pdf-flipbook.webp',
   },
   {
     href: 'https://www.behance.net/rastovicfilip',
     label: '3D Art Portfolio',
     description: 'Cinema 4D renders and 3D art portfolio.',
-    screenshot: '/images/link-previews/3d-art.png',
+    screenshot: '/images/link-previews/3d-art.webp',
   },
   {
     href: 'https://filiprastovic.itch.io/leap-of-faith',
     label: 'Leap of Faith',
     description: 'Student project - a minimalist 2D memory puzzle game, self-published on itch.io in 2016.',
-    screenshot: '/images/link-previews/leap-of-faith.png',
+    screenshot: '/images/link-previews/leap-of-faith.webp',
   },
 ]
 
