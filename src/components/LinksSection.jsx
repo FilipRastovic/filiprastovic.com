@@ -3,42 +3,7 @@ import { Link } from 'react-router-dom'
 import SectionLabel from './SectionLabel.jsx'
 import { colors, fonts } from '../theme.js'
 
-const appLinks = [
-  {
-    href: 'https://pdfflipbook.app/',
-    label: 'PDF Flipbook',
-    domain: 'pdfflipbook.app',
-    description: 'Shopify app that turns PDFs into interactive flipbooks.',
-    external: true,
-    ascii: '▛▀▜▛▀▜\n▙▄▟▙▄▟',
-  },
-  {
-    href: 'https://www.newgrounds.com/portal/view/713592',
-    label: 'My Video Game - Trial And Terror',
-    domain: 'newgrounds.com',
-    description: 'Unity game built solo and published on Newgrounds.',
-    external: true,
-    ascii: '▗▄▄▄▖\n▐●○●▌\n▝▀▀▀▘',
-  },
-]
-
 const otherLinks = [
-  {
-    href: 'https://stargazerstudio.net/portfolio',
-    label: 'Web Development Portfolio',
-    domain: 'stargazerstudio.net/portfolio',
-    description: 'Client web builds and project case studies.',
-    external: true,
-    ascii: ' <  />',
-  },
-  {
-    href: 'https://stargazerstudio.net/case-studies',
-    label: 'Case Studies (CRO)',
-    domain: 'stargazerstudio.net/case-studies',
-    description: 'Conversion-rate optimization results and breakdowns.',
-    external: true,
-    ascii: '  ▄█\n ▄██\n▄███',
-  },
   {
     href: 'https://github.com/FilipRastovic',
     label: 'GitHub',
@@ -62,14 +27,6 @@ const otherLinks = [
     description: 'CodePen experiments and Bootstrap UI snippets.',
     external: true,
     ascii: '  ╱\n ╱\n╱',
-  },
-  {
-    href: 'https://www.behance.net/rastovicfilip',
-    label: '3D Art Portfolio',
-    domain: 'behance.net/rastovicfilip',
-    description: 'Cinema 4D renders and 3D art portfolio.',
-    external: true,
-    ascii: ' △ \n△□△\n ▽ ',
   },
   {
     href: '/blog',
@@ -158,25 +115,14 @@ export default function LinksSection() {
   return (
     <section id="links" style={{ marginBottom: '5rem' }}>
       <SectionLabel>Links</SectionLabel>
-      <div className="links-columns" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2.5rem' }}>
-        <div>
-          <div style={columnHeaderStyle}>◇ Links</div>
-          <div style={{ border: `1px solid ${colors.border}`, borderBottom: 'none' }}>
-            {otherLinks.map(l => <LinkRow key={l.href} {...l} />)}
-          </div>
-        </div>
-        <div>
-          <div style={columnHeaderStyle}>◇ My Apps</div>
-          <div style={{ border: `1px solid ${colors.border}`, borderBottom: 'none' }}>
-            {appLinks.map(l => <LinkRow key={l.href} {...l} />)}
-          </div>
+      <div style={{ maxWidth: '520px' }}>
+        <div style={columnHeaderStyle}>◇ Links</div>
+        <div style={{ border: `1px solid ${colors.border}`, borderBottom: 'none' }}>
+          {otherLinks.map(l => <LinkRow key={l.href} {...l} />)}
         </div>
       </div>
       <style>{`
         .link-item:hover { background: rgba(0,255,180,0.03) !important; }
-        @media (min-width: 700px) {
-          .links-columns { grid-template-columns: 1fr 1fr; }
-        }
       `}</style>
     </section>
   )

@@ -2,7 +2,16 @@ import { Animator, Animated, fade } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import { colors } from '../theme.js'
 
-const skills = [
+const merchantSkills = [
+  'Conversion Rate Optimization & Split Testing',
+  'AOV, PPV & EPV Growth Strategies',
+  'Google Analytics, GA4 & Data-Driven Reporting',
+  'Page Speed & Performance Optimization',
+  'UX/UI Design Implementation (Figma to Shopify)',
+  'Shopify Theme Customization & New Feature Builds',
+]
+
+const techSkills = [
   'Shopify App Development (Node.js, Remix, Admin API)',
   'OAuth, Webhooks & App Bridge',
   'Shopify Plus, Liquid & Checkout Extensibility',
@@ -12,10 +21,37 @@ const skills = [
   'Python / php - APIs & ERP/PIM/CRM integrations',
   'GraphQL (Shopify Admin & Storefront APIs)',
   'CI/CD pipelines & Shopify Oxygen deployments',
-  'Speed & Performance Optimization',
-  'CRO & A/B Testing',
-  'UX/UI implementation from Figma',
 ]
+
+const skillGroupHeaderStyle = {
+  fontFamily: "'Share Tech Mono', monospace",
+  fontSize: '12px',
+  fontWeight: 700,
+  letterSpacing: '0.15em',
+  textTransform: 'uppercase',
+  color: colors.primary,
+  marginBottom: '0.6rem',
+}
+
+function SkillGrid({ items }) {
+  return (
+    <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
+      {items.map(s => (
+        <li key={s} style={{
+          fontFamily: "'Share Tech Mono', monospace",
+          fontSize: '15px',
+          color: colors.textMuted,
+          padding: '0.75rem 1rem',
+          borderLeft: `2px solid ${colors.primaryDim}`,
+          background: 'rgba(0,200,160,0.03)',
+          lineHeight: 1.5,
+        }}>
+          <span style={{ color: colors.primary, marginRight: '8px' }}>›</span>{s}
+        </li>
+      ))}
+    </ul>
+  )
+}
 
 export default function AboutSection() {
   return (
@@ -30,21 +66,14 @@ export default function AboutSection() {
             <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.7, color: colors.text }}>
               Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping.
             </p>
-            <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
-              {skills.map(s => (
-                <li key={s} style={{
-                  fontFamily: "'Share Tech Mono', monospace",
-                  fontSize: '15px',
-                  color: colors.textMuted,
-                  padding: '0.75rem 1rem',
-                  borderLeft: `2px solid ${colors.primaryDim}`,
-                  background: 'rgba(0,200,160,0.03)',
-                  lineHeight: 1.5,
-                }}>
-                  <span style={{ color: colors.primary, marginRight: '8px' }}>›</span>{s}
-                </li>
-              ))}
-            </ul>
+            <div>
+              <div style={skillGroupHeaderStyle}>◇ For Merchants</div>
+              <SkillGrid items={merchantSkills} />
+            </div>
+            <div>
+              <div style={skillGroupHeaderStyle}>◇ Technical Stack</div>
+              <SkillGrid items={techSkills} />
+            </div>
           </div>
         </Animated>
       </Animator>

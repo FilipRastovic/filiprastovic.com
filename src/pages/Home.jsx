@@ -2,6 +2,7 @@ import { Animator } from '@arwes/react'
 import Header from '../components/Header.jsx'
 import NowSection from '../components/NowSection.jsx'
 import LinksSection from '../components/LinksSection.jsx'
+import ProjectShowcase from '../components/ProjectShowcase.jsx'
 import AboutSection from '../components/AboutSection.jsx'
 import StackSection from '../components/StackSection.jsx'
 import MediaSection from '../components/MediaSection.jsx'
@@ -35,6 +36,8 @@ export default function Home() {
       </Animator>
       <Divider />
       <NowSection />
+      <Divider />
+      <ProjectShowcase />
       <Divider />
       <LinksSection />
       <Divider />
