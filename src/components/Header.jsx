@@ -5,12 +5,32 @@ import { colors, fonts } from '../theme.js'
 const CONTACT_EMAIL = 'filiporastovic@gmail.com'
 
 const clientLogos = [
-  { name: 'Google', src: '/images/clients/google.svg' },
-  { name: 'Johnson & Johnson', src: '/images/clients/johnson-johnson.svg' },
-  { name: 'LINJER', src: '/images/clients/linjer.svg' },
-]
-
-const clientNames = ['Cosy House Collection', 'Bare Home', 'Hey Nutrition', 'Lucy Pittaway', 'eTech Mobility']
+  ['google', 'Google'],
+  ['johnson-johnson', 'Johnson & Johnson'],
+  ['linjer', 'LINJER'],
+  ['tipalti', 'Tipalti'],
+  ['shoplc', 'Shop LC'],
+  ['dns-filter', 'DNSFilter'],
+  ['bending-spoons', 'Bending Spoons'],
+  ['treedom', 'Treedom'],
+  ['curex', 'Curex'],
+  ['trade', 'Trade'],
+  ['vision-pro', 'Visio Pro'],
+  ['australian-museum', 'Australian Museum'],
+  ['mr-draper', 'Mr Draper'],
+  ['last-object', 'Last Object'],
+  ['concept3d', 'Concept3D'],
+  ['bubblegum-search', 'Bubblegum Search'],
+  ['greater-leads', 'Greater Leads'],
+  ['growth-steps', 'Growth Steps'],
+  ['lunchbox-io', 'LunchBox.io'],
+  ['comp-science', 'Comp Science'],
+  ['velo', 'Velo'],
+  ['partekk', 'Partekk'],
+  ['bunkervfx', 'BunkerVFX'],
+  ['longveity-box', 'Longevity Box'],
+  ['reno-assistance', 'Reno Assistance'],
+].map(([file, name]) => ({ name, src: `/images/clients/${file}.svg` }))
 
 export default function Header() {
   return (
@@ -176,30 +196,33 @@ export default function Header() {
             }}>
               Trusted by teams at
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '2rem' }}>
-              {clientLogos.map(c => (
-                <img
-                  key={c.name}
-                  src={c.src}
-                  alt={c.name}
-                  title={c.name}
-                  loading="lazy"
-                  style={{ height: '20px', width: 'auto', opacity: 0.75 }}
-                />
-              ))}
-              {clientNames.map(name => (
-                <span key={name} style={{
-                  fontFamily: fonts.mono,
-                  fontSize: '13px',
-                  letterSpacing: '0.03em',
-                  color: colors.textMuted,
-                  opacity: 0.85,
-                  whiteSpace: 'nowrap',
-                }}>
-                  {name}
-                </span>
-              ))}
+            <div className="logo-marquee" style={{
+              overflow: 'hidden',
+              maskImage: 'linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent)',
+              WebkitMaskImage: 'linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent)',
+            }}>
+              <div className="logo-track">
+                {[...clientLogos, ...clientLogos].map((c, i) => (
+                  <img
+                    key={i}
+                    src={c.src}
+                    alt={i < clientLogos.length ? c.name : ''}
+                    aria-hidden={i >= clientLogos.length}
+                    title={c.name}
+                    style={{ height: '22px', width: 'auto', flexShrink: 0, filter: 'brightness(0) invert(1)', opacity: 0.6 }}
+                  />
+                ))}
+              </div>
             </div>
+            <style>{`
+              .logo-track { display: flex; align-items: center; gap: 3rem; width: max-content; padding-right: 3rem; animation: logo-scroll 60s linear infinite; }
+              .logo-marquee:hover .logo-track { animation-play-state: paused; }
+              .logo-track img { transition: opacity 0.2s; }
+              .logo-track img:hover { opacity: 1 !important; }
+              @media (max-width: 600px) { .logo-track { gap: 2rem; padding-right: 2rem; } .logo-track img { height: 17px !important; } }
+              @keyframes logo-scroll { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+              @media (prefers-reduced-motion: reduce) { .logo-track { animation: none; flex-wrap: wrap; width: auto; } .logo-track img[aria-hidden="true"] { display: none; } }
+            `}</style>
           </div>
         </Animated>
       </Animator>
