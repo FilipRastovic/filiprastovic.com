@@ -41,7 +41,7 @@ export default function Header() {
           .header-root { margin-top: -90px; position: relative; z-index: 2; }
           .header-intro { background: rgba(2,10,10,0.88) !important; padding: 1rem !important; gap: 1.25rem !important; margin-bottom: 1rem !important; flex-wrap: nowrap !important; }
           .header-photo { width: 90px !important; height: 90px !important; box-shadow: 0 0 24px rgba(0,200,160,0.4) !important; }
-          .header-name { font-size: clamp(1.4rem, 7vw, 2rem) !important; margin-bottom: 0.25rem !important; }
+          .header-name { font-size: clamp(1.1rem, 5.4vw, 1.5rem) !important; margin-bottom: 0.25rem !important; }
           .header-subtitle { font-size: 13px !important; }
         }
       `}</style>
@@ -78,11 +78,12 @@ export default function Header() {
               manager="decipher"
               className="header-name"
               style={{
-                fontFamily: "'Titillium Web', sans-serif",
-                fontSize: 'clamp(3rem, 8vw, 5rem)',
+                fontFamily: fonts.display,
+                fontSize: 'clamp(2.2rem, 5.5vw, 3.6rem)',
                 fontWeight: 700,
                 color: colors.primary,
-                letterSpacing: '-0.01em',
+                letterSpacing: '0.02em',
+                textShadow: '0 0 24px hsl(165 100% 50% / 30%)',
                 lineHeight: 1.0,
                 marginBottom: '0.75rem',
               }}

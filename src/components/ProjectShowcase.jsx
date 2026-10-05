@@ -22,7 +22,7 @@ const projects = [
   {
     href: 'https://www.newgrounds.com/portal/view/713592',
     label: 'My Video Game - Trial And Terror',
-    description: 'Unity game built solo and published on Newgrounds.',
+    description: 'Unity game built with a friend and published on Newgrounds.',
     screenshot: '/images/link-previews/video-game.webp',
   },
   {

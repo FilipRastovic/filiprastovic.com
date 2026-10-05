@@ -1,4 +1,4 @@
-import { colors } from '../theme.js'
+import { colors, fonts } from '../theme.js'
 
 export default function SectionLabel({ children }) {
   return (
@@ -9,10 +9,11 @@ export default function SectionLabel({ children }) {
       marginBottom: '2rem',
     }}>
       <span style={{
-        fontFamily: "'Share Tech Mono', monospace",
-        fontSize: '16px',
-        fontWeight: 700,
-        letterSpacing: '0.15em',
+        fontFamily: fonts.display,
+        fontSize: '15px',
+        fontWeight: 600,
+        letterSpacing: '0.18em',
+        textShadow: '0 0 10px hsl(165 100% 50% / 35%)',
         textTransform: 'uppercase',
         color: colors.primary,
       }}>

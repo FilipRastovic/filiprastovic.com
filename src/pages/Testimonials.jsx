@@ -23,8 +23,9 @@ export default function Testimonials() {
           as="h1"
           manager="decipher"
           style={{
-            fontFamily: "'Titillium Web', sans-serif",
-            fontSize: 'clamp(1.6rem, 4vw, 2.2rem)',
+            fontFamily: "'Orbitron', sans-serif",
+            letterSpacing: '0.04em',
+            fontSize: 'clamp(1.35rem, 3.4vw, 1.9rem)',
             fontWeight: 700,
             color: colors.primary,
             marginBottom: '0.5rem',

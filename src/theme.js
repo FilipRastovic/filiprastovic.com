@@ -15,4 +15,5 @@ export const colors = {
 export const fonts = {
   body: "'Titillium Web', sans-serif",
   mono: "'Share Tech Mono', monospace",
+  display: "'Orbitron', sans-serif",
 }
