@@ -1,63 +1,43 @@
 import { useRef } from 'react'
-import { Animator, Animated, Text, fade } from '@arwes/react'
+import { Animator, Animated, fade } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import HudCard, { useInView } from './hud/HudCard.jsx'
-import { colors } from '../theme.js'
+import { colors, fonts } from '../theme.js'
 
 const merchantSkills = [
-  'Conversion Rate Optimization & Split Testing',
-  'AOV, PPV & EPV Growth Strategies',
-  'Google Analytics, GA4 & Data-Driven Reporting',
-  'Page Speed & Performance Optimization',
-  'UX/UI Design Implementation (Figma to Shopify)',
-  'Shopify Theme Customization & New Feature Builds',
+  'Conversion rate optimization & split testing',
+  'AOV, PPV & EPV growth strategies',
+  'Google Analytics, GA4 & data-driven reporting',
+  'Page speed & performance optimization',
+  'UX/UI implementation (Figma to Shopify)',
+  'Shopify theme customization & new features',
 ]
 
-const techSkills = [
-  'Shopify App Development (Node.js, Remix, Admin API)',
-  'OAuth, Webhooks & App Bridge',
-  'Shopify Plus, Liquid & Checkout Extensibility',
-  'AWS (EC2, Lambda, S3)',
-  'Patchworks iPaaS Integrations',
-  'ETL pipelines',
-  'Python / php - APIs & ERP/PIM/CRM integrations',
-  'GraphQL (Shopify Admin & Storefront APIs)',
-  'CI/CD pipelines & Shopify Oxygen deployments',
-]
-
-const skillGroupHeaderStyle = {
-  fontFamily: "'Share Tech Mono', monospace",
-  fontSize: '12px',
-  fontWeight: 700,
-  letterSpacing: '0.15em',
-  textTransform: 'uppercase',
-  color: colors.primary,
-  marginBottom: '0.6rem',
-}
-
-function SkillGrid({ items }) {
+export function MerchantPanel() {
   const ref = useRef(null)
   const inView = useInView(ref)
 
   return (
-    <Animator root active={inView} manager="stagger" combine duration={{ stagger: 0.05 }}>
-      <ul ref={ref} style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.75rem' }}>
-        {items.map(s => (
-          <Animator key={s} duration={{ enter: 0.6, exit: 0.2 }}>
-            <li>
-              <HudCard shape="corners" style={{ padding: '0.9rem 1.1rem' }}>
-                <div style={{ display: 'flex', gap: '8px', fontFamily: "'Share Tech Mono', monospace", fontSize: '15px', color: colors.text, lineHeight: 1.5 }}>
-                  <span aria-hidden="true" style={{ color: colors.primary }}>›</span>
-                  <Animator>
-                    <Text as="span" manager="decipher">{s}</Text>
-                  </Animator>
-                </div>
-              </HudCard>
-            </li>
-          </Animator>
-        ))}
-      </ul>
-    </Animator>
+    <div ref={ref}>
+      <Animator root active={inView} duration={{ enter: 0.6, exit: 0.2 }}>
+        <HudCard shape="corners" subtle style={{ padding: 'clamp(1.25rem, 3vw, 1.75rem)' }}>
+          <h3 style={{ fontFamily: fonts.body, fontSize: 'clamp(18px, 3.5vw, 21px)', fontWeight: 700, color: colors.text, marginBottom: '0.35rem' }}>
+            What I do for merchants
+          </h3>
+          <p style={{ fontSize: '15px', color: colors.textMuted, marginBottom: '1.25rem', lineHeight: 1.6 }}>
+            Outcomes I work on with store owners and e-commerce teams.
+          </p>
+          <ul className="merchant-list" style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '0.85rem 2rem' }}>
+            {merchantSkills.map(s => (
+              <li key={s} style={{ display: 'flex', gap: '0.65rem', alignItems: 'baseline', fontFamily: fonts.body, fontSize: '16px', lineHeight: 1.5, color: colors.text }}>
+                <span aria-hidden="true" style={{ color: colors.primary, fontSize: '10px', flexShrink: 0, transform: 'translateY(-1px)' }}>◆</span>
+                {s}
+              </li>
+            ))}
+          </ul>
+        </HudCard>
+      </Animator>
+    </div>
   )
 }
 
@@ -74,14 +54,6 @@ export default function AboutSection() {
             <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.7, color: colors.text }}>
               Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping.
             </p>
-            <div>
-              <div style={skillGroupHeaderStyle}>◇ For Merchants</div>
-              <SkillGrid items={merchantSkills} />
-            </div>
-            <div>
-              <div style={skillGroupHeaderStyle}>◇ Technical Stack</div>
-              <SkillGrid items={techSkills} />
-            </div>
           </div>
         </Animated>
       </Animator>

@@ -166,3 +166,9 @@ button.hud-image { padding: 0; margin: 0; border: 0; background: none; width: 10
 .hud-frame-trigger:hover .hud-image--interactive img { transform: scale(1.04); }
 .hud-image--interactive:focus-visible { outline: 1px dashed hsl(165, 100%, 50%); outline-offset: 3px; }
 a.hud-frame-trigger:hover { opacity: 1; }
+
+.hud-panel--subtle {
+  --arwes-frames-bg-color: hsl(180 60% 6% / 35%);
+  --arwes-frames-line-color: hsl(165 70% 40% / 55%);
+  --arwes-frames-line-filter: none;
+}

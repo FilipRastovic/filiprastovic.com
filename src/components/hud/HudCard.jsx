@@ -35,14 +35,14 @@ export function useInView(ref) {
 }
 
 // shape: 'kranox' | 'octagon' are interactive cards; 'corners' is a static info panel.
-export default function HudCard({ accent, shape = 'kranox', style, children }) {
+export default function HudCard({ accent, shape = 'kranox', subtle, style, children }) {
   const panel = shape === 'corners'
   const clipPath = shape === 'octagon' ? styleFrameClipOctagon(OCTAGON) : styleFrameClipKranox(KRANOX)
 
   return (
     <Animated
       animated={[fade(), transition('y', panel ? 10 : 16, 0)]}
-      className={`${panel ? 'hud-panel' : 'hud-card'}${accent ? ' hud-card--accent' : ''}`}
+      className={`${panel ? 'hud-panel' : 'hud-card'}${subtle ? ' hud-panel--subtle' : ''}${accent ? ' hud-card--accent' : ''}`}
       style={{ position: 'relative', minWidth: 0, height: '100%', ...style }}
     >
       {shape === 'octagon' && <FrameOctagon strokeWidth={1.5} {...OCTAGON} />}

@@ -2,11 +2,13 @@ import { Outlet } from 'react-router-dom'
 import { Animator, Animated, Dots, GridLines } from '@arwes/react'
 import Nav from './Nav.jsx'
 import Footer from './Footer.jsx'
+import ScrollManager from './ScrollManager.jsx'
 import { colors } from '../theme.js'
 
 export default function Layout() {
   return (
     <div style={{ minHeight: '100vh', background: colors.bg, display: 'flex', flexDirection: 'column' }}>
+      <ScrollManager />
       {/* Fixed background */}
       <div style={{ position: 'fixed', inset: 0, zIndex: 0, overflow: 'hidden', pointerEvents: 'none' }}>
         <Animator>
