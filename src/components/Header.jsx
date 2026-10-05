@@ -1,6 +1,7 @@
 import { Animator, Animated, Text, fade, transition } from '@arwes/react'
 import { Link } from 'react-router-dom'
 import { colors, fonts } from '../theme.js'
+import HudButton from './hud/HudButton.jsx'
 
 const CONTACT_EMAIL = 'filiporastovic@gmail.com'
 
@@ -146,38 +147,8 @@ export default function Header() {
       <Animator>
         <Animated animated={[fade()]}>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}>
-            <a href={`mailto:${CONTACT_EMAIL}`} style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              background: colors.primary,
-              color: '#02100d',
-              fontFamily: fonts.mono,
-              fontSize: '13px',
-              fontWeight: 700,
-              letterSpacing: '0.06em',
-              textTransform: 'uppercase',
-              padding: '14px 28px',
-              textDecoration: 'none',
-            }}>
-              Get In Touch →
-            </a>
-            <a href="#projects" style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              border: `1px solid ${colors.primaryMuted}`,
-              color: colors.primary,
-              fontFamily: fonts.mono,
-              fontSize: '13px',
-              fontWeight: 700,
-              letterSpacing: '0.06em',
-              textTransform: 'uppercase',
-              padding: '14px 28px',
-              textDecoration: 'none',
-            }}>
-              View Projects
-            </a>
+            <HudButton href={`mailto:${CONTACT_EMAIL}`} variant="primary">Get In Touch →</HudButton>
+            <HudButton href="#projects">View Projects</HudButton>
           </div>
         </Animated>
       </Animator>

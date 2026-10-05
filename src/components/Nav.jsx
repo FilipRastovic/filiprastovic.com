@@ -2,6 +2,8 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 import { colors, fonts } from '../theme.js'
 import { useState, useEffect } from 'react'
 import LogoMenu from './LogoMenu.jsx'
+import { Animator, Text, FrameCorners } from '@arwes/react'
+import HudButton from './hud/HudButton.jsx'
 
 const CONTACT_EMAIL = 'filiporastovic@gmail.com'
 
@@ -39,6 +41,8 @@ export default function Nav() {
         borderBottom: `1px solid ${colors.border}`,
         overflow: 'hidden',
         height: '28px',
+        maskImage: 'linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent)',
+        WebkitMaskImage: 'linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent)',
         display: 'flex',
         alignItems: 'center',
       }}>
@@ -73,6 +77,7 @@ export default function Nav() {
         background: 'rgba(2,12,12,0.92)',
         backdropFilter: 'blur(20px)',
         borderBottom: `1px solid ${colors.border}`,
+        boxShadow: '0 1px 12px hsl(165 100% 50% / 12%)',
         padding: '0 max(1.5rem, calc((100% - 740px)/2))',
         display: 'flex',
         alignItems: 'center',
@@ -82,49 +87,32 @@ export default function Nav() {
         <div style={{ display: 'flex', alignItems: 'center', whiteSpace: 'nowrap', flexShrink: 0 }}>
           <LogoMenu />
           <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-            <span style={{
-              fontFamily: "'Share Tech Mono', monospace",
-              fontSize: '15px',
-              fontWeight: 700,
-              color: colors.primary,
-              letterSpacing: '0.05em',
-              marginLeft: '8px',
-            }}>FR://</span>
+            <Animator root duration={{ enter: 0.6 }}>
+              <Text as="span" manager="decipher" style={{
+                fontFamily: "'Share Tech Mono', monospace",
+                fontSize: '15px',
+                fontWeight: 700,
+                color: colors.primary,
+                letterSpacing: '0.05em',
+                marginLeft: '8px',
+                textShadow: '0 0 8px hsl(165 100% 50% / 45%)',
+              }}>FR://</Text>
+            </Animator>
             <span style={{ color: colors.text, fontSize: '14px', marginLeft: '6px' }}>Filip Rastovic</span>
           </Link>
         </div>
 
         {/* Desktop nav */}
-        <div className="nav-desktop" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+        <div className="nav-desktop" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
           {navLinks.map(l => (
-            <NavLink key={l.to} to={l.to} end style={({ isActive }) => ({
-              textDecoration: 'none',
-              fontSize: '13px',
-              fontWeight: 600,
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-              color: isActive ? colors.primary : colors.textMuted,
-              borderBottom: isActive ? `1px solid ${colors.primary}` : '1px solid transparent',
-              paddingBottom: '2px',
-              transition: 'color 0.2s',
-            })}>
-              {l.label}
+            <NavLink key={l.to} to={l.to} end className={({ isActive }) => `hud-nav-link${isActive ? ' is-active' : ''}`}>
+              <FrameCorners strokeWidth={1} cornerLength={6} />
+              <span style={{ position: 'relative' }}>{l.label}</span>
             </NavLink>
           ))}
-          <button onClick={() => setContactOpen(true)} style={{
-            fontSize: '12px',
-            fontWeight: 600,
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            color: colors.accent,
-            border: `1px solid ${colors.accent}`,
-            padding: '4px 12px',
-            fontFamily: "'Share Tech Mono', monospace",
-            background: 'none',
-            cursor: 'pointer',
-          }}>
+          <HudButton as="button" type="button" variant="accent" size="sm" onClick={() => setContactOpen(true)} style={{ marginLeft: '0.75rem' }}>
             Contact
-          </button>
+          </HudButton>
         </div>
 
         {/* Hamburger button - mobile only */}
@@ -172,24 +160,9 @@ export default function Nav() {
               {l.label}
             </NavLink>
           ))}
-          <button onClick={() => { setMenuOpen(false); setContactOpen(true) }} style={{
-            display: 'block',
-            width: '100%',
-            marginTop: '0.85rem',
-            fontSize: '13px',
-            fontWeight: 600,
-            letterSpacing: '0.1em',
-            textTransform: 'uppercase',
-            color: colors.accent,
-            border: `1px solid ${colors.accent}`,
-            padding: '10px 0',
-            fontFamily: "'Share Tech Mono', monospace",
-            background: 'none',
-            cursor: 'pointer',
-            textAlign: 'center',
-          }}>
+          <HudButton as="button" type="button" variant="accent" onClick={() => { setMenuOpen(false); setContactOpen(true) }} style={{ width: '100%', marginTop: '0.85rem' }}>
             Contact
-          </button>
+          </HudButton>
         </div>
       )}
 

@@ -1,0 +1,168 @@
+.hud-card {
+  --arwes-frames-bg-color: hsl(180 60% 6% / 55%);
+  --arwes-frames-bg-stroke: hsl(165 80% 25% / 35%);
+  --arwes-frames-line-color: hsl(165, 80%, 25%);
+  --arwes-frames-line-filter: drop-shadow(0 0 2px hsl(165 80% 30% / 60%));
+  color: hsl(165, 80%, 25%);
+}
+.hud-card--accent {
+  --arwes-frames-bg-color: hsl(165 100% 50% / 5%);
+  --arwes-frames-bg-stroke: hsl(165 100% 50% / 22%);
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+  --arwes-frames-line-filter: drop-shadow(0 0 4px hsl(165 100% 50% / 55%));
+}
+.hud-card:hover,
+.hud-card-link:hover .hud-card,
+.hud-card-link:focus-visible .hud-card {
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+  --arwes-frames-line-filter: drop-shadow(0 0 6px hsl(165 100% 50% / 70%));
+  --arwes-frames-bg-color: hsl(165 100% 50% / 6%);
+}
+
+.hud-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+a.hud-card-link:hover, a.hud-button:hover { opacity: 1; }
+.hud-card-link:focus-visible { outline: 1px dashed hsl(165, 100%, 50%); outline-offset: 4px; }
+
+.hud-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: hsl(165, 100%, 50%);
+  --arwes-frames-bg-color: hsl(165 100% 50% / 6%);
+  --arwes-frames-line-color: hsl(165, 60%, 35%);
+  --arwes-frames-line-filter: none;
+}
+.hud-button svg [data-name] { transition: fill 0.2s, stroke 0.2s, filter 0.2s; }
+.hud-button > .hud-button__label { position: relative; z-index: 1; }
+
+.hud-button--primary {
+  color: #02100d;
+  --arwes-frames-bg-color: hsl(165, 100%, 50%);
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+}
+
+.hud-button:hover,
+.hud-button:focus-visible,
+.hud-card-link:hover .hud-button,
+.hud-card-link:focus-visible .hud-button {
+  --arwes-frames-bg-color: hsl(165 100% 50% / 14%);
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+  --arwes-frames-line-filter: drop-shadow(0 0 5px hsl(165 100% 50% / 70%));
+}
+.hud-button--primary:hover,
+.hud-button--primary:focus-visible {
+  --arwes-frames-bg-color: hsl(165, 100%, 62%);
+  --arwes-frames-line-filter: drop-shadow(0 0 8px hsl(165 100% 50% / 80%));
+}
+.hud-button:focus-visible { outline: 1px dashed hsl(165, 100%, 50%); outline-offset: 4px; }
+
+.link-tile__icon { color: hsl(165, 80%, 30%); transition: color 0.2s, filter 0.2s; }
+.link-tile__label { color: hsl(165, 40%, 85%); transition: color 0.2s; }
+.link-tile__arrow { color: hsl(165, 100%, 50%); transition: transform 0.25s ease-out, filter 0.25s; }
+.hud-card-link:hover .link-tile__icon,
+.hud-card-link:focus-visible .link-tile__icon { color: hsl(165, 100%, 50%); filter: drop-shadow(0 0 4px hsl(165 100% 50% / 60%)); }
+.hud-card-link:hover .link-tile__label,
+.hud-card-link:focus-visible .link-tile__label { color: hsl(165, 100%, 50%); }
+.hud-card-link:hover .link-tile__arrow,
+.hud-card-link:focus-visible .link-tile__arrow { transform: translate(3px, -3px); filter: drop-shadow(0 0 4px hsl(165 100% 50% / 70%)); }
+
+.hud-panel {
+  --arwes-frames-bg-color: hsl(180 60% 6% / 45%);
+  --arwes-frames-line-color: hsl(165 100% 50% / 75%);
+  --arwes-frames-line-filter: drop-shadow(0 0 3px hsl(165 100% 50% / 45%));
+  color: hsl(165, 80%, 25%);
+}
+
+.hud-image {
+  --arwes-frames-bg-color: transparent;
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+  --arwes-frames-line-filter: drop-shadow(0 0 4px hsl(165 100% 50% / 60%));
+}
+.hud-image svg { pointer-events: none; }
+.hud-image__label {
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
+  padding: 2px 6px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: hsl(165, 100%, 50%);
+  background: rgba(2, 12, 12, 0.75);
+  border-left: 2px solid hsl(165, 100%, 50%);
+}
+
+.hud-button--sm { padding: 7px 16px; font-size: 12px; }
+.hud-button--accent {
+  color: hsl(45, 100%, 60%);
+  --arwes-frames-bg-color: hsl(45 100% 60% / 6%);
+  --arwes-frames-line-color: hsl(45, 100%, 60%);
+}
+.hud-button--accent:hover,
+.hud-button--accent:focus-visible {
+  --arwes-frames-bg-color: hsl(45 100% 60% / 16%);
+  --arwes-frames-line-color: hsl(45, 100%, 65%);
+  --arwes-frames-line-filter: drop-shadow(0 0 6px hsl(45 100% 60% / 70%));
+}
+
+.hud-nav-link {
+  position: relative;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: hsl(165, 30%, 55%);
+  transition: color 0.2s, text-shadow 0.2s;
+  --arwes-frames-bg-color: transparent;
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+}
+.hud-nav-link svg { opacity: 0; transition: opacity 0.2s; }
+a.hud-nav-link:hover { opacity: 1; color: hsl(165, 100%, 50%); }
+.hud-nav-link:hover svg { opacity: 0.5; }
+.hud-nav-link.is-active {
+  color: hsl(165, 100%, 50%);
+  text-shadow: 0 0 8px hsl(165 100% 50% / 45%);
+  --arwes-frames-bg-color: hsl(165 100% 50% / 6%);
+  --arwes-frames-line-filter: drop-shadow(0 0 3px hsl(165 100% 50% / 60%));
+}
+.hud-nav-link.is-active svg { opacity: 1; }
+.hud-nav-link:focus-visible { outline: 1px dashed hsl(165, 100%, 50%); outline-offset: 2px; }
+
+button.hud-image { padding: 0; margin: 0; border: 0; background: none; width: 100%; font: inherit; color: inherit; }
+.instagram-grid .grid-item.hud-image { overflow: visible; }
+.hud-image--interactive {
+  cursor: pointer;
+  --arwes-frames-line-color: hsl(165, 70%, 32%);
+  --arwes-frames-line-filter: none;
+}
+.hud-image--interactive img { transition: transform 0.3s ease-out, filter 0.3s; }
+.hud-image--interactive:hover,
+.hud-image--interactive:focus-visible,
+.hud-frame-trigger:hover .hud-image--interactive,
+.hud-frame-trigger:focus-visible .hud-image--interactive {
+  --arwes-frames-line-color: hsl(165, 100%, 50%);
+  --arwes-frames-line-filter: drop-shadow(0 0 5px hsl(165 100% 50% / 70%));
+}
+.hud-image--interactive:hover img,
+.hud-frame-trigger:hover .hud-image--interactive img { transform: scale(1.04); }
+.hud-image--interactive:focus-visible { outline: 1px dashed hsl(165, 100%, 50%); outline-offset: 3px; }
+a.hud-frame-trigger:hover { opacity: 1; }

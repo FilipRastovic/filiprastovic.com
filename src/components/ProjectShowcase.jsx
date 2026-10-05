@@ -1,6 +1,9 @@
-import { Animator, Animated, fade, transition } from '@arwes/react'
+import { useRef } from 'react'
+import { Animator } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
 import PhoneFrame from './PhoneFrame.jsx'
+import HudCard, { useInView } from './hud/HudCard.jsx'
+import HudButton from './hud/HudButton.jsx'
 import { colors, fonts } from '../theme.js'
 
 const projects = [
@@ -44,56 +47,57 @@ const projects = [
 
 function ProjectCard({ href, label, description, screenshot }) {
   return (
-    <Animator>
-      <Animated animated={[fade(), transition('y', 12, 0)]} className="project-card" style={{
-        border: `1px solid ${colors.border}`,
-        background: 'rgba(0,20,20,0.4)',
-        padding: '1.5rem 1.25rem 1.75rem',
-      }}>
-        <div style={{ fontFamily: fonts.body, fontSize: '17px', fontWeight: 700, color: colors.text, marginBottom: '0.5rem', lineHeight: 1.3 }}>
-          {label}
-        </div>
-        <div style={{ fontFamily: fonts.body, fontSize: '13px', color: colors.textMuted, marginBottom: '1.5rem', lineHeight: 1.5 }}>
-          {description}
-        </div>
-        <PhoneFrame src={screenshot} alt={label} />
-        <a
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'block',
-            textAlign: 'center',
-            marginTop: '1.5rem',
-            fontFamily: fonts.mono,
-            fontSize: '12px',
-            fontWeight: 700,
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            color: colors.primary,
-            border: `1px solid ${colors.primaryMuted}`,
-            padding: '10px 14px',
-            textDecoration: 'none',
-          }}
-        >
-          Learn more →
-        </a>
-      </Animated>
+    <Animator duration={{ enter: 0.9, exit: 0.3 }}>
+      <a href={href} target="_blank" rel="noopener noreferrer" className="hud-card-link" aria-label={`${label} (opens in new tab)`} style={{ height: '100%' }}>
+        <HudCard>
+          <div className="project-card-body">
+            <div className="project-card-title" style={{ fontFamily: fonts.body, fontWeight: 700, color: colors.text, marginBottom: '0.5rem', lineHeight: 1.3 }}>
+              {label}
+            </div>
+            <div className="project-card-desc" style={{ fontFamily: fonts.body, color: colors.textMuted, lineHeight: 1.5 }}>
+              {description}
+            </div>
+            <PhoneFrame src={screenshot} alt="" />
+            <div className="project-card-cta" style={{ display: 'flex', justifyContent: 'center' }}>
+              <HudButton as="span" aria-hidden="true">Learn more →</HudButton>
+            </div>
+          </div>
+        </HudCard>
+      </a>
     </Animator>
   )
 }
 
 export default function ProjectShowcase() {
+  const sectionRef = useRef(null)
+  const inView = useInView(sectionRef)
+
   return (
-    <section id="projects" style={{ marginBottom: '5rem' }}>
+    <section id="projects" ref={sectionRef} style={{ marginBottom: '5rem' }}>
       <SectionLabel>Projects</SectionLabel>
-      <div className="project-grid" style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-        gap: '1.25rem',
-      }}>
-        {projects.map(p => <ProjectCard key={p.href} {...p} />)}
-      </div>
+      <Animator root active={inView} manager="stagger" combine>
+        <div className="project-grid" style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(240px, 40vw), 1fr))',
+          gap: '1.25rem',
+        }}>
+          {projects.map(p => <ProjectCard key={p.href} {...p} />)}
+        </div>
+      </Animator>
+      <style>{`
+        .project-card-body { padding: 1.75rem 1.5rem; }
+        .project-card-title { font-size: 17px; }
+        .project-card-desc { font-size: 13px; margin-bottom: 1.5rem; }
+        .project-card-cta { margin-top: 1.5rem; }
+        @media (max-width: 600px) {
+          .project-grid { gap: 0.75rem !important; }
+          .project-card-body { padding: 1.1rem 0.85rem; }
+          .project-card-title { font-size: 14px; }
+          .project-card-desc { font-size: 11.5px; margin-bottom: 1rem; }
+          .project-card-cta { margin-top: 1rem; }
+          .project-card-cta .hud-button { padding: 6px 10px; font-size: 10.5px; letter-spacing: 0.05em; }
+        }
+      `}</style>
     </section>
   )
 }

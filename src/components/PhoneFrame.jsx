@@ -4,7 +4,7 @@ export default function PhoneFrame({ src, alt }) {
   return (
     <div style={{
       position: 'relative',
-      width: '210px',
+      width: 'min(210px, 100%)',
       aspectRatio: '390 / 844',
       margin: '0 auto',
       borderRadius: '30px',
@@ -19,7 +19,7 @@ export default function PhoneFrame({ src, alt }) {
         top: 0,
         left: '50%',
         transform: 'translateX(-50%)',
-        width: '84px',
+        width: '40%',
         height: '16px',
         background: colors.bgCard,
         borderRadius: '0 0 10px 10px',

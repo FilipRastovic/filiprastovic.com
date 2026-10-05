@@ -1,4 +1,5 @@
 import { Animator, Animated, Text, fade, transition } from '@arwes/react'
+import HudFrame from '../components/hud/HudFrame.jsx'
 import { colors } from '../theme.js'
 
 const reviews = [
@@ -36,7 +37,7 @@ export default function Testimonials() {
         Screenshots of real reviews from my Upwork profile. Real clients, real projects.
       </p>
 
-      <div style={{ border: `1px solid ${colors.border}`, overflow: 'hidden', marginBottom: '2.5rem' }}>
+      <HudFrame style={{ marginBottom: '2.5rem' }}>
         <img
           src="/images/testimonial-profile.webp"
           alt="Filip Rastovic's Upwork profile — Shopify Data Engineer, $100K+ total earnings, 98 total jobs, 2,608 total hours, Expert-Vetted"
@@ -44,20 +45,20 @@ export default function Testimonials() {
           height={1113}
           style={{ width: '100%', height: 'auto', display: 'block' }}
         />
-      </div>
+      </HudFrame>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '1.125rem' }}>
         {reviews.map((src) => (
           <Animator key={src}>
             <Animated animated={[fade(), transition('y', 12, 0)]}>
-              <div style={{ border: `1px solid ${colors.border}`, overflow: 'hidden', background: '#fff' }}>
+              <HudFrame squareSize={16} background="#fff" padding="8px 10px">
                 <img
                   src={src}
                   alt="Upwork client review screenshot"
                   loading="lazy"
                   style={{ width: '100%', height: 'auto', display: 'block' }}
                 />
-              </div>
+              </HudFrame>
             </Animated>
           </Animator>
         ))}

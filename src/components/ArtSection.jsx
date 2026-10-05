@@ -1,5 +1,8 @@
-import { Animator, Animated, fade, transition } from '@arwes/react'
+import { useRef } from 'react'
+import { Animator } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
+import { useInView } from './hud/HudCard.jsx'
+import HudImage from './hud/HudImage.jsx'
 import { colors } from '../theme.js'
 
 const artImages = [
@@ -16,30 +19,24 @@ const artImages = [
 ]
 
 export default function ArtSection() {
+  const sectionRef = useRef(null)
+  const inView = useInView(sectionRef)
+
   return (
-    <section id="art" style={{ marginBottom: '5rem' }}>
+    <section id="art" ref={sectionRef} style={{ marginBottom: '5rem' }}>
       <SectionLabel>3D Art</SectionLabel>
       <p style={{ fontSize: '17px', lineHeight: 1.8, color: colors.textMuted, marginBottom: '1.75rem' }}>
         Rendered in <strong style={{ color: colors.text }}>Cinema 4D</strong> using <strong style={{ color: colors.text }}>Octane Render</strong> from 2020-2023. Google and Microsoft reached out off the back of this work. Traditional lighting &amp; composition throughout - one half lit, the other in shadow. <strong style={{ color: colors.primary }}>Free to download</strong> - if you print it, send me a photo.
       </p>
-      <div className="photo-grid" style={{ '--grid-min': '220px', '--grid-gap': '0.75rem' }}>
-        {artImages.map((img) => (
-          <Animator key={img.src}>
-            <Animated animated={[fade(), transition('y', 12, 0)]}>
-              <div style={{ border: `1px solid ${colors.border}`, overflow: 'hidden', background: 'rgba(0,20,20,0.5)' }}>
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  loading="lazy"
-                  width={img.w}
-                  height={img.h}
-                  style={{ width: '100%', height: 'auto', display: 'block', filter: 'brightness(0.9) contrast(1.05)' }}
-                />
-              </div>
-            </Animated>
-          </Animator>
-        ))}
-      </div>
+      <Animator root active={inView} manager="stagger" combine duration={{ stagger: 0.06 }}>
+        <div className="photo-grid" style={{ '--grid-min': '220px', '--grid-gap': '1rem' }}>
+          {artImages.map((img, i) => (
+            <Animator key={img.src} duration={{ enter: 0.8, exit: 0.3 }}>
+              <HudImage src={img.src} alt={img.alt} width={img.w} height={img.h} label={`R-${String(i + 1).padStart(2, "0")}`} aspectRatio="4 / 5" />
+            </Animator>
+          ))}
+        </div>
+      </Animator>
     </section>
   )
 }

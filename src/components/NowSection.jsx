@@ -1,48 +1,46 @@
-import { Animator, Animated, fade, transition, FrameKranox } from '@arwes/react'
+import { useRef } from 'react'
+import { Animator, Text } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
+import HudCard, { useInView } from './hud/HudCard.jsx'
 import { colors } from '../theme.js'
 
-function NowCard({ label, value, sub, accent, href }) {
-  const inner = (
-    <Animated
-      animated={[fade(), transition('y', 16, 0)]}
-      style={{
-        position: 'relative',
-        padding: '2rem 1.75rem',
-        background: accent ? 'rgba(0,255,180,0.05)' : 'rgba(2,20,20,0.5)',
-        color: accent ? colors.primary : colors.border,
-        '--arwes-frames-bg-color': 'transparent',
-        minWidth: 0,
-      }}
-    >
-      <FrameKranox strokeWidth={1} />
-      <div style={{ position: 'relative', zIndex: 1 }}>
+function NowCard({ label, value, sub, accent }) {
+  return (
+    <Animator duration={{ enter: 0.9, exit: 0.3 }}>
+      <HudCard accent={accent} style={{ padding: '2rem 1.75rem' }}>
         <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: accent ? colors.primary : colors.textMuted, marginBottom: '0.75rem' }}>
           {label}
         </div>
-        <div style={{ fontFamily: "'Titillium Web', sans-serif", fontSize: '30px', fontWeight: 700, color: accent ? colors.primary : colors.text, marginBottom: '0.5rem', lineHeight: 1.1 }}>
-          {href
-            ? <a href={href} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline', textDecorationColor: colors.primaryMuted }}>{value}</a>
-            : value}
-        </div>
+        <Animator>
+          <Text
+            as="div"
+            manager="decipher"
+            style={{ fontFamily: "'Titillium Web', sans-serif", fontSize: '30px', fontWeight: 700, color: accent ? colors.primary : colors.text, marginBottom: '0.5rem', lineHeight: 1.1 }}
+          >
+            {value}
+          </Text>
+        </Animator>
         <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: accent ? 'rgba(0,255,180,0.6)' : colors.textMuted }}>
           {sub}
         </div>
-      </div>
-    </Animated>
+      </HudCard>
+    </Animator>
   )
-
-  return <Animator>{inner}</Animator>
 }
 
 export default function NowSection() {
+  const sectionRef = useRef(null)
+  const inView = useInView(sectionRef)
+
   return (
-    <section id="now" style={{ marginBottom: '5rem' }}>
+    <section id="now" ref={sectionRef} style={{ marginBottom: '5rem' }}>
       <SectionLabel>Now</SectionLabel>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem' }}>
-        <NowCard label="Current Role" value="Head of Web Development" sub="Perform Digital Media · UK agency" accent />
-        <NowCard label="Location" value="Serbia" sub="GMT+2 · Available remotely" />
-      </div>
+      <Animator root active={inView} manager="stagger" combine>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1rem' }}>
+          <NowCard label="Current Role" value="Head of Web Development" sub="Perform Digital Media · UK agency" accent />
+          <NowCard label="Location" value="Serbia" sub="GMT+2 · Available remotely" />
+        </div>
+      </Animator>
     </section>
   )
 }

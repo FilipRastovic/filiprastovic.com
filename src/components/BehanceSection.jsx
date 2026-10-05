@@ -1,5 +1,6 @@
 import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
+import HudFrame from './hud/HudFrame.jsx'
 import { colors } from '../theme.js'
 
 const projects = [
@@ -38,9 +39,10 @@ export default function BehanceSection() {
                 href={p.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="hud-frame-trigger"
                 style={{ textDecoration: 'none', display: 'block' }}
               >
-                <div style={{ border: `1px solid ${colors.border}`, overflow: 'hidden', background: 'rgba(0,20,20,0.5)' }}>
+                <HudFrame interactive>
                   <img
                     src={p.src}
                     alt={p.title}
@@ -49,7 +51,7 @@ export default function BehanceSection() {
                     height={632}
                     style={{ width: '100%', height: 'auto', display: 'block', filter: 'brightness(0.9) contrast(1.05)' }}
                   />
-                </div>
+                </HudFrame>
                 <div style={{
                   marginTop: '0.5rem',
                   fontSize: '13px',

@@ -1,5 +1,7 @@
-import { Animator, Animated, fade } from '@arwes/react'
+import { useRef } from 'react'
+import { Animator, Animated, Text, fade } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
+import HudCard, { useInView } from './hud/HudCard.jsx'
 import { colors } from '../theme.js'
 
 const merchantSkills = [
@@ -16,7 +18,7 @@ const techSkills = [
   'OAuth, Webhooks & App Bridge',
   'Shopify Plus, Liquid & Checkout Extensibility',
   'AWS (EC2, Lambda, S3)',
-  'Kubernetes & Container Orchestration',
+  'Patchworks iPaaS Integrations',
   'ETL pipelines',
   'Python / php - APIs & ERP/PIM/CRM integrations',
   'GraphQL (Shopify Admin & Storefront APIs)',
@@ -34,22 +36,28 @@ const skillGroupHeaderStyle = {
 }
 
 function SkillGrid({ items }) {
+  const ref = useRef(null)
+  const inView = useInView(ref)
+
   return (
-    <ul style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.6rem' }}>
-      {items.map(s => (
-        <li key={s} style={{
-          fontFamily: "'Share Tech Mono', monospace",
-          fontSize: '15px',
-          color: colors.textMuted,
-          padding: '0.75rem 1rem',
-          borderLeft: `2px solid ${colors.primaryDim}`,
-          background: 'rgba(0,200,160,0.03)',
-          lineHeight: 1.5,
-        }}>
-          <span style={{ color: colors.primary, marginRight: '8px' }}>›</span>{s}
-        </li>
-      ))}
-    </ul>
+    <Animator root active={inView} manager="stagger" combine duration={{ stagger: 0.05 }}>
+      <ul ref={ref} style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '0.75rem' }}>
+        {items.map(s => (
+          <Animator key={s} duration={{ enter: 0.6, exit: 0.2 }}>
+            <li>
+              <HudCard shape="corners" style={{ padding: '0.9rem 1.1rem' }}>
+                <div style={{ display: 'flex', gap: '8px', fontFamily: "'Share Tech Mono', monospace", fontSize: '15px', color: colors.text, lineHeight: 1.5 }}>
+                  <span aria-hidden="true" style={{ color: colors.primary }}>›</span>
+                  <Animator>
+                    <Text as="span" manager="decipher">{s}</Text>
+                  </Animator>
+                </div>
+              </HudCard>
+            </li>
+          </Animator>
+        ))}
+      </ul>
+    </Animator>
   )
 }
 

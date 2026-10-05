@@ -1,5 +1,6 @@
 import { Animator, Animated, fade, transition } from '@arwes/react'
 import SectionLabel from './SectionLabel.jsx'
+import HudFrame from './hud/HudFrame.jsx'
 import { useGalleryLightbox } from './GalleryLightboxContext.jsx'
 import { colors } from '../theme.js'
 
@@ -19,10 +20,13 @@ export default function GardeningSection({ offset }) {
       </p>
       <div className="instagram-grid">
         {photos.map((file, i) => (
-          <div
+          <HudFrame
             key={file}
+            as="button"
+            type="button"
+            interactive
+            squareSize={12}
             className="grid-item"
-            style={{ border: `1px solid ${colors.border}`, background: 'rgba(0,20,20,0.5)' }}
             onClick={() => open(offset + i)}
           >
             <Animator>
@@ -35,7 +39,7 @@ export default function GardeningSection({ offset }) {
                 />
               </Animated>
             </Animator>
-          </div>
+          </HudFrame>
         ))}
       </div>
     </section>

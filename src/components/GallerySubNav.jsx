@@ -1,4 +1,5 @@
-import { colors } from '../theme.js'
+import { FrameCorners } from '@arwes/react'
+import HudButton from './hud/HudButton.jsx'
 
 const sections = [
   { id: 'photography', label: 'Photography' },
@@ -10,39 +11,24 @@ const sections = [
 
 export default function GallerySubNav() {
   return (
-    <nav className="gallery-subnav" style={{
+    <nav className="gallery-subnav hud-panel" style={{
       zIndex: 50,
       display: 'flex',
       flexWrap: 'wrap',
       gap: '0.5rem',
       background: 'rgba(2,12,12,0.92)',
       backdropFilter: 'blur(20px)',
-      border: `1px solid ${colors.border}`,
-      padding: '0.65rem 0.85rem',
+      padding: '0.75rem 0.9rem',
       marginBottom: '2.5rem',
     }}>
+      <FrameCorners strokeWidth={1.5} cornerLength={12} />
       {sections.map((s) => (
-        <a
-          key={s.id}
-          href={`#${s.id}`}
-          style={{
-            textDecoration: 'none',
-            fontSize: '12px',
-            fontWeight: 600,
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            color: colors.textMuted,
-            border: `1px solid ${colors.border}`,
-            padding: '5px 12px',
-            fontFamily: "'Share Tech Mono', monospace",
-            whiteSpace: 'nowrap',
-          }}
-        >
+        <HudButton key={s.id} href={`#${s.id}`} size="sm" style={{ position: 'relative', whiteSpace: 'nowrap' }}>
           {s.label}
-        </a>
+        </HudButton>
       ))}
       <style>{`
-        .gallery-subnav { position: static; }
+        .gallery-subnav { position: relative; }
         @media (min-width: 700px) {
           .gallery-subnav { position: sticky; top: 80px; }
         }
