@@ -49,7 +49,7 @@ export default function AboutSection() {
         <Animated animated={[fade()]}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.75rem' }}>
             <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.7, color: colors.text }}>
-              These days for clients I mainly work on <strong style={{ color: colors.primary }}>e-commerce stores built on Shopify</strong> - new themes, new functionality, migrations from old systems, development of apps, and integration of multiple APIs and distributed systems related to Shopify. I have lots of experience in <strong style={{ color: colors.primary }}>CRO and split testing</strong> in e-commerce as well.
+              Serbia-based <strong style={{ color: colors.primary }}>software engineer &amp; Shopify e-commerce solutions architect</strong> specializing in Shopify Plus, the Shopify API, headless &amp; distributed Shopify architectures, system migrations and relational databases. Vetted by the Upwork team as <strong style={{ color: colors.primary }}>top 1%</strong> of their global talent pool. Extensive experience in e-commerce <strong style={{ color: colors.primary }}>A/B testing, experimentation and conversion optimization</strong>. Currently in the role of <strong style={{ color: colors.primary }}>Head of Web Development</strong> - leading development of internal company tooling, automations and development workflows, and translating clients' business needs into developer specs.
             </p>
             <p style={{ fontSize: 'clamp(15px, 4vw, 19px)', lineHeight: 1.7, color: colors.text }}>
               Outside of work I enjoy reading, music, guitar, gaming, gym, gardening &amp; landscaping.
