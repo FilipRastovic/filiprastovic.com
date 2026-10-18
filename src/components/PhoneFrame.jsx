@@ -5,7 +5,6 @@ export default function PhoneFrame({ src, alt }) {
     <div style={{
       position: 'relative',
       width: 'min(210px, 100%)',
-      aspectRatio: '390 / 844',
       margin: '0 auto',
       borderRadius: '30px',
       border: `9px solid ${colors.bgCard}`,
@@ -14,22 +13,25 @@ export default function PhoneFrame({ src, alt }) {
       overflow: 'hidden',
       background: '#000',
     }}>
-      <div style={{
-        position: 'absolute',
-        top: 0,
-        left: '50%',
-        transform: 'translateX(-50%)',
-        width: '40%',
-        height: '16px',
-        background: colors.bgCard,
-        borderRadius: '0 0 10px 10px',
-        zIndex: 2,
-      }} />
+      <div aria-hidden="true" style={{ position: 'relative', height: '18px', background: '#000' }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '40%',
+          height: '14px',
+          background: colors.bgCard,
+          borderRadius: '0 0 10px 10px',
+        }} />
+      </div>
       <img
         src={src}
         alt={alt}
         loading="lazy"
-        style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
+        width={390}
+        height={844}
+        style={{ display: 'block', width: '100%', height: 'auto', aspectRatio: '390 / 844', objectFit: 'cover', objectPosition: 'top' }}
       />
     </div>
   )
