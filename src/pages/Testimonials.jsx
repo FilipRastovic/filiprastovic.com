@@ -48,7 +48,7 @@ export default function Testimonials() {
         />
       </HudFrame>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '1.125rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(340px, 100%), 1fr))', gap: '1.125rem' }}>
         {reviews.map((src) => (
           <Animator key={src}>
             <Animated animated={[fade(), transition('y', 12, 0)]}>

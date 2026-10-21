@@ -27,7 +27,7 @@ export function MerchantPanel() {
           <p style={{ fontSize: '15px', color: colors.textMuted, marginBottom: '1.25rem', lineHeight: 1.6 }}>
             Outcomes I work on with store owners and e-commerce teams.
           </p>
-          <ul className="merchant-list" style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '0.85rem 2rem' }}>
+          <ul className="merchant-list" style={{ listStyle: 'none', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(260px, 100%), 1fr))', gap: '0.85rem 2rem' }}>
             {merchantSkills.map(s => (
               <li key={s} style={{ display: 'flex', gap: '0.65rem', alignItems: 'baseline', fontFamily: fonts.body, fontSize: '16px', lineHeight: 1.5, color: colors.text }}>
                 <span aria-hidden="true" style={{ color: colors.primary, fontSize: '10px', flexShrink: 0, transform: 'translateY(-1px)' }}>◆</span>

@@ -47,7 +47,7 @@ export default function LinksSection() {
     <section id="links" ref={sectionRef} style={{ marginBottom: '5rem' }}>
       <SectionLabel>Links</SectionLabel>
       <Animator root active={inView} manager="stagger" combine>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: '1rem' }}>
           {otherLinks.map(l => <HudLinkTile key={l.href} {...l} />)}
         </div>
       </Animator>

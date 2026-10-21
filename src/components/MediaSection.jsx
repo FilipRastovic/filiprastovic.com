@@ -25,7 +25,7 @@ export default function MediaSection() {
         I used to do 3D art a bit - it got kind of viral. Got offers from Google &amp; Microsoft.
       </p>
       <Animator root active={inView} manager="stagger" combine>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: '1rem' }}>
           {mentions.map(m => <HudLinkTile key={m.href} href={m.href} label={m.label} domain={m.sub} external />)}
         </div>
       </Animator>
