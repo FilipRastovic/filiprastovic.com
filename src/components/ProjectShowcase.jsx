@@ -20,6 +20,12 @@ const projects = [
     screenshot: '/images/link-previews/case-studies.webp',
   },
   {
+    href: 'https://rezonanca.art/',
+    label: 'Rezonanca',
+    description: 'Generative art prints - every piece written in JavaScript, printed in Novi Sad.',
+    screenshot: '/images/link-previews/rezonanca.webp',
+  },
+  {
     href: 'https://www.newgrounds.com/portal/view/713592',
     label: 'My Video Game - Trial And Terror',
     description: 'Unity game built with a friend and published on Newgrounds.',

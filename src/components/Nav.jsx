@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import LogoMenu from './LogoMenu.jsx'
 import { Animator, Text, FrameCorners } from '@arwes/react'
 import HudButton from './hud/HudButton.jsx'
+import { SoundToggle } from './sound/SoundProvider.jsx'
 
 const CONTACT_EMAIL = 'filiporastovic@gmail.com'
 
@@ -34,7 +35,7 @@ export default function Nav() {
   useEffect(() => { setMenuOpen(false) }, [location])
 
   return (
-    <nav style={{ position: 'sticky', top: 0, zIndex: 100 }}>
+    <nav className="main-nav" style={{ position: 'sticky', top: 0, zIndex: 100 }}>
       {/* Ticker */}
       <div style={{
         background: 'linear-gradient(90deg, #000a0a 0%, #020c0c 50%, #000510 100%)',
@@ -113,9 +114,12 @@ export default function Nav() {
           <HudButton as="button" type="button" variant="accent" size="sm" onClick={() => setContactOpen(true)} style={{ marginLeft: '0.75rem' }}>
             Contact
           </HudButton>
+          <SoundToggle style={{ marginLeft: '0.5rem' }} />
         </div>
 
-        {/* Hamburger button - mobile only */}
+        {/* Mobile: sound toggle + hamburger */}
+        <div className="nav-mobile-controls" style={{ display: 'none', alignItems: 'center', gap: '0.5rem' }}>
+        <SoundToggle />
         <button
           className="nav-hamburger"
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
@@ -134,6 +138,7 @@ export default function Nav() {
             : <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ width: 22, height: 22 }}><path d="M3 6h18M3 12h18M3 18h18"/></svg>
           }
         </button>
+        </div>
       </div>
 
       {/* Mobile dropdown */}
@@ -171,6 +176,7 @@ export default function Nav() {
         @media (max-width: 600px) {
           .nav-desktop { display: none !important; }
           .nav-hamburger { display: flex !important; }
+          .nav-mobile-controls { display: flex !important; }
         }
       `}</style>
 

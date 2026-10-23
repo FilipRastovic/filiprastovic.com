@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AnimatorGeneralProvider } from '@arwes/react'
-import { BleepsProvider } from '@arwes/react'
+import { SoundProvider } from './components/sound/SoundProvider.jsx'
 import Layout from './components/Layout.jsx'
 import Home from './pages/Home.jsx'
 import Gallery from './pages/Gallery.jsx'
@@ -24,7 +24,7 @@ import LeapOfFaith from './pages/blog/LeapOfFaith.jsx'
 export default function App() {
   return (
     <AnimatorGeneralProvider duration={{ enter: 0.2, exit: 0.1, stagger: 0.04 }}>
-      <BleepsProvider master={{ volume: 0 }} bleeps={{}}>
+      <SoundProvider>
         <BrowserRouter>
           <Routes>
             <Route element={<Layout />}>
@@ -49,7 +49,7 @@ export default function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-      </BleepsProvider>
+      </SoundProvider>
     </AnimatorGeneralProvider>
   )
 }

@@ -172,3 +172,13 @@ a.hud-frame-trigger:hover { opacity: 1; }
   --arwes-frames-line-color: hsl(165 70% 40% / 55%);
   --arwes-frames-line-filter: none;
 }
+
+.sound-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 30px; padding: 0; cursor: pointer;
+  background: none; border: 1px solid hsl(165 60% 20%); color: hsl(165, 30%, 55%);
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.sound-toggle:hover, .sound-toggle:focus-visible { color: hsl(165, 100%, 50%); border-color: hsl(165, 80%, 30%); }
+.sound-toggle.is-on { color: hsl(165, 100%, 50%); border-color: hsl(165, 100%, 50%); box-shadow: 0 0 8px hsl(165 100% 50% / 35%); }
+.sound-toggle:focus-visible { outline: 1px dashed hsl(165, 100%, 50%); outline-offset: 2px; }
