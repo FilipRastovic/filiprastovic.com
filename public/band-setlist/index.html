@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow">
+<title>Band Setlist Guide</title>
+<style>
+:root{
+  --bg:#f6f4ef; --card:#ffffff; --ink:#1d1b18; --muted:#6b665c; --line:#e3ded3;
+  --accent:#c2410c; --accent-soft:#fde7d9; --code:#f1ede4; --ok:#15803d; --warn:#b45309;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141311; --card:#1d1b18; --ink:#eeeae2; --muted:#a39d91; --line:#2f2c27;
+    --accent:#fb923c; --accent-soft:#3a2416; --code:#25221e; --ok:#4ade80; --warn:#fbbf24;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141311; --card:#1d1b18; --ink:#eeeae2; --muted:#a39d91; --line:#2f2c27;
+  --accent:#fb923c; --accent-soft:#3a2416; --code:#25221e; --ok:#4ade80; --warn:#fbbf24;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 80px}
+header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
+header p{margin:0;color:var(--muted)}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;gap:8px;overflow-x:auto;padding:12px 0;margin:12px 0 8px;border-bottom:1px solid var(--line)}
+nav a{flex:none;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font-size:.9rem;white-space:nowrap}
+nav a:hover{border-color:var(--accent)}
+table.over{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.92rem}
+.over th,.over td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.over th{color:var(--muted);font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
+.over tr:last-child td{border-bottom:0}
+.tablewrap{overflow-x:auto}
+section.song{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 18px;margin:22px 0;scroll-margin-top:64px}
+.song h2{margin:0;font-size:1.35rem}
+.sub{color:var(--muted);margin:2px 0 14px;font-size:.92rem}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.chip{background:var(--code);border:1px solid var(--line);border-radius:8px;padding:4px 10px;font-size:.86rem}
+.chip b{color:var(--accent)}
+h3{font-size:1rem;margin:20px 0 6px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+h4{margin:14px 0 4px;font-size:1rem}
+pre{background:var(--code);border:1px solid var(--line);border-radius:8px;padding:10px 12px;overflow-x:auto;font:14px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:6px 0 10px}
+.note{border-left:3px solid var(--warn);background:var(--accent-soft);padding:8px 12px;border-radius:0 8px 8px 0;margin:10px 0;font-size:.94rem}
+.form{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.94rem;margin:6px 0}
+.form span:nth-child(odd){font-weight:600;white-space:nowrap}
+ul{padding-left:20px;margin:6px 0}
+li{margin:3px 0}
+.metro{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:var(--code);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:6px 0 4px}
+.metro button{font:inherit;font-weight:600;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:6px 14px;cursor:pointer;min-width:84px}
+.metro input[type=number]{width:70px;font:inherit;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
+.metro label{font-size:.88rem;color:var(--muted);display:flex;align-items:center;gap:6px}
+.dots{display:flex;gap:5px}
+.dots i{width:10px;height:10px;border-radius:50%;background:var(--line);display:block}
+.dots i.on{background:var(--accent)}
+.check li{list-style:none;margin-left:-20px}
+.check label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+.check input{margin-top:5px;accent-color:var(--accent)}
+footer{color:var(--muted);font-size:.85rem;margin-top:30px}
+.themebtn{float:right;font:inherit;font-size:.85rem;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:4px 10px;cursor:pointer}
+.vid{margin:4px 0 12px}.vid video{width:100%;max-height:420px;background:#000;border-radius:10px;display:block}.vid small{color:var(--muted)}
+@media print{nav,.metro,.themebtn{display:none}section.song{break-inside:avoid-page;border:0}body{background:#fff}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<button class="themebtn" id="themebtn">Theme</button>
+<h1>Band Setlist Guide</h1>
+<p>Tempos, chords, structure and guitar parts for all 5 songs. Analysed from our rehearsal recordings, 25–28 October 2026.</p>
+<p><b>Our sound:</b> rap-rock / punk crossover. Live-band hip-hop covers (Balkan rap) played with power chords, plus straight punk rock.</p>
+</header>
+
+<nav>
+<a href="#overview">Overview</a>
+<a href="#najjaci">1. Mi smo najjači</a>
+<a href="#paranoja">2. Paranoja</a>
+<a href="#mala">3. Mala je luda</a>
+<a href="#letnji">4. Letnji je dan</a>
+<a href="#novi">5. New song</a>
+<a href="#practice">Practice plan</a>
+</nav>
+
+<section class="song" id="overview">
+<h2>Overview</h2>
+<p class="sub">Each song has a built-in metronome below. Tap it and play along.</p>
+<div class="tablewrap">
+<table class="over">
+<tr><th>Song</th><th>Tempo</th><th>Feel</th><th>Chords</th><th>Watch out</th></tr>
+<tr><td>1. Mi smo najjači</td><td>76 BPM</td><td>Straight, heavy</td><td>D5/A5 (distorted)</td><td>Stray D#/Eb in A5 part</td></tr>
+<tr><td>2. Paranoja (Prti Bee Gee)</td><td>74 BPM</td><td>Swung, hip-hop</td><td>C5/D5, G5/A5</td><td>We drag in the middle</td></tr>
+<tr><td>3. Mala je luda</td><td>123 BPM</td><td>Straight, steady</td><td>A drone + chromatic line</td><td>Keys ~30 cents flat</td></tr>
+<tr><td>4. Letnji je dan a ja sam san nagudran</td><td>160 BPM</td><td>Punk, driving</td><td>C5 G5 A5 F5</td><td>We rush up to 170</td></tr>
+<tr><td>5. New song (title TBC)</td><td>133 BPM</td><td>Straight, dark</td><td>A Phrygian, A–G–F–E descent</td><td>Keys ~30 cents flat; creeps to 136</td></tr>
+</table>
+</div>
+<div class="note">Mi smo najjači and Paranoja have almost the same tempo and chords. Keep them apart by <b>feel</b>: Najjači is straight, hard and distorted; Paranoja is swung, laid-back and clean.</div>
+</section>
+
+<!-- SONG 1 -->
+<section class="song" id="najjaci">
+<h2>1. Mi smo najjači</h2>
+<p class="sub">Distorted · hip-hop / rap-rock</p>
+<div class="facts">
+<span class="chip">Tempo <b>76 BPM</b></span>
+<span class="chip">Feel <b>straight 8ths</b></span>
+<span class="chip">Loop <b>4 bars ≈ 6.4 s</b></span>
+<span class="chip">Tone <b>distortion</b></span>
+</div>
+<div class="metro" data-bpm="76"></div>
+<div class="vid"><video controls preload="metadata" playsinline src="videos/4-najjaci.mp4"></video><small>Rehearsal recording · <a href="videos/4-najjaci.mp4">open file</a></small></div>
+
+
+<h3>Structure</h3>
+<div class="form">
+<span>Bars 1–2</span><span>D5 (A string, 5th fret)</span>
+<span>Bars 3–4</span><span>A5 (low E string, 5th fret)</span>
+<span>Repeat</span><span>Same loop as Paranoja, but straight and heavy</span>
+</div>
+
+<h3>Notes from rehearsal</h3>
+<ul>
+<li>Tempo steady at 76. Good.</li>
+<li>A D#/Eb shows up in the A5 sections (around 0:13 and 0:26). If it's deliberate, keep it (b5, sounds heavy). If not, check for a slide or a ringing string.</li>
+</ul>
+
+<h3>Guitar ideas</h3>
+<h4>Palm-muted chugs, open accents on the snare (2 and 4)</h4>
+<pre>
+A|-5-5-5-5-5-5-5-5-|
+E|-3-3-3-3-3-3-3-3-|   mute, mute, OPEN on 2 and 4
+</pre>
+<h4>The b5 as the heavy move</h4>
+<pre>
+A|-------------6---|
+E|-5-5-5-5-6-------|   A5 chugs → Bb5 → Eb
+</pre>
+<h4>Drop D option (low E tuned down to D)</h4>
+<pre>
+D|-0-0-0-3-0-5-0-6-|   open D chugs + chromatic climb
+</pre>
+<h4>Unison bend over A5</h4>
+<pre>
+B|-10----|
+G|-12b14-|
+</pre>
+<ul>
+<li>Pinch harmonics on chug accents; pick scrape into section changes.</li>
+<li>Killswitch / volume stutter in 16ths on long notes.</li>
+<li>Stop: all hit D5 on beat 1, a bar of silence under the vocals, then everyone back in.</li>
+<li>Verses palm-muted or lighter, chorus full distortion, so the chorus actually hits harder.</li>
+</ul>
+</section>
+<!-- SONG 2 -->
+<section class="song" id="paranoja">
+<h2>2. Paranoja</h2>
+<p class="sub">Prti Bee Gee cover · clean guitar · hip-hop</p>
+<div class="facts">
+<span class="chip">Tempo <b>74 BPM</b></span>
+<span class="chip">Feel <b>swung 16ths</b></span>
+<span class="chip">Loop <b>4 bars ≈ 13 s</b></span>
+<span class="chip">Tone <b>clean</b></span>
+</div>
+<div class="metro" data-bpm="74" data-swing="1"></div>
+<div class="vid"><video controls preload="metadata" playsinline src="videos/1-paranoja.mp4"></video><small>Rehearsal recording (audio only, the picture is black) · <a href="videos/1-paranoja.mp4">open file</a></small></div>
+
+
+<h3>Structure</h3>
+<div class="form">
+<span>Bars 1–2</span><span>A string: D5 (5th fret), short hits on C5 (3rd fret)</span>
+<span>Bars 3–4</span><span>Low E string: A5 (5th fret), short hits on G5 (3rd fret)</span>
+<span>Repeat</span><span>Whole song is this loop</span>
+</div>
+<pre>
+D5 / C5 (A string)       A5 / G5 (low E string)
+D|-7---5---|            A|-7---5---|
+A|-5---3---|            E|-5---3---|
+</pre>
+
+<h3>Notes from rehearsal</h3>
+<ul>
+<li>Chord changes land on time.</li>
+<li>Tempo starts around 77, sinks to about 70 in the middle and recovers to 74. <b>Hold 74 the whole way.</b></li>
+<li>G5 barely comes through. Make the G5 hit clearly heard.</li>
+<li>The C5→D5 move sounds slurred through C#. Slide on purpose or jump cleanly.</li>
+</ul>
+
+<h3>Guitar ideas</h3>
+<h4>Ghost strums ("chucks") on 2 and 4</h4>
+<pre>
+D5  .  x  .  D5 D5 x  .      x = muted strum with the snare
+</pre>
+<h4>Hammer-on into the chord</h4>
+<pre>
+A|--3h5--5----3h5--|
+</pre>
+<h4>Fill at the end of bar 4 (A minor pentatonic)</h4>
+<pre>
+G|-------5-7-------|
+D|---5-7-----7-5---|
+A|---------------5-|  → D5
+</pre>
+<h4>Double-stop stab</h4>
+<pre>
+B|--5----8-5--|
+G|--5----7-5--|
+</pre>
+<ul>
+<li>Verses: octaves only (A = low E string 5th fret + D string 7th fret). Leave room for the vocals.</li>
+<li>Chorus: full power chords.</li>
+<li>Answer the vocal phrases with short licks in the gaps.</li>
+<li>Tone: neck pickup, tone knob rolled back, optional slap delay (~610 ms, dotted 8th at 74).</li>
+</ul>
+</section>
+<!-- SONG 3 -->
+<section class="song" id="mala">
+<h2>3. Mala je luda</h2>
+<p class="sub">Drums and keys · guitar part to be added</p>
+<div class="facts">
+<span class="chip">Tempo <b>123 BPM</b></span>
+<span class="chip">Feel <b>straight 8ths</b></span>
+<span class="chip">Key <b>A minor / harmonic minor</b></span>
+<span class="chip">Bar <b>≈ 1.95 s</b></span>
+</div>
+<div class="metro" data-bpm="123"></div>
+<div class="vid"><video controls preload="metadata" playsinline src="videos/2-mala-je-luda.mp4"></video><small>Rehearsal recording (drums + keys, no guitar yet) · <a href="videos/2-mala-je-luda.mp4">open file</a></small></div>
+
+
+<div class="note"><b>Tune first.</b> The keyboard is about 30 cents (a third of a semitone) flat. Either the keys player sets master tune to A440 (best), or the guitar tunes to the keyboard's A.</div>
+
+<h3>What the band plays</h3>
+<ul>
+<li>Keys hold an A drone almost the whole time.</li>
+<li>A chromatic line moves above it around E–F–F#–G, with G# showing up a lot.</li>
+<li>Drums are steady; the tempo doesn't drift.</li>
+</ul>
+
+<h3>Guitar part (proposed)</h3>
+<h4>Base: A5 palm-muted 8ths, locked to the kick</h4>
+<pre>
+A|-0-0-0-0-0-0-0-0-|
+E|-----------------|   (or A5 at the 5th fret of the low E string)
+</pre>
+<h4>Turnaround every 2 or 4 bars: F5 → E5 → A</h4>
+<pre>
+A|--3--2--0-------|
+E|--1--0------0---|
+</pre>
+<h4>Riff that follows the keyboard's chromatic line</h4>
+<pre>
+A|-0---0---0---0---|
+E|---0---1---2---1-|   E F F# F
+</pre>
+<h4>Harmonic-minor arpeggio (slow, let it ring, add delay)</h4>
+<pre>
+G|---------2-1-----|
+D|-----2-3-----3-2-|
+A|-0---------------|
+</pre>
+<ul>
+<li>The keys own the middle register. Guitar stays <b>low</b> (chugs) or <b>high</b> (single notes on the B and G strings).</li>
+<li>No full strummed chords on top of the keys.</li>
+</ul>
+</section>
+<!-- SONG 4 -->
+<section class="song" id="letnji">
+<h2>4. Letnji je dan a ja sam san nagudran</h2>
+<p class="sub">Punk rock · power chords</p>
+<div class="facts">
+<span class="chip">Tempo <b>160 BPM</b></span>
+<span class="chip">Feel <b>straight, downstrokes</b></span>
+<span class="chip">Chords <b>C5 G5 A5 F5</b></span>
+<span class="chip">Loop <b>4 bars ≈ 6 s</b></span>
+</div>
+<div class="metro" data-bpm="160"></div>
+<div class="vid"><video controls preload="metadata" playsinline src="videos/3-letnji-je-dan.mp4"></video><small>Rehearsal recording · <a href="videos/3-letnji-je-dan.mp4">open file</a></small></div>
+
+
+<h3>Structure</h3>
+<div class="form">
+<span>Loop</span><span>C5 → G5 → A5 → F5, one bar each</span>
+<span>Watch</span><span>We speed up to about 170 in the second half. Stay at 160.</span>
+</div>
+
+<h3>Two positions: verse low, chorus high</h3>
+<pre>
+VERSE  (low E string)      CHORUS (A string)
+C5 = 8th fret              C5 = 3rd fret
+G5 = 3rd fret              G5 = 10th fret
+A5 = 5th fret              A5 = 12th fret
+F5 = 1st fret              F5 = 8th fret
+</pre>
+<ul>
+<li>Verse: palm-muted 8ths, all downstrokes.</li>
+<li>Chorus: open, ringing chords. This contrast is the song.</li>
+</ul>
+
+<h3>Guitar ideas</h3>
+<h4>Boogie (root-5th ↔ root-6th), Ramones style</h4>
+<pre>
+D|-5-5-7-7-5-5-7-7-|
+A|-3-3-3-3-3-3-3-3-|   C5 ↔ C6, same shape on every chord
+</pre>
+<h4>Bigger chord: add the octave</h4>
+<pre>
+G|-5-|
+D|-5-|
+A|-3-|   C5 with octave
+</pre>
+<h4>Octave lead over the chorus</h4>
+<pre>
+B|-1---0-------3---|
+G|-----------------|
+D|-3---2---0---5---|   C  B  A  G
+</pre>
+<h4>Fast intro riff (A minor pentatonic)</h4>
+<pre>
+G|-------5-7-5-----|
+D|---5-7-------7-5-|
+A|-3---------------|
+</pre>
+<ul>
+<li><b>Push</b> the chord changes one 8th early (on the "and" of 4) for drive without rushing.</li>
+<li><b>Stop:</b> end of chorus, everyone hits beat 1 and lets it ring for a bar, drums fill, all back in together.</li>
+</ul>
+</section>
+<!-- SONG 5 -->
+<section class="song" id="novi">
+<h2>5. New song (title TBC)</h2>
+<p class="sub">Keys + drums + guitar · recorded 28 Oct · dark, Spanish/Balkan flavour</p>
+<div class="facts">
+<span class="chip">Tempo <b>133 BPM</b></span>
+<span class="chip">Feel <b>straight 8ths</b></span>
+<span class="chip">Key <b>A Phrygian</b> (A Bb C D E F G)</span>
+<span class="chip">Bar <b>≈ 1.8 s</b></span>
+</div>
+<div class="metro" data-bpm="133"></div>
+<div class="vid"><video controls preload="metadata" playsinline src="videos/5-new-song.mp4"></video><small>Rehearsal recording, 28 Oct · <a href="videos/5-new-song.mp4">open file</a></small></div>
+
+<div class="note"><b>Tuning again:</b> this recording is ~30 cents flat, same as Mala je luda. It's the keyboard: set master tune to A440 and tune the guitar to 440 too.</div>
+
+<h3>What we play</h3>
+<ul>
+<li>Everything sits on <b>A</b>, with a lot of <b>Bb</b> (the half-step above A). That's the Phrygian sound: dark, Spanish/oriental.</li>
+<li>The bass moves down <b>A → G → F → E</b> (the "Andalusian" descent), and the song lands on E before returning to A (around 0:33–0:41).</li>
+<li>Tempo starts ~131 and creeps up to ~136 by the end. Small rush; keep it at 133.</li>
+</ul>
+
+<h3>Guitar ideas</h3>
+<h4>Descent in power chords (low E string)</h4>
+<pre>
+A|-7---5---3---2---|
+E|-5---3---1---0---|   A5  G5  F5  E5
+</pre>
+<h4>Phrygian riff: open A against Bb</h4>
+<pre>
+A|-0-0-1-0-0-0-1-0-|
+E|-----------------|   chug A, flick to Bb (1st fret) and back
+</pre>
+<h4>Dominant hit on E (use the G#)</h4>
+<pre>
+G|-1-|
+D|-2-|
+A|-2-|
+E|-0-|   full E major on the last bar before going back to A
+</pre>
+<h4>Melody line, tremolo-picked (Misirlou style)</h4>
+<pre>
+B|-------------------|
+G|-2-3-2-------------|
+D|-------3-2-0-------|
+A|-------------3-1-0-|   A Bb A G F E D C Bb A, fast picking on each note
+</pre>
+<ul>
+<li>Gallop rhythm (1-and-a, palm-muted) on A5 for the heavy part.</li>
+<li>Leave the Bb to the keys sometimes so you're not doubling every note. Answer their line instead.</li>
+</ul>
+</section>
+
+<!-- PRACTICE -->
+<section class="song" id="practice">
+<h2>Practice plan</h2>
+<p class="sub">Tick these off as you go (saved in your browser only).</p>
+<ul class="check">
+<li><label><input type="checkbox" data-k="p1"> Each song: loop the main part at a slower tempo (Paranoja at 65, Letnji je dan at 140) until changes are automatic</label></li>
+<li><label><input type="checkbox" data-k="p2"> Step up to full tempo: 76 / 74 / 123 / 160 / 133</label></li>
+<li><label><input type="checkbox" data-k="p3"> Count out loud "1 & 2 & 3 & 4 &" (Paranoja: the "&" is late, swung)</label></li>
+<li><label><input type="checkbox" data-k="p4"> Drift test: 8 bars with click, 8 bars without, check you're still with it</label></li>
+<li><label><input type="checkbox" data-k="p5"> Band: drums + guitar only first, zero drift, then add keys and vocals</label></li>
+<li><label><input type="checkbox" data-k="p6"> Mala je luda + new song: keys set to A440, everyone tuned before playing</label></li>
+<li><label><input type="checkbox" data-k="p7"> Letnji je dan: full run with click at 160, no rushing in the second half</label></li>
+<li><label><input type="checkbox" data-k="p8"> Record each rehearsal and compare</label></li>
+</ul>
+</section>
+
+<footer>Tempos and chords were measured from phone recordings of the full band, so treat them as close estimates, not exact transcriptions.</footer>
+</div>
+
+<script>
+(function(){
+  // theme toggle
+  var root=document.documentElement;
+  try{var t=localStorage.getItem('theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  document.getElementById('themebtn').onclick=function(){
+    var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var next=cur==='dark'?'light':'dark'; root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  };
+
+  // practice checklist
+  document.querySelectorAll('.check input').forEach(function(cb){
+    try{cb.checked=localStorage.getItem('chk-'+cb.dataset.k)==='1';}catch(e){}
+    cb.onchange=function(){try{localStorage.setItem('chk-'+cb.dataset.k,cb.checked?'1':'0');}catch(e){}};
+  });
+
+  // metronome
+  var ctx=null, active=null;
+  function click(time,accent){
+    var o=ctx.createOscillator(), g=ctx.createGain();
+    o.frequency.value=accent?1600:1000;
+    g.gain.setValueAtTime(accent?0.5:0.3,time);
+    g.gain.exponentialRampToValueAtTime(0.001,time+0.05);
+    o.connect(g); g.connect(ctx.destination); o.start(time); o.stop(time+0.06);
+  }
+  function stop(m){
+    if(!m) return; clearInterval(m.timer); m.btn.textContent='▶ Play';
+    m.dots.forEach(function(d){d.classList.remove('on');}); if(active===m) active=null;
+  }
+  document.querySelectorAll('.metro').forEach(function(el){
+    var swing=el.dataset.swing==='1';
+    el.innerHTML='<button>▶ Play</button><label>BPM <input type="number" min="40" max="240" value="'+el.dataset.bpm+'"></label>'+
+      '<label><input type="checkbox" class="sw"'+(swing?' checked':'')+'> swing 8ths</label><div class="dots"><i></i><i></i><i></i><i></i></div>';
+    var m={btn:el.querySelector('button'),bpm:el.querySelector('input[type=number]'),sw:el.querySelector('.sw'),dots:[].slice.call(el.querySelectorAll('.dots i')),timer:null};
+    m.btn.onclick=function(){
+      if(active===m){stop(m);return;}
+      stop(active);
+      ctx=ctx||new (window.AudioContext||window.webkitAudioContext)();
+      ctx.resume(); active=m; m.btn.textContent='■ Stop';
+      var next=ctx.currentTime+0.1, step=0; // step counts 8th notes
+      m.timer=setInterval(function(){
+        var beat=60/Math.max(40,Math.min(240,+m.bpm.value||100));
+        while(next<ctx.currentTime+0.15){
+          var onBeat=step%2===0, b=Math.floor(step/2)%4;
+          if(onBeat){
+            click(next,b===0);
+            (function(bb,t){setTimeout(function(){m.dots.forEach(function(d,i){d.classList.toggle('on',i===bb);});},Math.max(0,(t-ctx.currentTime)*1000));})(b,next);
+          } else if(m.sw.checked){ click(next,false); }
+          var frac=m.sw.checked?(onBeat?2/3:1/3):0.5;
+          next+=beat*frac; step++;
+        }
+      },25);
+    };
+  });
+})();
+</script>
+</body>
+</html>
