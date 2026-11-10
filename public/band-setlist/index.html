@@ -29,6 +29,7 @@ header p{margin:0;color:var(--muted)}
 nav{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;gap:8px;overflow-x:auto;padding:12px 0;margin:12px 0 8px;border-bottom:1px solid var(--line)}
 nav a{flex:none;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font-size:.9rem;white-space:nowrap}
 nav a:hover{border-color:var(--accent)}
+.seek{font:inherit;font-size:.88rem;white-space:nowrap;background:var(--card);color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:3px 8px;cursor:pointer}
 table.over{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.92rem}
 .over th,.over td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 .over th{color:var(--muted);font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
@@ -75,6 +76,7 @@ footer{color:var(--muted);font-size:.85rem;margin-top:30px}
 
 <nav>
 <a href="#overview">Overview</a>
+<a href="#r9nov">Rehearsal 9 Nov</a>
 <a href="#funky">1. Funky</a>
 <a href="#sedam">2. Sedam osmina</a>
 <a href="#najjaci">3. Mi smo najjači</a>
@@ -106,6 +108,58 @@ footer{color:var(--muted);font-size:.85rem;margin-top:30px}
 </table>
 </div>
 <div class="note">Mi smo najjači and Paranoja have almost the same tempo and chords. Keep them apart by <b>feel</b>: Najjači is straight, hard and distorted; Paranoja is swung, laid-back and clean. Same story for the newer pairs: New song #2 shares Mala je luda's guitar part, and New song #3 sits on the same A/D chords as Najjači. Use tempo and feel to tell them apart (table above).</div>
+</section>
+
+<!-- REHEARSAL 9 NOV -->
+<section class="song" id="r9nov">
+<h2>Rehearsal 9 Nov</h2>
+<p class="sub">Three full recordings. Tap a time to jump there. The "Probably" column is matched by tempo and key against the songs below, so confirm it by ear.</p>
+<h3>Proba (46 min)</h3>
+<p class="sub">Long session: a new song in G#/Ab, several known songs, and a long C-major jam at the end.</p>
+<div class="vid"><audio id="r1" controls preload="metadata" src="videos/r9nov-1-proba.m4a"></audio><small><a href="videos/r9nov-1-proba.m4a">open file</a></small></div>
+<div class="tablewrap"><table class="over">
+<tr><th>Jump to</th><th>Tempo</th><th>Key / notes</th><th>Probably</th></tr>
+<tr><td><button class="seek" data-a="r1" data-t="0">▶ 0:00–6:00</button></td><td>~92–96 BPM</td><td>G# / D# (Ab)</td><td><b>New?</b> Nothing else on our list is in G#/Ab</td></tr>
+<tr><td><button class="seek" data-a="r1" data-t="520">▶ 8:40–9:40</button></td><td>unclear</td><td>D / A</td><td>Short try, possibly Mi smo najjači</td></tr>
+<tr><td><button class="seek" data-a="r1" data-t="610">▶ 10:10–13:30</button></td><td>~112 BPM</td><td>A / D</td><td>Unclear; A/D like Najjači / New song #3 but faster</td></tr>
+<tr><td><button class="seek" data-a="r1" data-t="880">▶ 14:40–16:40</button></td><td>~76 BPM</td><td>A / D + Bb, G#</td><td>Mi smo najjači or New song #3</td></tr>
+<tr><td><button class="seek" data-a="r1" data-t="1480">▶ 24:40–26:00</button></td><td>3+3+2 cycle ≈ 0.92 s</td><td>D / G</td><td>Sedam osmina</td></tr>
+<tr><td><button class="seek" data-a="r1" data-t="1650">▶ 27:30–32:20</button></td><td>~131 BPM</td><td>D / A / G</td><td><b>New?</b> D-centred, no match on our list</td></tr>
+<tr><td><button class="seek" data-a="r1" data-t="1970">▶ 32:50–44:40</button></td><td>~124 BPM</td><td>C / G / A / D</td><td><b>New?</b> 12-minute jam in C</td></tr>
+</table></div>
+<h3>Proba 2 (19 min)</h3>
+<p class="sub">Mostly known songs.</p>
+<div class="vid"><audio id="r2" controls preload="metadata" src="videos/r9nov-2-proba-2.m4a"></audio><small><a href="videos/r9nov-2-proba-2.m4a">open file</a></small></div>
+<div class="tablewrap"><table class="over">
+<tr><th>Jump to</th><th>Tempo</th><th>Key / notes</th><th>Probably</th></tr>
+<tr><td><button class="seek" data-a="r2" data-t="0">▶ 0:00–7:00</button></td><td>~74 BPM, swung</td><td>D / A, some C</td><td>Paranoja (matches tempo and swing exactly)</td></tr>
+<tr><td><button class="seek" data-a="r2" data-t="600">▶ 10:00–10:40</button></td><td>cycle ≈ 0.96 s</td><td>C / D / G</td><td>Short Sedam osmina try</td></tr>
+<tr><td><button class="seek" data-a="r2" data-t="920">▶ 15:20–16:30</button></td><td>~138 BPM</td><td>A + G#, Bb</td><td>New song (A Phrygian), a bit faster than before (133)</td></tr>
+<tr><td><button class="seek" data-a="r2" data-t="1010">▶ 16:50–17:40</button></td><td>3+3+2 cycle ≈ 0.93 s</td><td>G# / D / A / G</td><td>Sedam osmina</td></tr>
+<tr><td><button class="seek" data-a="r2" data-t="1110">▶ 18:30–19:20</button></td><td>~116 BPM</td><td>A + B</td><td>Unclear; maybe Mala je luda slower than its 123</td></tr>
+</table></div>
+<h3>Psihodelija (34 min)</h3>
+<p class="sub">One long psychedelic jam that moves through several parts.</p>
+<div class="vid"><audio id="r3" controls preload="metadata" src="videos/r9nov-3-psihodelija.m4a"></audio><small><a href="videos/r9nov-3-psihodelija.m4a">open file</a></small></div>
+<div class="tablewrap"><table class="over">
+<tr><th>Jump to</th><th>Tempo</th><th>Key / notes</th><th>Probably</th></tr>
+<tr><td><button class="seek" data-a="r3" data-t="10">▶ 0:10–6:00</button></td><td>~128 BPM</td><td>B / E + Bb</td><td>Part 1</td></tr>
+<tr><td><button class="seek" data-a="r3" data-t="360">▶ 6:00–12:20</button></td><td>~97 BPM</td><td>A with Bb / B (chromatic)</td><td>Part 2: dark, half-step drone</td></tr>
+<tr><td><button class="seek" data-a="r3" data-t="760">▶ 12:40–18:00</button></td><td>~104 BPM</td><td>C / G / A</td><td>Part 3: brighter, major</td></tr>
+<tr><td><button class="seek" data-a="r3" data-t="1080">▶ 18:00–24:00</button></td><td>~76 BPM (or 152)</td><td>E / B</td><td>Part 4</td></tr>
+<tr><td><button class="seek" data-a="r3" data-t="1460">▶ 24:20–28:30</button></td><td>~132 BPM</td><td>A / D</td><td>Part 5</td></tr>
+<tr><td><button class="seek" data-a="r3" data-t="1740">▶ 29:00–33:10</button></td><td>~132 BPM</td><td>C with Bb / B / C# (chromatic)</td><td>Part 6: chromatic finale</td></tr>
+</table></div>
+<h3>Video clip (42 s)</h3>
+<p class="sub">Drums and guitar, filmed on a phone. Rotation fixed.</p>
+<div class="vid"><video controls preload="metadata" playsinline src="videos/r9nov-4-clip.mp4"></video><small><a href="videos/r9nov-4-clip.mp4">open file</a></small></div>
+<div class="facts">
+<span class="chip">Tempo <b>~101 BPM</b></span>
+<span class="chip">Bar <b>≈ 2.36 s</b></span>
+<span class="chip">Notes <b>A / D / E</b> (A minor area)</span>
+</div>
+<p>No clear match with the songs below, so this could be another new idea. Tell us which song it is.</p>
+<div class="note">Tuning was fine in all four (within ~15 cents), so the keyboard is no longer sitting a third of a semitone flat.</div>
 </section>
 
 <!-- SONG 1 -->
@@ -469,6 +523,12 @@ strum:  .  X  .  X  .  X  .  X     X = short downstroke, choke right after
     cb.onchange=function(){try{localStorage.setItem('chk-'+cb.dataset.k,cb.checked?'1':'0');}catch(e){}};
   });
 
+  // rehearsal timestamps
+  document.querySelectorAll('.seek').forEach(function(b){
+    b.onclick=function(){var a=document.getElementById(b.dataset.a); if(!a) return;
+      var go=function(){a.currentTime=+b.dataset.t; a.play();};
+      if(a.readyState>=1) go(); else {a.addEventListener('loadedmetadata',go,{once:true}); a.load();}};
+  });
   // metronome
   var ctx=null, active=null;
   function click(time,accent){
