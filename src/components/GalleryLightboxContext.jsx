@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from 'react'
+import { createPortal } from 'react-dom'
 import Lightbox from './Lightbox.jsx'
 
 const GalleryLightboxContext = createContext(null)
@@ -13,8 +14,10 @@ export function GalleryLightboxProvider({ images, children }) {
   return (
     <GalleryLightboxContext.Provider value={{ open }}>
       {children}
-      {index !== null && (
-        <Lightbox images={images} index={index} onClose={close} onNavigate={navigate} />
+      {/* Portal to body: the page-transition wrapper has a transform, which would make position:fixed page-relative */}
+      {index !== null && createPortal(
+        <Lightbox images={images} index={index} onClose={close} onNavigate={navigate} />,
+        document.body
       )}
     </GalleryLightboxContext.Provider>
   )
